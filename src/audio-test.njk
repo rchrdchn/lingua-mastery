@@ -1,19 +1,36 @@
 ---js
-{ layout: 'base.njk', permalink: '/audio-test/', title: 'Mandarin audio test', description: 'Internal side-by-side comparison of Mandarin pronunciation audio sources.', noindex: true }
+{ layout: 'base.njk', permalink: '/audio-test/', title: 'Audio test', description: 'Internal side-by-side comparison of pronunciation audio sources.', noindex: true }
 ---
-<h1>Mandarin audio test</h1>
-<p class="lead">Internal page, not linked or indexed. The same 15 items (four tones, 3rd-tone sandhi, 一 and 不 sandhi, neutral tone, full sentences) from each source. Native recordings are shown where Wikimedia Commons has one.</p>
-<h2>Scores</h2>
-<p>Whisper large-v3 (int8, CPU) transcribes each clip; the score is character error rate against the hanzi, capped at 100% per clip. Lower is better. Whisper is unreliable on isolated one- and two-syllable words (it often hears nothing or hallucinates), so the 30-sentence column is the more meaningful one.</p>
+<h1>Audio test</h1>
+<p class="lead">Internal page, not linked or indexed. Each language plays the same test items from every source we evaluated. Native recordings are shown where Wikimedia Commons or Tatoeba has an openly licensed one.</p>
+<nav class="at-tabs" aria-label="Languages">{% for L in audiotest.langs %}<a href="#at-{{ L.id }}" data-tab="{{ L.id }}">{{ L.name }}</a>{% endfor %}</nav>
+{% for L in audiotest.langs %}
+<section class="at-lang" id="at-{{ L.id }}" lang="en">
+<h2>{{ L.name }}</h2>
+<p>{{ L.intro }}</p>
+<p class="muted">{{ L.scoreNote }}</p>
 <div style="overflow-x:auto"><table class="tbl">
-<thead><tr><th>Source</th><th>License</th><th>15-item set</th><th>30 course sentences</th><th>Notes</th></tr></thead>
-<tbody>{% for c in audiotest.candidates %}<tr><td>{{ c.label }}</td><td>{{ c.license }}</td><td>{{ (c.cer * 100) | round }}%</td><td>{% if c.sentCer %}{{ (c.sentCer * 100) | round }}%{% else %}n/a{% endif %}</td><td>{{ c.note }}</td></tr>{% endfor %}</tbody>
+{% if L.metric == 'cer' %}
+<thead><tr><th>Source</th><th>License</th><th>15-item set CER</th><th>30 sentences CER</th><th>Notes</th></tr></thead>
+<tbody>{% for c in L.candidates %}<tr><td>{{ c.label }}</td><td>{{ c.license }}</td><td>{{ (c.cer * 100) | round }}%</td><td>{% if c.sentCer %}{{ (c.sentCer * 100) | round }}%{% else %}n/a{% endif %}</td><td>{{ c.note }}</td></tr>{% endfor %}</tbody>
+{% else %}
+<thead><tr><th>Source</th><th>License</th><th>Words heard right</th><th>Sentence WER</th><th>Sentence CER</th><th>Notes</th></tr></thead>
+<tbody>{% for c in L.candidates %}<tr><td>{{ c.label }}</td><td>{{ c.license }}</td><td>{% if c.nWords %}{{ (c.wordAcc * c.nWords) | round }}/{{ c.nWords }}{% else %}n/a{% endif %}</td><td>{% if c.wer != null %}{{ (c.wer * 100) | round(1) }}%{% else %}n/a{% endif %}</td><td>{% if c.cer != null %}{{ (c.cer * 100) | round(1) }}%{% else %}n/a{% endif %}</td><td>{{ c.note }}</td></tr>{% endfor %}</tbody>
+{% endif %}
 </table></div>
-<h2>Listen</h2>
-{% for it in audiotest.items %}
-<section class="card at-item">
-<h3 lang="zh-Hans">{{ it.hanzi }} <small>{{ it.pinyin }}</small></h3>
-<ul class="at-list">{% for c in audiotest.candidates %}<li><span>{{ c.label }}</span>{% if it.id in c.have %}<audio controls preload="none" src="/a/test/{{ c.id }}/{{ it.id }}.mp3"></audio>{% else %}<em>no recording</em>{% endif %}</li>{% endfor %}</ul>
+<h3>Listen</h3>
+{% for it in L.items %}
+<div class="card at-item">
+<h4 lang="{{ L.lang }}">{{ it.text }}{% if it.sub %} <small>{{ it.sub }}</small>{% endif %}</h4>
+<ul class="at-list">{% for c in L.candidates %}<li><span>{{ c.label }}</span>{% if it.id in c.have %}<audio controls preload="none" src="/a/test/{{ L.id }}/{{ c.id }}/{{ it.id }}.mp3"></audio>{% else %}<em>no recording</em>{% endif %}</li>{% endfor %}</ul>
+</div>
+{% endfor %}
 </section>
 {% endfor %}
-<style>.at-list{list-style:none;padding:0;margin:0;display:grid;gap:8px}.at-list li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center;font-size:14px}.at-list audio{height:36px;max-width:220px}.at-item{margin:14px 0}.tbl{border-collapse:collapse;font-size:14px}.tbl th,.tbl td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}</style>
+<script>
+(function(){var tabs=[].slice.call(document.querySelectorAll('.at-tabs a')),secs=[].slice.call(document.querySelectorAll('.at-lang'));
+function show(id){secs.forEach(function(s){s.hidden=s.id!=='at-'+id});tabs.forEach(function(a){a.setAttribute('aria-current',a.dataset.tab===id?'page':'false')});}
+tabs.forEach(function(a){a.addEventListener('click',function(e){e.preventDefault();show(a.dataset.tab);history.replaceState(null,'','#at-'+a.dataset.tab);});});
+var h=(location.hash||'').replace('#at-','');show(tabs.some(function(a){return a.dataset.tab===h})?h:tabs[0].dataset.tab);})();
+</script>
+<style>.at-tabs{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 18px}.at-tabs a{padding:6px 12px;border:1px solid var(--line);border-radius:999px;text-decoration:none;font-size:14px}.at-tabs a[aria-current=page]{background:var(--ink,#222);color:var(--bg,#fff)}.at-list{list-style:none;padding:0;margin:0;display:grid;gap:8px}.at-list li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center;font-size:14px}.at-list audio{height:36px;max-width:220px}.at-item{margin:14px 0}.at-item h4{margin:0 0 8px}.tbl{border-collapse:collapse;font-size:14px}.tbl th,.tbl td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}</style>

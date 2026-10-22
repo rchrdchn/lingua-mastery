@@ -1,251 +1,261 @@
 {
- "candidates": [
+ "langs": [
   {
-   "id": "native",
-   "label": "Native recording",
-   "license": "Wikimedia Commons: Shtooka (Wei Gao, Beijing; CC BY 2.0 FR) and Lingua Libre (Luilui6666; CC BY-SA 4.0)",
-   "cer": 0.235,
-   "sentCer": null,
-   "note": "n=10 of 15 have a recording",
-   "have": [
-    "t02",
-    "t03",
-    "t04",
-    "t05",
-    "t06",
-    "t08",
-    "t09",
-    "t10",
-    "t11",
-    "t12"
+   "id": "zh",
+   "name": "Mandarin",
+   "lang": "zh-Hans",
+   "metric": "cer",
+   "intro": "The same 15 items (four tones, 3rd-tone sandhi, 一 and 不 sandhi, neutral tone, full sentences) from each source, plus a 30-sentence set for scoring.",
+   "scoreNote": "Whisper large-v3 transcribes each clip; the score is character error rate against the hanzi, capped at 100% per clip. Lower is better. These Mandarin scores were measured before a CPU math bug in the int8 Whisper backend was found (it made some transcripts random), so treat them as rough.",
+   "candidates": [
+    {
+     "id": "native",
+     "label": "Native recording",
+     "license": "Wikimedia Commons: Shtooka (Wei Gao, Beijing; CC BY 2.0 FR) and Lingua Libre (Luilui6666; CC BY-SA 4.0)",
+     "cer": 0.235,
+     "sentCer": null,
+     "note": "n=10 of 15 have a recording",
+     "have": [
+      "t02",
+      "t03",
+      "t04",
+      "t05",
+      "t06",
+      "t08",
+      "t09",
+      "t10",
+      "t11",
+      "t12"
+     ]
+    },
+    {
+     "id": "kokoro-zf002-final",
+     "label": "Kokoro-82M v1.1-zh, voice zf_002 (chosen)",
+     "license": "Apache-2.0",
+     "cer": 0.209,
+     "sentCer": 0.151,
+     "note": "pack pinyin + sandhi; sentence CER measured with the default frontend",
+     "have": [
+      "t01",
+      "t02",
+      "t03",
+      "t04",
+      "t05",
+      "t06",
+      "t07",
+      "t08",
+      "t09",
+      "t10",
+      "t11",
+      "t12",
+      "t13",
+      "t14",
+      "t15"
+     ]
+    },
+    {
+     "id": "kokoro-zm010",
+     "label": "Kokoro-82M v1.1-zh, voice zm_010",
+     "license": "Apache-2.0",
+     "cer": 0.372,
+     "sentCer": 0.168,
+     "note": "",
+     "have": [
+      "t01",
+      "t02",
+      "t03",
+      "t04",
+      "t05",
+      "t06",
+      "t07",
+      "t08",
+      "t09",
+      "t10",
+      "t11",
+      "t12",
+      "t13",
+      "t14",
+      "t15"
+     ]
+    },
+    {
+     "id": "kokoro-zf001",
+     "label": "Kokoro-82M v1.1-zh, voice zf_001",
+     "license": "Apache-2.0",
+     "cer": 0.326,
+     "sentCer": 0.341,
+     "note": "",
+     "have": [
+      "t01",
+      "t02",
+      "t03",
+      "t04",
+      "t05",
+      "t06",
+      "t07",
+      "t08",
+      "t09",
+      "t10",
+      "t11",
+      "t12",
+      "t13",
+      "t14",
+      "t15"
+     ]
+    },
+    {
+     "id": "melo-zh",
+     "label": "MeloTTS ZH",
+     "license": "MIT",
+     "cer": 0.279,
+     "sentCer": 0.286,
+     "note": "",
+     "have": [
+      "t01",
+      "t02",
+      "t03",
+      "t04",
+      "t05",
+      "t06",
+      "t07",
+      "t08",
+      "t09",
+      "t10",
+      "t11",
+      "t12",
+      "t13",
+      "t14",
+      "t15"
+     ]
+    },
+    {
+     "id": "cosyvoice2",
+     "label": "CosyVoice2-0.5B (zero-shot, repo sample prompt)",
+     "license": "Apache-2.0",
+     "cer": 0.233,
+     "sentCer": 0.319,
+     "note": "about 4 s per clip on CPU; truncates some short sentences",
+     "have": [
+      "t01",
+      "t02",
+      "t03",
+      "t04",
+      "t05",
+      "t06",
+      "t07",
+      "t08",
+      "t09",
+      "t10",
+      "t11",
+      "t12",
+      "t13",
+      "t14",
+      "t15"
+     ]
+    },
+    {
+     "id": "piper-chaowen",
+     "label": "Piper zh_CN chaowen (current site voice)",
+     "license": "MIT code, CC0 dataset",
+     "cer": 0.349,
+     "sentCer": 0.195,
+     "note": "",
+     "have": [
+      "t01",
+      "t02",
+      "t03",
+      "t04",
+      "t05",
+      "t06",
+      "t07",
+      "t08",
+      "t09",
+      "t10",
+      "t11",
+      "t12",
+      "t13",
+      "t14",
+      "t15"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "t01",
+     "text": "妈",
+     "sub": "mā"
+    },
+    {
+     "id": "t02",
+     "text": "麻",
+     "sub": "má"
+    },
+    {
+     "id": "t03",
+     "text": "马",
+     "sub": "mǎ"
+    },
+    {
+     "id": "t04",
+     "text": "骂",
+     "sub": "mà"
+    },
+    {
+     "id": "t05",
+     "text": "你好",
+     "sub": "nǐ hǎo (ní hǎo)"
+    },
+    {
+     "id": "t06",
+     "text": "水果",
+     "sub": "shuǐguǒ (shuíguǒ)"
+    },
+    {
+     "id": "t07",
+     "text": "一个",
+     "sub": "yí gè"
+    },
+    {
+     "id": "t08",
+     "text": "一起",
+     "sub": "yìqǐ"
+    },
+    {
+     "id": "t09",
+     "text": "不是",
+     "sub": "bú shì"
+    },
+    {
+     "id": "t10",
+     "text": "妈妈",
+     "sub": "māma"
+    },
+    {
+     "id": "t11",
+     "text": "东西",
+     "sub": "dōngxi"
+    },
+    {
+     "id": "t12",
+     "text": "谢谢",
+     "sub": "xièxie"
+    },
+    {
+     "id": "t13",
+     "text": "我想喝一杯水。",
+     "sub": "Wǒ xiǎng hē yì bēi shuǐ."
+    },
+    {
+     "id": "t14",
+     "text": "你今天去不去学校？",
+     "sub": "Nǐ jīntiān qù bu qù xuéxiào?"
+    },
+    {
+     "id": "t15",
+     "text": "他们在北京学习中文。",
+     "sub": "Tāmen zài Běijīng xuéxí Zhōngwén."
+    }
    ]
-  },
-  {
-   "id": "kokoro-zf002-final",
-   "label": "Kokoro-82M v1.1-zh, voice zf_002 (chosen)",
-   "license": "Apache-2.0",
-   "cer": 0.209,
-   "sentCer": 0.151,
-   "note": "pack pinyin + sandhi; sentence CER measured with the default frontend",
-   "have": [
-    "t01",
-    "t02",
-    "t03",
-    "t04",
-    "t05",
-    "t06",
-    "t07",
-    "t08",
-    "t09",
-    "t10",
-    "t11",
-    "t12",
-    "t13",
-    "t14",
-    "t15"
-   ]
-  },
-  {
-   "id": "kokoro-zm010",
-   "label": "Kokoro-82M v1.1-zh, voice zm_010",
-   "license": "Apache-2.0",
-   "cer": 0.372,
-   "sentCer": 0.168,
-   "note": "",
-   "have": [
-    "t01",
-    "t02",
-    "t03",
-    "t04",
-    "t05",
-    "t06",
-    "t07",
-    "t08",
-    "t09",
-    "t10",
-    "t11",
-    "t12",
-    "t13",
-    "t14",
-    "t15"
-   ]
-  },
-  {
-   "id": "kokoro-zf001",
-   "label": "Kokoro-82M v1.1-zh, voice zf_001",
-   "license": "Apache-2.0",
-   "cer": 0.326,
-   "sentCer": 0.341,
-   "note": "",
-   "have": [
-    "t01",
-    "t02",
-    "t03",
-    "t04",
-    "t05",
-    "t06",
-    "t07",
-    "t08",
-    "t09",
-    "t10",
-    "t11",
-    "t12",
-    "t13",
-    "t14",
-    "t15"
-   ]
-  },
-  {
-   "id": "melo-zh",
-   "label": "MeloTTS ZH",
-   "license": "MIT",
-   "cer": 0.279,
-   "sentCer": 0.286,
-   "note": "",
-   "have": [
-    "t01",
-    "t02",
-    "t03",
-    "t04",
-    "t05",
-    "t06",
-    "t07",
-    "t08",
-    "t09",
-    "t10",
-    "t11",
-    "t12",
-    "t13",
-    "t14",
-    "t15"
-   ]
-  },
-  {
-   "id": "cosyvoice2",
-   "label": "CosyVoice2-0.5B (zero-shot, repo sample prompt)",
-   "license": "Apache-2.0",
-   "cer": 0.233,
-   "sentCer": 0.319,
-   "note": "about 4 s per clip on CPU; truncates some short sentences",
-   "have": [
-    "t01",
-    "t02",
-    "t03",
-    "t04",
-    "t05",
-    "t06",
-    "t07",
-    "t08",
-    "t09",
-    "t10",
-    "t11",
-    "t12",
-    "t13",
-    "t14",
-    "t15"
-   ]
-  },
-  {
-   "id": "piper-chaowen",
-   "label": "Piper zh_CN chaowen (current site voice)",
-   "license": "MIT code, CC0 dataset",
-   "cer": 0.349,
-   "sentCer": 0.195,
-   "note": "",
-   "have": [
-    "t01",
-    "t02",
-    "t03",
-    "t04",
-    "t05",
-    "t06",
-    "t07",
-    "t08",
-    "t09",
-    "t10",
-    "t11",
-    "t12",
-    "t13",
-    "t14",
-    "t15"
-   ]
-  }
- ],
- "items": [
-  {
-   "id": "t01",
-   "hanzi": "妈",
-   "pinyin": "mā"
-  },
-  {
-   "id": "t02",
-   "hanzi": "麻",
-   "pinyin": "má"
-  },
-  {
-   "id": "t03",
-   "hanzi": "马",
-   "pinyin": "mǎ"
-  },
-  {
-   "id": "t04",
-   "hanzi": "骂",
-   "pinyin": "mà"
-  },
-  {
-   "id": "t05",
-   "hanzi": "你好",
-   "pinyin": "nǐ hǎo (ní hǎo)"
-  },
-  {
-   "id": "t06",
-   "hanzi": "水果",
-   "pinyin": "shuǐguǒ (shuíguǒ)"
-  },
-  {
-   "id": "t07",
-   "hanzi": "一个",
-   "pinyin": "yí gè"
-  },
-  {
-   "id": "t08",
-   "hanzi": "一起",
-   "pinyin": "yìqǐ"
-  },
-  {
-   "id": "t09",
-   "hanzi": "不是",
-   "pinyin": "bú shì"
-  },
-  {
-   "id": "t10",
-   "hanzi": "妈妈",
-   "pinyin": "māma"
-  },
-  {
-   "id": "t11",
-   "hanzi": "东西",
-   "pinyin": "dōngxi"
-  },
-  {
-   "id": "t12",
-   "hanzi": "谢谢",
-   "pinyin": "xièxie"
-  },
-  {
-   "id": "t13",
-   "hanzi": "我想喝一杯水。",
-   "pinyin": "Wǒ xiǎng hē yì bēi shuǐ."
-  },
-  {
-   "id": "t14",
-   "hanzi": "你今天去不去学校？",
-   "pinyin": "Nǐ jīntiān qù bu qù xuéxiào?"
-  },
-  {
-   "id": "t15",
-   "hanzi": "他们在北京学习中文。",
-   "pinyin": "Tāmen zài Běijīng xuéxí Zhōngwén."
   }
  ]
 }
