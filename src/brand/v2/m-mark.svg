@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><title>Lingua Magna: M-tongue</title><defs><linearGradient id="tg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff6f80"/><stop offset="1" stop-color="#e8344f"/></linearGradient></defs>
+<rect width="64" height="64" rx="15" fill="#0f7a5c"/>
+<path d="M14 49V27.5a9 9 0 0 1 18 0M32 27.5a9 9 0 0 1 18 0V49" stroke="#fff" stroke-width="9.5" stroke-linecap="round" fill="none"/>
+<path d="M25.8 29h12.4v18.5c0 5.2-2.8 9-6.2 9s-6.2-3.8-6.2-9Z" fill="url(#tg)"/>
+<path d="M32 36.5v11" stroke="#b8213a" stroke-width="2.6" stroke-linecap="round"/>
+</svg>

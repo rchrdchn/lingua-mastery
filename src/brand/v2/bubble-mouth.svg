@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><title>Lingua Magna: talking bubble</title><defs><linearGradient id="tg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff6f80"/><stop offset="1" stop-color="#e8344f"/></linearGradient></defs>
+<rect width="64" height="64" rx="15" fill="#fff3e4"/>
+<path d="M24 7h16c10.5 0 18 7.5 18 17.5S50.5 42 40 42H27l-12 9 2.2-10.4C10.7 37.6 6 31.5 6 24.5 6 14.5 13.5 7 24 7Z" fill="#0f7a5c"/>
+<path d="M21 26c7 5.2 15 5.2 22 0" stroke="#fff3e4" stroke-width="4.2" stroke-linecap="round" fill="none"/>
+<g transform="rotate(-12 38 32)"><path d="M28.5 30.5h17c.6 7 .9 12.5-.6 17.5-1.5 5-4.8 8.5-7.9 8.5s-6.4-3.5-7.9-8.5c-1.5-5-1.2-10.5-.6-17.5Z" fill="url(#tg)" stroke="#fff3e4" stroke-width="2.4" stroke-linejoin="round"/>
+<path d="M37 37v9" stroke="#b8213a" stroke-width="3" stroke-linecap="round"/></g>
+</svg>
