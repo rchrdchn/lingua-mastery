@@ -12,9 +12,11 @@
     "test": "node scripts/test.mjs",
     "build": "npm run typecheck && npm run engine && eleventy --quiet && node scripts/postbuild.mjs",
     "dev": "npm run engine && eleventy --serve --quiet",
-    "check": "node scripts/check.mjs && node scripts/inlinks.mjs", "serve": "node scripts/serve.mjs 8080",
+    "check": "node scripts/check.mjs && node scripts/inlinks.mjs",
+    "serve": "node scripts/serve.mjs 8080",
     "verify": "node scripts/verify.mjs",
-    "indexnow": "node scripts/indexnow.mjs"
+    "indexnow": "node scripts/indexnow.mjs",
+    "data:lint": "node scripts/data/lint-glosses.mjs"
   },
   "engines": {
     "node": ">=20"

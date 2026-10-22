@@ -12,6 +12,8 @@ import { bands, passBand } from '../src/engine/placement';
 import { forConcept, check, blankOut } from '../src/engine/exercises';
 import { markSyl } from '../src/engine/pinyin';
 import { dueKeys } from '../src/engine/review';
+// @ts-ignore: plain JS module shared with the pack builder
+import { lintPack, LINT_TOP } from '../scripts/data/gloss-lint.mjs';
 
 const load = (id: string): Pack => JSON.parse(fs.readFileSync(`data/packs/${id}.json`, 'utf8'));
 const IDS = ['zh', 'es', 'en', 'fr', 'it', 'pt', 'de'];
@@ -100,3 +102,10 @@ test('typed answers accept missing accents as almost right', () => {
   assert.deepEqual(r, { correct: false, almost: true });
   assert.equal(check({ type: 'typed', conceptId: 'x', prompt: '', answer: 'está' }, ' Está ').correct, true);
 });
+
+for (const id of ['es', 'en', 'fr', 'it', 'pt', 'de']) {
+  test(`${id}: top ${LINT_TOP} glosses read like translations (no "form of", <= 60 chars)`, () => {
+    const bad = lintPack(load(id));
+    assert.deepEqual(bad.map(b => `${b.word}[${b.base}] ${b.reason}: ${b.gloss}`), []);
+  });
+}

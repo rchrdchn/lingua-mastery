@@ -77,6 +77,7 @@ npm run dev        # Eleventy dev server (rerun `npm run engine` after TypeScrip
 
 - **Packs are committed.** Cloudflare builds never download sources; they build from `data/packs/*.json`.
 - **To refresh or change data:** `npm run data:fetch` (once, or when a source releases an update) then `npm run data:build` (or one pack: `node --max-old-space-size=7000 scripts/data/build-packs.mjs es`). Commit the regenerated JSON. The builder is deterministic, so diffs show real changes.
+- **Gloss quality:** `npm run data:lint` checks the top 600 words of each pack for grammar-note or overlong primary glosses (also part of `npm test`). Hand fixes live in `content/gloss-overrides/<lang>.json` and `content/en-overrides.json` (CC BY-SA 4.0).
 - **Grammar and copy:** edit `content/grammar/<id>.mjs` or `lib/langs.js`, rebuild the pack (grammar) or just the site (copy).
 - **Suggested routine:** refresh Tatoeba and Wiktionary data every 3-6 months (both grow continuously). HSK lists and frequency lists change rarely.
 - `lastmod.json` is committed so "Updated" dates only move when a page's content really changes.
@@ -85,13 +86,14 @@ npm run dev        # Eleventy dev server (rerun `npm run engine` after TypeScrip
 
 Same setup as the other sites: a Cloudflare Pages project connected to the GitHub repo.
 
-- Production branch `main`, build command `npm run build`, output directory `_site`, environment variable `NODE_VERSION=20`.
-- Set `url` in `src/_data/site.json` (and the `Sitemap:` line in `src/robots.txt`) to the real domain before launch. It is `https://lingua-mastery.pages.dev` for now.
+- **Live preview:** https://lingua-mastery.pages.dev (Cloudflare Pages project `lingua-mastery`). Every push to `main` deploys automatically.
+- Production branch `main`, build command `npm run build`, output directory `_site`, environment variable `NODE_VERSION=20` (set in the Pages project; it takes precedence over `.nvmrc`, which pins Node 22 for local work). The build runs on Node 20 or newer.
+- `url` in `src/_data/site.json`, the `Sitemap:` line in `src/robots.txt` and every canonical URL use `https://lingua-mastery.pages.dev`. When a real domain is chosen, change those two files and rebuild; canonicals, sitemap, feed and `llms.txt` follow `site.json`.
 - Keep Bot Fight Mode off so AI crawlers can read the site.
 - After a deploy is live, `npm run indexnow` pings IndexNow with only the changed URLs (set `indexNowKey` in `site.json` and add the key file first).
 - No secrets live in the repo. The Git integration needs none.
 
-Optional settings in `src/_data/site.json`: `cfAnalyticsToken` (Cloudflare Web Analytics), `newsletterUrl` (the signup block is a placeholder until then), `repoUrl` (shows a source link in the footer once the repo is public).
+Optional settings in `src/_data/site.json`: `cfAnalyticsToken` (Cloudflare Web Analytics), `newsletterUrl` (the signup block is a placeholder until then), `repoUrl` (the footer's source code link; set to https://github.com/rchrdchn/lingua-mastery).
 
 ## Notes and known limits
 

@@ -6,6 +6,7 @@ import zlib from 'node:zlib';
 import path from 'node:path';
 import { createRequire } from 'node:module';
 const require = createRequire(import.meta.url);
+import { isNoteSense, MAX_PRIMARY, lintPack, LINT_TOP } from './gloss-lint.mjs';
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '../..');
 const RAW = path.join(ROOT, 'data/raw'), OUT = path.join(ROOT, 'data/packs');
 fs.mkdirSync(OUT, { recursive: true });
@@ -206,13 +207,36 @@ async function buildZh() {
 // ---------- European languages (es, fr, it, pt, de) ----------
 const ART = { es: { m: 'el', f: 'la' }, fr: { m: 'le', f: 'la' }, it: { m: 'il', f: 'la' }, pt: { m: 'o', f: 'a' }, de: { m: 'der', f: 'die', n: 'das' } };
 const BAD_TAGS = /vulgar|offensive|derogatory|slur|obsolete|archaic|dated|rare/;
+// Wiktionary sometimes writes an inflection as plain text instead of a form-of
+// link ("third-person plural preterite indicative of ir", "apocopic form of bueno").
+// Turn those into real form-of senses so the word maps to its lemma, and drop
+// historical forms ("Old Italian form of ...").
+const FORM_NOTE = /^(?:(?:first|second|third)[- ]person\b|(?:masculine|feminine|neuter)\b|plural\b|singular\b|(?:past|present) participle\b|gerund\b|apocopic\b|apocopated\b|preconsonantal\b|elided\b|inflection\b|(?:strong|weak|mixed) |nominalization\b)[^:;,]*?\bof ([\p{L}]+)\s*\.?$/iu;
+const HIST = /^(old|middle|medieval) [\p{L}]+ form of/iu;
+function normalizeSenses(e) {
+  for (const s of e.senses) {
+    if (HIST.test(s.g)) { s.tags = [...s.tags, 'obsolete']; continue; }
+    if (s.form_of.length) continue;
+    const m = s.g.match(FORM_NOTE); if (m) { s.form_of = [m[1]]; s.tags = [...s.tags, 'form-of']; }
+  }
+}
+// Curated fixes, kept as data (CC BY-SA 4.0): content/gloss-overrides/<lang>.json
+//   gloss:  { lemma: "short English meaning" }   replaces the Wiktionary-derived gloss
+//   _lemma: { surface: lemma }                   forces how a frequency-list word is lemmatized
+//   _drop:  [surface]                            leaves a word out (noise, interjections, names)
+//   pos:    { lemma: "noun" }                    part of speech for curated lemmas with no entry
+function glossOverrides(l) {
+  const f = path.join(ROOT, `content/gloss-overrides/${l}.json`);
+  const o = fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : {};
+  return { gloss: o.gloss || {}, _lemma: o._lemma || {}, _drop: o._drop || [], pos: o.pos || {} };
+}
 function kaikkiIndex(l) {
   const by = new Map();
-  for (const ln of read(`kaikki-${l}.jsonl`).split('\n')) { if (!ln) continue; const e = JSON.parse(ln); const k = e.word.toLowerCase(); if (!by.has(k)) by.set(k, []); by.get(k).push(e); }
+  for (const ln of read(`kaikki-${l}.jsonl`).split('\n')) { if (!ln) continue; const e = JSON.parse(ln); normalizeSenses(e); const k = e.word.toLowerCase(); if (!by.has(k)) by.set(k, []); by.get(k).push(e); }
   return by;
 }
 function lemmaList(l, max) {
-  const K = kaikkiIndex(l), R = freqRank(l); const seen = new Map(); const order = [];
+  const K = kaikkiIndex(l), R = freqRank(l), OV = glossOverrides(l); const seen = new Map(); const order = [];
   const LETTER = /\bletter\b|alphabet|\bname of the\b/i;
   const ALT = /^(alternative|obsolete|archaic|dated|nonstandard|misspelling|eye dialect) (form|spelling|typography) of|^(abbreviation|initialism|acronym) of|\bmisspelling of\b/i;
   const goodSense = s => !s.form_of.length && !s.tags.includes('form-of') && !LETTER.test(s.g) && !ALT.test(s.g) && !s.tags.some(t => BAD_TAGS.test(t));
@@ -224,11 +248,28 @@ function lemmaList(l, max) {
     const cap = w[0].toUpperCase() + w.slice(1);
     const es = (K.get(w) || []).filter(e => e.word === w || (l === 'de' && e.word === cap)); if (!es.length) continue;
     let lemma = null, entries = es.filter(isLemmaEntry);
-    const f = es.flatMap(e => e.senses).flatMap(s => s.form_of).map(t => K.get(t.toLowerCase()) ? t : t.split(' ')[0]).find(t => K.get(t.toLowerCase())?.some(isLemmaEntry));
-    // Inflected forms of very common words (est = être, era = ser) win over rare noun/adjective homographs.
-    const PROTECT = /^(conj|prep|pron|det|article|adv|particle|contraction|postp)$/;
+    // Curated lemma (content/gloss-overrides/<lang>.json "_lemma"): "casa" is casa, not a form of casar.
+    if (OV._lemma[w]) {
+      const t = OV._lemma[w]; const lk0 = t.toLowerCase();
+      if (seen.has(lk0)) { seen.get(lk0).forms.add(w); continue; }
+      const le0 = (K.get(lk0) || []).filter(e => e.word === t).map(e => ({ ...e, senses: e.senses.filter(goodSense) })).filter(e => e.senses.length);
+      const ent = le0.length ? le0 : [{ word: t, pos: (OV.pos || {})[t] || 'phrase', senses: [] }];
+      const o = { lemma: t, rank, entries: ent, forms: new Set([w]) }; seen.set(lk0, o); order.push(o); continue;
+    }
+    if (OV._drop.includes(w)) continue;
+    // Form-of target: the most frequent lemma this word is a form of (creo -> creer, not crear).
+    const targets = es.flatMap(e => e.senses).flatMap(s => s.form_of).map(t => K.get(t.toLowerCase()) ? t : t.split(' ')[0]).filter(t => K.get(t.toLowerCase())?.some(isLemmaEntry));
+    const rk = t => R.get(t.toLowerCase()) ?? Infinity;
+    const f = targets.sort((a, b) => rk(a) - rk(b))[0];
+    // Inflected forms of very common words (est = être, ha = avere) win over rare homographs,
+    // but a real noun only loses to a very common lemma (casa stays casa, parte stays parte).
+    const PROTECT = /^(conj|prep|pron|det|article|adv|particle|contraction|postp|num)$/;
     const protectedEntry = entries.some(e => PROTECT.test(e.pos));
-    if (entries.length && !(f && !protectedEntry)) lemma = entries[0].word;
+    const nounOnly = entries.length && entries.every(e => e.pos === 'noun' || e.pos === 'name');
+    // Measured on the frequency lists: pasa (159) -> pasar (323) and oublie (770) -> oublier (970) are verb forms,
+    // casa (91) vs casar (2632) and porte (287) vs porter (839) are real nouns.
+    const formWins = f && !protectedEntry && (!nounOnly || rk(f) <= 100 || rk(f) <= 2.5 * rank);
+    if (entries.length && !formWins) lemma = entries[0].word;
     else if (f) lemma = K.get(f.toLowerCase()).find(isLemmaEntry).word;
     if (!lemma) continue; const lk = lemma.toLowerCase();
     if (seen.has(lk)) { seen.get(lk).forms.add(w); continue; }
@@ -239,9 +280,37 @@ function lemmaList(l, max) {
   }
   return order;
 }
+// Turn Wiktionary senses into a short, translation-like gloss. Grammar notes
+// ("contraction of zu + dem", "third-person plural of ...", "Used to ...") rank
+// after real meanings and are dropped when a real meaning exists. Overlong
+// senses are cut to their first comma-separated synonyms.
+function cleanSense(g) {
+  let t = g.replace(/\s*\([^)]*\)/g, '').replace(/[()\[\]]/g, '').trim();
+  t = t.replace(/^(with (accusative|dative|genitive)( or (accusative|dative|genitive))?|transitive|intransitive|reflexive|colloquial|informal|formal|figuratively|literally)\s*,?\s*/i, '');
+  const lit = t.match(/literally\s+[“"]([^”"]+)[”"]/i); if (lit && /^contraction of/i.test(t)) t = lit[1];
+  t = t.replace(/\.$/, '').trim();
+  if (t.length > MAX_PRIMARY) {
+    const parts = t.split(/,\s+/); let out = parts[0];
+    for (const x of parts.slice(1)) { if ((out + ', ' + x).length > 45) break; out += ', ' + x; }
+    t = out.length <= MAX_PRIMARY ? out : t;
+  }
+  return t;
+}
 function glossOf(entries) {
-  const senses = []; for (const e of entries.slice(0, 2)) for (const s of e.senses) { if (s.form_of.length || s.tags.some(t => BAD_TAGS.test(t)) || /\bletter\b|alphabet/i.test(s.g)) continue; senses.push(s.g.replace(/\s*\([^)]*\)/g, '').replace(/[()\[\]]/g, '').trim()); if (senses.length >= 3) break; }
-  let g = [...new Set(senses.filter(Boolean))].join('; '); if (g.length > 90) g = g.slice(0, 88).replace(/[;,]?\s+\S*$/, '') + '…';
+  const good = [], notes = [];
+  for (const e of entries.slice(0, 3)) for (const s of e.senses) {
+    if (s.form_of.length || s.tags.some(t => BAD_TAGS.test(t)) || /\bletter\b|alphabet/i.test(s.g)) continue;
+    // One Wiktionary sense can hold several ("apocopic form of mucho; very"): judge each part.
+    for (let part of s.g.split(/;\s+/)) {
+      let t = cleanSense(part); if (!t) continue;
+      // "contraction of su + il: on the", "apocopic form of uno: a, an" -> keep the meaning after the colon.
+      if ((isNoteSense(t) || t.length > MAX_PRIMARY) && /:\s+\S/.test(t)) t = cleanSense(t.slice(t.lastIndexOf(':') + 1));
+      if (!t) continue;
+      (isNoteSense(t) || t.length > MAX_PRIMARY ? notes : good).push(t);
+    }
+  }
+  const senses = [...new Set(good.length ? good : notes)].slice(0, 3);
+  let g = senses.join('; '); if (g.length > 90) g = g.slice(0, 88).replace(/[;,]?\s+\S*$/, '') + '…';
   return g;
 }
 function genderOf(e) { if (e.pos !== 'noun') return undefined; const h = (e.head || '').replace(e.word, ''); const m = h.match(/^\s*(m|f|n)\b/) || h.match(/\b(m|f|n)\b(?!\.)/); return m ? m[1] : undefined; }
@@ -260,13 +329,14 @@ function sentencePool(l, R) {
 }
 async function buildEuro(l) {
   const P = PACKS[l], R = freqRank(l); const total = P.levels.reduce((s, x) => s + x[2], 0);
-  const lem = lemmaList(l, total); log(l, 'lemmas', lem.length);
+  const OVR = glossOverrides(l); const lem = lemmaList(l, total); log(l, 'lemmas', lem.length);
   const pool = sentencePool(l, R); log(l, 'sentence pool', pool.length);
   const byTok = new Map(); for (const s of pool) for (const t of new Set(s.tk)) { if (!byTok.has(t)) byTok.set(t, []); const a = byTok.get(t); if (a.length < 40) a.push(s); }
   const items = []; const slugs = new Set();
   for (const o of lem) {
     if (items.length >= total) break;
-    const g = glossOf(o.entries); if (!g) continue;
+    const ov = OVR.gloss[o.lemma]; const g = ov || glossOf(o.entries); if (!g) continue;
+    if (ov) o.curated = true;
     const e = o.entries[0]; const pos = e.pos;
     const forms = [...o.forms]; const cands = forms.flatMap(f => byTok.get(f) || []).sort((a, b) => a.mx - b.mx || a.tk.length - b.tk.length);
     const ex = pickExamples(cands, 3);
@@ -312,10 +382,47 @@ async function buildEn() {
   const byTok = new Map(); for (const s of pool) for (const t of new Set(s.tk)) { if (!byTok.has(t)) byTok.set(t, []); const a = byTok.get(t); if (a.length < 40) a.push(s); }
   // Hand-checked translations for the most common words, where reverse lookup is unreliable.
   const OV = JSON.parse(fs.readFileSync(path.join(ROOT, 'content/en-overrides.json'), 'utf8'));
+  // English Wiktionary translation tables (preferred): pick the first sense whose
+  // table has Spanish, Portuguese and Mandarin, and take its first one or two words.
+  const WT = new Map();
+  if (fs.existsSync(path.join(RAW, 'kaikki-en-tr.jsonl'))) for (const ln of read('kaikki-en-tr.jsonl').split('\n')) {
+    if (!ln) continue; const e = JSON.parse(ln); if (!WT.has(e.word)) WT.set(e.word, []); WT.get(e.word).push(e);
+  }
+  // Ranking helpers: common words first; Mandarin must be a real CEDICT word with valid
+  // reading matching CC-CEDICT (drops Min Nan readings such as 狗 káu), HSK words preferred.
+  const FR = { es: freqRank('es'), pt: freqRank('pt') };
+  const wrank = (b, w) => Math.max(...w.toLowerCase().split(/\s+/).map(x => FR[b].get(x) || 1e9));
+  const CE = cedict(), HSK = new Set(read('hsk30.csv').split('\n').slice(1).map(ln => (ln.split(',')[1] || '').split('|')[0]));
+  const plain = r => r.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z]/gi, '').toLowerCase();
+  const pyOk = (simp, r) => (CE.bySimp.get(simp) || []).some(e => plain(e.py.replace(/u:/g, 'u').replace(/\d/g, '')) === plain(r));
+  const fromTables = w => {
+    for (const e of WT.get(w) || []) {
+      const labels = [...new Set(['es', 'pt', 'zh'].flatMap(b => (e.tr[b] || []).map(t => t.s)))];
+      // Several senses can have full tables; prefer the one that agrees with the reverse lookup
+      // ("heart": corazón, not coraje), then the earliest.
+      let best = null;
+      for (const [li, lab] of labels.entries()) {
+        if (/slang|vulgar|informal|colloquial|derogatory|figurative|archaic|obsolete|dated|dialect/i.test(lab)) continue;
+        const pick = b => (e.tr[b] || []).filter(t => t.s === lab && !/[,;(]/.test(t.w) && !(t.tags || []).some(x => /slang|vulgar|archaic|obsolete|dated|regional|dialect|Taiwan|Hong Kong|literary|formal/i.test(x)));
+        const simp = t => t.w.split(/\s*\/\s*/).pop();
+        const es = pick('es'), pt = pick('pt'), zh = pick('zh').filter(t => /\p{Script=Han}/u.test(t.w) && t.r && pyOk(simp(t), t.r));
+        if (!es.length || !pt.length || !zh.length) continue;
+        // First word by frequency; a second synonym only when it is also common (no "urbe", "nosocomio").
+        const two = (b, a) => { const u = [...new Set(a.map(t => t.w))].map((x, i) => [x, wrank(b, x), i]).sort((p, q) => (p[1] > 5000) - (q[1] > 5000) || p[2] - q[2]); return u.filter((x, i) => i === 0 || x[1] <= 3000).slice(0, 2).map(x => x[0]).join(' / '); };
+        const z = zh.find(t => HSK.has(simp(t))) || zh[0];
+        const agree = ['es', 'pt', 'zh'].reduce((n, b) => { const r = rev[b].get(w); return n + (r && (b === 'zh' ? zh : b === 'es' ? es : pt).some(t => (b === 'zh' ? simp(t) : t.w) === r.t) ? 1 : 0); }, 0);
+        const c = { pos: e.pos, es: two('es', es), pt: two('pt', pt), zh: simp(z), py: z.r.replace(/\s+/g, ''), score: agree * 10 - Math.min(li, 9) };
+        if (!best || c.score > best.score) best = c;
+      }
+      if (best) return best;
+    }
+    return null;
+  };
   const items = [];
   for (const [w, rank] of R) {
     if (items.length >= total) break; if (!/^[a-z]{2,}$/.test(w) && w !== 'i') continue; if (OV._skip.includes(w)) continue;
-    const ov = OV[w]; const es = ov ? { t: ov.es, pos: ov.pos } : rev.es.get(w), pt = ov ? { t: ov.pt } : rev.pt.get(w), zh = ov ? { t: ov.zh, py: ov.py } : rev.zh.get(w); if (!es || !pt || !zh) continue;
+    const ov = OV[w], wt = !ov && fromTables(w);
+    const es = ov ? { t: ov.es, pos: ov.pos } : wt ? { t: wt.es, pos: wt.pos } : rev.es.get(w), pt = ov ? { t: ov.pt } : wt ? { t: wt.pt } : rev.pt.get(w), zh = ov ? { t: ov.zh, py: ov.py } : wt ? { t: wt.zh, py: wt.py } : rev.zh.get(w); if (!es || !pt || !zh) continue;
     const ex = pickExamples(byTok.get(w) || [], 3);
     items.push({ id: `en:${w}`, t: w, pos: es.pos, g: { es: es.t, pt: pt.t, zh: `${zh.t} (${zh.py})` }, rank, ex: ex.map(s => s.id), slug: w, _ex: ex });
   }
@@ -337,6 +444,11 @@ function finish(l, { items, chars, concepts, sentences, levels, credits }) {
   for (const c of concepts) for (const p of c.prereqs) if (!ids.has(p)) throw new Error(`${c.id}: unknown prereq ${p}`);
   const idx = new Map(concepts.map((c, i) => [c.id, i])); for (const c of concepts) for (const p of c.prereqs) if (idx.get(p) >= idx.get(c.id)) throw new Error(`${c.id}: prereq ${p} comes later (order must be topological)`);
   const pack = { id: l, target: l, name: P.name, short: P.short, slug: P.slug, bases: P.bases, speech: P.speech, version: 1, levels, concepts, items, chars, sentences: sent, credits: credits.map(k => CREDITS[k]) };
+  // Gloss check: the top words must have short, translation-like primary glosses.
+  // Fix flagged words in content/gloss-overrides/<lang>.json (or content/en-overrides.json).
+  const flagged = lintPack(pack);
+  if (flagged.length) log(`${l}: ${flagged.length} flagged glosses in top ${LINT_TOP}:`, flagged.map(f => `${f.word}[${f.base}] ${f.reason}`).join(', '));
+  if (flagged.length && process.env.GLOSS_STRICT) throw new Error(`${l}: gloss check failed`);
   fs.writeFileSync(path.join(OUT, `${l}.json`), JSON.stringify(pack));
   const counts = { concepts: concepts.length, vocab: concepts.filter(c => c.kind === 'vocab').length, grammar: concepts.filter(c => c.kind === 'grammar').length, foundations: concepts.filter(c => c.kind === 'tone' || c.kind === 'write').length, items: items.length, chars: chars ? chars.length : 0, sentences: Object.keys(sent).length };
   log(l, JSON.stringify(counts));

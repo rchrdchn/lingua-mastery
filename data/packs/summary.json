@@ -9,17 +9,17 @@
   "sentences": 3475
  },
  "es": {
-  "concepts": 219,
-  "vocab": 205,
+  "concepts": 216,
+  "vocab": 202,
   "grammar": 14,
   "foundations": 0,
   "items": 2000,
   "chars": 0,
-  "sentences": 6171
+  "sentences": 6169
  },
  "fr": {
-  "concepts": 67,
-  "vocab": 61,
+  "concepts": 69,
+  "vocab": 63,
   "grammar": 6,
   "foundations": 0,
   "items": 600,
@@ -27,13 +27,13 @@
   "sentences": 1886
  },
  "it": {
-  "concepts": 67,
-  "vocab": 61,
+  "concepts": 68,
+  "vocab": 62,
   "grammar": 6,
   "foundations": 0,
   "items": 600,
   "chars": 0,
-  "sentences": 1901
+  "sentences": 1900
  },
  "pt": {
   "concepts": 67,
@@ -42,24 +42,24 @@
   "foundations": 0,
   "items": 600,
   "chars": 0,
-  "sentences": 1892
+  "sentences": 1895
  },
  "de": {
-  "concepts": 68,
-  "vocab": 62,
+  "concepts": 67,
+  "vocab": 61,
   "grammar": 6,
   "foundations": 0,
   "items": 600,
   "chars": 0,
-  "sentences": 1876
+  "sentences": 1881
  },
  "en": {
-  "concepts": 91,
-  "vocab": 83,
+  "concepts": 89,
+  "vocab": 81,
   "grammar": 8,
   "foundations": 0,
   "items": 800,
   "chars": 0,
-  "sentences": 2529
+  "sentences": 2533
  }
 }

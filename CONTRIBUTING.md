@@ -21,8 +21,13 @@ You only need `data:fetch` if you change the pack builder or add a language. Edi
 
 ## Small fixes
 
-- **A wrong meaning in Spanish, French, Italian, Portuguese or German:** these come from Wiktionary. The best fix is upstream on Wiktionary (it then flows in on the next fetch). For a quick fix, open an issue with the "Data fix" template.
-- **A wrong ESL translation (English pack):** edit `content/en-overrides.json`. Each key is an English word: `{ "es": "...", "pt": "...", "zh": "...", "py": "pinyin", "pos": "verb" }`. Words in `_skip` are left out of the course.
+- **A wrong meaning in Spanish, French, Italian, Portuguese or German:** these come from Wiktionary. The best fix is upstream on Wiktionary (it then flows in on the next fetch). For a quick fix here, edit `content/gloss-overrides/<lang>.json`:
+  - `gloss`: lemma -> the English gloss to show, senses separated by "; " (first sense first, short and translation-like).
+  - `_lemma`: word form -> lemma, when the builder picks the wrong lemma (for example `"creo": "creer"`, not crear).
+  - `_drop`: words to leave out (fillers such as "uh").
+  Or open an issue with the "Data fix" template.
+- **A wrong ESL translation (English pack):** edit `content/en-overrides.json`. Each key is an English word: `{ "es": "...", "pt": "...", "zh": "...", "py": "pinyin", "pos": "verb" }`. Words in `_skip` are left out of the course. Without an override, the builder uses the English Wiktionary translation tables, then a reverse dictionary lookup.
+- **Gloss check:** `npm run data:lint` flags primary glosses (text before the first ";") in the top 600 words of each pack that read like grammar notes ("form of", "dative of", "plural of", "compound of"...) or run over 60 characters. `npm test` runs the same check, and `GLOSS_STRICT=1 npm run data:build` fails the build on it. Fix flags with an override.
 - **A grammar lesson typo:** edit `content/grammar/<lang>.mjs`.
 
 Then run `node --max-old-space-size=7000 scripts/data/build-packs.mjs <lang>`, `npm test` and `npm run build`, and commit both the source change and the regenerated `data/packs/<lang>.json`.

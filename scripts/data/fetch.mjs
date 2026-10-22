@@ -53,8 +53,42 @@ function kaikki(l) {
     r.on('error', rej);
   }).on('error', rej));
 }
+// English Wiktionary translation tables (es, pt, zh) for the ESL pack: far more reliable
+// than reverse-looking-up glosses. Top 2000 English words, translations only.
+function kaikkiEnTranslations() {
+  const out = RAW + 'kaikki-en-tr.jsonl';
+  if (fs.existsSync(out)) return Promise.resolve();
+  const want = new Set(fs.readFileSync(RAW + 'freq-en.txt', 'utf8').split('\n').slice(0, 2000).map(x => x.split(' ')[0]).filter(Boolean));
+  const LANGS = { es: 'es', pt: 'pt', zh: 'cmn', cmn: 'cmn' };
+  const w = fs.createWriteStream(out + '.part');
+  const url = 'https://kaikki.org/dictionary/English/kaikki.org-dictionary-English.jsonl';
+  console.log('STREAM', url);
+  return new Promise((res, rej) => https.get(url, r => {
+    const rl = readline.createInterface({ input: r }); let n = 0;
+    rl.on('line', line => {
+      const m = line.match(/^\{"word": ?"([^"]*)"/) || line.match(/"word": ?"([^"]*)", ?"(?:pos|lang_code)"/);
+      if (m && !want.has(m[1])) return;
+      if (!line.includes('"translations"')) return;
+      let e; try { e = JSON.parse(line); } catch { return; }
+      if (!want.has(e.word) || e.lang_code && e.lang_code !== 'en') return;
+      const all = [...(e.translations || []), ...(e.senses || []).flatMap(s => s.translations || [])];
+      const tr = {};
+      for (const t of all) {
+        // Mandarin only (code cmn); other Chinese varieties (Min Nan, Cantonese) share "Chinese" headings.
+        const b = t.code === 'cmn' || /^(Chinese )?Mandarin$/.test(t.lang || '') ? 'zh' : t.code;
+        if (!['es', 'pt', 'zh'].includes(b) || !t.word) continue;
+        (tr[b] ||= []).push({ w: t.word, s: t.sense || '', r: t.roman || '', tags: t.tags || [] });
+      }
+      if (!Object.keys(tr).length) return;
+      const senses = (e.senses || []).filter(s => s.glosses).slice(0, 3).map(s => s.glosses[s.glosses.length - 1]);
+      w.write(JSON.stringify({ word: e.word, pos: e.pos, senses, tr }) + '\n'); n++;
+    });
+    rl.on('close', () => { w.end(() => { fs.renameSync(out + '.part', out); console.log('kaikki en translations', n); res(); }); });
+    r.on('error', rej);
+  }).on('error', rej));
+}
 if (!process.argv.includes('--skip-kaikki')) {
-  await Promise.all(Object.keys(KK).map(kaikki));
+  await Promise.all([...Object.keys(KK).map(kaikki), kaikkiEnTranslations()]);
 }
 // Decompress .bz2 files with Python (bzip2 is not always installed).
 for (const f of fs.readdirSync(RAW).filter(f => f.endsWith('.tsv.bz2'))) {
