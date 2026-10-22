@@ -6,7 +6,7 @@
 {% if noindex %}<meta name="robots" content="noindex">{% else %}<script type="application/ld+json">{{ { url: page.url, title: title, description: description, kind: kind, items: ldItems, course: ldCourse, term: ldTerm, lesson: ldLesson, faqs: faqs } | pageGraph | safe }}</script>{% endif %}
 <link rel="stylesheet" href="/assets/style.css?v={{ build.v }}">
 </head><body><a class="skip" href="#main">Skip to content</a>
-<header class="top"><div class="wrap row"><a class="logo" href="/" aria-label="{{ site.name }} home">{% include "logo.njk" %}<span>{{ site.name }}</span></a>
+<header class="top"><div class="wrap row"><a class="logo" href="/" aria-label="{{ site.name }} home">{% include "logo.njk" %}</a>
 <nav class="pills" aria-label="Courses">{% for p in lm.packs %}<a href="{{ p.hubUrl }}"{% if page.url.startsWith(p.hubUrl) %} aria-current="page"{% endif %}>{{ p.short }}</a>{% endfor %}</nav>
 <details class="langmenu"><summary>Learn</summary><nav class="menu" aria-label="Courses (menu)">{% for p in lm.packs %}<a href="{{ p.hubUrl }}"{% if page.url.startsWith(p.hubUrl) %} aria-current="page"{% endif %}>{{ p.adj }}{% if p.id == 'en' %}<small>for es, pt, zh speakers</small>{% endif %}</a>{% endfor %}</nav></details>
 <a class="btn primary small go" href="/learn/">Practice</a></div></header>
