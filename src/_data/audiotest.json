@@ -256,6 +256,316 @@
      "sub": "Tāmen zài Běijīng xuéxí Zhōngwén."
     }
    ]
+  },
+  {
+   "id": "es",
+   "name": "Spanish",
+   "lang": "es",
+   "metric": "wer",
+   "intro": "8 course words and 14 course sentences from each source. Words come first; the first six words have a Lingua Libre recording. The course now uses Kokoro em_alex for every clip without a native recording.",
+   "scoreNote": "Whisper large-v3 (int8, CPU, single thread; multi-threaded int8 gave random wrong transcripts on this machine, so these replace the earlier numbers) transcribes each clip. Words heard right: exact match after lowercasing and removing punctuation, so 'veinte' heard as '20' counts as a miss for every source, including the native one. Sentence WER/CER: word and character error rate against the sentence text, lower is better. A second set of 30 other course sentences was scored too; see the notes.",
+   "candidates": [
+    {
+     "id": "native",
+     "label": "Native recording (Lingua Libre)",
+     "license": "CC BY-SA 4.0 / CC0 per file",
+     "note": "6 of 8 words have a recording; Tatoeba has no openly licensed Spanish sentence audio (all NC/ND or unlicensed)",
+     "wordAcc": 0.8333333333333334,
+     "nWords": 6,
+     "wer": null,
+     "cer": null,
+     "have": [
+      "w00",
+      "w01",
+      "w02",
+      "w03",
+      "w04",
+      "w05"
+     ]
+    },
+    {
+     "id": "kokoro-em_alex",
+     "label": "Kokoro-82M v1.0, em_alex (chosen)",
+     "license": "Apache-2.0",
+     "note": "second 30-sentence set: WER 0.0%. Only voice with 0 sentence errors on both sets, tied best on words; Kokoro is a newer, more natural-sounding model than Piper",
+     "wordAcc": 0.625,
+     "nWords": 8,
+     "wer": 0.0,
+     "cer": 0.0,
+     "have": [
+      "w00",
+      "w01",
+      "w02",
+      "w03",
+      "w04",
+      "w05",
+      "w06",
+      "w07",
+      "s00",
+      "s01",
+      "s02",
+      "s03",
+      "s04",
+      "s05",
+      "s06",
+      "s07",
+      "s08",
+      "s09",
+      "s10",
+      "s11",
+      "s12",
+      "s13"
+     ]
+    },
+    {
+     "id": "piper-es_ES-davefx-medium",
+     "label": "Piper es_ES davefx medium (previous)",
+     "license": "Piper tool GPL-3.0, voice model MIT, CC0 dataset",
+     "note": "second 30-sentence set: WER 0.7%",
+     "wordAcc": 0.625,
+     "nWords": 8,
+     "wer": 0.014285714285714285,
+     "cer": 0.00273224043715847,
+     "have": [
+      "w00",
+      "w01",
+      "w02",
+      "w03",
+      "w04",
+      "w05",
+      "w06",
+      "w07",
+      "s00",
+      "s01",
+      "s02",
+      "s03",
+      "s04",
+      "s05",
+      "s06",
+      "s07",
+      "s08",
+      "s09",
+      "s10",
+      "s11",
+      "s12",
+      "s13"
+     ]
+    },
+    {
+     "id": "kokoro-em_santa",
+     "label": "Kokoro-82M v1.0, em_santa",
+     "license": "Apache-2.0",
+     "note": "second 30-sentence set: WER 3.5%",
+     "wordAcc": 0.5,
+     "nWords": 8,
+     "wer": 0.014285714285714285,
+     "cer": 0.00546448087431694,
+     "have": [
+      "w00",
+      "w01",
+      "w02",
+      "w03",
+      "w04",
+      "w05",
+      "w06",
+      "w07",
+      "s00",
+      "s01",
+      "s02",
+      "s03",
+      "s04",
+      "s05",
+      "s06",
+      "s07",
+      "s08",
+      "s09",
+      "s10",
+      "s11",
+      "s12",
+      "s13"
+     ]
+    },
+    {
+     "id": "piper-es_MX-claude-high",
+     "label": "Piper es_MX claude high",
+     "license": "Piper tool GPL-3.0, voice model MIT, dataset Apache-2.0 (provenance thin)",
+     "note": "second 30-sentence set: WER 18.2%",
+     "wordAcc": 0.625,
+     "nWords": 8,
+     "wer": 0.04285714285714286,
+     "cer": 0.01092896174863388,
+     "have": [
+      "w00",
+      "w01",
+      "w02",
+      "w03",
+      "w04",
+      "w05",
+      "w06",
+      "w07",
+      "s00",
+      "s01",
+      "s02",
+      "s03",
+      "s04",
+      "s05",
+      "s06",
+      "s07",
+      "s08",
+      "s09",
+      "s10",
+      "s11",
+      "s12",
+      "s13"
+     ]
+    },
+    {
+     "id": "piper-es_ES-sharvard-medium",
+     "label": "Piper es_ES sharvard medium",
+     "license": "Piper tool GPL-3.0, voice model MIT, Sharvard corpus CC BY 3.0",
+     "note": "second 30-sentence set: WER 0.0%",
+     "wordAcc": 0.375,
+     "nWords": 8,
+     "wer": 0.07142857142857142,
+     "cer": 0.060109289617486336,
+     "have": [
+      "w00",
+      "w01",
+      "w02",
+      "w03",
+      "w04",
+      "w05",
+      "w06",
+      "w07",
+      "s00",
+      "s01",
+      "s02",
+      "s03",
+      "s04",
+      "s05",
+      "s06",
+      "s07",
+      "s08",
+      "s09",
+      "s10",
+      "s11",
+      "s12",
+      "s13"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "w00",
+     "text": "inmediato",
+     "sub": "word"
+    },
+    {
+     "id": "w01",
+     "text": "veinte",
+     "sub": "word"
+    },
+    {
+     "id": "w02",
+     "text": "multitud",
+     "sub": "word"
+    },
+    {
+     "id": "w03",
+     "text": "uno",
+     "sub": "word"
+    },
+    {
+     "id": "w04",
+     "text": "sincero",
+     "sub": "word"
+    },
+    {
+     "id": "w05",
+     "text": "izquierdo",
+     "sub": "word"
+    },
+    {
+     "id": "w06",
+     "text": "tony",
+     "sub": "word"
+    },
+    {
+     "id": "w07",
+     "text": "gay",
+     "sub": "word"
+    },
+    {
+     "id": "s00",
+     "text": "Estoy dispuesto a ayudarte.",
+     "sub": ""
+    },
+    {
+     "id": "s01",
+     "text": "Un caballo corre rápidamente.",
+     "sub": ""
+    },
+    {
+     "id": "s02",
+     "text": "Tom es mi colega.",
+     "sub": ""
+    },
+    {
+     "id": "s03",
+     "text": "¿Podría utilizar su teléfono?",
+     "sub": ""
+    },
+    {
+     "id": "s04",
+     "text": "¿Estás en la plaza?",
+     "sub": ""
+    },
+    {
+     "id": "s05",
+     "text": "Estoy en el primer año de instituto.",
+     "sub": ""
+    },
+    {
+     "id": "s06",
+     "text": "Ella mantiene muy bien su juventud.",
+     "sub": ""
+    },
+    {
+     "id": "s07",
+     "text": "Tenemos una orden de búsqueda.",
+     "sub": ""
+    },
+    {
+     "id": "s08",
+     "text": "Me puse a cubierto.",
+     "sub": ""
+    },
+    {
+     "id": "s09",
+     "text": "Eso es agua pasada.",
+     "sub": ""
+    },
+    {
+     "id": "s10",
+     "text": "Ella es un demonio.",
+     "sub": ""
+    },
+    {
+     "id": "s11",
+     "text": "Yo mismo me he hecho esa pregunta millones de veces.",
+     "sub": ""
+    },
+    {
+     "id": "s12",
+     "text": "Él fue acusado de asesinato.",
+     "sub": ""
+    },
+    {
+     "id": "s13",
+     "text": "¿Por qué tratas de huir?",
+     "sub": ""
+    }
+   ]
   }
  ]
 }
