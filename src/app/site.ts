@@ -1,14 +1,15 @@
 // Site-wide enhancements: listen buttons, the home demo and the example carousel. Small on purpose.
-import { RM, tick, burst, shake, floatText, say } from './fx';
+import { RM, tick, burst, shake, floatText } from './fx';
+import { play, load } from '../engine/audio';
 
 document.addEventListener('click', e => {
   const b = (e.target as Element).closest?.('[data-say]') as HTMLElement | null;
-  if (b) { e.preventDefault(); say(b.dataset.say!, b.dataset.lang || 'en', b); }
+  if (b) { e.preventDefault(); play(b.dataset.say!, b.dataset.lang || 'en', b.dataset.a || null, b); }
 });
 
 // ---- Home demo: a 3-question micro-lesson with instant feedback ----
 interface DQ { w: string; r: string; a: string; choices: string[] }
-interface DL { id: string; name: string; speech: string; start: string; hub: string; qs: DQ[] }
+interface DL { id: string; name: string; speech: string; start: string; hub: string; audio: string; qs: DQ[] }
 const demo = document.getElementById('demo');
 const data = document.getElementById('demo-data');
 if (demo && data) {
@@ -21,7 +22,7 @@ if (demo && data) {
     const q = L.qs[qi];
     const dq = el('div', 'dq'); dq.append(el('div', 'i', 'Tap the meaning'));
     const w = el('div', 'w'); w.lang = L.id; w.append(q.w);
-    const sb = el('button', 'say') as HTMLButtonElement; sb.type = 'button'; sb.setAttribute('aria-label', 'Listen'); sb.dataset.say = q.w; sb.dataset.lang = L.speech; sb.innerHTML = sayIcon;
+    const sb = el('button', 'say') as HTMLButtonElement; sb.type = 'button'; sb.setAttribute('aria-label', 'Listen'); sb.dataset.say = q.w; sb.dataset.lang = L.speech; sb.dataset.a = L.audio; sb.innerHTML = sayIcon;
     w.append(sb); dq.append(w, el('div', 'r', q.r));
     const ch = el('div', 'dch');
     for (const c of q.choices) {
@@ -33,7 +34,7 @@ if (demo && data) {
   };
   const pick = (b: HTMLButtonElement, ok: boolean, q: DQ, ch: Element) => {
     ch.querySelectorAll('button').forEach(x => { (x as HTMLButtonElement).disabled = true; if (x.textContent === q.a) x.classList.add('right'); });
-    if (ok) { right++; const was = xp; xp += 10; tick(xpEl, was, xp, 500); xpBox.classList.remove('bump'); void (xpBox as HTMLElement).offsetWidth; xpBox.classList.add('bump'); floatText(xpBox, '+10'); say(q.w, L.speech); }
+    if (ok) { right++; const was = xp; xp += 10; tick(xpEl, was, xp, 500); xpBox.classList.remove('bump'); void (xpBox as HTMLElement).offsetWidth; xpBox.classList.add('bump'); floatText(xpBox, '+10'); play(q.w, L.speech, L.audio); }
     else { b.classList.add('wrongpick'); shake(card); }
     qi++; bar.style.width = `${(qi / L.qs.length) * 100}%`;
     setTimeout(() => (qi < L.qs.length ? show() : finish()), ok ? 850 : 1300);
@@ -79,3 +80,12 @@ if (car && dots) {
     car.scrollTo({ left: items[next].offsetLeft - items[0].offsetLeft, behavior: 'smooth' });
   }, 3200);
 }
+
+// Warm audio bundles for listen buttons as they come into view (small files, cached).
+const seen = new Set<string>();
+const warm = (b: Element) => { const a = (b as HTMLElement).dataset.a; if (a && !seen.has(a)) { seen.add(a); load(a); } };
+if ('IntersectionObserver' in window) {
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { warm(e.target); io.unobserve(e.target); } }), { rootMargin: '200px' });
+  const scan = () => document.querySelectorAll('[data-a]').forEach(b => { if (!seen.has((b as HTMLElement).dataset.a!)) io.observe(b); });
+  scan(); new MutationObserver(scan).observe(document.getElementById('demo') ?? document.body, { childList: true, subtree: true });
+} else document.querySelectorAll('[data-a]').forEach(warm);

@@ -6,6 +6,7 @@ const langs = require('../../lib/langs.js');
 
 const ORDER = ['zh', 'es', 'en', 'fr', 'it', 'pt', 'de'];
 const BASE_NAME = { en: 'English', es: 'Spanish', pt: 'Portuguese', zh: 'Chinese' };
+const AC = (() => { try { return JSON.parse(fs.readFileSync(path.join(__dirname, '../../data/audio/credits.json'), 'utf8')); } catch { return {}; } })();
 const MIN_EX_FOR_INDEX = 2;   // word pages with fewer example sentences are thin: noindex
 
 const first = (g, n = 60) => { const s = String(g || '').split(';')[0].trim(); return s.length > n ? s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…' : s; };
@@ -47,7 +48,7 @@ module.exports = function () {
       else if (id === 'en') { title = `"${it.t}" in Spanish, Portuguese and Chinese | English ${lvName}`; description = `"${it.t}" means ${gl.map(x => `${x.short} (${x.name})`).join(', ')}. English ${lvName} word with example sentences and translations.`; }
       else { title = `"${it.t}" in English: meaning and examples | ${L.adj} ${lvName}`; description = `"${it.t}" means "${short}" in ${L.adj}. ${lvName} word #${it.rank} by frequency, with ${ex.length} example sentences, translations and free practice.`; }
       words.push({
-        pack: meta, url: wUrl(it), it, label, gl, short, ex, lvName, levelUrl: levelUrl(it.lvl),
+        pack: meta, url: wUrl(it), it, label, gl, short, ex, lvName, levelUrl: levelUrl(it.lvl), audio: AC[id]?.words?.[it.t] || null,
         conceptTitle: (conceptOf[it.concept]?.title || {}).en || '', practice: learnUrl(`&concept=${encodeURIComponent(it.concept)}`),
         related: (byConcept[it.concept] || []).filter(x => x.id !== it.id).slice(0, 12).map(x => ({ t: x.t, r: x.r, url: wUrl(x), g: first(x.g[bases[0]], 32) })),
         chars: zh ? [...it.t].filter(c => charSet.has(c)).map(c => ({ c, url: `${hubUrl}characters/${enc(c)}/` })) : [],

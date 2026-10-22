@@ -13,6 +13,7 @@
 ---
 <p class="crumbs"><a href="/">Home</a> / <a href="{{ ch.pack.hubUrl }}">Mandarin</a> / <a href="{{ ch.levelUrl }}">{{ ch.lvName }}</a> / {{ ch.c.c }}</p>
 <h1><span lang="zh">{{ ch.c.c }}</span> <span class="py">{{ ch.c.r | join(', ') }}</span></h1>
+<button class="say big" type="button" aria-label="Listen to {{ ch.c.c }}" data-say="{{ ch.c.c }}" data-lang="{{ ch.pack.speech }}" data-a="{{ ch.pack.id | apath('ch:' + ch.c.c) }}">{% include "i-say.njk" %}</button>
 <ul class="means"><li>{{ ch.g }}</li></ul>
 <div class="strokebox"><div id="stroke" data-char="{{ ch.c.c }}" aria-label="Stroke order animation for {{ ch.c.c }}"></div><p><button class="btn small" id="replay" type="button">Replay</button> <button class="btn small" id="quiz" type="button">Try writing it</button></p></div>
 <ul class="tags"><li><a href="{{ ch.levelUrl }}">{{ ch.lvName }}</a></li>{% if ch.c.strokes %}<li>{{ ch.c.strokes }} strokes</li>{% endif %}<li>{{ ch.c.g.en | first(50) }}</li></ul>

@@ -47,17 +47,3 @@ export function toast(text: string) {
   const t = document.createElement('div'); t.className = 'toast'; t.setAttribute('role', 'status'); t.textContent = text;
   document.body.append(t); setTimeout(() => t.remove(), 2700);
 }
-
-// Speech: pick a voice for the language if the browser has one.
-let voices: SpeechSynthesisVoice[] = [];
-const synth = () => (typeof speechSynthesis !== 'undefined' ? speechSynthesis : null);
-function loadVoices() { const s = synth(); if (s) voices = s.getVoices(); }
-loadVoices(); synth()?.addEventListener?.('voiceschanged', loadVoices);
-export function say(text: string, lang: string, btn?: Element | null) {
-  const s = synth(); if (!s) return false; if (!voices.length) loadVoices();
-  const l = lang.toLowerCase(), short = l.split('-')[0];
-  const v = voices.find(x => x.lang.toLowerCase().replace('_', '-') === l) ?? voices.find(x => x.lang.toLowerCase().startsWith(short));
-  s.cancel(); const u = new SpeechSynthesisUtterance(text); u.lang = v?.lang ?? lang; if (v) u.voice = v; u.rate = 0.85;
-  if (btn) { btn.classList.add('on'); u.onend = u.onerror = () => btn.classList.remove('on'); setTimeout(() => btn.classList.remove('on'), 4000); }
-  s.speak(u); return true;
-}

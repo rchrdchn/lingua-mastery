@@ -9,3 +9,5 @@
   Content-Type: text/plain; charset=utf-8
 /feed.xml
   Content-Type: application/rss+xml; charset=utf-8
+/a/*
+  Cache-Control: public, max-age=604800

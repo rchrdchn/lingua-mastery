@@ -7,7 +7,7 @@ import { applyAnswer, finishCheck, streakDays } from '../engine/session';
 import { bands, bandQuestions, passBand, finishPlacement, PASS_AT, PER_BAND } from '../engine/placement';
 import { check, gloss, type ExOpts } from '../engine/exercises';
 import { loadProgress, saveProgress, resetProgress, loadSettings, saveSettings, exportAll, importAll, type Settings } from '../engine/store';
-import { initVoices, canSpeak, speak } from '../engine/speech';
+import { play, load, bundlePath } from '../engine/audio';
 import { t as tt, BASE_NAMES, type Key } from '../engine/i18n';
 import { shortGloss } from '../engine/util';
 import { RM, tick, burst, shake, floatText, toast } from './fx';
@@ -48,9 +48,21 @@ const title = (c: Concept) => c.title[base] ?? c.title.en ?? c.id;
 const save = () => saveProgress(p);
 const mapUrl = () => `/learn/?pack=${pack.id}&base=${base}`;
 const backLink = (cls = 'btn', label = T('back')) => h('a', { class: cls, href: mapUrl(), 'aria-label': label === '×' ? T('back') : null, onclick: (e: Event) => { e.preventDefault(); document.onkeydown = null; dashboard(); } }, label);
-function speaker(text?: string) {
+// Audio: every clip lives in a small bundle owned by a word, character, lesson or demo.
+let itemByText = new Map<string, string>();
+const apath = (owner: string | null) => (owner ? bundlePath(pack.id, owner) : null);
+// Lessons only get a bundle when they have examples or cloze sentences (see scripts/audio/plan.mjs).
+const hasBundle = (cid: string) => { const c = ix.concept.get(cid); return !!(c && (c.examples?.length || c.cloze?.sents?.length)); };
+function ownerOf(ex: { itemId?: string; conceptId: string; speak?: string }): string | null {
+  if (ex.itemId?.startsWith('char:')) return `ch:${ex.itemId.slice(5)}`;
+  if (ex.itemId) return `i:${ex.itemId}`;
+  const it = ex.speak ? itemByText.get(ex.speak) : undefined;
+  return it ? `i:${it}` : hasBundle(ex.conceptId) ? `c:${ex.conceptId}` : null;
+}
+const say = (text: string, owner: string | null, btn?: Element | null) => play(text, pack.speech, apath(owner), btn);
+function speaker(text?: string, owner?: string | null) {
   if (!text || !speechOK || !settings.audio) return null;
-  return h('button', { class: 'speak say', type: 'button', 'aria-label': T('listen'), html: I.say, onclick: (e: Event) => { const b = e.currentTarget as HTMLElement; b.classList.add('on'); setTimeout(() => b.classList.remove('on'), 1200); speak(text, pack.speech); } });
+  return h('button', { class: 'speak say', type: 'button', 'aria-label': T('listen'), html: I.say, onclick: (e: Event) => say(text, owner ?? null, e.currentTarget as Element) });
 }
 function ring(pct: number, cls = '') {
   const w = h('span', { class: 'ringwrap', html: `<svg class="ring ${cls}" viewBox="0 0 36 36" aria-hidden="true"><circle class="t" cx="18" cy="18" r="15.9"/><circle class="v" cx="18" cy="18" r="15.9" pathLength="100"/></svg>` });
@@ -77,7 +89,8 @@ async function boot() {
   settings.base[pack.id] = base; saveSettings(settings);
   document.documentElement.lang = base;
   p = loadProgress(pack.id, base);
-  await initVoices(); speechOK = canSpeak(pack.speech);
+  speechOK = true; // clips ship with the site; speechSynthesis is only a fallback
+  itemByText = new Map(pack.items.map(it => [it.t, it.id]));
   const cid = q.get('concept');
   const c = cid ? ix.concept.get(cid) : undefined;
   if (c) {
@@ -162,13 +175,14 @@ function settingsBlock() {
 
 function lesson(c: Concept, then: () => void) {
   const parts: (Node | null)[] = [h('p', { class: 'eyebrow' }, `${T('lesson')} · ${pack.levels.find(l => l.id === c.level)?.name ?? c.level}`), h('h1', {}, title(c))];
+  if (settings.audio) { if (hasBundle(c.id)) load(bundlePath(pack.id, `c:${c.id}`)); ix.itemsOf(c).forEach(it => load(bundlePath(pack.id, `i:${it.id}`))); }
   const sum = c.summary?.[base] ?? c.summary?.en; if (sum) parts.push(h('p', { class: 'lead' }, sum));
   if (c.pattern) parts.push(h('p', { class: 'pattern', lang: pack.target }, c.pattern));
   if (c.examples?.length) parts.push(h('ul', { class: 'exlist' }, ...c.examples.map(e => h('li', { class: 'exc' },
-    h('span', { class: 's', lang: pack.target }, e.t), speaker(e.t), e.r ? h('span', { class: 'r' }, e.r) : null, h('span', { class: 'tr' }, e.tr[base] ?? e.tr.en ?? '')))));
+    h('span', { class: 's', lang: pack.target }, e.t), speaker(e.t, `c:${c.id}`), e.r ? h('span', { class: 'r' }, e.r) : null, h('span', { class: 'tr' }, e.tr[base] ?? e.tr.en ?? '')))));
   if (c.kind === 'vocab') {
     parts.push(h('div', { class: 'wcards' }, ...ix.itemsOf(c).map((it, i) => {
-      const card: HTMLButtonElement = h('button', { class: 'flip', type: 'button', style: `--i:${i}`, 'aria-label': `${it.t}: ${shortGloss(gloss(it, base), 70)}`, onclick: () => { card.classList.toggle('on'); if (card.classList.contains('on') && speechOK && settings.audio) speak(it.t, pack.speech); } },
+      const card: HTMLButtonElement = h('button', { class: 'flip', type: 'button', style: `--i:${i}`, 'aria-label': `${it.t}: ${shortGloss(gloss(it, base), 70)}`, onclick: () => { card.classList.toggle('on'); if (card.classList.contains('on') && settings.audio) say(it.t, `i:${it.id}`); } },
         h('span', { class: 'in' }, h('span', { class: 'f' }, h('b', { lang: pack.target }, it.t), it.r || it.ipa ? h('small', {}, it.r ?? it.ipa ?? '') : null), h('span', { class: 'b' }, shortGloss(gloss(it, base), 70))));
       return card;
     })), h('p', { class: 'hint' }, T('tapFlip')));
@@ -199,6 +213,7 @@ interface RunResult { xp: number; correct: number; total: number; mastered: stri
 
 function runExercises(list: Planned[], heading: string, done: (r: RunResult) => void, onAnswer?: (ex: Planned, ok: boolean, secs: number) => { xp: number; masteredNow: boolean }) {
   const r: RunResult = { xp: 0, correct: 0, total: list.length, mastered: [] };
+  if (settings.audio) for (const o of new Set(list.map(ownerOf))) { const a = apath(o); if (a) load(a); }
   let i = 0;
   const barI = h('i', { style: 'width:0%' });
   const xpN = h('span', { class: 'n' }, '0'); const xpBox = h('span', { class: 'xp', html: I.bolt }, xpN);
@@ -235,7 +250,7 @@ function runExercises(list: Planned[], heading: string, done: (r: RunResult) => 
       body.querySelectorAll<HTMLButtonElement>('button.choice').forEach(b => {
         b.disabled = true; if (b.dataset.v === ex.answer) b.classList.add('right'); else if (b.dataset.v === given) b.classList.add('wrongpick');
       });
-      if (ex.type === 'cloze' && ex.speak && speechOK && settings.audio) speak(ex.speak, pack.speech);
+      if (ex.type === 'cloze' && ex.speak && settings.audio) say(ex.speak, ownerOf(ex));
       nextBtn.hidden = false; nextBtn.focus({ preventScroll: true });
       if (nextBtn.getBoundingClientRect().bottom > innerHeight) nextBtn.scrollIntoView({ block: 'end', behavior: RM ? 'auto' : 'smooth' });
     };
@@ -243,8 +258,8 @@ function runExercises(list: Planned[], heading: string, done: (r: RunResult) => 
     const body = h('div', { class: 'ex', 'data-type': ex.type, 'data-mode': ex.mode });
     body.append(h('p', { class: 'eyebrow' }, `${heading} · ${i + 1}/${list.length}`), h('p', { class: 'instr' }, instr[ex.type]));
     const promptLang = ex.type === 'recall' || ex.type === 'typed' ? base : pack.target;
-    if (ex.type !== 'listening') body.append(h('div', { class: `prompt ${ex.type === 'cloze' ? 'cl' : ''}`, lang: promptLang }, ex.prompt, ex.type === 'recall' || ex.type === 'typed' ? null : speaker(ex.speak)));
-    else { body.append(h('button', { class: 'btn big', onclick: () => speak(ex.speak!, pack.speech), html: I.say + ' ' + T('listen') })); setTimeout(() => speak(ex.speak!, pack.speech), 250); }
+    if (ex.type !== 'listening') body.append(h('div', { class: `prompt ${ex.type === 'cloze' ? 'cl' : ''}`, lang: promptLang }, ex.prompt, ex.type === 'recall' || ex.type === 'typed' ? null : speaker(ex.speak, ownerOf(ex))));
+    else { const lb = h('button', { class: 'btn big say-btn', onclick: () => say(ex.speak!, ownerOf(ex), lb), html: I.say + ' ' + T('listen') }); body.append(lb); say(ex.speak!, ownerOf(ex), lb); }
     if (ex.sub) body.append(h('p', { class: 'sub muted' }, ex.sub));
     if (ex.type === 'write') {
       const box = h('div', { class: 'writer', id: 'writer' });

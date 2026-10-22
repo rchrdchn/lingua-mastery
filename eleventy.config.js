@@ -5,6 +5,13 @@ const site = require('./src/_data/site.json');
 module.exports = function (c) {
   c.addPassthroughCopy({ 'src/assets': 'assets' });
   c.addPassthroughCopy({ 'data/packs': 'packs' });
+  c.addPassthroughCopy({ 'src/a': 'a' });
+  // Audio bundle path for an owner (word, character, lesson, demo), only if the file exists.
+  const { bundlePath } = require('./lib/audiokey.js');
+  const fsA = require('node:fs');
+  const have = {};
+  const files = pack => (have[pack] ||= new Set(fsA.existsSync(`src/a/${pack}`) ? fsA.readdirSync(`src/a/${pack}`) : []));
+  c.addFilter('apath', (pack, owner) => { const p = bundlePath(pack, owner); return files(pack).has(p.split('/').pop()) ? p : ''; });
   ['favicon.svg', 'favicon-32.png', 'apple-touch-icon.png', 'icon-192.png', 'icon-512.png', 'og.png', 'site.webmanifest', '_headers', 'robots.txt'].forEach(f => c.addPassthroughCopy('src/' + f));
   c.addWatchTarget('src/assets/');
 
