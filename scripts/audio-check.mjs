@@ -4,8 +4,9 @@
 import { chromium, webkit, devices } from 'playwright';
 import { serve } from './serve.mjs';
 
-const PORT = 8767, BASE = `http://localhost:${PORT}`;
-const srv = await serve(PORT);
+// AUDIO_BASE=https://ux.linguamagna.pages.dev checks a deployed preview instead of _site
+const PORT = 8767, BASE = process.env.AUDIO_BASE || `http://localhost:${PORT}`;
+const srv = process.env.AUDIO_BASE ? null : await serve(PORT);
 const results = []; let fail = 0;
 const log = (...a) => console.log('audio:', ...a);
 
@@ -55,7 +56,7 @@ await run('chrome', chromium, { channel: process.env.PW_CHANNEL || 'chrome', hea
 // Real gesture policy: no autoplay flag, taps are real clicks.
 await run('chrome-gesture', chromium, { channel: process.env.PW_CHANNEL || 'chrome', headless: true }, { viewport: { width: 390, height: 844 } });
 await run('webkit-iphone', webkit, { headless: true }, { ...devices['iPhone 13'] });
-srv.close();
+srv?.close();
 for (const r of results) log(r);
 if (fail) { log(`${fail} problem(s)`); process.exit(1); }
 log('OK');
