@@ -1,8 +1,8 @@
 ---js
 {
   layout: 'base.njk',
-  title: 'Lingua Magna: become great at languages, free and mastery-based',
-  description: 'Become great at languages. Learn Mandarin Chinese, Spanish, English, French, Italian, Portuguese or German free. Placement quiz, mastery-gated lessons and spaced review in your browser, no account.',
+  title: 'Lingua Magna: Don\'t just learn a language. Master it.',
+  description: 'Don\'t just learn a language. Master it. Free courses in 7 languages: each lesson unlocks once you master what it builds on, and spaced review keeps it fresh.',
   kind: 'WebPage',
   eleventyComputed: {
     faqs: () => [
@@ -15,7 +15,7 @@
   }
 }
 ---
-<section class="hero"><h1>Learn a language by mastering it, one step at a time</h1>
+<section class="hero"><h1>{{ site.tagline }}</h1>
 <p class="lead">Free courses in Mandarin Chinese, Spanish, English, French, Italian, Portuguese and German. Take a placement quiz, then learn words and grammar in an order where each lesson unlocks only once you have mastered what it builds on.</p>
 <p>Spaced review brings every word back right before you would forget it. Everything runs in your browser and progress stays on your device. No account, no ads in the way.</p>
 <p class="actions"><a class="btn primary" href="/learn/?pack=zh&amp;placement=1">Start Mandarin</a><a class="btn primary" href="/learn/?pack=es&amp;placement=1">Start Spanish</a><a class="btn" href="/learn/">All courses</a></p>

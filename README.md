@@ -1,6 +1,6 @@
 # Lingua Magna
 
-**Become great at languages.** Lingua Magna is Latin for "great language". Free, open source, mastery-based language courses that run in the browser: **Mandarin Chinese** (HSK 3.0 levels 1-2), **Spanish** (2,000 words, A1-B1), **English for Spanish, Portuguese and Chinese speakers**, and starter courses in **French, Italian, Portuguese and German**.
+**Don't just learn a language. Master it.** Lingua Magna is Latin for "great language". Free, open source, mastery-based language courses that run in the browser: **Mandarin Chinese** (HSK 3.0 levels 1-2), **Spanish** (2,000 words, A1-B1), **English for Spanish, Portuguese and Chinese speakers**, and starter courses in **French, Italian, Portuguese and German**.
 
 Think "Math Academy for languages": a placement quiz, a skill graph where each concept unlocks only once its prerequisites are mastered, FSRS spaced review, and mastery checks. No accounts. Progress lives in the learner's browser.
 

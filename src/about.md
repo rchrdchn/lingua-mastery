@@ -9,7 +9,7 @@ permalink: /about/
 
 # About Lingua Magna
 
-<p class="lead">Lingua Magna ("great language" in Latin) is a free set of language courses for becoming great at languages, built on one idea: learn each piece until you have mastered it, then unlock what builds on it. It runs entirely in your browser.</p>
+<p class="lead">Lingua Magna ("great language" in Latin) is a free set of language courses built on one idea: don't just learn a language, master it. In practice: learn each piece until you have mastered it, then unlock what builds on it. It runs entirely in your browser.</p>
 
 {% updated %}
 
