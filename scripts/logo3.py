@@ -47,3 +47,8 @@ svg('wordmark', 'Wordmark', f'<path d="{L["d"]}" fill="{INK}"/><path d="{rest["d
 lm = text('Lm', 30, track=-0.03)
 svg('wordmark-icon', 'Wordmark icon', tile + f'\n<path d="{lm["d"]}" transform="translate({32 - lm["w"]/2:.2f} {32 + lm["cap"]/2:.2f})" fill="{W}"/>')
 print(open(f'{OUT}/wordmark.svg').read()[:200])
+
+# Name lettering for pairing with a mark (plain i, no bubble dot)
+nm = text('Lingua Magna', 48)
+vbn = f'-1 {-(nm["cap"] + 1.5):.2f} {nm["w"] + 2:.2f} {nm["cap"] + 0.22*48 + 2.5:.2f}'
+svg('name', 'Name', f'<path d="{nm["d"]}" fill="{INK}"/>', vbn)

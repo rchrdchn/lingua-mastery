@@ -6,9 +6,9 @@ const srv = process.env.HEADER_BASE ? null : await serve(PORT);
 const b = await chromium.launch({ channel: process.env.PW_CHANNEL || 'chrome' });
 const errors = []; let bad = 0;
 for (const [name, w, h, path, extra] of [
-  ['m15-header-wordmark', 390, 844, '/', {}],
-  ['d3-header-wordmark', 1280, 800, '/', {}],
-  ['m16-header-wordmark-dark', 390, 844, '/spanish/', { dark: true }],
+  ['m15-header-logo', 390, 844, '/', {}],
+  ['d3-header-logo', 1280, 800, '/', {}],
+  ['m16-header-logo-dark', 390, 844, '/spanish/', { dark: true }],
 ]) {
   const ctx = await b.newContext({ viewport: { width: w, height: h }, deviceScaleFactor: w < 600 ? 3 : 2, isMobile: w < 600, hasTouch: w < 600 });
   const pg = await ctx.newPage();
@@ -16,7 +16,7 @@ for (const [name, w, h, path, extra] of [
   pg.on('pageerror', e => errors.push(`${name}: ${e}`));
   await pg.goto(BASE + path, { waitUntil: 'networkidle' });
   if (extra.dark) await pg.addStyleTag({ content: '.top{background:#13201b!important;border-color:#13201b!important}.top .logo{color:#fff!important}' });
-  const box = await pg.locator('header .logo svg').boundingBox();
+  const box = await pg.locator('header .logo').boundingBox();
   const fav = await pg.evaluate(async () => (await fetch('/favicon.svg')).status);
   const overflow = await pg.evaluate(() => document.documentElement.scrollWidth > innerWidth);
   console.log(`header: ${name} logo ${Math.round(box.width)}x${Math.round(box.height)} favicon ${fav} overflow=${overflow}`);
