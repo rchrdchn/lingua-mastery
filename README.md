@@ -1,6 +1,6 @@
-# Lingua Mastery
+# Lingua Magna
 
-Free, open source, mastery-based language courses that run in the browser: **Mandarin Chinese** (HSK 3.0 levels 1-2), **Spanish** (2,000 words, A1-B1), **English for Spanish, Portuguese and Chinese speakers**, and starter courses in **French, Italian, Portuguese and German**.
+**Become great at languages.** Lingua Magna is Latin for "great language". Free, open source, mastery-based language courses that run in the browser: **Mandarin Chinese** (HSK 3.0 levels 1-2), **Spanish** (2,000 words, A1-B1), **English for Spanish, Portuguese and Chinese speakers**, and starter courses in **French, Italian, Portuguese and German**.
 
 Think "Math Academy for languages": a placement quiz, a skill graph where each concept unlocks only once its prerequisites are mastered, FSRS spaced review, and mastery checks. No accounts. Progress lives in the learner's browser.
 
@@ -86,9 +86,9 @@ npm run dev        # Eleventy dev server (rerun `npm run engine` after TypeScrip
 
 Same setup as the other sites: a Cloudflare Pages project connected to the GitHub repo.
 
-- **Live preview:** https://lingua-mastery.pages.dev (Cloudflare Pages project `lingua-mastery`). Every push to `main` deploys automatically.
+- **Live preview:** https://linguamagna.pages.dev (Cloudflare Pages project `linguamagna`). Every push to `main` deploys automatically. The repo is still named `lingua-mastery`, and the old project at https://lingua-mastery.pages.dev keeps running until it is retired.
 - Production branch `main`, build command `npm run build`, output directory `_site`, environment variable `NODE_VERSION=20` (set in the Pages project; it takes precedence over `.nvmrc`, which pins Node 22 for local work). The build runs on Node 20 or newer.
-- `url` in `src/_data/site.json`, the `Sitemap:` line in `src/robots.txt` and every canonical URL use `https://lingua-mastery.pages.dev`. When a real domain is chosen, change those two files and rebuild; canonicals, sitemap, feed and `llms.txt` follow `site.json`.
+- `url` in `src/_data/site.json`, the `Sitemap:` line in `src/robots.txt` and every canonical URL use `https://linguamagna.pages.dev`. When a real domain is chosen, change those two files and rebuild; canonicals, sitemap, feed and `llms.txt` follow `site.json`.
 - Keep Bot Fight Mode off so AI crawlers can read the site.
 - After a deploy is live, `npm run indexnow` pings IndexNow with only the changed URLs (set `indexNowKey` in `site.json` and add the key file first).
 - No secrets live in the repo. The Git integration needs none.

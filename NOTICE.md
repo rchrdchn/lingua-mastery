@@ -1,6 +1,6 @@
 # NOTICE: licenses and third-party credits
 
-This project has two licenses:
+Lingua Magna has two licenses:
 
 | What | Where | License |
 |---|---|---|

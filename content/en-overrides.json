@@ -1,5 +1,5 @@
 {
-  "_about": "Hand-checked Spanish, Portuguese and Mandarin translations for the most common English words in Lingua Mastery. CC BY-SA 4.0.",
+  "_about": "Hand-checked Spanish, Portuguese and Mandarin translations for the most common English words in Lingua Magna. CC BY-SA 4.0.",
   "_skip": ["the", "a", "an", "s", "t", "ll", "re", "ve", "d", "m", "don", "didn", "isn", "doesn", "wasn", "won", "couldn", "wouldn", "aren", "haven", "hasn", "shouldn", "ain", "john", "jack", "frank"],
   "you": { "es": "tú / usted", "pt": "você", "zh": "你", "py": "nǐ", "pos": "pron" },
   "i": { "es": "yo", "pt": "eu", "zh": "我", "py": "wǒ", "pos": "pron" },

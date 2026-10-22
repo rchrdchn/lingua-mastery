@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for helping. The most useful contributions are better language data: fixing a wrong meaning, adding a grammar lesson, or adding a whole new language pack. Code fixes to the engine and site are welcome too.
+Thanks for helping make Lingua Magna better. The most useful contributions are better language data: fixing a wrong meaning, adding a grammar lesson, or adding a whole new language pack. Code fixes to the engine and site are welcome too.
 
 By contributing you agree that code is released under MIT ([`LICENSE`](LICENSE)) and content (packs, grammar lessons, translations, page copy) under CC BY-SA 4.0 ([`LICENSE-CONTENT`](LICENSE-CONTENT)). Only add material you wrote yourself or that comes from a source with a compatible open license (CC0, CC BY, CC BY-SA, MIT and similar). **Do not** copy from textbooks, apps, paid courses or CC BY-NC / "non-commercial" material.
 

@@ -41,4 +41,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://lingua-mastery.pages.dev/sitemap.xml
+Sitemap: https://linguamagna.pages.dev/sitemap.xml

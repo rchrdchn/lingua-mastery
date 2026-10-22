@@ -2,7 +2,7 @@
 module.exports = class {
   data() { return { permalink: '/llms.txt', eleventyExcludeFromCollections: true }; }
   render({ lm, site }) {
-    const L = [`# ${site.name}`, '', `> Free mastery-based language courses: Mandarin Chinese (HSK 3.0 levels 1-2), Spanish (2,000 words, A1-B1), English for Spanish, Portuguese and Chinese speakers, and starter courses in French, Italian, Portuguese and German. Placement quiz, mastery-gated lessons, FSRS spaced review. Runs in the browser, no account.`, '',
+    const L = [`# ${site.name}`, '', `> ${site.tagline}. Free mastery-based language courses: Mandarin Chinese (HSK 3.0 levels 1-2), Spanish (2,000 words, A1-B1), English for Spanish, Portuguese and Chinese speakers, and starter courses in French, Italian, Portuguese and German. Placement quiz, mastery-gated lessons, FSRS spaced review. Runs in the browser, no account.`, '',
       'Every word page gives the meaning, pronunciation (pinyin for Mandarin), level, frequency rank and real example sentences from Tatoeba with translations and author credit. Grammar pages are original lessons with examples.', '', '## Courses'];
     for (const p of lm.packs) {
       L.push(`- [Learn ${p.adj}](${site.url}${p.hubUrl}): ${p.counts.words} words${p.counts.chars ? `, ${p.counts.chars} characters` : ''}, ${p.counts.grammar} grammar lessons, ${p.counts.concepts} concepts.`);

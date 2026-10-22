@@ -1,15 +1,15 @@
 ---
 layout: base.njk
-title: "About Lingua Mastery and how the courses work"
+title: "About Lingua Magna and how the courses work"
 description: "How the courses are built: mastery gating, placement, spaced review with FSRS, the data sources and what is free. No account, progress stays in your browser."
 kind: AboutPage
 permalink: /about/
 ---
 <p class="crumbs"><a href="/">Home</a> / About</p>
 
-# About Lingua Mastery
+# About Lingua Magna
 
-<p class="lead">Lingua Mastery is a free set of language courses built on one idea: learn each piece until you have mastered it, then unlock what builds on it. It runs entirely in your browser.</p>
+<p class="lead">Lingua Magna ("great language" in Latin) is a free set of language courses for becoming great at languages, built on one idea: learn each piece until you have mastered it, then unlock what builds on it. It runs entirely in your browser.</p>
 
 {% updated %}
 
