@@ -11,3 +11,4 @@ test-results/
 .tmp-test/
 src/assets/site.js
 src/assets/site.js.map
+__pycache__/

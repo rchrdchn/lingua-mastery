@@ -1,0 +1,19 @@
+---js
+{ layout: 'base.njk', permalink: '/audio-test/', title: 'Mandarin audio test', description: 'Internal side-by-side comparison of Mandarin pronunciation audio sources.', noindex: true }
+---
+<h1>Mandarin audio test</h1>
+<p class="lead">Internal page, not linked or indexed. The same 15 items (four tones, 3rd-tone sandhi, 一 and 不 sandhi, neutral tone, full sentences) from each source. Native recordings are shown where Wikimedia Commons has one.</p>
+<h2>Scores</h2>
+<p>Whisper large-v3 (int8, CPU) transcribes each clip; the score is character error rate against the hanzi, capped at 100% per clip. Lower is better. Whisper is unreliable on isolated one- and two-syllable words (it often hears nothing or hallucinates), so the 30-sentence column is the more meaningful one.</p>
+<div style="overflow-x:auto"><table class="tbl">
+<thead><tr><th>Source</th><th>License</th><th>15-item set</th><th>30 course sentences</th><th>Notes</th></tr></thead>
+<tbody>{% for c in audiotest.candidates %}<tr><td>{{ c.label }}</td><td>{{ c.license }}</td><td>{{ (c.cer * 100) | round }}%</td><td>{% if c.sentCer %}{{ (c.sentCer * 100) | round }}%{% else %}n/a{% endif %}</td><td>{{ c.note }}</td></tr>{% endfor %}</tbody>
+</table></div>
+<h2>Listen</h2>
+{% for it in audiotest.items %}
+<section class="card at-item">
+<h3 lang="zh-Hans">{{ it.hanzi }} <small>{{ it.pinyin }}</small></h3>
+<ul class="at-list">{% for c in audiotest.candidates %}<li><span>{{ c.label }}</span>{% if it.id in c.have %}<audio controls preload="none" src="/a/test/{{ c.id }}/{{ it.id }}.mp3"></audio>{% else %}<em>no recording</em>{% endif %}</li>{% endfor %}</ul>
+</section>
+{% endfor %}
+<style>.at-list{list-style:none;padding:0;margin:0;display:grid;gap:8px}.at-list li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:center;font-size:14px}.at-list audio{height:36px;max-width:220px}.at-item{margin:14px 0}.tbl{border-collapse:collapse;font-size:14px}.tbl th,.tbl td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}</style>

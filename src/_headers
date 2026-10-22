@@ -11,3 +11,7 @@
   Content-Type: application/rss+xml; charset=utf-8
 /a/*
   Cache-Control: public, max-age=604800
+/audio-test/*
+  X-Robots-Tag: noindex
+/a/test/*
+  X-Robots-Tag: noindex
