@@ -13,7 +13,13 @@ function cyrb53(str: string, seed = 0): number {
   h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507) ^ Math.imul(h1 ^ (h1 >>> 13), 3266489909);
   return 4294967296 * (2097151 & h2) + (h1 >>> 0);
 }
-export const bundlePath = (pack: string, owner: string) => `/a/${pack}/${cyrb53(`${owner}|${AUDIO_V}`).toString(36)}.bin`;
+// Per-pack content version (from <html data-av>, set at build time) busts the 7-day cache when a pack is rebuilt.
+let av: Record<string, string> | null = null;
+const ver = (pack: string): string => {
+  if (!av) { try { av = JSON.parse((typeof document !== 'undefined' && document.documentElement.dataset.av) || '{}'); } catch { av = {}; } }
+  return av![pack] || '';
+};
+export const bundlePath = (pack: string, owner: string) => { const v = ver(pack); return `/a/${pack}/${cyrb53(`${owner}|${AUDIO_V}`).toString(36)}.bin${v ? `?v=${v}` : ''}`; };
 
 const SILENT = 'data:audio/mpeg;base64,SUQzBAAAAAAAIlRTU0UAAAAOAAADTGF2ZjYxLjcuMTAzAAAAAAAAAAAAAAD/83DAAAAAAAAAAAAASW5mbwAAAA8AAAAEAAACWAB6enp6enp6enp6enp6enp6enp6enp6enqmpqampqampqampqampqampqampqampqam09PT09PT09PT09PT09PT09PT09PT09PT0/////////////////////////////////8AAAAATGF2YzYxLjE5AAAAAAAAAAAAAAAAJAJxAAAAAAAAAlj7+meXAAAAAAAAAAAAAAAAAP/zQMQAAAADSAAAAABMQU1FMy4xMDBVVVVVVVVVVVVVTEFNRTMuMTAwVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV//NCxFsAAANIAAAAAFVVVVVVVVVVVVVVVVVVVVVVVVVVTEFNRTMuMTAwVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV//NAxKQAAANIAAAAAFVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVX/80LEowAAA0gAAAAAVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVU=';
 type Clips = Map<string, string>;

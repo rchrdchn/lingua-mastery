@@ -1,4 +1,4 @@
-<!doctype html><html lang="{{ htmlLang or 'en' }}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<!doctype html><html lang="{{ htmlLang or 'en' }}" data-av="{{ audioV | dump }}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 {% set st = title | seoTitle %}{% set sd = description | seoDesc %}<title>{{ st }}</title><meta name="description" content="{{ sd }}"><link rel="canonical" href="{{ site.url }}{{ page.url }}"><meta name="theme-color" content="#0f7a5c">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest">
 <link rel="alternate" type="application/rss+xml" title="{{ site.name }}: new lessons" href="/feed.xml"><link rel="help" type="text/plain" href="/llms.txt" title="llms.txt">

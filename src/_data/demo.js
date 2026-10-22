@@ -2,7 +2,7 @@
 // example cards pull real Tatoeba sentences (with author credit) from data/packs.
 const fs = require('node:fs');
 const path = require('node:path');
-const { bundlePath } = require('../../lib/audiokey.js');
+const { bundleUrl } = require('../../lib/audiokey.js');
 
 const NAMES = { zh: 'Mandarin', es: 'Spanish', en: 'English', fr: 'French', it: 'Italian', pt: 'Portuguese', de: 'German' };
 const EN = ['hello', 'thank you', 'water', 'goodbye', 'friend', 'cat', 'tea', 'bread'];
@@ -40,7 +40,7 @@ module.exports = function () {
       const choices = MIX[i].map(k => pool[k]);
       return { w, r: r || '', a: pool[i], choices };
     });
-    langs.push({ id, name: NAMES[id], speech: P.speech, base: b, start: `/learn/?pack=${id}&placement=1`, hub: `/${P.slug}/`, audio: bundlePath(id, `d:${id}`), qs });
+    langs.push({ id, name: NAMES[id], speech: P.speech, base: b, start: `/learn/?pack=${id}&placement=1`, hub: `/${P.slug}/`, audio: bundleUrl(id, `d:${id}`), qs });
     for (const [w, st] of CARDS[id]) {
       const it = P.items.find(x => x.t === w); if (!it) continue;
       const sid = (it.ex || []).find(s => P.sentences[s] && P.sentences[s].t === st); const s = sid && P.sentences[sid];
