@@ -8,6 +8,13 @@ OK_LIC = {'CC0', 'CC BY 4.0', 'CC BY-SA 4.0', 'CC BY 3.0', 'CC BY-SA 3.0', 'Publ
 SRC = os.environ.get('AUDIO_SRC', '/home/box/audio-src')
 UA = {'User-Agent': 'LinguaMagnaAudio/0.1 (https://linguamagna.pages.dev; one-time fetch of Lingua Libre word recordings, credited) python-urllib'}
 plan = json.load(open('data/audio/plan.json'))
+# Accent allowlists where the course teaches one variety (Lingua Libre's speaker database, which records
+# each speaker's place, was unreachable, so speakers were checked by hand and with an accent classifier):
+# English: General American speakers; Portuguese: Brazilian speakers.
+ALLOW = {
+    'en': {'Wodencafe', 'Grendelkhan', 'Naomi Persephone Amethyst (NaomiAmethyst)', 'She animates', 'Rachlel', 'Simplificationalizer', 'Semperosculto'},
+    'pt': {'Juliano P. Junho (Jjunho)'},
+}
 
 def api(params):
     q = 'https://commons.wikimedia.org/w/api.php?' + urllib.parse.urlencode({**params, 'format': 'json', 'maxlag': '5'})
@@ -40,6 +47,7 @@ for pk in sys.argv[1:]:
         for i in [i for i, ch in enumerate(rest) if ch == '-']:
             spk, w = rest[:i], rest[i + 1:]
             hit = [w] if w in words else ([x for x in lower.get(w.lower(), ()) ] if pk != 'de' else [])
+            if ALLOW.get(pk) and spk not in ALLOW[pk]: continue
             for x in hit: cands[x].append((title, spk)); spk_count[spk] += 1
     print(pk, 'words', len(words), 'with recordings', len(cands), 'speakers', len(spk_count), spk_count.most_common(5), flush=True)
     # Prefer exact-case matches, then the speakers who recorded the most of our words (consistent voice).

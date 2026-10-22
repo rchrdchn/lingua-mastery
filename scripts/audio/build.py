@@ -12,8 +12,8 @@ VOICES = os.environ.get('PIPER_VOICES', '/home/box/piper-voices')
 CACHE = os.environ.get('AUDIO_CACHE', '/home/box/audio-cache')
 PROC_V = 'p3'  # bump to re-encode everything
 VOICE = {
-    'zh': ('kokoro-v1.1-zh-zf_002', 'zf_002 (Kokoro-82M v1.1-zh)', 'Apache-2.0'),  # pre-synthesized by kokoro_zh.py
-    'es': ('es_ES-davefx-medium', 'davefx (es_ES, medium)', 'CC0 dataset'),
+    'zh': ('kokoro-v1.1-zh-zf_002', 'zf_002 (Kokoro-82M v1.1-zh)', 'Apache-2.0', 'Kokoro'),  # pre-synthesized by kokoro_zh.py
+    'es': ('kokoro-v1.0-em_alex', 'em_alex (Kokoro-82M v1.0)', 'Apache-2.0', 'Kokoro'),
     'en': ('en_US-ljspeech-high', 'LJSpeech (en_US, high)', 'public domain dataset'),
     'fr': ('fr_FR-siwis-medium', 'SIWIS (fr_FR, medium)', 'CC BY 4.0 dataset'),
     'it': ('it_IT-serena-high', 'serena (it_IT, high)', 'CC BY 4.0 dataset'),
@@ -21,6 +21,10 @@ VOICE = {
     'de': ('de_DE-thorsten-high', 'Thorsten (de_DE, high)', 'CC0 dataset'),
 }
 SR = 22050
+SRC = os.environ.get('AUDIO_SRC', '/home/box/audio-src')
+def engine(pk): return VOICE[pk][3] if len(VOICE[pk]) > 3 else 'Piper'
+def ext_path(pk, clip):  # clips pre-synthesized by scripts/audio/ext_tts.py (non-Piper engines)
+    m = VOICE[pk][0]; return f"{SRC}/tts/{m}/{hashlib.sha1('|'.join([m, clip['k'], clip['t']]).encode()).hexdigest()}.wav"
 LEAD = int(0.12 * SR)   # iOS can clip the first ~100 ms of a clip
 TAIL = int(0.10 * SR)
 
@@ -31,7 +35,7 @@ W = {}
 def init(pk, lex):
     from piper import PiperVoice
     W['pk'] = pk; W['lex'] = lex or {}
-    if pk == 'zh': return  # Mandarin TTS comes from scripts/audio/kokoro_zh.py (separate venv)
+    if engine(pk) != 'Piper': return  # pre-synthesized in another venv (kokoro_zh.py / ext_tts.py)
     W['voice'] = PiperVoice.load(f'{VOICES}/{VOICE[pk][0]}.onnx', download_dir=VOICES)
     assert W['voice'].config.sample_rate == SR, W['voice'].config.sample_rate
 
@@ -78,6 +82,10 @@ def synth(clip):
         f = f"{kz.OUT}/{kz.key(clip['k'], t, clip.get('syl'))}.wav"
         if not os.path.exists(f): raise SystemExit(f'missing Kokoro clip for {t!r}: run kokoro_zh.py first')
         return decode(f)
+    if engine(pk) != 'Piper':
+        f = ext_path(pk, clip)
+        if not os.path.exists(f): raise SystemExit(f'missing {engine(pk)} clip for {t!r}: run ext_tts.py first')
+        return decode(f)
     if False:
         syls = clip.get('syl') if word else None
         if not syls: syls, _ = zh_sentence_syls(t)
@@ -110,7 +118,7 @@ def clean(a, human):
     a = a[s0:s1]
     if human:
         if peak - floor < 22: return None, f'noisy ({peak - floor:.0f} dB)'
-        if len(a) / SR > 3.2: return None, f'long ({len(a) / SR:.1f}s)'
+        if len(a) / SR > (3.2 if human == 'w' else 12): return None, f'long ({len(a) / SR:.1f}s)'
         if np.mean(np.abs(a) > 0.99) > 0.002: return None, 'clipped'
     act = frames_db(a); act = act[act > act.max() - 25]
     rms = 10 ** (np.mean(act) / 20) if len(act) else 0.1
@@ -135,7 +143,7 @@ def job(args):
     if os.path.exists(out): return clip['t'], open(out, 'rb').read(), 'll' if ll else 'tts', None, os.path.getsize(out)
     problem = None
     if ll:
-        a, problem = clean(decode(ll['src']), True)
+        a, problem = clean(decode(ll['src']), clip['k'])
         if a is None:
             ll = None; key = sha(PROC_V, 'tts', VOICE[W['pk']][0], clip['t'], clip['k'], ','.join(clip.get('syl') or []), 'v2', *(['he2'] if W['pk'] == 'zh' and '和' in clip['t'] else [])); out = f'{CACHE}/mp3/{key[:2]}/{key}.mp3'
             if os.path.exists(out): return clip['t'], open(out, 'rb').read(), 'tts', problem, os.path.getsize(out)
@@ -153,11 +161,15 @@ def main():
     for pk in packs:
         t0 = time.time(); P = plan['packs'][pk]
         llmap = json.load(open(f'data/audio/ll-{pk}.json')) if os.path.exists(f'data/audio/ll-{pk}.json') else {}
+        tatoeba = json.load(open(f'data/audio/tatoeba-{pk}.json')) if os.path.exists(f'data/audio/tatoeba-{pk}.json') else {}
+        def native(c):
+            r = (llmap if c['k'] == 'w' else tatoeba).get(c['t'])
+            return r if r and r.get('src') else None
         uniq = {}
         for b in P['bundles'].values():
             for c in b['clips']: uniq.setdefault((c['t'], c['k']), c)
-        jobs = [(c, llmap.get(c['t']) if c['k'] == 'w' and llmap.get(c['t'], {}).get('src') else None) for c in uniq.values()]
-        res = {}
+        jobs = [(c, native(c)) for c in uniq.values()]
+        res = {}; words_set = {c['t'] for c in uniq.values() if c['k'] == 'w'}
         with Pool(int(os.environ.get('JOBS', '7')), initializer=init, initargs=(pk, P.get('lex'))) as pool:
             for i, r in enumerate(pool.imap_unordered(job, jobs, chunksize=8)):
                 if r[0] not in res or r[2] == 'll': res[r[0]] = r
@@ -168,7 +180,7 @@ def main():
         for r in by_text.values():
             src_count[r[2]] += 1
             if r[3]: rejects[r[3].split(' ')[0]] += 1
-            if r[2] == 'll': used_ll[r[0]] = llmap[r[0]]
+            if r[2] == 'll': used_ll[r[0]] = llmap.get(r[0]) if r[0] in llmap and r[0] in words_set else tatoeba.get(r[0]) or llmap[r[0]]
         for owner, b in P['bundles'].items():
             idx = {}; blobs = []; off = 0
             for c in b['clips']:
@@ -183,9 +195,10 @@ def main():
         spk = collections.defaultdict(lambda: {'n': 0, 'licenses': set()})
         for w, r in used_ll.items(): spk[r['speaker']]['n'] += 1; spk[r['speaker']]['licenses'].add(r['license'])
         credits[pk] = {
-            'tts': {'engine': 'Kokoro' if pk == 'zh' else 'Piper', 'voice': VOICE[pk][1], 'model': VOICE[pk][0], 'license': VOICE[pk][2], 'clips': src_count['tts']},
+            'tts': {'engine': engine(pk), 'voice': VOICE[pk][1], 'model': VOICE[pk][0], 'license': VOICE[pk][2], 'clips': src_count['tts']},
             'll': {'clips': src_count['ll'], 'speakers': {k: {'n': v['n'], 'licenses': sorted(v['licenses'])} for k, v in sorted(spk.items(), key=lambda kv: -kv[1]['n'])}},
-            'words': {w: {'speaker': r['speaker'], 'license': r['license'], 'title': r['title'], 'origin': r.get('origin', 'll')} for w, r in sorted(used_ll.items())},
+            'words': {w: {'speaker': r['speaker'], 'license': r['license'], 'title': r['title'], 'origin': r.get('origin', 'll')} for w, r in sorted(used_ll.items()) if r.get('origin') != 'tatoeba'},
+            'sentences': {'clips': sum(1 for r in used_ll.values() if r.get('origin') == 'tatoeba'), 'speakers': dict(collections.Counter(f"{r['speaker']}|{r['license']}|{r.get('attribution', '')}" for r in used_ll.values() if r.get('origin') == 'tatoeba'))},
             'files': nfiles, 'bytes': total, 'clips': len(by_text), 'failed': src_count['fail'], 'll_rejected': dict(rejects),
         }
         print(pk, f'{nfiles} files, {total / 1e6:.1f} MB, clips {len(by_text)}', dict(src_count), 'll rejected', dict(rejects), f'{time.time() - t0:.0f}s', flush=True)

@@ -272,6 +272,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/LL-Q1321_%28spa%29-AdrianAbdulBaha-adivinar.wav",
 "src": "/home/box/audio-src/ll/es/06719f206f1ab4b6.wav"
 },
+"adiós": {
+"title": "Es-adiós.ogg",
+"speaker": "Fibonacci",
+"license": "CC BY-SA 2.5",
+"url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Es-adi%C3%B3s.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/es/00d70f17026df46c.ogg"
+},
 "admitir": {
 "title": "LL-Q1321 (spa)-Marreromarco-admitir.wav",
 "speaker": "Marreromarco",
@@ -1168,6 +1176,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/LL-Q1321_%28spa%29-AdrianAbdulBaha-avi%C3%B3n.wav",
 "src": "/home/box/audio-src/ll/es/df9f4edb00cc06ff.wav"
 },
+"ayer": {
+"title": "Es-ayer.ogg",
+"speaker": "Tino_no",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Es-ayer.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/es/b8134ca171354987.ogg"
+},
 "ayudante": {
 "title": "LL-Q1321 (spa)-Marreromarco-ayudante.wav",
 "speaker": "Marreromarco",
@@ -1595,6 +1611,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/LL-Q1321_%28spa%29-Anonym%C3%A2t_%28Kvardek_du%29-bueno.wav",
 "src": "/home/box/audio-src/ll/es/d0972a141c5818b1.wav"
 },
+"buscar": {
+"title": "Es-buscar.ogg",
+"speaker": "Octavio Paniagua-Taboada (Mexico)",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Es-buscar.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/es/0d02e7b2eb3b6093.ogg"
+},
 "béisbol": {
 "title": "LL-Q1321 (spa)-Marreromarco-béisbol.wav",
 "speaker": "Marreromarco",
@@ -1958,6 +1982,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/LL-Q1321_%28spa%29-Marreromarco-caridad.wav",
 "src": "/home/box/audio-src/ll/es/441d6ff3abe93446.wav"
+},
+"cariño": {
+"title": "Es-cariño.ogg",
+"speaker": "Octavio Paniagua-Taboada (México)",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Es-cari%C3%B1o.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/es/a78bf82a1f672f7c.ogg"
 },
 "carne": {
 "title": "LL-Q1321 (spa)-Anonymât (Kvardek du)-carne.wav",
@@ -3968,6 +4000,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/LL-Q1321_%28spa%29-AdrianAbdulBaha-diferencia.wav",
 "src": "/home/box/audio-src/ll/es/5d770246bcc9f29e.wav"
 },
+"diferente": {
+"title": "Es-diferente.ogg",
+"speaker": "Octavio Paniagua-Taboada (Mexico)",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Es-diferente.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/es/2477a10af4e83749.ogg"
+},
 "difícil": {
 "title": "LL-Q1321 (spa)-AdrianAbdulBaha-difícil.wav",
 "speaker": "AdrianAbdulBaha",
@@ -3995,6 +4035,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/LL-Q1321_%28spa%29-AdrianAbdulBaha-direcci%C3%B3n.wav",
 "src": "/home/box/audio-src/ll/es/333ec18caa36b431.wav"
+},
+"directamente": {
+"title": "Es-directamente.ogg",
+"speaker": "Octavio Paniagua-Taboada (Mexico)",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Es-directamente.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/es/91ee6d0779eaa5ea.ogg"
 },
 "directo": {
 "title": "LL-Q1321 (spa)-Marreromarco-directo.wav",
@@ -4072,6 +4120,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/LL-Q1321_%28spa%29-AdrianAbdulBaha-disparar.wav",
 "src": "/home/box/audio-src/ll/es/840344bfe9db3341.wav"
+},
+"disponible": {
+"title": "Es-disponible.ogg",
+"speaker": "Octavio Paniagua-Taboada (Mexico)",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Es-disponible.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/es/05c50d6ff49f21b7.ogg"
 },
 "dispositivo": {
 "title": "LL-Q1321 (spa)-Emanuelps27-dispositivo.wav",
@@ -4927,6 +4983,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/LL-Q1321_%28spa%29-AdrianAbdulBaha-esperanza.wav",
 "src": "/home/box/audio-src/ll/es/8b5180256d20da53.wav"
 },
+"esperar": {
+"title": "Es-esperar.ogg",
+"speaker": "Octavio Paniagua-Taboada (Mexico)",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Es-esperar.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/es/f3de15e3f12e8a84.ogg"
+},
 "esposa": {
 "title": "LL-Q1321 (spa)-Anonymât (Kvardek du)-esposa.wav",
 "speaker": "Anonymât (Kvardek du)",
@@ -5150,6 +5214,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/LL-Q1321_%28spa%29-Marreromarco-existencia.wav",
 "src": "/home/box/audio-src/ll/es/8e9e8683bbefb500.wav"
+},
+"expediente": {
+"title": "Es-expediente.ogg",
+"speaker": "Octavio Paniagua-Taboada (Mexico)",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Es-expediente.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/es/c8de6360b6e89891.ogg"
 },
 "experiencia": {
 "title": "LL-Q1321 (spa)-AdrianAbdulBaha-experiencia.wav",
@@ -7195,6 +7267,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/LL-Q1321_%28spa%29-GlyphEnjoyer-llevar.wav",
 "src": "/home/box/audio-src/ll/es/d251123c152ec6ac.wav"
 },
+"llorar": {
+"title": "Es-llorar.ogg",
+"speaker": "Juan de Vojníkov",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Es-llorar.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/es/7144b3102bcc8259.ogg"
+},
 "lluvia": {
 "title": "LL-Q1321 (spa)-Anonymât (Kvardek du)-lluvia.wav",
 "speaker": "Anonymât (Kvardek du)",
@@ -9092,6 +9172,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/LL-Q1321_%28spa%29-Marreromarco-pasi%C3%B3n.wav",
 "src": "/home/box/audio-src/ll/es/ceacf6412931296e.wav"
 },
+"paso": {
+"title": "Es-paso.oga",
+"speaker": "Tino no",
+"license": "CC BY 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Es-paso.oga",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/es/b8a1129a20610151.oga"
+},
 "pasta": {
 "title": "LL-Q1321 (spa)-Millars-pasta.wav",
 "speaker": "Millars",
@@ -9140,6 +9228,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/LL-Q1321_%28spa%29-Marreromarco-patr%C3%B3n.wav",
 "src": "/home/box/audio-src/ll/es/92693eb24970f2c3.wav"
+},
+"payaso": {
+"title": "Es-payaso.ogg",
+"speaker": "Tino_no",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Es-payaso.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/es/b33fe211da4df37c.ogg"
 },
 "paz": {
 "title": "LL-Q1321 (spa)-AdrianAbdulBaha-paz.wav",
@@ -9287,6 +9383,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/LL-Q1321_%28spa%29-AdrianAbdulBaha-perdido.wav",
 "src": "/home/box/audio-src/ll/es/63b70f2707e221c4.wav"
+},
+"perdón": {
+"title": "Es-perdón.ogg",
+"speaker": "Fibonacci",
+"license": "CC BY-SA 2.5",
+"url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Es-perd%C3%B3n.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/es/afe341020d1149d0.ogg"
 },
 "perfecto": {
 "title": "LL-Q1321 (spa)-Marreromarco-perfecto.wav",
@@ -9490,6 +9594,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/LL-Q1321_%28spa%29-AdrianAbdulBaha-piscina.wav",
 "src": "/home/box/audio-src/ll/es/075d0cc9ed5adc03.wav"
+},
+"piso": {
+"title": "Es-piso.oga",
+"speaker": "Tino no",
+"license": "CC BY 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Es-piso.oga",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/es/1b3d0c27298cb82c.oga"
 },
 "pista": {
 "title": "LL-Q1321 (spa)-AdrianAbdulBaha-pista.wav",
@@ -12032,6 +12144,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/LL-Q1321_%28spa%29-Marreromarco-testimonio.wav",
 "src": "/home/box/audio-src/ll/es/ae8cdcba9d80dc13.wav"
 },
+"texto": {
+"title": "Es-texto.oga",
+"speaker": "Ahoraes",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Es-texto.oga",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/es/76e05c667f05683d.oga"
+},
 "tiempo": {
 "title": "LL-Q1321 (spa)-Precision27-tiempo.wav",
 "speaker": "Precision27",
@@ -13032,6 +13152,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/LL-Q1321_%28spa%29-Marreromarco-%C3%A9ste.wav",
 "src": "/home/box/audio-src/ll/es/7f397c261f5964ff.wav"
+},
+"éxito": {
+"title": "Es-éxito.ogg",
+"speaker": "Octavio Paniagua-Taboada (Mexico)",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Es-%C3%A9xito.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/es/94ff3f100a04fa17.ogg"
 },
 "último": {
 "title": "LL-Q1321 (spa)-AdrianAbdulBaha-último.wav",
