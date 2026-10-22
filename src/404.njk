@@ -1,0 +1,8 @@
+---
+layout: base.njk
+permalink: /404.html
+title: Page not found
+description: This page does not exist. Pick a course or go to practice.
+noindex: true
+---
+<h1>Page not found</h1><p>Try a course: {% for p in lm.packs %}<a href="{{ p.hubUrl }}">{{ p.short }}</a>{% if not loop.last %} · {% endif %}{% endfor %}, or <a href="/learn/">practice</a>.</p>

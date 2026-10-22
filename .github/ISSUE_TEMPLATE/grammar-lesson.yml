@@ -1,0 +1,12 @@
+name: Grammar lesson
+description: Suggest a new grammar lesson or an improvement to one
+labels: [grammar]
+body:
+  - type: input
+    id: pack
+    attributes: { label: Language and level, placeholder: Spanish A2 }
+    validations: { required: true }
+  - type: textarea
+    id: lesson
+    attributes: { label: The lesson, description: Topic, a short explanation and 2-3 example sentences you wrote yourself. }
+    validations: { required: true }

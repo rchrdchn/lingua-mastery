@@ -1,0 +1,65 @@
+{
+ "zh": {
+  "concepts": 176,
+  "vocab": 155,
+  "grammar": 16,
+  "foundations": 5,
+  "items": 1221,
+  "chars": 599,
+  "sentences": 3475
+ },
+ "es": {
+  "concepts": 219,
+  "vocab": 205,
+  "grammar": 14,
+  "foundations": 0,
+  "items": 2000,
+  "chars": 0,
+  "sentences": 6171
+ },
+ "fr": {
+  "concepts": 67,
+  "vocab": 61,
+  "grammar": 6,
+  "foundations": 0,
+  "items": 600,
+  "chars": 0,
+  "sentences": 1886
+ },
+ "it": {
+  "concepts": 67,
+  "vocab": 61,
+  "grammar": 6,
+  "foundations": 0,
+  "items": 600,
+  "chars": 0,
+  "sentences": 1901
+ },
+ "pt": {
+  "concepts": 67,
+  "vocab": 61,
+  "grammar": 6,
+  "foundations": 0,
+  "items": 600,
+  "chars": 0,
+  "sentences": 1892
+ },
+ "de": {
+  "concepts": 68,
+  "vocab": 62,
+  "grammar": 6,
+  "foundations": 0,
+  "items": 600,
+  "chars": 0,
+  "sentences": 1876
+ },
+ "en": {
+  "concepts": 91,
+  "vocab": 83,
+  "grammar": 8,
+  "foundations": 0,
+  "items": 800,
+  "chars": 0,
+  "sentences": 2529
+ }
+}

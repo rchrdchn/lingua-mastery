@@ -1,0 +1,10 @@
+---js
+{ layout: 'base.njk', permalink: '/credits/', title: 'Credits and licenses for all course content', description: 'Every data source used in the courses, with authors and licenses: HSK 3.0 list, CC-CEDICT, Wiktionary via Kaikki, frequency lists, Tatoeba and Hanzi Writer.', }
+---
+<p class="crumbs"><a href="/">Home</a> / Credits</p>
+<h1>Credits and licenses</h1>
+<p class="lead">All course content is either written for this site or comes from openly licensed sources, listed below for each course. Example sentences credit their Tatoeba authors on every page where they appear.</p>
+<p>The site code is MIT licensed. Grammar lessons written for the site, and word data derived from CC BY-SA sources (CC-CEDICT, Wiktionary), are shared under CC BY-SA 4.0.</p>
+{% updated %}
+{% for p in lm.packs %}<h2><a href="{{ p.hubUrl }}">{{ p.name }}</a></h2><ul>{% for c in p.credits %}<li><a href="{{ c.url }}" rel="noopener">{{ c.name }}</a>: {{ c.note }} License: <a href="{{ c.licenseUrl }}" rel="noopener license">{{ c.license }}</a>.</li>{% endfor %}</ul>{% endfor %}
+<h2>Software</h2><ul><li><a href="https://github.com/open-spaced-repetition/ts-fsrs">ts-fsrs</a> (MIT) for spaced review scheduling.</li><li><a href="https://hanziwriter.org/">Hanzi Writer</a> (MIT) with stroke data from Make Me a Hanzi (Arphic Public License).</li><li>Engine ideas from <a href="https://github.com/chuma-beep/mathua">Mathua</a> (MIT).</li><li><a href="https://www.11ty.dev/">Eleventy</a> (MIT) builds the site.</li></ul>

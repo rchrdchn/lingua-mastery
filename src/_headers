@@ -1,0 +1,11 @@
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+/packs/*
+  Cache-Control: public, max-age=3600
+/assets/strokes/*
+  Cache-Control: public, max-age=2592000
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
+/feed.xml
+  Content-Type: application/rss+xml; charset=utf-8

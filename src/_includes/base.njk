@@ -1,0 +1,19 @@
+<!doctype html><html lang="{{ htmlLang or 'en' }}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+{% set st = title | seoTitle %}{% set sd = description | seoDesc %}<title>{{ st }}</title><meta name="description" content="{{ sd }}"><link rel="canonical" href="{{ site.url }}{{ page.url }}"><meta name="theme-color" content="#1f6f5c">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="alternate" type="application/rss+xml" title="{{ site.name }}: new lessons" href="/feed.xml"><link rel="help" type="text/plain" href="/llms.txt" title="llms.txt">
+<meta property="og:site_name" content="{{ site.name }}"><meta property="og:title" content="{{ st }}"><meta property="og:description" content="{{ sd }}"><meta property="og:type" content="website"><meta property="og:url" content="{{ site.url }}{{ page.url }}"><meta name="twitter:card" content="summary">
+{% if noindex %}<meta name="robots" content="noindex">{% else %}<script type="application/ld+json">{{ { url: page.url, title: title, description: description, kind: kind, items: ldItems, course: ldCourse, term: ldTerm, lesson: ldLesson, faqs: faqs } | pageGraph | safe }}</script>{% endif %}
+<link rel="stylesheet" href="/assets/style.css?v={{ build.v }}">
+</head><body><a class="skip" href="#main">Skip to content</a>
+<header class="top"><div class="wrap row"><a class="logo" href="/" aria-label="{{ site.name }} home"><span class="mark" aria-hidden="true">L</span>{{ site.name }}</a>
+<nav aria-label="Courses">{% for p in lm.packs %}<a href="{{ p.hubUrl }}"{% if page.url.startsWith(p.hubUrl) %} aria-current="page"{% endif %}>{{ p.short }}</a>{% endfor %}<a class="go" href="/learn/">Practice</a></nav></div></header>
+<main id="main" class="wrap">{{ content | safe }}</main>
+<footer class="foot"><div class="wrap">
+{% include "newsletter.njk" %}
+{% if creditsPack %}<section class="credits" aria-label="Sources and licenses"><h2>Sources and licenses</h2><ul>{% for c in creditsPack.credits %}<li><a href="{{ c.url }}" rel="noopener">{{ c.name }}</a>: {{ c.note }} License: <a href="{{ c.licenseUrl }}" rel="noopener license">{{ c.license }}</a>.</li>{% endfor %}</ul><p class="small">Example sentences are from Tatoeba, credited to their authors, under CC BY 2.0 FR. Word data derived from CC BY-SA sources is shared under CC BY-SA 4.0. <a href="/credits/">All credits</a>.</p></section>{% endif %}
+<nav class="fl" aria-label="Site"><a href="/">Home</a>{% for p in lm.packs %}<a href="{{ p.hubUrl }}">Learn {{ p.adj }}</a>{% endfor %}<a href="/learn/">Practice</a><a href="/about/">About</a><a href="/credits/">Credits</a><a href="/privacy/">Privacy</a><a href="/sitemap.xml">Sitemap</a></nav>
+<p class="small muted">© {{ build.year }} {{ site.name }} contributors. Free and <a href="/about/#open-source">open source</a>{% if site.repoUrl %} (<a href="{{ site.repoUrl }}" rel="noopener">source code</a>){% endif %}: code MIT, course content CC BY-SA 4.0. No account: practice progress is stored in your browser.</p>
+</div></footer>
+{% if site.cfAnalyticsToken %}<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ site.cfAnalyticsToken }}"}'></script>{% endif %}
+{% if appScript %}<script type="module" src="/assets/{{ appScript }}?v={{ build.v }}"></script>{% endif %}
+</body></html>

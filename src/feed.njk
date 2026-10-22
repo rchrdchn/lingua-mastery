@@ -1,0 +1,13 @@
+---
+permalink: /feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel><title>{{ site.name }}: courses and lessons</title><link>{{ site.url }}/</link><description>New courses, levels and grammar lessons.</description><language>en</language>
+{%- for h in lm.hubs %}
+<item><title>{{ h.title | xml }}</title><link>{{ site.url }}{{ h.url }}</link><guid>{{ site.url }}{{ h.url }}</guid><description>{{ h.intro | xml }}</description></item>
+{%- endfor %}
+{%- for g in lm.grammar %}
+<item><title>{{ (g.pack.adj + ': ' + g.t) | xml }}</title><link>{{ site.url }}{{ g.url }}</link><guid>{{ site.url }}{{ g.url }}</guid><description>{{ g.summary | xml }}</description></item>
+{%- endfor %}
+</channel></rss>

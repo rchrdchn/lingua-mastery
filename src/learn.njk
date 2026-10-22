@@ -1,0 +1,4 @@
+---js
+{ layout: 'base.njk', permalink: '/learn/', title: 'Practice: placement quiz, lessons and spaced review', description: 'Practice any course: placement quiz, mastery-gated lessons, spaced review and mastery checks. Runs in your browser, progress saved on this device.', noindex: true, appScript: 'app.js' }
+---
+<div id="app" class="app"><noscript><p>The practice app needs JavaScript. Every word and lesson is also on the course pages: {% for p in lm.packs %}<a href="{{ p.hubUrl }}">{{ p.short }}</a> {% endfor %}</p></noscript></div>

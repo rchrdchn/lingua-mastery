@@ -1,0 +1,22 @@
+---js
+{
+  layout: 'base.njk',
+  pagination: { data: 'lm.chars', size: 1, alias: 'ch', addAllPagesToCollections: true },
+  permalink: data => data.ch.url,
+  kind: 'WebPage',
+  appScript: 'strokes.js',
+  eleventyComputed: {
+    title: d => d.ch.title, description: d => d.ch.description, noindex: d => d.ch.noindex, creditsPack: d => d.ch.pack,
+    ldTerm: d => ({ name: d.ch.c.c, description: d.ch.g, lang: 'zh', set: `Chinese characters in ${d.ch.lvName}`, setUrl: d.ch.levelUrl }),
+  }
+}
+---
+<p class="crumbs"><a href="/">Home</a> / <a href="{{ ch.pack.hubUrl }}">Learn Mandarin</a> / <a href="{{ ch.levelUrl }}">{{ ch.lvName }}</a> / {{ ch.c.c }}</p>
+<h1><span lang="zh">{{ ch.c.c }}</span> <span class="py">{{ ch.c.r | join(', ') }}</span></h1>
+<p class="lead">The Chinese character {{ ch.c.c }} is read {{ ch.c.r | join(' or ') }} and means "{{ ch.g }}".{% if ch.c.strokes %} It is written with {{ ch.c.strokes }} strokes.{% endif %} It first appears at {{ ch.lvName }}{% if ch.words.length %} and is used in {{ ch.words.length }} words in this course{% endif %}.</p>
+<div class="strokebox"><div id="stroke" data-char="{{ ch.c.c }}" aria-label="Stroke order animation for {{ ch.c.c }}"></div><p><button class="btn small" id="replay" type="button">Replay strokes</button> <button class="btn small" id="quiz" type="button">Try writing it</button></p></div>
+<dl class="facts2"><dt>Pinyin</dt><dd>{{ ch.c.r | join(', ') }}</dd><dt>Meaning</dt><dd>{{ ch.c.g.en }}</dd>{% if ch.c.strokes %}<dt>Strokes</dt><dd>{{ ch.c.strokes }}</dd>{% endif %}<dt>Level</dt><dd><a href="{{ ch.levelUrl }}">{{ ch.lvName }}</a></dd></dl>
+<p class="actions"><a class="btn primary" href="{{ ch.practice }}">Practice words with {{ ch.c.c }}</a></p>
+{% updated %}
+{% if ch.words.length %}<h2>Words that use {{ ch.c.c }}</h2><ul class="chips">{% for x in ch.words %}<li><a href="{{ x.url }}" lang="zh">{{ x.t }}</a> <span class="muted">{{ x.r }} · {{ x.g }}</span></li>{% endfor %}</ul>{% endif %}
+<p class="pn">{% if ch.prev %}<a rel="prev" href="{{ ch.prev.url }}">← {{ ch.prev.t }}</a>{% endif %}{% if ch.next %}<a rel="next" href="{{ ch.next.url }}">{{ ch.next.t }} →</a>{% endif %}</p>

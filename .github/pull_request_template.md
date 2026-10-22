@@ -1,0 +1,4 @@
+- [ ] `npm test && npm run build && npm run check` pass
+- [ ] New content is original or from a compatible open license (no CC BY-NC), and sources are credited in `NOTICE.md` / the pack `credits`
+- [ ] Regenerated `data/packs/<lang>.json` is included if pack sources changed
+- [ ] No secrets, tokens or account IDs

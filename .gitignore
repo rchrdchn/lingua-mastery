@@ -1,0 +1,11 @@
+node_modules/
+_site/
+data/raw/
+src/assets/app.js
+src/assets/app.js.map
+src/assets/strokes.js
+src/assets/strokes.js.map
+src/assets/strokes/
+.indexnow.json
+test-results/
+.tmp-test/

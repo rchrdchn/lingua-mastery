@@ -1,0 +1,32 @@
+---js
+{
+  layout: 'base.njk',
+  pagination: { data: 'lm.words', size: 1, alias: 'w', addAllPagesToCollections: true },
+  permalink: data => data.w.url,
+  kind: 'WebPage',
+  eleventyComputed: {
+    title: d => d.w.title, description: d => d.w.description, noindex: d => d.w.noindex, creditsPack: d => d.w.pack,
+    ldTerm: d => ({ name: d.w.label, description: d.w.gl.map(g => g.g).join(' / '), lang: d.w.pack.target, set: `${d.w.pack.adj} ${d.w.lvName} words`, setUrl: d.w.levelUrl }),
+  }
+}
+---
+<p class="crumbs"><a href="/">Home</a> / <a href="{{ w.pack.hubUrl }}">Learn {{ w.pack.adj }}</a> / <a href="{{ w.levelUrl }}">{{ w.lvName }}</a> / {{ w.it.t }}</p>
+<h1><span lang="{{ w.pack.target }}">{{ w.it.t }}</span>{% if w.it.r %} <span class="py">{{ w.it.r }}</span>{% endif %}</h1>
+{% if w.pack.id == 'zh' %}<p class="lead">{{ w.it.t }} ({{ w.it.r }}) means "{{ w.short }}". It is a word from {{ w.lvName }}{% if w.it.pos %} ({{ w.it.pos }}){% endif %}, number {{ w.it.rank }} in this course by how often it appears.</p>
+{% elif w.pack.id == 'en' %}<p class="lead">"{{ w.it.t }}" is an English word from {{ w.lvName }}{% if w.it.pos %} ({{ w.it.pos }}){% endif %}, number {{ w.it.rank }} by frequency.{% for g in w.gl %} In {{ g.name }}: {{ g.g }}.{% endfor %}</p>
+{% else %}<p class="lead">"{{ w.it.t }}" means "{{ w.short }}" in {{ w.pack.adj }}. It is number {{ w.it.rank }} on the frequency list, in {{ w.lvName }}{% if w.it.pos %} ({{ w.it.pos }}){% endif %}.</p>{% endif %}
+<dl class="facts2">
+{% for g in w.gl %}<dt>Meaning{% if w.gl.length > 1 %} ({{ g.name }}){% endif %}</dt><dd>{{ g.g }}</dd>{% endfor %}
+{% if w.it.r %}<dt>Pinyin</dt><dd>{{ w.it.r }}{% if w.it.sp %} (said {{ w.it.sp }} because of tone changes){% endif %}</dd>{% endif %}
+{% if w.it.alt %}<dt>Traditional</dt><dd lang="zh-Hant">{{ w.it.alt }}</dd>{% endif %}
+{% if w.it.ipa %}<dt>IPA</dt><dd>{{ w.it.ipa }}</dd>{% endif %}
+{% if w.it.forms and w.it.forms.length %}<dt>Forms in this course</dt><dd lang="{{ w.pack.target }}">{{ w.it.forms | join(', ') }}</dd>{% endif %}
+{% if w.it.cl and w.it.cl.length %}<dt>Measure words</dt><dd lang="zh">{{ w.it.cl | join(', ') }}</dd>{% endif %}
+<dt>Level</dt><dd><a href="{{ w.levelUrl }}">{{ w.lvName }}</a></dd>
+{% if w.chars.length %}<dt>Characters</dt><dd lang="zh">{% for c in w.chars %}<a href="{{ c.url }}">{{ c.c }}</a> {% endfor %}</dd>{% endif %}
+</dl>
+<p class="actions"><a class="btn primary" href="{{ w.practice }}">Practice this word</a></p>
+{% updated %}
+{% if w.ex.length %}<h2>Example sentences</h2><ul class="examples">{% for s in w.ex %}<li><span class="tgt" lang="{{ w.pack.target }}">{{ s.t }}</span>{% for t in s.tr %}<br><span class="muted">{% if s.tr.length > 1 %}{{ t.name }}: {% endif %}{{ t.t }}</span>{% endfor %}<br><span class="credit">Tatoeba: {{ s.a }}{% for t in s.tr %}{% if t.by %} / {{ t.by }}{% endif %}{% endfor %}</span></li>{% endfor %}</ul>{% endif %}
+{% if w.related.length %}<h2>Learned together</h2><p>In the course, "{{ w.it.t }}" is in the same group as these words. You master them as a set.</p><ul class="chips">{% for r in w.related %}<li><a href="{{ r.url }}" lang="{{ w.pack.target }}">{{ r.t }}</a> <span class="muted">{{ r.g }}</span></li>{% endfor %}</ul>{% endif %}
+<p class="pn">{% if w.prev %}<a rel="prev" href="{{ w.prev.url }}">← {{ w.prev.t }}</a>{% endif %}{% if w.next %}<a rel="next" href="{{ w.next.url }}">{{ w.next.t }} →</a>{% endif %}</p>

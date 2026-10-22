@@ -1,0 +1,19 @@
+name: Data fix
+description: A wrong meaning, translation, pinyin, example sentence or level
+labels: [data]
+body:
+  - type: dropdown
+    id: pack
+    attributes: { label: Language pack, options: [Mandarin, Spanish, English (ESL), French, Italian, Portuguese, German] }
+    validations: { required: true }
+  - type: input
+    id: url
+    attributes: { label: Page URL or word, placeholder: /spanish/words/ser/ }
+    validations: { required: true }
+  - type: textarea
+    id: wrong
+    attributes: { label: What is wrong }
+    validations: { required: true }
+  - type: textarea
+    id: right
+    attributes: { label: What it should be, description: Include a source if you can (a dictionary entry, Wiktionary link). }

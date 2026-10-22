@@ -1,0 +1,20 @@
+name: New language or base language
+description: Propose a new language pack, or teaching a language from a new base language
+labels: [new-language]
+body:
+  - type: input
+    id: lang
+    attributes: { label: Language, placeholder: Japanese (ja) taught from English }
+    validations: { required: true }
+  - type: textarea
+    id: sources
+    attributes: { label: Open sources, description: Frequency list, dictionary, sentences. Include each license. No CC BY-NC or proprietary material. }
+    validations: { required: true }
+  - type: checkboxes
+    id: help
+    attributes:
+      label: Can you help?
+      options:
+        - label: I can write original grammar lessons for this language
+        - label: I can review word meanings
+        - label: I can work on the builder code

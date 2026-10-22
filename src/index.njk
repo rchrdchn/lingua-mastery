@@ -1,0 +1,33 @@
+---js
+{
+  layout: 'base.njk',
+  title: 'Free mastery-based language courses: Mandarin, Spanish, English and more',
+  description: 'Learn Mandarin Chinese, Spanish, English, French, Italian, Portuguese or German free. Placement quiz, mastery-gated lessons and spaced review in your browser, no account.',
+  kind: 'WebPage',
+  eleventyComputed: {
+    faqs: () => [
+      { q: 'What is mastery-based learning?', a: 'You only move on once you have shown you know something: a run of correct answers at a steady speed. New lessons unlock when the lessons they build on are mastered, and spaced review brings each word back before you forget it.' },
+      { q: 'Do I need an account?', a: 'No. Progress is saved in your browser. You can export it to a file and import it on another device.' },
+      { q: 'Which languages can I learn?', a: 'Mandarin Chinese (HSK 1 and 2), Spanish (2,000 words, A1 to B1), English for speakers of Spanish, Portuguese and Chinese, and starter courses in French, Italian, Portuguese and German.' },
+      { q: 'Is it free?', a: 'Yes. Lessons, word pages and practice are free. The content comes from openly licensed sources and lessons written for this site.' },
+    ],
+    ldItems: data => data.lm.packs.map(p => ({ name: `Learn ${p.adj}`, url: p.hubUrl })),
+  }
+}
+---
+<section class="hero"><h1>Learn a language by mastering it, one step at a time</h1>
+<p class="lead">Free courses in Mandarin Chinese, Spanish, English, French, Italian, Portuguese and German. Take a placement quiz, then learn words and grammar in an order where each lesson unlocks only once you have mastered what it builds on.</p>
+<p>Spaced review brings every word back right before you would forget it. Everything runs in your browser and progress stays on your device. No account, no ads in the way.</p>
+<p class="actions"><a class="btn primary" href="/learn/?pack=zh&amp;placement=1">Start Mandarin</a><a class="btn primary" href="/learn/?pack=es&amp;placement=1">Start Spanish</a><a class="btn" href="/learn/">All courses</a></p>
+{% updated %}</section>
+<section><h2>Courses</h2><div class="cards">{% for p in lm.packs %}<article class="course"><h3><a href="{{ p.hubUrl }}">{{ p.name }}{% if p.id == 'en' %} for Spanish, Portuguese and Chinese speakers{% endif %}</a></h3>
+<p>{{ p.counts.words }} words{% if p.counts.chars %}, {{ p.counts.chars }} characters{% endif %}, {{ p.counts.grammar }} grammar lessons, {{ p.counts.concepts }} concepts in the skill map.</p>
+<p class="small">{% for l in p.levels %}<a href="{{ l.url }}">{{ l.name }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>
+<p><a class="btn small" href="/learn/?pack={{ p.id }}">Practice {{ p.short }}</a></p></article>{% endfor %}</div></section>
+<section><h2>How it works</h2><ol class="steps">
+<li><b>Placement.</b> Five quick questions per band. Get four right and the whole band is marked as known, so you never start below your level.</li>
+<li><b>Skill map.</b> Each course is a graph of small concepts: groups of words, grammar points, and for Mandarin, tones and strokes. A concept unlocks when its prerequisites are mastered.</li>
+<li><b>Mastery.</b> A concept counts as mastered after a streak of correct answers at a comfortable speed. Mistakes reset the streak, not your progress.</li>
+<li><b>Spaced review.</b> Each word gets its own review schedule (the FSRS algorithm). About a third of every session is review.</li>
+<li><b>Mastery checks.</b> Every 50 XP you get a short check on things you mastered earlier. Miss one and it goes back into practice.</li></ol></section>
+{% include "faq.njk" %}

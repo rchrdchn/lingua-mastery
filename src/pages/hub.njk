@@ -1,0 +1,27 @@
+---js
+{
+  layout: 'base.njk',
+  pagination: { data: 'lm.hubs', size: 1, alias: 'hub', addAllPagesToCollections: true },
+  permalink: data => data.hub.url,
+  kind: 'CollectionPage',
+  eleventyComputed: {
+    title: d => d.hub.title, description: d => d.hub.description, faqs: d => d.hub.faqs, creditsPack: d => d.hub.pack,
+    ldItems: d => d.hub.levels.map(l => ({ name: l.name, url: l.url })),
+    ldCourse: d => ({ name: `${d.hub.pack.name} course`, inLanguage: d.hub.pack.bases[0], level: d.hub.levels.map(l => l.name).join(', ') }),
+  }
+}
+---
+<p class="crumbs"><a href="/">Home</a> / Learn {{ hub.pack.adj }}</p>
+<h1>{{ hub.title }}</h1>
+<p class="lead">{{ hub.intro }}</p>
+{% for m in hub.more %}<p>{{ m }}</p>{% endfor %}
+<p class="actions"><a class="btn primary" href="{{ hub.placement }}">Take the placement quiz</a><a class="btn" href="{{ hub.practice }}">Start from the beginning</a></p>
+{% updated %}
+<ul class="facts"><li><b>{{ hub.counts.words }}</b> words</li>{% if hub.counts.chars %}<li><b>{{ hub.counts.chars }}</b> characters</li>{% endif %}<li><b>{{ hub.counts.grammar }}</b> grammar lessons</li><li><b>{{ hub.counts.concepts }}</b> concepts</li><li><b>{{ hub.counts.sentences }}</b> example sentences</li></ul>
+<h2>Levels</h2>
+<div class="cards">{% for l in hub.levels %}<article class="course"><h3><a href="{{ l.url }}">{{ l.name }}</a></h3><p>{{ l.intro }}</p><p class="small">{% if l.words.length %}{{ l.words.length }} words · {% endif %}{% if l.chars.length %}{{ l.chars.length }} characters · {% endif %}{{ l.grammar.length }} lessons</p></article>{% endfor %}</div>
+<h2>{% if hub.pack.id == 'zh' %}Grammar and pronunciation lessons{% else %}Grammar lessons{% endif %}</h2>
+<ul class="list">{% for g in hub.grammar %}<li><a href="{{ g.url }}">{{ g.t }}</a> <span class="muted small">{{ g.lvName }}</span></li>{% endfor %}</ul>
+<h2>Most common words</h2>
+<ul class="chips">{% for w in hub.topWords %}<li><a href="{{ w.url }}" lang="{{ hub.pack.target }}">{{ w.it.t }}</a> <span class="muted">{{ w.short | first(28) }}</span></li>{% endfor %}</ul>
+{% include "faq.njk" %}
