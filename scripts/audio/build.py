@@ -55,6 +55,8 @@ def zh_sentence_syls(text):
     text = ph._numbers_to_words(text.replace('“', '').replace('”', '').replace('"', ''))
     syl = ph.g2p(text)[0]
     out = [(_normalize_g2pw_syllable(s) if s else (c if c in '。，？！,?!' else None)) for s, c in zip(syl, text)]
+    # g2pW sometimes gives the Taiwan reading han4 for the conjunction 和; Mainland standard is he2
+    out = [('he2' if c == '和' and o == 'han4' else o) for o, c in zip(out, text)]
     lex = W['lex']; i = 0; forced = 0
     while i < len(text):
         for L in range(min(6, len(text) - i), 1, -1):
@@ -121,7 +123,7 @@ def mp3(a, word):
 def job(args):
     clip, ll = args
     word = clip['k'] == 'w'
-    src_key = ('ll', ll['title']) if ll else ('tts', VOICE[W['pk']][0], clip['t'], clip['k'], ','.join(clip.get('syl') or []), 'v2')
+    src_key = ('ll', ll['title']) if ll else ('tts', VOICE[W['pk']][0], clip['t'], clip['k'], ','.join(clip.get('syl') or []), 'v2', *(['he2'] if W['pk'] == 'zh' and '和' in clip['t'] else []))
     key = sha(PROC_V, *src_key)
     out = f'{CACHE}/mp3/{key[:2]}/{key}.mp3'
     if os.path.exists(out): return clip['t'], open(out, 'rb').read(), 'll' if ll else 'tts', None, os.path.getsize(out)
@@ -129,7 +131,7 @@ def job(args):
     if ll:
         a, problem = clean(decode(ll['src']), True)
         if a is None:
-            ll = None; key = sha(PROC_V, 'tts', VOICE[W['pk']][0], clip['t'], clip['k'], ','.join(clip.get('syl') or []), 'v2'); out = f'{CACHE}/mp3/{key[:2]}/{key}.mp3'
+            ll = None; key = sha(PROC_V, 'tts', VOICE[W['pk']][0], clip['t'], clip['k'], ','.join(clip.get('syl') or []), 'v2', *(['he2'] if W['pk'] == 'zh' and '和' in clip['t'] else [])); out = f'{CACHE}/mp3/{key[:2]}/{key}.mp3'
             if os.path.exists(out): return clip['t'], open(out, 'rb').read(), 'tts', problem, os.path.getsize(out)
     if not ll:
         a, p2 = clean(synth(clip), False)
