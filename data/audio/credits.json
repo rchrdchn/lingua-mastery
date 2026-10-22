@@ -17362,21 +17362,6337 @@
   "words": {}
  },
  "zh": {
-  "bytes": 27205234,
+  "bytes": 32168751,
   "clips": 4942,
   "failed": 0,
   "files": 1837,
   "ll": {
-   "clips": 0,
-   "speakers": {}
+   "clips": 1044,
+   "speakers": {
+    "CanonNi": {
+     "licenses": [
+      "CC0"
+     ],
+     "n": 39
+    },
+    "Fake estate": {
+     "licenses": [
+      "CC BY-SA 4.0"
+     ],
+     "n": 1
+    },
+    "Jouketou": {
+     "licenses": [
+      "CC BY-SA 4.0"
+     ],
+     "n": 29
+    },
+    "KhawaChenpo": {
+     "licenses": [
+      "CC BY-SA 4.0"
+     ],
+     "n": 1
+    },
+    "Luilui6666": {
+     "licenses": [
+      "CC BY-SA 4.0"
+     ],
+     "n": 62
+    },
+    "Wei Gao (Shtooka, Beijing)": {
+     "licenses": [
+      "CC BY 2.0 FR"
+     ],
+     "n": 728
+    },
+    "Xudong Yang (Henan)": {
+     "licenses": [
+      "CC BY 2.0"
+     ],
+     "n": 2
+    },
+    "Yue Tan (Shtooka, Liaoning)": {
+     "licenses": [
+      "CC BY-SA 3.0",
+      "CC BY-SA 3.0 US"
+     ],
+     "n": 182
+    }
+   }
   },
   "ll_rejected": {},
   "tts": {
-   "clips": 4942,
-   "license": "CC0 dataset",
-   "model": "zh_CN-chaowen-medium",
-   "voice": "chaowen (zh_CN, medium)"
+   "clips": 3898,
+   "engine": "Kokoro",
+   "license": "Apache-2.0",
+   "model": "kokoro-v1.1-zh-zf_002",
+   "voice": "zf_002 (Kokoro-82M v1.1-zh)"
   },
-  "words": {}
+  "words": {
+   "一": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yī.ogg"
+   },
+   "一些": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-一些.wav"
+   },
+   "一会儿": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Jouketou",
+    "title": "LL-Q9192 (cmn)-Jouketou-一会儿.wav"
+   },
+   "一共": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-一共.wav"
+   },
+   "一定": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Jouketou",
+    "title": "LL-Q9192 (cmn)-Jouketou-一定.wav"
+   },
+   "一样": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-一样.wav"
+   },
+   "一生": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yīshēng.ogg"
+   },
+   "一直": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Jouketou",
+    "title": "LL-Q9192 (cmn)-Jouketou-一直.wav"
+   },
+   "一起": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-一起.wav"
+   },
+   "七": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-qī.ogg"
+   },
+   "万": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-mò.ogg"
+   },
+   "三": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-sān.ogg"
+   },
+   "上": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Jouketou",
+    "title": "LL-Q9192 (cmn)-Jouketou-上.wav"
+   },
+   "上午": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shàngwǔ.ogg"
+   },
+   "上学": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shàngxué.ogg"
+   },
+   "上网": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-上网.wav"
+   },
+   "上课": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shàngkè.ogg"
+   },
+   "下": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xià.ogg"
+   },
+   "下午": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xiàwǔ.ogg"
+   },
+   "下次": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-下次.wav"
+   },
+   "下班": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-下班.wav"
+   },
+   "下课": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xiàkè.ogg"
+   },
+   "下雨": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Jouketou",
+    "title": "LL-Q9192 (cmn)-Jouketou-下雨.wav"
+   },
+   "不": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-bù.ogg"
+   },
+   "不久": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-bùjiǔ.ogg"
+   },
+   "不同": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-bùtóng.ogg"
+   },
+   "不好意思": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-不好意思.wav"
+   },
+   "不如": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-bùrú.ogg"
+   },
+   "不客气": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-不客气.wav"
+   },
+   "不过": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-bùguò.ogg"
+   },
+   "不错": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-不错.wav"
+   },
+   "业": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yè.ogg"
+   },
+   "东": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-dōng.ogg"
+   },
+   "东西": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-dōngxi.ogg"
+   },
+   "两": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-liǎng.ogg"
+   },
+   "个子": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-gèzi.ogg"
+   },
+   "中": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zhōng.ogg"
+   },
+   "中午": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zhōngwǔ.ogg"
+   },
+   "中学": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zhōngxué.ogg"
+   },
+   "中文": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zhōngwén.ogg"
+   },
+   "中间": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zhōngjiān.ogg"
+   },
+   "为": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-wéi.ogg"
+   },
+   "为什么": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-wèishénme.ogg"
+   },
+   "主要": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zhǔyào.ogg"
+   },
+   "举": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jǔ.ogg"
+   },
+   "举行": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-举行.wav"
+   },
+   "久": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiǔ.ogg"
+   },
+   "么": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-má.ogg"
+   },
+   "乐": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-lè.ogg"
+   },
+   "九": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiǔ.ogg"
+   },
+   "也": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yě.ogg"
+   },
+   "也许": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yěxǔ.ogg"
+   },
+   "习": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-xí.ogg"
+   },
+   "习惯": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xíguàn.ogg"
+   },
+   "书": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shū.ogg"
+   },
+   "书店": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-书店.wav"
+   },
+   "买": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-mǎi.ogg"
+   },
+   "了": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-le.ogg"
+   },
+   "事": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shì.ogg"
+   },
+   "事情": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shìqing.ogg"
+   },
+   "二": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-èr.ogg"
+   },
+   "于": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yú.ogg"
+   },
+   "云": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yún.ogg"
+   },
+   "五": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-wǔ.ogg"
+   },
+   "些": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xiē.ogg"
+   },
+   "交": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiāo.ogg"
+   },
+   "交通": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-交通.wav"
+   },
+   "京": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-jīng.ogg"
+   },
+   "亮": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-liàng.ogg"
+   },
+   "人": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-rén.ogg"
+   },
+   "人们": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-rénmen.ogg"
+   },
+   "亿": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yì.ogg"
+   },
+   "什": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-shén.ogg"
+   },
+   "什么": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shénme.ogg"
+   },
+   "今": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jīn.ogg"
+   },
+   "今天": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jīntiān.ogg"
+   },
+   "今年": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jīnnián.ogg"
+   },
+   "介": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiè.ogg"
+   },
+   "介绍": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jièshào.ogg"
+   },
+   "从": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-cóng.ogg"
+   },
+   "他": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tā.ogg"
+   },
+   "他们": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tāmen.ogg"
+   },
+   "以": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Jouketou",
+    "title": "LL-Q9192 (cmn)-Jouketou-以.wav"
+   },
+   "以为": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yǐwéi.ogg"
+   },
+   "以前": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yǐqián.ogg"
+   },
+   "以后": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yǐhòu.ogg"
+   },
+   "们": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-men.ogg"
+   },
+   "件": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiàn.ogg"
+   },
+   "份": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-fèn.ogg"
+   },
+   "休息": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xiūxi.ogg"
+   },
+   "会": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-huì.ogg"
+   },
+   "但": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-dàn.ogg"
+   },
+   "但是": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-dànshì.ogg"
+   },
+   "位": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-wèi.ogg"
+   },
+   "低": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-dī.ogg"
+   },
+   "住": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zhù.ogg"
+   },
+   "体": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tī.ogg"
+   },
+   "体育": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tǐyù.ogg"
+   },
+   "作业": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zuòyè.ogg"
+   },
+   "作家": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-作家.wav"
+   },
+   "作文": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-zuòwén.ogg"
+   },
+   "作用": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-zuòyòng.ogg"
+   },
+   "你": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-nǐ.ogg"
+   },
+   "你们": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-nǐmen.ogg"
+   },
+   "你好": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-你好.wav"
+   },
+   "使": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-shǐ.oga"
+   },
+   "使用": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shǐyòng.ogg"
+   },
+   "例": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-lì.ogg"
+   },
+   "例如": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-lìrú.ogg"
+   },
+   "例子": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-例子.wav"
+   },
+   "便": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-biàn.ogg"
+   },
+   "便宜": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-piányi.ogg"
+   },
+   "信": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xìn.ogg"
+   },
+   "信号": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-xìnhào.ogg"
+   },
+   "信心": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-信心.wav"
+   },
+   "信息": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-信息.wav"
+   },
+   "信用卡": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-信用卡.wav"
+   },
+   "倒": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-dǎo.ogg"
+   },
+   "候": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-hòu.ogg"
+   },
+   "借": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiè.ogg"
+   },
+   "假": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-假.wav"
+   },
+   "做": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zuò.ogg"
+   },
+   "停": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tíng.ogg"
+   },
+   "健": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiàn.ogg"
+   },
+   "健康": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiànkāng.ogg"
+   },
+   "像": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xiàng.ogg"
+   },
+   "儿": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-ér.ogg"
+   },
+   "儿子": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-érzi.ogg"
+   },
+   "元": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yuán.ogg"
+   },
+   "先": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xiān.ogg"
+   },
+   "先生": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xiānsheng.ogg"
+   },
+   "克": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-kè.ogg"
+   },
+   "入": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-rù.ogg"
+   },
+   "入口": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-入口.wav"
+   },
+   "全": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-quán.ogg"
+   },
+   "全体": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-quántǐ.ogg"
+   },
+   "全部": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-quánbù.ogg"
+   },
+   "八": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-bā.ogg"
+   },
+   "公": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-gōng.oga"
+   },
+   "公共汽车": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-gōnggòngqìchē.ogg"
+   },
+   "公司": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-公司.wav"
+   },
+   "公园": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-gōngyuán.ogg"
+   },
+   "公斤": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-gōngjīn.ogg"
+   },
+   "公里": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-gōnglǐ.ogg"
+   },
+   "六": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-liù.ogg"
+   },
+   "共": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-gòng.ogg"
+   },
+   "关": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-guān.ogg"
+   },
+   "关心": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-guānxīn.ogg"
+   },
+   "兴": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-xīng.oga"
+   },
+   "其": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-qí.ogg"
+   },
+   "其中": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-其中.wav"
+   },
+   "其他": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Jouketou",
+    "title": "LL-Q9192 (cmn)-Jouketou-其他.wav"
+   },
+   "典": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-diǎn.ogg"
+   },
+   "养": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-yǎng.oga"
+   },
+   "再": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zài.ogg"
+   },
+   "再见": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zàijiàn.ogg"
+   },
+   "写": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xiě.ogg"
+   },
+   "冬": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-dōng.ogg"
+   },
+   "冬天": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-dōngtiān.ogg"
+   },
+   "冷": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-lěng.ogg"
+   },
+   "净": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-jìng.ogg"
+   },
+   "准备": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zhǔnbèi.ogg"
+   },
+   "准确": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-准确.wav"
+   },
+   "凉": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-liáng.ogg"
+   },
+   "凉快": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-liángkuai.ogg"
+   },
+   "几": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jī.ogg"
+   },
+   "出": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-chū.ogg"
+   },
+   "出去": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-chūqù.ogg"
+   },
+   "出发": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-chūfā.ogg"
+   },
+   "出来": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-chūlái.ogg"
+   },
+   "出现": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-chūxiàn.ogg"
+   },
+   "出生": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-出生.wav"
+   },
+   "出租车": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-出租车.wav"
+   },
+   "分": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-fēn.ogg"
+   },
+   "分开": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-分开.wav"
+   },
+   "分钟": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-fēnzhōng.ogg"
+   },
+   "划": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-huá.ogg"
+   },
+   "刚": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-gāng.ogg"
+   },
+   "刚才": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-gāngcái.ogg"
+   },
+   "利": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-lì.ogg"
+   },
+   "别": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-bié.ogg"
+   },
+   "别人": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-biéren.ogg"
+   },
+   "别的": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-biéde.ogg"
+   },
+   "到": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-dào.ogg"
+   },
+   "到处": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-dàochù.ogg"
+   },
+   "刻": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-kè.ogg"
+   },
+   "前": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-qián.ogg"
+   },
+   "力": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-lì.ogg"
+   },
+   "办": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-bàn.ogg"
+   },
+   "办公室": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Jouketou",
+    "title": "LL-Q9192 (cmn)-Jouketou-办公室.wav"
+   },
+   "办法": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-bànfǎ.ogg"
+   },
+   "加": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiā.ogg"
+   },
+   "务": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-wù.ogg"
+   },
+   "动": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-dòng.ogg"
+   },
+   "动作": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-dòngzuò.ogg"
+   },
+   "动物": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-dòngwù.ogg"
+   },
+   "助": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zhù.ogg"
+   },
+   "努力": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-nǔlì.ogg"
+   },
+   "包": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-bāo.oga"
+   },
+   "包子": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-bāozi.oga"
+   },
+   "北": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-běi.ogg"
+   },
+   "北京": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-北京.wav"
+   },
+   "北方": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-北方.wav"
+   },
+   "北边": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-běibiān.ogg"
+   },
+   "医": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yī.ogg"
+   },
+   "医生": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yīshēng.ogg"
+   },
+   "医院": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yīyuàn.ogg"
+   },
+   "十": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shí.ogg"
+   },
+   "十分": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shífēn.ogg"
+   },
+   "千": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-qiān.ogg"
+   },
+   "午": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-wǔ.ogg"
+   },
+   "午餐": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-午餐.wav"
+   },
+   "午饭": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-wǔfàn.ogg"
+   },
+   "半": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-bàn.ogg"
+   },
+   "半天": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-bàntiān.ogg"
+   },
+   "单": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-shàn.ogg"
+   },
+   "卖": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-mài.ogg"
+   },
+   "南": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-nán.ogg"
+   },
+   "南方": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-南方.wav"
+   },
+   "占": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zhàn.ogg"
+   },
+   "印": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-yìn.ogg"
+   },
+   "原": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yuán.ogg"
+   },
+   "原因": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-yuányīn.oga"
+   },
+   "原来": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yuánlái.ogg"
+   },
+   "去": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-qù.ogg"
+   },
+   "去年": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-qùnián.ogg"
+   },
+   "参加": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-cānjiā.ogg"
+   },
+   "参观": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-cānguān.ogg"
+   },
+   "又": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yòu.ogg"
+   },
+   "友": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yǒu.ogg"
+   },
+   "友好": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yǒuhǎo.ogg"
+   },
+   "发": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-fā.ogg"
+   },
+   "发现": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-fāxiàn.ogg"
+   },
+   "取": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-取.wav"
+   },
+   "取得": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-qǔdé.ogg"
+   },
+   "受": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-shòu.ogg"
+   },
+   "受到": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-受到.wav"
+   },
+   "变": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-biàn.ogg"
+   },
+   "变成": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-biànchéng.ogg"
+   },
+   "口": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-kǒu.ogg"
+   },
+   "句子": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jùzi.ogg"
+   },
+   "只": {
+    "license": "CC BY 2.0",
+    "origin": "shtooka",
+    "speaker": "Xudong Yang (Henan)",
+    "title": "Zh-zhī.ogg"
+   },
+   "只要": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Jouketou",
+    "title": "LL-Q9192 (cmn)-Jouketou-只要.wav"
+   },
+   "叫": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiào.ogg"
+   },
+   "可": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-kě.ogg"
+   },
+   "可以": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-kěyǐ.ogg"
+   },
+   "可怕": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-kěpà.oga"
+   },
+   "可是": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-kěshì.ogg"
+   },
+   "可爱": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Jouketou",
+    "title": "LL-Q9192 (cmn)-Jouketou-可爱.wav"
+   },
+   "可能": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-kěnéng.ogg"
+   },
+   "右": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yòu.ogg"
+   },
+   "右边": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-右边.wav"
+   },
+   "吃": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-chī.ogg"
+   },
+   "吃饭": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-吃饭.wav"
+   },
+   "合适": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-héshì.ogg"
+   },
+   "同": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-tóng.ogg"
+   },
+   "同事": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-tóngshì.ogg"
+   },
+   "同学": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tóngxué.ogg"
+   },
+   "同时": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tóngshí.ogg"
+   },
+   "名": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-míng.ogg"
+   },
+   "名字": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-míngzi.ogg"
+   },
+   "后": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-hòu.ogg"
+   },
+   "后来": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-hòulái.ogg"
+   },
+   "向": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xiàng.ogg"
+   },
+   "吗": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-má.ogg"
+   },
+   "吧": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-bā.ogg"
+   },
+   "听": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-听.wav"
+   },
+   "听写": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tīngxiě.ogg"
+   },
+   "听见": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tīngjiàn.ogg"
+   },
+   "听说": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tīngshuō.ogg"
+   },
+   "吹": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-chuī.ogg"
+   },
+   "告": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-gào.ogg"
+   },
+   "告诉": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-gàosu.ogg"
+   },
+   "呢": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-ne.ogg"
+   },
+   "周": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zhōu.ogg"
+   },
+   "周年": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Fake estate",
+    "title": "LL-Q9192 (cmn)-Fake estate-周年.wav"
+   },
+   "味": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-wèi.ogg"
+   },
+   "味道": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-味道.wav"
+   },
+   "和": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-hé.ogg"
+   },
+   "咱": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zán.ogg"
+   },
+   "咱们": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zánmen.ogg"
+   },
+   "响": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xiǎng.ogg"
+   },
+   "哥": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-gē.oga"
+   },
+   "哥哥": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-gēge.ogg"
+   },
+   "哪": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-nǎ.ogg"
+   },
+   "哪儿": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-nǎr.ogg"
+   },
+   "哪里": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-nǎlǐ.ogg"
+   },
+   "哭": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-kū.ogg"
+   },
+   "唱": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-chàng.ogg"
+   },
+   "唱歌": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-唱歌.wav"
+   },
+   "商人": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-商人.wav"
+   },
+   "商店": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shāngdiàn.ogg"
+   },
+   "啊": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-ā.ogg"
+   },
+   "喂": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-wéi.ogg"
+   },
+   "喊": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-hǎn.ogg"
+   },
+   "喜": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xǐ.ogg"
+   },
+   "喜欢": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xǐhuan.ogg"
+   },
+   "喝": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-hē.ogg"
+   },
+   "嘴": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zuǐ.ogg"
+   },
+   "四": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-sì.ogg"
+   },
+   "回": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-huí.ogg"
+   },
+   "回家": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-回家.wav"
+   },
+   "回答": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-huídá.ogg"
+   },
+   "因": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yīn.ogg"
+   },
+   "因为": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yīnwèi.ogg"
+   },
+   "园": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yuán.ogg"
+   },
+   "国": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-guó.ogg"
+   },
+   "国家": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-guójiā.ogg"
+   },
+   "国际": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-guójì.ogg"
+   },
+   "图": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-tú.ogg"
+   },
+   "图书馆": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-túshūguǎn.ogg"
+   },
+   "在": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zài.ogg"
+   },
+   "在家": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-在家.wav"
+   },
+   "地": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-de.ogg"
+   },
+   "地图": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-dìtú.ogg"
+   },
+   "地方": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-dìfang.ogg"
+   },
+   "地点": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-地点.wav"
+   },
+   "地球": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-dìqiú.ogg"
+   },
+   "场": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-cháng.ogg"
+   },
+   "坏": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-huài.ogg"
+   },
+   "坐": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zuò.ogg"
+   },
+   "块": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-kuài.ogg"
+   },
+   "堂": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-táng.ogg"
+   },
+   "墙": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-qiáng.ogg"
+   },
+   "声": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shēng.ogg"
+   },
+   "声音": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shēngyīn.ogg"
+   },
+   "备": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-bèi.ogg"
+   },
+   "复": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-fù.ogg"
+   },
+   "夏": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xià.ogg"
+   },
+   "夏天": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xiàtiān.ogg"
+   },
+   "外": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-wài.ogg"
+   },
+   "外国": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-wàiguó.ogg"
+   },
+   "外语": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-wàiyǔ.ogg"
+   },
+   "多": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-duō.ogg"
+   },
+   "多么": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-duōme.ogg"
+   },
+   "多少": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-duōshao.ogg"
+   },
+   "夜": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yè.ogg"
+   },
+   "够": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-gòu.ogg"
+   },
+   "大": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-dà.ogg"
+   },
+   "大声": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-dàshēng.ogg"
+   },
+   "大学": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-dàxué.ogg"
+   },
+   "大家": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-dàjiā.ogg"
+   },
+   "大衣": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-大衣.wav"
+   },
+   "天": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tiān.ogg"
+   },
+   "天气": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tiānqì.ogg"
+   },
+   "太": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tài.ogg"
+   },
+   "太阳": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "KhawaChenpo",
+    "title": "LL-Q9192 (cmn)-KhawaChenpo-太阳.wav"
+   },
+   "头": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tóu.ogg"
+   },
+   "套": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-tào.ogg"
+   },
+   "女": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-nǚ.ogg"
+   },
+   "女儿": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-nǚér.ogg"
+   },
+   "奶": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-nǎi.oga"
+   },
+   "她": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tā.ogg"
+   },
+   "她们": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tāmen.ogg"
+   },
+   "好": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-hǎo.ogg"
+   },
+   "好久": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-好久.wav"
+   },
+   "好像": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-hǎoxiàng.ogg"
+   },
+   "好吃": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-hǎochī.ogg"
+   },
+   "好处": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-hǎochu.ogg"
+   },
+   "好看": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-hǎokàn.ogg"
+   },
+   "如": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-rú.ogg"
+   },
+   "如果": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-如果.wav"
+   },
+   "妈妈": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-māma.ogg"
+   },
+   "妹妹": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-mèimei.ogg"
+   },
+   "姐": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-jiě.oga"
+   },
+   "姐姐": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiějie.ogg"
+   },
+   "姓": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xìng.ogg"
+   },
+   "子": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-zǐ.oga"
+   },
+   "字": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zì.ogg"
+   },
+   "字典": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Jouketou",
+    "title": "LL-Q9192 (cmn)-Jouketou-字典.wav"
+   },
+   "学": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xué.ogg"
+   },
+   "学习": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xuéxí.ogg"
+   },
+   "学校": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xuéxiào.ogg"
+   },
+   "学生": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xuésheng.ogg"
+   },
+   "学院": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xuéyuàn.ogg"
+   },
+   "孩": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-hái.ogg"
+   },
+   "孩子": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-háizi.ogg"
+   },
+   "它": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tā.ogg"
+   },
+   "它们": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tāmen.ogg"
+   },
+   "安": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-ān.oga"
+   },
+   "安全": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Jouketou",
+    "title": "LL-Q9192 (cmn)-Jouketou-安全.wav"
+   },
+   "安静": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-ānjìng.ogg"
+   },
+   "完": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-wán.ogg"
+   },
+   "完全": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-wánquán.ogg"
+   },
+   "完成": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-wánchéng.ogg"
+   },
+   "定": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-dìng.ogg"
+   },
+   "宜": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-yí.ogg"
+   },
+   "实": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shí.ogg"
+   },
+   "实习": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-shíxí.ogg"
+   },
+   "实在": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-shízài.ogg"
+   },
+   "实现": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shíxiàn.ogg"
+   },
+   "实际": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-shíjì.ogg"
+   },
+   "客": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-kè.ogg"
+   },
+   "客人": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-客人.wav"
+   },
+   "室": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shì.ogg"
+   },
+   "家": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiā.ogg"
+   },
+   "家人": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-家人.wav"
+   },
+   "家庭": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiātíng.ogg"
+   },
+   "对": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-duì.ogg"
+   },
+   "对不起": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-duìbuqǐ.ogg"
+   },
+   "对话": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-duìhuà.ogg"
+   },
+   "对面": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-duìmiàn.ogg"
+   },
+   "封": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-fēng.ogg"
+   },
+   "小": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xiǎo.ogg"
+   },
+   "小姐": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xiǎojie.ogg"
+   },
+   "小心": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Jouketou",
+    "title": "LL-Q9192 (cmn)-Jouketou-小心.wav"
+   },
+   "小时": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xiǎoshí.ogg"
+   },
+   "小说": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-小说.wav"
+   },
+   "少": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shǎo.ogg"
+   },
+   "就": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiù.ogg"
+   },
+   "层": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-céng.ogg"
+   },
+   "山": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shān.ogg"
+   },
+   "岁": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-suì.ogg"
+   },
+   "工": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-gōng.oga"
+   },
+   "工人": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-gōngrén.ogg"
+   },
+   "工作": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-gōngzuò.ogg"
+   },
+   "左": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zuǒ.ogg"
+   },
+   "左边": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-左边.wav"
+   },
+   "差": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-chā.oga"
+   },
+   "差不多": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-差不多.wav"
+   },
+   "己": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jǐ.ogg"
+   },
+   "已": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Jouketou",
+    "title": "LL-Q9192 (cmn)-Jouketou-已.wav"
+   },
+   "市": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shì.ogg"
+   },
+   "带": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-dài.ogg"
+   },
+   "帮助": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-bāngzhù.ogg"
+   },
+   "帮忙": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-bāngmáng.oga"
+   },
+   "常": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-cháng.ogg"
+   },
+   "常常": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-chángcháng.ogg"
+   },
+   "干": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-干.wav"
+   },
+   "干净": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-gānjìng.ogg"
+   },
+   "干杯": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-干杯.wav"
+   },
+   "平": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-píng.ogg"
+   },
+   "平常": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-píngcháng.ogg"
+   },
+   "平时": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-píngshí.ogg"
+   },
+   "年": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-nián.ogg"
+   },
+   "年级": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-niánjí.ogg"
+   },
+   "年轻": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-niánqīng.ogg"
+   },
+   "广告": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-广告.wav"
+   },
+   "广场": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-guǎngchǎng.oga"
+   },
+   "床": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-chuáng.ogg"
+   },
+   "应该": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yīnggāi.ogg"
+   },
+   "店": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-diàn.ogg"
+   },
+   "度": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-dù.ogg"
+   },
+   "座": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zuò.ogg"
+   },
+   "座位": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-zuòwèi.ogg"
+   },
+   "庭": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tíng.ogg"
+   },
+   "康": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-kāng.oga"
+   },
+   "开": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-kāi.ogg"
+   },
+   "开学": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-kāixué.ogg"
+   },
+   "开心": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Jouketou",
+    "title": "LL-Q9192 (cmn)-Jouketou-开心.wav"
+   },
+   "开玩笑": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-kāiwánxiào.ogg"
+   },
+   "开车": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-开车.wav"
+   },
+   "弄": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Jouketou",
+    "title": "LL-Q9192 (cmn)-Jouketou-弄.wav"
+   },
+   "弟": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-dì.ogg"
+   },
+   "弟弟": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-dìdi.ogg"
+   },
+   "当": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-dāng.ogg"
+   },
+   "当时": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Jouketou",
+    "title": "LL-Q9192 (cmn)-Jouketou-当时.wav"
+   },
+   "影响": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yǐngxiǎng.ogg"
+   },
+   "往": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-wǎng.ogg"
+   },
+   "很": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-hěn.ogg"
+   },
+   "得": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-dé.ogg"
+   },
+   "得到": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-dédào.ogg"
+   },
+   "心": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xīn.ogg"
+   },
+   "心情": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-心情.wav"
+   },
+   "必": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-bì.ogg"
+   },
+   "必须": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-bìxū.ogg"
+   },
+   "忘": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-wàng.ogg"
+   },
+   "忘记": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-wàngjì.ogg"
+   },
+   "忙": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-máng.ogg"
+   },
+   "快": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-kuài.ogg"
+   },
+   "快乐": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-kuàilè.ogg"
+   },
+   "忽": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-hū.oga"
+   },
+   "忽然": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-hūrán.ogg"
+   },
+   "态": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tài.ogg"
+   },
+   "态度": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tàidu.ogg"
+   },
+   "怎么": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zěnme.ogg"
+   },
+   "怎么样": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zěnmeyàng.ogg"
+   },
+   "怎样": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zěnyàng.ogg"
+   },
+   "怕": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-pà.ogg"
+   },
+   "急": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jí.ogg"
+   },
+   "息": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xī.ogg"
+   },
+   "您": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-nín.ogg"
+   },
+   "情": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-qíng.ogg"
+   },
+   "惯": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-guàn.ogg"
+   },
+   "想": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xiǎng.ogg"
+   },
+   "意": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yì.ogg"
+   },
+   "意思": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yìsi.ogg"
+   },
+   "意见": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yìjiàn.ogg"
+   },
+   "感": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-gǎn.ogg"
+   },
+   "感到": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-gǎndào.ogg"
+   },
+   "感动": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-感动.wav"
+   },
+   "感觉": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Jouketou",
+    "title": "LL-Q9192 (cmn)-Jouketou-感觉.wav"
+   },
+   "感谢": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-gǎnxiè.ogg"
+   },
+   "愿": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-yuàn.ogg"
+   },
+   "愿意": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yuànyì.ogg"
+   },
+   "慢": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-màn.ogg"
+   },
+   "懂": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-dǒng.ogg"
+   },
+   "成": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-chéng.ogg"
+   },
+   "成为": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-chéngwéi.ogg"
+   },
+   "成绩": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-chéngjì.oga"
+   },
+   "我": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-wǒ.ogg"
+   },
+   "我们": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-wǒmen.ogg"
+   },
+   "或": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-或.wav"
+   },
+   "或者": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-huòzhě.ogg"
+   },
+   "房": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-fáng.ogg"
+   },
+   "房间": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-fángjiān.ogg"
+   },
+   "所": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Jouketou",
+    "title": "LL-Q9192 (cmn)-Jouketou-所.wav"
+   },
+   "所以": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-suǒyǐ.ogg"
+   },
+   "所有": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-suǒyǒu.ogg"
+   },
+   "手": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shǒu.ogg"
+   },
+   "手机": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-手机.wav"
+   },
+   "手表": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shǒubiǎo.ogg"
+   },
+   "才": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-cái.ogg"
+   },
+   "打": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-dá.ogg"
+   },
+   "打印": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-打印.wav"
+   },
+   "打工": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-打工.wav"
+   },
+   "打球": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-打球.wav"
+   },
+   "打电话": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-打电话.wav"
+   },
+   "打算": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-dǎsuàn.ogg"
+   },
+   "找": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zhǎo.ogg"
+   },
+   "护": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-hù.ogg"
+   },
+   "护照": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-hùzhào.ogg"
+   },
+   "报": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-bào.ogg"
+   },
+   "报名": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-bàomíng.ogg"
+   },
+   "报纸": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-报纸.wav"
+   },
+   "拉": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-lā.ogg"
+   },
+   "拿": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-ná.ogg"
+   },
+   "挺": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tǐng.ogg"
+   },
+   "换": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-huàn.ogg"
+   },
+   "掉": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-diào.ogg"
+   },
+   "排": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-pái.ogg"
+   },
+   "排球": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-páiqiú.ogg"
+   },
+   "排队": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-páiduì.ogg"
+   },
+   "接": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiē.ogg"
+   },
+   "接受": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Jouketou",
+    "title": "LL-Q9192 (cmn)-Jouketou-接受.wav"
+   },
+   "接着": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiēzhe.ogg"
+   },
+   "推": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tuī.ogg"
+   },
+   "提": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-dī.ogg"
+   },
+   "提高": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tígāo.ogg"
+   },
+   "收": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shōu.ogg"
+   },
+   "收入": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-收入.wav"
+   },
+   "改": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-gǎi.ogg"
+   },
+   "改变": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-gǎibiàn.ogg"
+   },
+   "放": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-fàng.ogg"
+   },
+   "放假": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-fàngjià.ogg"
+   },
+   "故": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-gù.ogg"
+   },
+   "故事": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-gùshi.ogg"
+   },
+   "故意": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-gùyì.ogg"
+   },
+   "教": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiào.ogg"
+   },
+   "教室": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiàoshì.ogg"
+   },
+   "教育": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiàoyù.ogg"
+   },
+   "数": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shǔ.ogg"
+   },
+   "数字": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-shùzì.ogg"
+   },
+   "文": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-wén.ogg"
+   },
+   "斤": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jīn.ogg"
+   },
+   "新": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xīn.ogg"
+   },
+   "新年": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xīnnián.ogg"
+   },
+   "新闻": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xīnwén.ogg"
+   },
+   "方": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-方.wav"
+   },
+   "方便": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-fāngbiàn.ogg"
+   },
+   "方向": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-fāngxiàng.ogg"
+   },
+   "方法": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-fāngfǎ.ogg"
+   },
+   "方面": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-fāngmiàn.ogg"
+   },
+   "旁": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-páng.ogg"
+   },
+   "旁边": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-pángbiān.ogg"
+   },
+   "旅": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-lǚ.oga"
+   },
+   "旅行": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-lǚxíng.ogg"
+   },
+   "日": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-rì.ogg"
+   },
+   "日子": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-rìzi.ogg"
+   },
+   "早": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zǎo.ogg"
+   },
+   "早上": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-早上.wav"
+   },
+   "早餐": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-早餐.wav"
+   },
+   "早饭": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zǎofàn.ogg"
+   },
+   "时": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shí.ogg"
+   },
+   "时候": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shíhou.ogg"
+   },
+   "时间": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shíjiān.ogg"
+   },
+   "明": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-míng.ogg"
+   },
+   "明天": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-míngtiān.ogg"
+   },
+   "明年": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-míngnián.ogg"
+   },
+   "明白": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Jouketou",
+    "title": "LL-Q9192 (cmn)-Jouketou-明白.wav"
+   },
+   "星": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-xīng.oga"
+   },
+   "星期": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xīngqī.ogg"
+   },
+   "星期日": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xīngqīrì.ogg"
+   },
+   "春": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-chūn.ogg"
+   },
+   "春天": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-chūntiān.ogg"
+   },
+   "昨天": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zuótiān.ogg"
+   },
+   "是": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shì.ogg"
+   },
+   "晚": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-wǎn.ogg"
+   },
+   "晚上": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-wǎnshang.ogg"
+   },
+   "晚会": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-wǎnhuì.ogg"
+   },
+   "晚饭": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-wǎnfàn.ogg"
+   },
+   "晨": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-chén.ogg"
+   },
+   "普通话": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-普通话.wav"
+   },
+   "晴": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-qíng.ogg"
+   },
+   "更": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Jouketou",
+    "title": "LL-Q9192 (cmn)-Jouketou-更.wav"
+   },
+   "最": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zuì.ogg"
+   },
+   "最后": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zuìhòu.ogg"
+   },
+   "最好": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-最好.wav"
+   },
+   "最近": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zuìjìn.ogg"
+   },
+   "月": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yuè.ogg"
+   },
+   "月亮": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yuèliang.ogg"
+   },
+   "有": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yǒu.ogg"
+   },
+   "有些": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yǒuxiē.ogg"
+   },
+   "有名": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yǒumíng.ogg"
+   },
+   "有意思": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yǒuyìsi.ogg"
+   },
+   "有时候": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yǒushíhou.ogg"
+   },
+   "有的": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yǒude.ogg"
+   },
+   "朋": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-péng.ogg"
+   },
+   "朋友": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-péngyou.ogg"
+   },
+   "服": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-fú.ogg"
+   },
+   "服务": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-fúwù.ogg"
+   },
+   "期": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-qī.ogg"
+   },
+   "本": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-běn.ogg"
+   },
+   "本子": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-běnzi.ogg"
+   },
+   "机": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jī.ogg"
+   },
+   "机会": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jīhuì.ogg"
+   },
+   "机场": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jīchǎng.ogg"
+   },
+   "条": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tiáo.ogg"
+   },
+   "条件": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tiáojiàn.ogg"
+   },
+   "来": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-lái.ogg"
+   },
+   "来自": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-láizì.ogg"
+   },
+   "杯": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-bēi.ogg"
+   },
+   "杯子": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-bēizi.ogg"
+   },
+   "树": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shù.ogg"
+   },
+   "校": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiào.ogg"
+   },
+   "样": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-yàng.ogg"
+   },
+   "样子": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yàngzi.ogg"
+   },
+   "桌子": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zhuōzi.ogg"
+   },
+   "检查": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiǎnchá.ogg"
+   },
+   "椅子": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yǐzi.ogg"
+   },
+   "楼": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-lóu.ogg"
+   },
+   "次": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-cì.ogg"
+   },
+   "欢迎": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-huānyíng.ogg"
+   },
+   "歌": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-gē.oga"
+   },
+   "正": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Jouketou",
+    "title": "LL-Q9192 (cmn)-Jouketou-正.wav"
+   },
+   "正在": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zhèngzài.ogg"
+   },
+   "正好": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-正好.wav"
+   },
+   "正常": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-zhèngcháng.ogg"
+   },
+   "正是": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-zhèngshì.ogg"
+   },
+   "正确": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zhèngquè.ogg"
+   },
+   "段": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-duàn.ogg"
+   },
+   "比": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-bǐ.ogg"
+   },
+   "比如": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-比如.wav"
+   },
+   "毛": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-máo.ogg"
+   },
+   "气": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-qì.ogg"
+   },
+   "水": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shuǐ.ogg"
+   },
+   "水平": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shuǐpíng.ogg"
+   },
+   "水果": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shuǐguǒ.ogg"
+   },
+   "永远": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yǒngyuǎn.ogg"
+   },
+   "求": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-qiú.ogg"
+   },
+   "汉": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-hàn.ogg"
+   },
+   "汉字": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-hànzì.ogg"
+   },
+   "汉语": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-hànyǔ.ogg"
+   },
+   "汽": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-qì.ogg"
+   },
+   "汽车": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-qìchē.ogg"
+   },
+   "没": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-méi.ogg"
+   },
+   "没关系": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-méiguānxi.ogg"
+   },
+   "没有": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-méiyǒu.ogg"
+   },
+   "河": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-hé.ogg"
+   },
+   "油": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-yóu.ogg"
+   },
+   "洗": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xǐ.ogg"
+   },
+   "洗澡": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xǐzǎo.ogg"
+   },
+   "活": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-huó.ogg"
+   },
+   "活动": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-huódòng.ogg"
+   },
+   "流": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-liú.ogg"
+   },
+   "流利": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-liúlì.ogg"
+   },
+   "流行": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-liúxíng.ogg"
+   },
+   "海": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-hǎi.ogg"
+   },
+   "清": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-qīng.ogg"
+   },
+   "清楚": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-qīngchu.ogg"
+   },
+   "温度": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-温度.wav"
+   },
+   "渴": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-kě.ogg"
+   },
+   "游": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-yóu.ogg"
+   },
+   "湖": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-hú.ogg"
+   },
+   "满": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-mǎn.ogg"
+   },
+   "满意": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-mǎnyì.ogg"
+   },
+   "漂亮": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-piàoliang.ogg"
+   },
+   "澡": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zǎo.ogg"
+   },
+   "火": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-huǒ.oga"
+   },
+   "火车": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-huǒchē.ogg"
+   },
+   "灯": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-dēng.ogg"
+   },
+   "点": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-diǎn.ogg"
+   },
+   "热": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-rè.ogg"
+   },
+   "热情": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-rèqíng.ogg"
+   },
+   "然": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-rán.ogg"
+   },
+   "然后": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-ránhòu.ogg"
+   },
+   "照": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-zhào.ogg"
+   },
+   "照片": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-zhàopiàn.ogg"
+   },
+   "照相": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zhàoxiàng.ogg"
+   },
+   "照顾": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Jouketou",
+    "title": "LL-Q9192 (cmn)-Jouketou-照顾.wav"
+   },
+   "熟": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shú.ogg"
+   },
+   "爬": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-pá.ogg"
+   },
+   "爬山": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-爬山.wav"
+   },
+   "爱": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-ài.ogg"
+   },
+   "爱人": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-àiren.ogg"
+   },
+   "爱好": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-àihào.ogg"
+   },
+   "爱情": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-àiqíng.ogg"
+   },
+   "爷爷": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-yéye.ogg"
+   },
+   "爸": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-bà.ogg"
+   },
+   "爸爸": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-bàba.ogg"
+   },
+   "片": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-piān.ogg"
+   },
+   "牛": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-niú.ogg"
+   },
+   "牛奶": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-niúnǎi.ogg"
+   },
+   "物": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-wù.ogg"
+   },
+   "特": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-tè.ogg"
+   },
+   "特别": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tèbié.ogg"
+   },
+   "特点": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-特点.wav"
+   },
+   "狗": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-狗.wav"
+   },
+   "猫": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-māo.oga"
+   },
+   "玩": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-wán.ogg"
+   },
+   "玩儿": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-wánr.ogg"
+   },
+   "现": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-xiàn.ogg"
+   },
+   "现在": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xiànzài.ogg"
+   },
+   "班": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-bān.ogg"
+   },
+   "球": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-qiú.ogg"
+   },
+   "理": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-lǐ.ogg"
+   },
+   "理想": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-理想.wav"
+   },
+   "瓶": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-píng.ogg"
+   },
+   "瓶子": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-píngzi.ogg"
+   },
+   "生": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shēng.ogg"
+   },
+   "生日": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-生日.wav"
+   },
+   "生气": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Jouketou",
+    "title": "LL-Q9192 (cmn)-Jouketou-生气.wav"
+   },
+   "生活": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shēnghuó.ogg"
+   },
+   "生词": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shēngcí.ogg"
+   },
+   "用": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yòng.ogg"
+   },
+   "由": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-yóu.ogg"
+   },
+   "电": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-diàn.ogg"
+   },
+   "电影": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-diànyǐng.ogg"
+   },
+   "电视": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-diànshì.ogg"
+   },
+   "电话": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-diànhuà.ogg"
+   },
+   "男": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-nán.ogg"
+   },
+   "男人": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-nánrén.ogg"
+   },
+   "画": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-huà.ogg"
+   },
+   "画儿": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-huàr.ogg"
+   },
+   "画家": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-画家.wav"
+   },
+   "留": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-liú.ogg"
+   },
+   "留学生": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-liúxuéshēng.ogg"
+   },
+   "疼": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-téng.ogg"
+   },
+   "病": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-bìng.ogg"
+   },
+   "白": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-bái.ogg"
+   },
+   "百": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-bǎi.ogg"
+   },
+   "的": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-de.ogg"
+   },
+   "目": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-mù.ogg"
+   },
+   "目的": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-目的.wav"
+   },
+   "直": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-zhí.ogg"
+   },
+   "直接": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Jouketou",
+    "title": "LL-Q9192 (cmn)-Jouketou-直接.wav"
+   },
+   "相": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xiāng.ogg"
+   },
+   "相信": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xiāngxìn.ogg"
+   },
+   "相同": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-xiāngtóng.oga"
+   },
+   "省": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shěng.ogg"
+   },
+   "看": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-看.wav"
+   },
+   "看病": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-kànbìng.ogg"
+   },
+   "看见": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-kànjiàn.ogg"
+   },
+   "真": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zhēn.ogg"
+   },
+   "真正": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zhēnzhèng.ogg"
+   },
+   "眼睛": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yǎnjing.ogg"
+   },
+   "睛": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-jīng.ogg"
+   },
+   "睡": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shuì.ogg"
+   },
+   "睡觉": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shuìjiào.ogg"
+   },
+   "知": {
+    "license": "CC BY 2.0",
+    "origin": "shtooka",
+    "speaker": "Xudong Yang (Henan)",
+    "title": "Zh-zhī.ogg"
+   },
+   "知识": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zhīshi.ogg"
+   },
+   "知道": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zhīdào.ogg"
+   },
+   "短": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-duǎn.ogg"
+   },
+   "短信": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-短信.wav"
+   },
+   "确": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-què.ogg"
+   },
+   "碗": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-wǎn.ogg"
+   },
+   "碰": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-pèng.ogg"
+   },
+   "碰见": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-pèngjiàn.ogg"
+   },
+   "示": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shì.ogg"
+   },
+   "礼": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-lǐ.ogg"
+   },
+   "礼物": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-lǐwù.ogg"
+   },
+   "票": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-piào.ogg"
+   },
+   "离": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-chī.ogg"
+   },
+   "离开": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-líkāi.ogg"
+   },
+   "秋": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-qiū.ogg"
+   },
+   "秋天": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-qiūtiān.ogg"
+   },
+   "科": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-kē.ogg"
+   },
+   "科学": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-kēxué.ogg"
+   },
+   "租": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-租.wav"
+   },
+   "称": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-chèn.ogg"
+   },
+   "空": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-空.wav"
+   },
+   "空气": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-kōngqì.ogg"
+   },
+   "穿": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-chuān.ogg"
+   },
+   "站": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zhàn.ogg"
+   },
+   "笑": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xiào.ogg"
+   },
+   "笑话": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-笑话.wav"
+   },
+   "笔": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-bǐ.ogg"
+   },
+   "笔记": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-笔记.wav"
+   },
+   "笔记本": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-笔记本.wav"
+   },
+   "第": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-dì.ogg"
+   },
+   "等": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-děng.ogg"
+   },
+   "筷": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-kuài.ogg"
+   },
+   "筷子": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-kuàizi.ogg"
+   },
+   "算": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-suàn.ogg"
+   },
+   "篇": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-piān.ogg"
+   },
+   "篮": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-lán.ogg"
+   },
+   "篮球": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-lánqiú.ogg"
+   },
+   "米": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-mǐ.ogg"
+   },
+   "米饭": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-mǐfàn.ogg"
+   },
+   "系": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xì.ogg"
+   },
+   "累": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-léi.ogg"
+   },
+   "红": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-hóng.ogg"
+   },
+   "级": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jí.ogg"
+   },
+   "纸": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zhǐ.ogg"
+   },
+   "练": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-liàn.ogg"
+   },
+   "练习": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-liànxí.ogg"
+   },
+   "绍": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-shào.ogg"
+   },
+   "经": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-jīng.ogg"
+   },
+   "经常": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jīngcháng.ogg"
+   },
+   "经过": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jīngguò.ogg"
+   },
+   "结": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiē.ogg"
+   },
+   "结果": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiéguǒ.ogg"
+   },
+   "给": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-gěi.ogg"
+   },
+   "绩": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jì.ogg"
+   },
+   "绿": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-lù.ogg"
+   },
+   "网": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-wǎng.ogg"
+   },
+   "网球": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-wǎngqiú.oga"
+   },
+   "网站": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-网站.wav"
+   },
+   "老": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-lǎo.ogg"
+   },
+   "老师": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-lǎoshī.ogg"
+   },
+   "考试": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-kǎoshì.ogg"
+   },
+   "而": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-ér.ogg"
+   },
+   "而且": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-érqiě.ogg"
+   },
+   "肉": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-ròu.ogg"
+   },
+   "育": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-yù.ogg"
+   },
+   "背": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-bēi.ogg"
+   },
+   "能": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-néng.ogg"
+   },
+   "能够": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-nénggòu.ogg"
+   },
+   "脏": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-zàng.ogg"
+   },
+   "脚": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiǎo.ogg"
+   },
+   "脸": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-liǎn.ogg"
+   },
+   "腿": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tuǐ.ogg"
+   },
+   "自": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zì.ogg"
+   },
+   "自己": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zìjǐ.ogg"
+   },
+   "自由": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-zìyóu.ogg"
+   },
+   "自行车": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zìxíngchē.ogg"
+   },
+   "舒": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shū.ogg"
+   },
+   "舒服": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shūfu.ogg"
+   },
+   "般": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-bān.ogg"
+   },
+   "船": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-chuán.ogg"
+   },
+   "色": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-sè.ogg"
+   },
+   "节": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiē.ogg"
+   },
+   "节日": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiérì.ogg"
+   },
+   "节目": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiémù.ogg"
+   },
+   "花": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-huā.ogg"
+   },
+   "英文": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-英文.wav"
+   },
+   "英语": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yīngyǔ.ogg"
+   },
+   "茶": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-chá.ogg"
+   },
+   "草": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-cǎo.ogg"
+   },
+   "药": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yào.ogg"
+   },
+   "菜": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-cài.ogg"
+   },
+   "菜单": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-菜单.wav"
+   },
+   "蓝": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-lán.ogg"
+   },
+   "虽然": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-suīrán.ogg"
+   },
+   "蛋": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-dàn.ogg"
+   },
+   "行": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Jouketou",
+    "title": "LL-Q9192 (cmn)-Jouketou-行.wav"
+   },
+   "行为": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-xíngwéi.ogg"
+   },
+   "行人": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-xíngrén.ogg"
+   },
+   "行动": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-xíngdòng.ogg"
+   },
+   "街": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiē.ogg"
+   },
+   "衣": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yī.ogg"
+   },
+   "衣服": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yīfu.ogg"
+   },
+   "表": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-biǎo.ogg"
+   },
+   "表示": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-biǎoshì.ogg"
+   },
+   "装": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zhuāng.ogg"
+   },
+   "西": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xī.ogg"
+   },
+   "西边": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xībiān.ogg"
+   },
+   "要": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-要.wav"
+   },
+   "要求": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yāoqiú.ogg"
+   },
+   "见": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiàn.ogg"
+   },
+   "见面": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiànmiàn.ogg"
+   },
+   "观": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-guàn.ogg"
+   },
+   "视": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shì.ogg"
+   },
+   "觉": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiào.ogg"
+   },
+   "觉得": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-juéde.ogg"
+   },
+   "角": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-jué.ogg"
+   },
+   "言": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-yán.ogg"
+   },
+   "计": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jì.ogg"
+   },
+   "计划": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jìhuà.ogg"
+   },
+   "认": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-rèn.ogg"
+   },
+   "认为": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-rènwéi.ogg"
+   },
+   "认真": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-rènzhēn.ogg"
+   },
+   "认识": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-rènshi.ogg"
+   },
+   "讨论": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tǎolùn.ogg"
+   },
+   "让": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-ràng.ogg"
+   },
+   "记": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jì.ogg"
+   },
+   "记得": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-jìde.ogg"
+   },
+   "讲": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiǎng.ogg"
+   },
+   "许": {
+    "license": "CC BY-SA 3.0",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-xǔ.ogg"
+   },
+   "许多": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xǔduō.ogg"
+   },
+   "识": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shí.ogg"
+   },
+   "诉": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-sù.ogg"
+   },
+   "词": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-cí.ogg"
+   },
+   "词典": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-cídiǎn.ogg"
+   },
+   "词语": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-词语.wav"
+   },
+   "试": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shì.ogg"
+   },
+   "话": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-huà.ogg"
+   },
+   "该": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-gāi.ogg"
+   },
+   "语": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yǔ.ogg"
+   },
+   "语言": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yǔyán.ogg"
+   },
+   "说": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shuì.ogg"
+   },
+   "说明": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shuōmíng.ogg"
+   },
+   "说话": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-说话.wav"
+   },
+   "请": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-qǐng.ogg"
+   },
+   "请假": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-qǐngjià.ogg"
+   },
+   "请问": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-qǐngwèn.ogg"
+   },
+   "读": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-dòu.ogg"
+   },
+   "课": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-kè.ogg"
+   },
+   "课文": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-kèwén.ogg"
+   },
+   "课本": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-kèběn.ogg"
+   },
+   "谢": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-xiè.ogg"
+   },
+   "谢谢": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xièxie.ogg"
+   },
+   "贵": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-guì.ogg"
+   },
+   "走": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zǒu.ogg"
+   },
+   "起": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-qǐ.ogg"
+   },
+   "起床": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-qǐchuáng.ogg"
+   },
+   "起来": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Jouketou",
+    "title": "LL-Q9192 (cmn)-Jouketou-起来.wav"
+   },
+   "超过": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-超过.wav"
+   },
+   "越": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yuè.ogg"
+   },
+   "跑": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-páo.ogg"
+   },
+   "跟": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-gēn.ogg"
+   },
+   "路": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-lù.ogg"
+   },
+   "身": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shēn.ogg"
+   },
+   "身体": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shēntǐ.ogg"
+   },
+   "车": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-chē.ogg"
+   },
+   "车站": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-chēzhàn.ogg"
+   },
+   "轻": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-qīng.ogg"
+   },
+   "辆": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-liàng.ogg"
+   },
+   "边": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-biān.ogg"
+   },
+   "过": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-过.wav"
+   },
+   "过去": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-guòqù.ogg"
+   },
+   "过来": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-guòlái.ogg"
+   },
+   "迎": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yíng.ogg"
+   },
+   "运": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-yùn.ogg"
+   },
+   "运动": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yùndòng.ogg"
+   },
+   "近": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jìn.ogg"
+   },
+   "还": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-huán.ogg"
+   },
+   "还是": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-还是.wav"
+   },
+   "这": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zhè.ogg"
+   },
+   "这么": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zhème.ogg"
+   },
+   "这些": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zhèxiē.ogg"
+   },
+   "这样": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zhèyàng.ogg"
+   },
+   "这里": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-这里.wav"
+   },
+   "进": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jìn.ogg"
+   },
+   "进去": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jìnqù.ogg"
+   },
+   "进来": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jìnlái.ogg"
+   },
+   "进行": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jìnxíng.ogg"
+   },
+   "远": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yuǎn.ogg"
+   },
+   "送": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-sòng.ogg"
+   },
+   "适": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-kuò.ogg"
+   },
+   "选": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-xuǎn.oga"
+   },
+   "通": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tōng.ogg"
+   },
+   "通知": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tōngzhī.ogg"
+   },
+   "通过": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tōngguò.ogg"
+   },
+   "遍": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-biàn.ogg"
+   },
+   "道": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-dào.ogg"
+   },
+   "那": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-那.wav"
+   },
+   "那么": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-nàme.ogg"
+   },
+   "那些": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-nàxiē.ogg"
+   },
+   "那样": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-nàyàng.ogg"
+   },
+   "那里": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-nàli.ogg"
+   },
+   "部": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-bù.ogg"
+   },
+   "部分": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-bùfen.ogg"
+   },
+   "都": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-都.wav"
+   },
+   "酒": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiǔ.ogg"
+   },
+   "里": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-lǐ.ogg"
+   },
+   "重": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-重.wav"
+   },
+   "重复": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-chóngfù.ogg"
+   },
+   "重新": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Jouketou",
+    "title": "LL-Q9192 (cmn)-Jouketou-重新.wav"
+   },
+   "重点": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "CanonNi",
+    "title": "LL-Q9192 (cmn)-CanonNi-重点.wav"
+   },
+   "重要": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zhòngyào.ogg"
+   },
+   "重视": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-zhòngshì.ogg"
+   },
+   "量": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-liáng.ogg"
+   },
+   "钟": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-zhōng.ogg"
+   },
+   "钱": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-qián.ogg"
+   },
+   "银": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-yín.ogg"
+   },
+   "银行": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yínháng.ogg"
+   },
+   "错": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-cuò.ogg"
+   },
+   "长": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-cháng.ogg"
+   },
+   "门": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-mén.ogg"
+   },
+   "门口": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-ménkǒu.ogg"
+   },
+   "问": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-wèn.ogg"
+   },
+   "问题": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-wèntí.ogg"
+   },
+   "间": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiān.ogg"
+   },
+   "闻": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-wén.ogg"
+   },
+   "队": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-duì.ogg"
+   },
+   "阳": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yáng.ogg"
+   },
+   "阴": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yīn.ogg"
+   },
+   "际": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jì.ogg"
+   },
+   "院": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-yuàn.ogg"
+   },
+   "随": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-suí.ogg"
+   },
+   "随便": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-suíbiàn.ogg"
+   },
+   "随时": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-suíshí.ogg"
+   },
+   "难": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-nán.ogg"
+   },
+   "难受": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-nánshòu.ogg"
+   },
+   "难看": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-nánkàn.ogg"
+   },
+   "难过": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-nánguò.ogg"
+   },
+   "雨": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yǔ.ogg"
+   },
+   "雪": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xuě.ogg"
+   },
+   "零": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-líng.ogg"
+   },
+   "青": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-qīng.ogg"
+   },
+   "青年": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-qīngnián.ogg"
+   },
+   "静": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-jìng.ogg"
+   },
+   "非": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-fēi.ogg"
+   },
+   "非常": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-fēicháng.ogg"
+   },
+   "靠": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-kào.ogg"
+   },
+   "面": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-miàn.ogg"
+   },
+   "面包": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-miànbāo.ogg"
+   },
+   "鞋": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xié.ogg"
+   },
+   "音": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yīn.ogg"
+   },
+   "音乐": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yīnyuè.ogg"
+   },
+   "页": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-xié.ogg"
+   },
+   "顺": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-shùn.ogg"
+   },
+   "顺利": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-shùnlì.ogg"
+   },
+   "须": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-xū.oga"
+   },
+   "顾": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-gù.ogg"
+   },
+   "顾客": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-gùkè.ogg"
+   },
+   "题": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-tí.ogg"
+   },
+   "颜": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-yán.ogg"
+   },
+   "颜色": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yánsè.ogg"
+   },
+   "风": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-fēng.ogg"
+   },
+   "飞": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-fēi.ogg"
+   },
+   "飞机": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-fēijī.ogg"
+   },
+   "食": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-shí.ogg"
+   },
+   "食物": {
+    "license": "CC BY-SA 3.0 US",
+    "origin": "shtooka",
+    "speaker": "Yue Tan (Shtooka, Liaoning)",
+    "title": "Zh-shíwù.ogg"
+   },
+   "饭": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-fàn.ogg"
+   },
+   "饭店": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-fàndiàn.ogg"
+   },
+   "饭馆": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Luilui6666",
+    "title": "LL-Q9192 (cmn)-Luilui6666-饭馆.wav"
+   },
+   "饱": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-bǎo.ogg"
+   },
+   "饺": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiǎo.ogg"
+   },
+   "饺子": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jiǎozi.ogg"
+   },
+   "饿": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-è.ogg"
+   },
+   "馆": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-guǎn.ogg"
+   },
+   "马": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-mǎ.ogg"
+   },
+   "马上": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-mǎshàng.ogg"
+   },
+   "骑": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jì.ogg"
+   },
+   "高": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-gāo.ogg"
+   },
+   "高兴": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-gāoxìng.ogg"
+   },
+   "鱼": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-yú.ogg"
+   },
+   "鸡": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jī.ogg"
+   },
+   "鸡蛋": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-jīdàn.ogg"
+   },
+   "黄": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-huáng.ogg"
+   },
+   "黑": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-hēi.ogg"
+   },
+   "黑板": {
+    "license": "CC BY 2.0 FR",
+    "origin": "shtooka",
+    "speaker": "Wei Gao (Shtooka, Beijing)",
+    "title": "Zh-hēibǎn.ogg"
+   }
+  }
  }
 }

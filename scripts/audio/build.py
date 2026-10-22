@@ -12,7 +12,7 @@ VOICES = os.environ.get('PIPER_VOICES', '/home/box/piper-voices')
 CACHE = os.environ.get('AUDIO_CACHE', '/home/box/audio-cache')
 PROC_V = 'p3'  # bump to re-encode everything
 VOICE = {
-    'zh': ('zh_CN-chaowen-medium', 'chaowen (zh_CN, medium)', 'CC0 dataset'),
+    'zh': ('kokoro-v1.1-zh-zf_002', 'zf_002 (Kokoro-82M v1.1-zh)', 'Apache-2.0'),  # pre-synthesized by kokoro_zh.py
     'es': ('es_ES-davefx-medium', 'davefx (es_ES, medium)', 'CC0 dataset'),
     'en': ('en_US-ljspeech-high', 'LJSpeech (en_US, high)', 'public domain dataset'),
     'fr': ('fr_FR-siwis-medium', 'SIWIS (fr_FR, medium)', 'CC BY 4.0 dataset'),
@@ -31,6 +31,7 @@ W = {}
 def init(pk, lex):
     from piper import PiperVoice
     W['pk'] = pk; W['lex'] = lex or {}
+    if pk == 'zh': return  # Mandarin TTS comes from scripts/audio/kokoro_zh.py (separate venv)
     W['voice'] = PiperVoice.load(f'{VOICES}/{VOICE[pk][0]}.onnx', download_dir=VOICES)
     assert W['voice'].config.sample_rate == SR, W['voice'].config.sample_rate
 
@@ -69,10 +70,15 @@ def zh_sentence_syls(text):
 
 def synth(clip):
     from piper import SynthesisConfig
-    v = W['voice']; pk = W['pk']; t = clip['t']
+    v = W.get('voice'); pk = W['pk']; t = clip['t']
     word = clip['k'] == 'w'
     cfg = SynthesisConfig(length_scale=1.12 if word else 1.04, noise_scale=0.5, noise_w_scale=0.6)
     if pk == 'zh':
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import kokoro_zh as kz
+        f = f"{kz.OUT}/{kz.key(clip['k'], t, clip.get('syl'))}.wav"
+        if not os.path.exists(f): raise SystemExit(f'missing Kokoro clip for {t!r}: run kokoro_zh.py first')
+        return decode(f)
+    if False:
         syls = clip.get('syl') if word else None
         if not syls: syls, _ = zh_sentence_syls(t)
         ph = zh_phonemes(list(syls) + ([] if syls and syls[-1] in '。？！?!' else ['。']))
@@ -177,9 +183,9 @@ def main():
         spk = collections.defaultdict(lambda: {'n': 0, 'licenses': set()})
         for w, r in used_ll.items(): spk[r['speaker']]['n'] += 1; spk[r['speaker']]['licenses'].add(r['license'])
         credits[pk] = {
-            'tts': {'voice': VOICE[pk][1], 'model': VOICE[pk][0], 'license': VOICE[pk][2], 'clips': src_count['tts']},
+            'tts': {'engine': 'Kokoro' if pk == 'zh' else 'Piper', 'voice': VOICE[pk][1], 'model': VOICE[pk][0], 'license': VOICE[pk][2], 'clips': src_count['tts']},
             'll': {'clips': src_count['ll'], 'speakers': {k: {'n': v['n'], 'licenses': sorted(v['licenses'])} for k, v in sorted(spk.items(), key=lambda kv: -kv[1]['n'])}},
-            'words': {w: {'speaker': r['speaker'], 'license': r['license'], 'title': r['title']} for w, r in sorted(used_ll.items())},
+            'words': {w: {'speaker': r['speaker'], 'license': r['license'], 'title': r['title'], 'origin': r.get('origin', 'll')} for w, r in sorted(used_ll.items())},
             'files': nfiles, 'bytes': total, 'clips': len(by_text), 'failed': src_count['fail'], 'll_rejected': dict(rejects),
         }
         print(pk, f'{nfiles} files, {total / 1e6:.1f} MB, clips {len(by_text)}', dict(src_count), 'll rejected', dict(rejects), f'{time.time() - t0:.0f}s', flush=True)

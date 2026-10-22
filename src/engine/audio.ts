@@ -1,4 +1,4 @@
-// Audio playback: pre-generated MP3 clips (Lingua Libre recordings or Piper TTS) packed into
+// Audio playback: pre-generated MP3 clips (Commons recordings, or Kokoro/Piper TTS) packed into
 // small per-owner bundles (see scripts/audio/). iOS rules followed here:
 //  - play() is called synchronously inside the tap handler on one shared <audio> element;
 //  - if a bundle is still loading, the element is unlocked with a silent clip in the gesture

@@ -6,8 +6,11 @@ forced to their dictionary pinyin and 和 forced to he2.
 Output: $AUDIO_SRC/tts/zh-kokoro/<sha1(KV|kind|text|syl)>.wav (24 kHz). build.py reads these.
 Run with the Kokoro venv: /home/box/tts2/kokoro-venv/bin/python scripts/audio/kokoro_zh.py [--test file.json outdir]"""
 import json, os, re, sys, hashlib
-import numpy as np, soundfile as sf, torch
-from pypinyin.contrib.tone_convert import to_initials, to_finals_tone3
+try:
+    import numpy as np, soundfile as sf, torch
+    from pypinyin.contrib.tone_convert import to_initials, to_finals_tone3
+except ImportError:  # build.py (Piper venv) imports this module only for key() and OUT
+    pass
 KV = 'kokoro-v1.1-zh-zf_002-v1'
 VOICE = 'zf_002'; REPO = 'hexgrad/Kokoro-82M-v1.1-zh'
 SRC = os.environ.get('AUDIO_SRC', '/home/box/audio-src')
