@@ -6,5 +6,6 @@
   "newsletterUrl": "",
   "repoUrl": "https://github.com/rchrdchn/lingua-mastery",
   "indexNowKey": "",
-  "cfAnalyticsToken": ""
+  "cfAnalyticsToken": "",
+  "showFeedbackLink": true
 }

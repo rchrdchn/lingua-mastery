@@ -36,6 +36,10 @@ The engine design follows the open source Mathua project (MIT license), a master
 
 Word lists, dictionaries and sentences come from open sources: the HSK 3.0 list, CC-CEDICT, Wiktionary (via Kaikki), frequency lists built from OpenSubtitles, and Tatoeba sentences. Grammar lessons are written for this site. See [credits](/credits/) for every source and license.
 
+{% if site.showFeedbackLink and site.repoUrl %}<h2 id="feedback">Feedback</h2>
+
+<p>Spotted a wrong translation, a bad recording or a bug? <a href="{{ site.repoUrl }}/issues/new/choose" rel="noopener">Feedback / report an issue</a>. Each word page also has a "Report a problem with this word" link that fills in the word for you.</p>
+{% endif %}
 <h2 id="open-source">Open source</h2>
 
 The whole project is open source. The engine, app and site code are MIT licensed. The course content (word data, grammar lessons, translations) is CC BY-SA 4.0, so you can reuse and adapt it as long as you credit the sources and share changes under the same license. Tatoeba sentences keep their CC BY 2.0 FR license and author credits.

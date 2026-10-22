@@ -14,7 +14,7 @@
 <footer class="foot"><div class="wrap">
 {% include "newsletter.njk" %}
 {% if creditsPack %}<details class="credits"><summary>Sources and licenses</summary><ul>{% for c in creditsPack.credits %}<li><a href="{{ c.url }}" rel="noopener">{{ c.name }}</a>: {{ c.note }} License: <a href="{{ c.licenseUrl }}" rel="noopener license">{{ c.license }}</a>.</li>{% endfor %}</ul><p>Example sentences: Tatoeba, credited to their authors, CC BY 2.0 FR. Word data: CC BY-SA 4.0. <a href="/credits/">All credits</a>.</p></details>{% endif %}
-<nav class="fl" aria-label="Site"><a href="/">Home</a>{% for p in lm.packs %}<a href="{{ p.hubUrl }}">Learn {{ p.adj }}</a>{% endfor %}<a href="/learn/">Practice</a><a href="/about/">About</a><a href="/credits/">Credits</a><a href="/privacy/">Privacy</a><a href="/sitemap.xml">Sitemap</a></nav>
+<nav class="fl" aria-label="Site"><a href="/">Home</a>{% for p in lm.packs %}<a href="{{ p.hubUrl }}">Learn {{ p.adj }}</a>{% endfor %}<a href="/learn/">Practice</a><a href="/about/">About</a><a href="/credits/">Credits</a><a href="/privacy/">Privacy</a><a href="/sitemap.xml">Sitemap</a>{% if site.showFeedbackLink and site.repoUrl %}<a href="{{ site.repoUrl }}/issues/new/choose" rel="noopener">Feedback / report an issue</a>{% endif %}</nav>
 <p class="small muted">© {{ build.year }} {{ site.name }} contributors. Free and <a href="/about/#open-source">open source</a>{% if site.repoUrl %} (<a href="{{ site.repoUrl }}" rel="noopener">code</a>){% endif %}. Code MIT, content CC BY-SA 4.0. No account: progress stays in your browser.</p>
 </div></footer>
 {% if site.cfAnalyticsToken %}<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ site.cfAnalyticsToken }}"}'></script>{% endif %}
