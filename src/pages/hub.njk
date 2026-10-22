@@ -11,17 +11,18 @@
   }
 }
 ---
-<p class="crumbs"><a href="/">Home</a> / Learn {{ hub.pack.adj }}</p>
+<p class="crumbs"><a href="/">Home</a> / {{ hub.pack.adj }}</p>
 <h1>{{ hub.title }}</h1>
-<p class="lead">{{ hub.intro }}</p>
-{% for m in hub.more %}<p>{{ m }}</p>{% endfor %}
-<p class="actions"><a class="btn primary" href="{{ hub.placement }}">Take the placement quiz</a><a class="btn" href="{{ hub.practice }}">Start from the beginning</a></p>
-{% updated %}
-<ul class="facts"><li><b>{{ hub.counts.words }}</b> words</li>{% if hub.counts.chars %}<li><b>{{ hub.counts.chars }}</b> characters</li>{% endif %}<li><b>{{ hub.counts.grammar }}</b> grammar lessons</li><li><b>{{ hub.counts.concepts }}</b> concepts</li><li><b>{{ hub.counts.sentences }}</b> example sentences</li></ul>
+<p class="lead">{{ hub.intro | truncate(100) }}</p>
+<p class="actions"><a class="btn primary big" href="{{ hub.placement }}">Find my level</a><a class="btn big" href="{{ hub.practice }}">Start from zero</a></p>
+<ul class="facts"><li><b>{{ hub.counts.words }}</b>words</li>{% if hub.counts.chars %}<li><b>{{ hub.counts.chars }}</b>characters</li>{% endif %}<li><b>{{ hub.counts.grammar }}</b>lessons</li><li><b>{{ hub.counts.sentences }}</b>sentences</li></ul>
+{% set cards = demo.byLang[hub.pack.id] %}{% if cards and cards.length %}<div class="carousel" id="cards">{% for c in cards %}<article class="exc"><span class="s" lang="{{ c.id }}">{{ c.t | hl(c.w) | safe }}</span><button class="say" type="button" aria-label="Listen" data-say="{{ c.t }}" data-lang="{{ c.speech }}">{% include "i-say.njk" %}</button><span class="tr">{{ c.tr }}</span><a class="word" href="{{ c.url }}">{{ c.w }}{% if c.r %} · {{ c.r }}{% endif %} →</a><span class="credit">Tatoeba: {{ c.by }}</span></article>{% endfor %}</div><div class="dots" id="dots" aria-hidden="true"></div>{% endif %}
 <h2>Levels</h2>
-<div class="cards">{% for l in hub.levels %}<article class="course"><h3><a href="{{ l.url }}">{{ l.name }}</a></h3><p>{{ l.intro }}</p><p class="small">{% if l.words.length %}{{ l.words.length }} words · {% endif %}{% if l.chars.length %}{{ l.chars.length }} characters · {% endif %}{{ l.grammar.length }} lessons</p></article>{% endfor %}</div>
-<h2>{% if hub.pack.id == 'zh' %}Grammar and pronunciation lessons{% else %}Grammar lessons{% endif %}</h2>
-<ul class="list">{% for g in hub.grammar %}<li><a href="{{ g.url }}">{{ g.t }}</a> <span class="muted small">{{ g.lvName }}</span></li>{% endfor %}</ul>
+<div class="cards">{% for l in hub.levels %}<a class="lg" href="{{ l.url }}"><b>{{ l.name }}</b><span>{% if l.words.length %}{{ l.words.length }} words · {% endif %}{% if l.chars.length %}{{ l.chars.length }} characters · {% endif %}{{ l.grammar.length }} lessons</span></a>{% endfor %}</div>
 <h2>Most common words</h2>
-<ul class="chips">{% for w in hub.topWords %}<li><a href="{{ w.url }}" lang="{{ hub.pack.target }}">{{ w.it.t }}</a> <span class="muted">{{ w.short | first(28) }}</span></li>{% endfor %}</ul>
+<ul class="chips">{% for w in hub.topWords %}<li><a href="{{ w.url }}" lang="{{ hub.pack.target }}">{{ w.it.t }}</a> <span class="muted">{{ w.short | first(24) }}</span></li>{% endfor %}</ul>
+<h2>{% if hub.pack.id == 'zh' %}Grammar and pronunciation{% else %}Grammar{% endif %}</h2>
+<ul class="list">{% for g in hub.grammar %}<li><a href="{{ g.url }}">{{ g.t }}</a> <span class="muted small">{{ g.lvName }}</span></li>{% endfor %}</ul>
+<details class="more"><summary>About this course</summary><p>{{ hub.intro }}</p>{% for m in hub.more %}<p>{{ m }}</p>{% endfor %}</details>
 {% include "faq.njk" %}
+{% updated %}

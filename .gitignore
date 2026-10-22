@@ -9,3 +9,5 @@ src/assets/strokes/
 .indexnow.json
 test-results/
 .tmp-test/
+src/assets/site.js
+src/assets/site.js.map

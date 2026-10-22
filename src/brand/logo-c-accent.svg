@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><title>Lingua Magna</title>
+<rect width="64" height="64" rx="16" fill="#0f7a5c"/>
+<path d="M36 6.5l9-2.5-7 12.5z" fill="#ffb703"/>
+<g transform="rotate(-8 32 38)"><path d="M14 24h36v12c0 12-8 21-18 21S14 48 14 36z" fill="#ff4f64"/><path d="M32 29v14" stroke="#c8243a" stroke-width="3.2" stroke-linecap="round"/></g>
+<path d="M9 24.5h46" stroke="#0a5c45" stroke-width="5" stroke-linecap="round"/>
+</svg>

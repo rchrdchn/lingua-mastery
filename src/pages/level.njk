@@ -10,15 +10,15 @@
   }
 }
 ---
-<p class="crumbs"><a href="/">Home</a> / <a href="{{ lv.pack.hubUrl }}">Learn {{ lv.pack.adj }}</a> / {{ lv.name }}</p>
+<p class="crumbs"><a href="/">Home</a> / <a href="{{ lv.pack.hubUrl }}">{{ lv.pack.adj }}</a> / {{ lv.name }}</p>
 <h1>{{ lv.title }}</h1>
 <p class="lead">{{ lv.intro }}</p>
-<p>This level has {{ lv.concepts }} concepts in the skill map{% if lv.words.length %}: {{ lv.words.length }} words in small groups{% endif %}{% if lv.grammar.length %} and {{ lv.grammar.length }} lessons{% endif %}. Each one unlocks once you master what it builds on.</p>
-<p class="actions"><a class="btn primary" href="{{ lv.placement }}">Find your level</a><a class="btn" href="{{ lv.practice }}">Practice</a></p>
-{% updated %}
+<ul class="facts">{% if lv.words.length %}<li><b>{{ lv.words.length }}</b>words</li>{% endif %}{% if lv.chars.length %}<li><b>{{ lv.chars.length }}</b>characters</li>{% endif %}{% if lv.grammar.length %}<li><b>{{ lv.grammar.length }}</b>lessons</li>{% endif %}<li><b>{{ lv.concepts }}</b>skills</li></ul>
+<p class="actions"><a class="btn primary big" href="{{ lv.placement }}">Find my level</a><a class="btn big" href="{{ lv.practice }}">Practice</a></p>
 {% if lv.grammar.length %}<h2>{% if lv.id == 'foundations' %}Lessons{% else %}Grammar{% endif %}</h2><ul class="list">{% for g in lv.grammar %}<li><a href="{{ g.url }}">{{ g.t }}</a>{% if g.summary %} <span class="muted small">{{ g.summary | first(110) }}</span>{% endif %}</li>{% endfor %}</ul>{% endif %}
 {% if lv.chars.length %}<h2>Characters</h2><p class="charlist" lang="zh">{% for c in lv.chars %}<a href="{{ c.url }}" title="{{ c.c.r | join(', ') }}: {{ c.g }}">{{ c.c.c }}</a>{% endfor %}</p>{% endif %}
 {% if lv.words.length %}<h2>Word list</h2>
 <table class="words"><thead><tr><th>#</th><th>Word</th>{% if lv.pack.id == 'zh' %}<th>Pinyin</th>{% endif %}{% for b in lv.pack.bases %}<th>{{ lm.BASE_NAME[b] }}</th>{% endfor %}</tr></thead><tbody>
 {% for w in lv.words %}<tr><td class="muted">{{ loop.index }}</td><td><a href="{{ w.url }}" lang="{{ lv.pack.target }}">{{ w.it.t }}</a></td>{% if lv.pack.id == 'zh' %}<td>{{ w.it.r }}</td>{% endif %}{% for g in w.gl %}<td>{{ g.short }}</td>{% endfor %}</tr>{% endfor %}
 </tbody></table>{% endif %}
+{% updated %}

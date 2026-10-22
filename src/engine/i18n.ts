@@ -2,11 +2,11 @@
 import type { Base } from './types';
 
 const en = {
-  continue: 'Continue', start: 'Start practice', placement: 'Take the placement quiz', placementIntro: 'Answer 5 quick questions per band. Get 4 right to skip ahead. Stop any time.',
+  continue: 'Continue', start: 'Start practice', placement: 'Take the placement quiz', placementIntro: 'Skip what you know. 5 quick questions per step.', findLevel: 'Find your level', more: 'Explain more', tapFlip: 'Tap a card to flip it', unlocked: 'Unlocked',
   beginner: 'I am a beginner', next: 'Next', check: 'Check', correct: 'Correct', wrong: 'Not quite', almost: 'Almost: watch the accents',
   answerWas: 'Answer', xp: 'XP', mastered: 'Mastered', learning: 'Learning', practicing: 'Practicing', decaying: 'Needs review', unseen: 'Not started', locked: 'Locked',
   due: 'Reviews due', streak: 'Day streak', checkIn: 'Mastery check in', concepts: 'Concepts', map: 'Your map', sessionDone: 'Session complete', earned: 'You earned',
-  newlyMastered: 'Newly mastered', allDone: 'Nothing due right now. Come back later or pick any unlocked concept.', masteryCheck: 'Mastery check', masteryCheckIntro: 'A quick check on things you have mastered.',
+  newlyMastered: 'Newly mastered', allDone: 'All caught up! Come back later or pick any open lesson.', masteryCheck: 'Mastery check', masteryCheckIntro: 'Prove you still know it.',
   placed: 'Placement done', placedAt: 'You start at', listen: 'Listen', type: 'Type the word', write: 'Write the character stroke by stroke', tone: 'Pick the right tones', settings: 'Settings',
   audio: 'Audio', reset: 'Reset progress', resetConfirm: 'Delete all progress for this course in this browser?', export: 'Export progress', import: 'Import progress', base: 'I speak',
   noVoice: 'No voice for this language in your browser, so listening drills are off.', back: 'Back to map', words: 'Words', grammar: 'Grammar', lesson: 'Lesson', example: 'Examples', pattern: 'Pattern',
@@ -16,7 +16,7 @@ const en = {
 type Dict = typeof en;
 
 const es: Partial<Dict> = {
-  continue: 'Continuar', start: 'Empezar a practicar', placement: 'Hacer la prueba de nivel', placementIntro: 'Responde 5 preguntas por bloque. Acierta 4 para avanzar. Para cuando quieras.',
+  continue: 'Continuar', start: 'Empezar a practicar', placement: 'Hacer la prueba de nivel', placementIntro: 'Salta lo que ya sabes. 5 preguntas rápidas por paso.', findLevel: 'Encuentra tu nivel', more: 'Explicar más', tapFlip: 'Toca una tarjeta para girarla', unlocked: 'Desbloqueado',
   beginner: 'Soy principiante', next: 'Siguiente', check: 'Comprobar', correct: 'Correcto', wrong: 'No exactamente', almost: 'Casi: cuidado con los acentos',
   answerWas: 'Respuesta', mastered: 'Dominado', learning: 'Aprendiendo', practicing: 'Practicando', decaying: 'Repasar', unseen: 'Sin empezar', locked: 'Bloqueado',
   due: 'Repasos pendientes', streak: 'Días seguidos', checkIn: 'Control de dominio en', concepts: 'Conceptos', map: 'Tu mapa', sessionDone: 'Sesión completada', earned: 'Has ganado',
@@ -28,7 +28,7 @@ const es: Partial<Dict> = {
   hint: 'Pista', practiceThis: 'Practicar esto', unlocks: 'Se desbloquea tras', level: 'Nivel',
 };
 const pt: Partial<Dict> = {
-  continue: 'Continuar', start: 'Começar a praticar', placement: 'Fazer o teste de nível', placementIntro: 'Responda 5 perguntas por bloco. Acerte 4 para avançar. Pare quando quiser.',
+  continue: 'Continuar', start: 'Começar a praticar', placement: 'Fazer o teste de nível', placementIntro: 'Pule o que você já sabe. 5 perguntas rápidas por etapa.', findLevel: 'Encontre seu nível', more: 'Explicar mais', tapFlip: 'Toque num cartão para virar', unlocked: 'Desbloqueado',
   beginner: 'Sou iniciante', next: 'Próximo', check: 'Verificar', correct: 'Correto', wrong: 'Não exatamente', almost: 'Quase: atenção aos acentos',
   answerWas: 'Resposta', mastered: 'Dominado', learning: 'Aprendendo', practicing: 'Praticando', decaying: 'Revisar', unseen: 'Não iniciado', locked: 'Bloqueado',
   due: 'Revisões pendentes', streak: 'Dias seguidos', checkIn: 'Teste de domínio em', concepts: 'Conceitos', map: 'Seu mapa', sessionDone: 'Sessão concluída', earned: 'Você ganhou',
@@ -40,7 +40,7 @@ const pt: Partial<Dict> = {
   hint: 'Dica', practiceThis: 'Praticar isto', unlocks: 'Desbloqueia depois de', level: 'Nível',
 };
 const zh: Partial<Dict> = {
-  continue: '继续', start: '开始练习', placement: '做分级测试', placementIntro: '每组回答 5 道题，答对 4 道就跳过。随时可以停止。', beginner: '我是初学者', next: '下一题', check: '检查',
+  continue: '继续', start: '开始练习', placement: '做分级测试', placementIntro: '会的直接跳过。每步 5 道快题。', findLevel: '找到你的水平', more: '更多解释', tapFlip: '点卡片翻面', unlocked: '已解锁', beginner: '我是初学者', next: '下一题', check: '检查',
   correct: '正确', wrong: '不对', almost: '差一点：注意重音符号', answerWas: '答案', mastered: '已掌握', learning: '学习中', practicing: '练习中', decaying: '需要复习', unseen: '未开始', locked: '未解锁',
   due: '待复习', streak: '连续天数', checkIn: '掌握测试还差', concepts: '知识点', map: '学习地图', sessionDone: '本轮完成', earned: '获得', newlyMastered: '新掌握',
   allDone: '现在没有待复习的内容。稍后再来，或选择任何已解锁的知识点。', masteryCheck: '掌握测试', masteryCheckIntro: '快速检查你已经掌握的内容。', placed: '测试完成', placedAt: '你从这里开始',

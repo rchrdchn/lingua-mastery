@@ -15,19 +15,23 @@
   }
 }
 ---
-<section class="hero"><h1>{{ site.tagline }}</h1>
-<p class="lead">Free courses in Mandarin Chinese, Spanish, English, French, Italian, Portuguese and German. Take a placement quiz, then learn words and grammar in an order where each lesson unlocks only once you have mastered what it builds on.</p>
-<p>Spaced review brings every word back right before you would forget it. Everything runs in your browser and progress stays on your device. No account, no ads in the way.</p>
-<p class="actions"><a class="btn primary" href="/learn/?pack=zh&amp;placement=1">Start Mandarin</a><a class="btn primary" href="/learn/?pack=es&amp;placement=1">Start Spanish</a><a class="btn" href="/learn/">All courses</a></p>
-{% updated %}</section>
-<section><h2>Courses</h2><div class="cards">{% for p in lm.packs %}<article class="course"><h3><a href="{{ p.hubUrl }}">{{ p.name }}{% if p.id == 'en' %} for Spanish, Portuguese and Chinese speakers{% endif %}</a></h3>
-<p>{{ p.counts.words }} words{% if p.counts.chars %}, {{ p.counts.chars }} characters{% endif %}, {{ p.counts.grammar }} grammar lessons, {{ p.counts.concepts }} concepts in the skill map.</p>
-<p class="small">{% for l in p.levels %}<a href="{{ l.url }}">{{ l.name }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>
-<p><a class="btn small" href="/learn/?pack={{ p.id }}">Practice {{ p.short }}</a></p></article>{% endfor %}</div></section>
-<section><h2>How it works</h2><ol class="steps">
-<li><b>Placement.</b> Five quick questions per band. Get four right and the whole band is marked as known, so you never start below your level.</li>
-<li><b>Skill map.</b> Each course is a graph of small concepts: groups of words, grammar points, and for Mandarin, tones and strokes. A concept unlocks when its prerequisites are mastered.</li>
-<li><b>Mastery.</b> A concept counts as mastered after a streak of correct answers at a comfortable speed. Mistakes reset the streak, not your progress.</li>
-<li><b>Spaced review.</b> Each word gets its own review schedule (the FSRS algorithm). About a third of every session is review.</li>
-<li><b>Mastery checks.</b> Every 50 XP you get a short check on things you mastered earlier. Miss one and it goes back into practice.</li></ol></section>
+{% set d0 = demo.langs[0] %}{% set q0 = d0.qs[0] %}
+<section class="hero"><h1>Don't just learn a language. <em>Master it.</em></h1>
+<p class="lead">Bite-sized lessons in 7 languages. Free, no account.</p>
+<p class="cta"><a class="btn primary big" href="/learn/">Start learning free</a></p>
+<div class="demo" id="demo" aria-label="Try a 3-question lesson">
+<div class="dlangs" role="group" aria-label="Demo language">{% for l in demo.langs %}<button type="button" data-l="{{ l.id }}" aria-pressed="{{ 'true' if loop.first else 'false' }}">{{ l.name }}</button>{% endfor %}</div>
+<div class="dtop"><div class="bar" aria-hidden="true"><i style="width:0%"></i></div><span class="xp" aria-label="XP">{% include "i-bolt.njk" %}<span class="n">0</span></span></div>
+<div class="dcard" aria-live="polite"><div class="dq"><div class="i">Tap the meaning</div><div class="w" lang="{{ d0.id }}">{{ q0.w }}<button class="say" type="button" aria-label="Listen" data-say="{{ q0.w }}" data-lang="{{ d0.speech }}">{% include "i-say.njk" %}</button></div><div class="r">{{ q0.r }}</div></div>
+<div class="dch">{% for c in q0.choices %}<button class="choice" type="button">{{ c }}</button>{% endfor %}</div></div>
+<script type="application/json" id="demo-data">{{ demo.langs | json | safe }}</script>
+</div></section>
+<section class="reveal"><h2>Real sentences, real people</h2>
+<div class="carousel" id="cards">{% for c in demo.cards %}<article class="exc"><span class="lang">{{ c.name }}</span><span class="s" lang="{{ c.id }}">{{ c.t | hl(c.w) | safe }}</span><button class="say" type="button" aria-label="Listen" data-say="{{ c.t }}" data-lang="{{ c.speech }}">{% include "i-say.njk" %}</button><span class="tr">{{ c.tr }}</span><a class="word" href="{{ c.url }}">{{ c.w }}{% if c.r %} · {{ c.r }}{% endif %} →</a><span class="credit">Tatoeba: {{ c.by }}</span></article>{% endfor %}</div>
+<div class="dots" id="dots" aria-hidden="true"></div></section>
+<section class="reveal"><h2>Pick a language</h2><div class="langgrid">{% for p in lm.packs %}{% set dl = demo.byLang[p.id][0] %}<a class="lg" href="{{ p.hubUrl }}"><span class="big" lang="{{ p.id }}">{{ dl.w if dl else p.short }}</span><b>{{ p.adj }}</b><span>{{ p.counts.words }} words{% if p.id == 'en' %} · for es, pt, zh{% endif %}</span></a>{% endfor %}</div></section>
+<section class="reveal"><h2>How it works</h2><ol class="how">
+<li><span class="ic" style="background:var(--gold2)">🎯</span><div><b>Find your level</b><span>Skip what you know.</span></div></li>
+<li><span class="ic" style="background:var(--brand2)">🔓</span><div><b>Master to unlock</b><span>Next lesson opens when you nail this one.</span></div></li>
+<li><span class="ic" style="background:var(--accent2)">🔁</span><div><b>Review just in time</b><span>Words come back before you forget.</span></div></li></ol></section>
 {% include "faq.njk" %}

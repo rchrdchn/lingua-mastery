@@ -8,7 +8,7 @@ import { createRequire } from 'node:module';
 const require = createRequire(import.meta.url);
 
 const watch = process.argv.includes('--watch');
-const opts = { entryPoints: { app: 'src/app/main.ts', strokes: 'src/app/strokes.ts' }, bundle: true, minify: !watch, sourcemap: true, format: 'esm', target: 'es2020', outdir: 'src/assets', logLevel: 'info' };
+const opts = { entryPoints: { app: 'src/app/main.ts', strokes: 'src/app/strokes.ts', site: 'src/app/site.ts' }, bundle: true, minify: !watch, sourcemap: true, format: 'esm', target: 'es2020', outdir: 'src/assets', logLevel: 'info' };
 
 // Stroke data.
 const zh = JSON.parse(fs.readFileSync('data/packs/zh.json', 'utf8'));

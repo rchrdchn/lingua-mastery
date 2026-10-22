@@ -5,7 +5,7 @@ const site = require('./src/_data/site.json');
 module.exports = function (c) {
   c.addPassthroughCopy({ 'src/assets': 'assets' });
   c.addPassthroughCopy({ 'data/packs': 'packs' });
-  ['favicon.svg', '_headers', 'robots.txt'].forEach(f => c.addPassthroughCopy('src/' + f));
+  ['favicon.svg', 'favicon-32.png', 'apple-touch-icon.png', 'icon-192.png', 'icon-512.png', 'og.png', 'site.webmanifest', '_headers', 'robots.txt'].forEach(f => c.addPassthroughCopy('src/' + f));
   c.addWatchTarget('src/assets/');
 
   c.addFilter('json', v => JSON.stringify(v).replace(/</g, '\\u003c'));
@@ -14,6 +14,12 @@ module.exports = function (c) {
   c.addFilter('xml', s => seo.plain(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'));
   c.addFilter('first', (s, n = 60) => { const t = String(s || '').split(';')[0].trim(); return t.length > n ? t.slice(0, n - 1).replace(/\s+\S*$/, '') + '…' : t; });
   c.addFilter('sitemapPages', ps => ps.filter(p => p.url && p.url.endsWith('/') && !p.data.noindex && !(p.data.w && p.data.w.noindex) && !(p.data.ch && p.data.ch.noindex)).sort((a, b) => a.url === '/' ? -1 : b.url === '/' ? 1 : a.url.localeCompare(b.url)));
+  // Highlight the first occurrence of a word in a sentence (HTML-escaped).
+  c.addFilter('hl', (s, w) => {
+    const esc = x => String(x).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    const t = String(s || ''), i = w ? t.toLowerCase().indexOf(String(w).toLowerCase()) : -1;
+    return i < 0 ? esc(t) : esc(t.slice(0, i)) + '<mark>' + esc(t.slice(i, i + w.length)) + '</mark>' + esc(t.slice(i + w.length));
+  });
   c.addFilter('rfc822', d => new Date(d).toUTCString());
   c.addShortcode('updated', () => '<p class="upd">Updated <time datetime="__LASTMOD_ISO__">__LASTMOD__</time></p>');
 

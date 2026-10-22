@@ -10,15 +10,15 @@
   }
 }
 ---
-<p class="crumbs"><a href="/">Home</a> / <a href="{{ g.pack.hubUrl }}">Learn {{ g.pack.adj }}</a> / <a href="{{ g.levelUrl }}">{{ g.lvName }}</a> / {{ g.t }}</p>
+<p class="crumbs"><a href="/">Home</a> / <a href="{{ g.pack.hubUrl }}">{{ g.pack.adj }}</a> / <a href="{{ g.levelUrl }}">{{ g.lvName }}</a> / {{ g.t }}</p>
 <h1>{{ g.t }}</h1>
 {% if g.summary %}<p class="lead">{{ g.summary }}</p>{% endif %}
-{% for p in g.body %}<p>{{ p }}</p>{% endfor %}
-{% if g.c.pattern %}<p class="pattern"><b>Pattern:</b> <span lang="{{ g.pack.target }}">{{ g.c.pattern }}</span></p>{% endif %}
-<p class="actions"><a class="btn primary" href="{{ g.practice }}">Practice this lesson</a></p>
-{% updated %}
-{% if g.examples.length %}<h2>Examples</h2><ul class="examples">{% for e in g.examples %}<li><span class="tgt" lang="{{ g.pack.target }}">{{ e.t }}</span>{% if e.r %} <span class="muted">{{ e.r }}</span>{% endif %}{% for t in e.tr %}<br><span class="muted">{% if e.tr.length > 1 %}{{ t.name }}: {% endif %}{{ t.t }}</span>{% endfor %}</li>{% endfor %}</ul>{% endif %}
-{% if g.sents.length %}<h2>In real sentences</h2><ul class="examples">{% for s in g.sents %}<li><span class="tgt" lang="{{ g.pack.target }}">{{ s.t }}</span>{% for t in s.tr %}<br><span class="muted">{% if s.tr.length > 1 %}{{ t.name }}: {% endif %}{{ t.t }}</span>{% endfor %}<br><span class="credit">Tatoeba: {{ s.a }}</span></li>{% endfor %}</ul>{% endif %}
-{% for tr in g.translations %}<section class="trans" lang="{{ tr.b }}"><h2>{{ tr.title }} ({{ tr.name }})</h2><p>{{ tr.summary }}</p>{% for p in tr.body %}<p>{{ p }}</p>{% endfor %}</section>{% endfor %}
-{% if g.prereqs.length %}<h2>Before this lesson</h2><p>This unlocks after: {% for p in g.prereqs %}{% if p.url %}<a href="{{ p.url }}">{{ p.t }}</a>{% else %}{{ p.t }}{% endif %}{% if not loop.last %}, {% endif %}{% endfor %}.</p>{% endif %}
+{% if g.c.pattern %}<p class="pattern" lang="{{ g.pack.target }}">{{ g.c.pattern }}</p>{% endif %}
+{% if g.examples.length %}<ul class="exlist">{% for e in g.examples %}<li class="exc"><span class="s" lang="{{ g.pack.target }}">{{ e.t }}</span><button class="say" type="button" aria-label="Listen" data-say="{{ e.t }}" data-lang="{{ g.pack.speech }}">{% include "i-say.njk" %}</button>{% if e.r %}<span class="r">{{ e.r }}</span>{% endif %}{% for t in e.tr %}<span class="tr">{% if e.tr.length > 1 %}{{ t.name }}: {% endif %}{{ t.t }}</span>{% endfor %}</li>{% endfor %}</ul>{% endif %}
+<div class="sticky-cta"><a class="btn primary big" href="{{ g.practice }}">Practice this lesson</a></div>
+{% if g.body.length %}<details class="more"><summary>Explain more</summary>{% for p in g.body %}<p>{{ p }}</p>{% endfor %}</details>{% endif %}
+{% if g.sents.length %}<h2>In real sentences</h2><ul class="exlist">{% for s in g.sents %}<li class="exc"><span class="s" lang="{{ g.pack.target }}">{{ s.t }}</span><button class="say" type="button" aria-label="Listen" data-say="{{ s.t }}" data-lang="{{ g.pack.speech }}">{% include "i-say.njk" %}</button>{% for t in s.tr %}<span class="tr">{% if s.tr.length > 1 %}{{ t.name }}: {% endif %}{{ t.t }}</span>{% endfor %}<span class="credit">Tatoeba: {{ s.a }}</span></li>{% endfor %}</ul>{% endif %}
+{% for tr in g.translations %}<details class="more" lang="{{ tr.b }}"><summary>{{ tr.title }} ({{ tr.name }})</summary><p>{{ tr.summary }}</p>{% for p in tr.body %}<p>{{ p }}</p>{% endfor %}</details>{% endfor %}
+{% if g.prereqs.length %}<p class="muted small">Unlocks after: {% for p in g.prereqs %}{% if p.url %}<a href="{{ p.url }}">{{ p.t }}</a>{% else %}{{ p.t }}{% endif %}{% if not loop.last %}, {% endif %}{% endfor %}</p>{% endif %}
 <p class="pn">{% if g.prev %}<a rel="prev" href="{{ g.prev.url }}">← {{ g.prev.t }}</a>{% endif %}{% if g.next %}<a rel="next" href="{{ g.next.url }}">{{ g.next.t }} →</a>{% endif %}</p>
+{% updated %}
