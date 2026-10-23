@@ -1,0 +1,15 @@
+{
+  "_italkiUrl": "Leave italkiUrl empty until Awin approves italki (publisher 3126478, merchant 89661). Then paste the Awin deeplink in this exact format: https://www.awin1.com/cread.php?awinmid=89661&awinaffid=3126478&ued=<url-encoded italki page>, for example ued=https%3A%2F%2Fwww.italki.com%2F. The build swaps ued for each course's teacher page in italkiPages. While italkiUrl is empty, no tutor card or tutor link renders anywhere (preview only with TUTOR_PREVIEW=1).",
+  "italkiUrl": "",
+  "_italkiPages": "italki teacher search per course id. Each was checked with curl (HTTP 200). Use https://www.italki.com/ for any language without a working page.",
+  "italkiPages": {
+    "zh": "https://www.italki.com/en/teachers/chinese",
+    "es": "https://www.italki.com/en/teachers/spanish",
+    "en": "https://www.italki.com/en/teachers/english",
+    "fr": "https://www.italki.com/en/teachers/french",
+    "it": "https://www.italki.com/en/teachers/italian",
+    "pt": "https://www.italki.com/en/teachers/portuguese",
+    "de": "https://www.italki.com/en/teachers/german"
+  },
+  "disclosure": "We may earn a commission if you book a lesson through this link, at no extra cost to you."
+}
