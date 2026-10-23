@@ -15,7 +15,7 @@ VOICE = {
     'zh': ('kokoro-v1.1-zh-zf_002', 'zf_002 (Kokoro-82M v1.1-zh)', 'Apache-2.0', 'Kokoro'),  # pre-synthesized by kokoro_zh.py
     'es': ('kokoro-v1.0-em_alex', 'em_alex (Kokoro-82M v1.0)', 'Apache-2.0', 'Kokoro'),
     'en': ('kokoro-v1.0-af_heart', 'af_heart (Kokoro-82M v1.0)', 'Apache-2.0', 'Kokoro'),
-    'fr': ('piper-fr_FR-tom-medium', 'tom (fr_FR, medium, 44.1 kHz)', 'ODbL dataset (model AGPL-3.0)', 'Piper', True),  # pre-synthesized by ext_tts.py (piper engine)
+    'fr': ('kokoro-v1.0-ff_siwis', 'ff_siwis (Kokoro-82M v1.0)', 'Apache-2.0', 'Kokoro'),  # tom dropped: fine-tune base undocumented
     'it': ('it_IT-serena-high', 'serena (it_IT, high)', 'CC BY 4.0 dataset'),
     'pt': ('kokoro-v1.0-pf_dora', 'pf_dora (Kokoro-82M v1.0)', 'Apache-2.0', 'Kokoro'),
     'de': ('de_DE-thorsten-high', 'Thorsten (de_DE, high)', 'CC0 dataset'),

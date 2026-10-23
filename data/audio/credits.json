@@ -18563,7 +18563,7 @@
   }
  },
  "fr": {
-  "bytes": 11751802,
+  "bytes": 11145154,
   "clips": 2497,
   "failed": 0,
   "files": 607,
@@ -18642,10 +18642,10 @@
   },
   "tts": {
    "clips": 1812,
-   "engine": "Piper",
-   "license": "ODbL dataset (model AGPL-3.0)",
-   "model": "piper-fr_FR-tom-medium",
-   "voice": "tom (fr_FR, medium, 44.1 kHz)"
+   "engine": "Kokoro",
+   "license": "Apache-2.0",
+   "model": "kokoro-v1.0-ff_siwis",
+   "voice": "ff_siwis (Kokoro-82M v1.0)"
   },
   "words": {
    "abord": {

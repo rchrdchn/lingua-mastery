@@ -1526,11 +1526,11 @@
      ]
     },
     {
-     "id": "piper-fr_FR-tom-medium",
-     "label": "Piper fr_FR tom medium (chosen)",
-     "license": "Model AGPL-3.0, ODbL dataset",
-     "note": "second set: 11/16 words, sentence WER 5.1%. Most words heard right over both sets (17 of 24; SIWIS 15, Kokoro 13) and tied-lowest sentence WER on both sets (4.3% / 5.1%). 44.1 kHz, recorded and released by its speaker for training TTS.",
-     "wordAcc": 0.75,
+     "id": "kokoro-ff_siwis",
+     "label": "Kokoro-82M v1.0, ff_siwis (chosen)",
+     "license": "Apache-2.0",
+     "note": "second set: 11/16 words, sentence WER 7.1%; first set 4.3%. Best voice with a fully documented open license once tom was excluded. Weak on isolated words in the first set (tous and pour come out like numbers), but every course word has a native recording, so it voices sentences only.",
+     "wordAcc": 0.25,
      "nWords": 8,
      "wer": 0.043478260869565216,
      "cer": 0.02242152466367713,
@@ -1560,11 +1560,11 @@
      ]
     },
     {
-     "id": "kokoro-ff_siwis",
-     "label": "Kokoro-82M v1.0, ff_siwis",
-     "license": "Apache-2.0",
-     "note": "second set: 11/16 words, sentence WER 7.1%. Weak on isolated words in the first set (tous and pour come out like numbers).",
-     "wordAcc": 0.25,
+     "id": "piper-fr_FR-tom-medium",
+     "label": "Piper fr_FR tom medium (not used)",
+     "license": "Model AGPL-3.0, ODbL dataset",
+     "note": "second set: 11/16 words, sentence WER 5.1%. Scored best (17 of 24 words over both sets; sentence WER 4.3% / 5.1%), but not used: its model card and training repo do not say which checkpoint it was fine-tuned from, and nearly every French Piper voice was fine-tuned from the English lessac or ryan voices, whose base data is not openly licensed.",
+     "wordAcc": 0.75,
      "nWords": 8,
      "wer": 0.043478260869565216,
      "cer": 0.02242152466367713,
