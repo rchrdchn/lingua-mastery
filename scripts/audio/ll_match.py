@@ -10,10 +10,12 @@ UA = {'User-Agent': 'LinguaMagnaAudio/0.1 (https://linguamagna.pages.dev; one-ti
 plan = json.load(open('data/audio/plan.json'))
 # Accent allowlists where the course teaches one variety (Lingua Libre's speaker database, which records
 # each speaker's place, was unreachable, so speakers were checked by hand and with an accent classifier):
-# English: General American speakers; Portuguese: Brazilian speakers.
+# English: General American speakers; Portuguese: Brazilian speakers (checked with a phoneme recognizer for
+# Brazilian /ti di/ palatalization and final -e as [i]; Santamarcanda, Nelson Ricardo 2500 and Waldyrious are
+# European Portuguese and are left out so the course stays pt-BR; AnshulBhagwat is left out as likely non-native).
 ALLOW = {
     'en': {'Wodencafe', 'Grendelkhan', 'Naomi Persephone Amethyst (NaomiAmethyst)', 'She animates', 'Rachlel', 'Simplificationalizer', 'Semperosculto'},
-    'pt': {'Juliano P. Junho (Jjunho)'},
+    'pt': {'Juliano P. Junho (Jjunho)', 'Sillim', 'JnpoJuwan', 'Juwan (JnpoJuwan)', 'Juwan', 'MedK1', 'Ed Guimaraes'},
 }
 
 def api(params):
