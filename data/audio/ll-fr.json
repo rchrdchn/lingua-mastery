@@ -721,11 +721,12 @@
 "src": "/home/box/audio-src/ll/fr/3c9f18109bf60e72.wav"
 },
 "chéri": {
-"title": "LL-Q150 (fra)-Mylou (Mathsou)-chéri.wav",
-"speaker": "Mylou (Mathsou)",
-"license": "CC0",
-"url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/LL-Q150_%28fra%29-Mylou_%28Mathsou%29-ch%C3%A9ri.wav",
-"src": "/home/box/audio-src/ll/fr/596cb4afd8a7a0e2.wav"
+"title": "Fr-chéri.ogg",
+"speaker": "Vion Nicolas",
+"license": "CC BY 2.0 fr",
+"url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Fr-ch%C3%A9ri.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/fr/8cc6855198f0b27d.ogg"
 },
 "cinq": {
 "title": "LL-Q150 (fra)-LoquaxFR-cinq.wav",
@@ -3759,11 +3760,11 @@
 "src": "/home/box/audio-src/ll/fr/dc27f3c3ead2420b.wav"
 },
 "tes": {
-"title": "LL-Q150 (fra)-Ben (Mathsou)-tes.wav",
-"speaker": "Ben (Mathsou)",
+"title": "LL-Q150 (fra)-Mecanautes-tes.wav",
+"speaker": "Mecanautes",
 "license": "CC0",
-"url": "https://upload.wikimedia.org/wikipedia/commons/3/30/LL-Q150_%28fra%29-Ben_%28Mathsou%29-tes.wav",
-"src": "/home/box/audio-src/ll/fr/565ebeb8b888f7af.wav"
+"url": "https://upload.wikimedia.org/wikipedia/commons/d/db/LL-Q150_%28fra%29-Mecanautes-tes.wav",
+"src": "/home/box/audio-src/ll/fr/8a6b52602f4b08d1.wav"
 },
 "tirer": {
 "title": "LL-Q150 (fra)-LoquaxFR-tirer.wav",
