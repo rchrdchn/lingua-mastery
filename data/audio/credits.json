@@ -22251,13 +22251,25 @@
   }
  },
  "it": {
-  "bytes": 10647037,
+  "bytes": 10716011,
   "clips": 2511,
   "failed": 0,
   "files": 607,
   "ll": {
-   "clips": 491,
+   "clips": 517,
    "speakers": {
+    "Accurimbono": {
+     "licenses": [
+      "CC BY-SA 3.0"
+     ],
+     "n": 12
+    },
+    "Borgoboca": {
+     "licenses": [
+      "CC BY-SA 4.0"
+     ],
+     "n": 1
+    },
     "Ciampix": {
      "licenses": [
       "CC0"
@@ -22288,6 +22300,12 @@
      ],
      "n": 22
     },
+    "GerardM": {
+     "licenses": [
+      "CC BY-SA 3.0"
+     ],
+     "n": 1
+    },
     "Jennum": {
      "licenses": [
       "CC BY 4.0"
@@ -22300,6 +22318,12 @@
      ],
      "n": 366
     },
+    "Marta Carbone, Association Shtooka": {
+     "licenses": [
+      "CC BY 3.0 us"
+     ],
+     "n": 12
+    },
     "XANA000": {
      "licenses": [
       "CC0"
@@ -22308,9 +22332,18 @@
     }
    }
   },
-  "ll_rejected": {},
+  "ll_rejected": {
+   "clipped": 42
+  },
+  "sentences": {
+   "clips": 32,
+   "speakers": {
+    "NM1|CC BY 4.0|": 32
+   }
+  },
   "tts": {
-   "clips": 2020,
+   "clips": 1962,
+   "engine": "Piper",
    "license": "CC BY 4.0 dataset",
    "model": "it_IT-serena-high",
    "voice": "serena (it_IT, high)"
@@ -22318,2456 +22351,3103 @@
   "words": {
    "a": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-a.wav"
    },
    "abbastanza": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-abbastanza.wav"
    },
    "acqua": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-acqua.wav"
    },
    "addio": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-addio.wav"
    },
    "addosso": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-addosso.wav"
    },
    "adesso": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-adesso.wav"
    },
    "affare": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Crunchy Cloaky Crackdown",
     "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-affare.wav"
    },
    "agente": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Crunchy Cloaky Crackdown",
     "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-agente.wav"
    },
    "aiutare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-aiutare.wav"
    },
    "al": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "DivoLetto",
     "title": "LL-Q652 (ita)-DivoLetto-al.wav"
    },
    "alla": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-alla.wav"
    },
    "allora": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-allora.wav"
    },
    "almeno": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-almeno.wav"
    },
    "alto": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-alto.wav"
    },
    "altro": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-altro.wav"
    },
    "amare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-amare.wav"
    },
    "amico": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-amico.wav"
    },
    "amore": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-amore.wav"
    },
    "anche": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-anche.wav"
    },
    "ancora": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-ancora.wav"
    },
    "andare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-andare.wav"
    },
    "andarsene": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-andarsene.wav"
    },
    "andata": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-andata.wav"
    },
    "anno": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-anno.wav"
    },
    "appena": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-appena.wav"
    },
    "appuntamento": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-appuntamento.wav"
    },
+   "aria": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Accurimbono",
+    "title": "It-aria.ogg"
+   },
    "arma": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-arma.wav"
    },
    "arrivare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-arrivare.wav"
    },
    "ascoltare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-ascoltare.wav"
    },
    "aspettare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-aspettare.wav"
    },
    "assassino": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "DivoLetto",
     "title": "LL-Q652 (ita)-DivoLetto-assassino.wav"
    },
    "assolutamente": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-assolutamente.wav"
    },
    "attento": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-attento.wav"
    },
    "attenzione": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-attenzione.wav"
    },
    "attimo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-attimo.wav"
    },
    "auto": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Crunchy Cloaky Crackdown",
     "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-auto.wav"
    },
    "avanti": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-avanti.wav"
    },
    "avere": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-avere.wav"
    },
    "avvocato": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-avvocato.wav"
    },
    "bagno": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-bagno.wav"
    },
    "bambino": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-bambino.wav"
    },
    "bar": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-bar.wav"
    },
    "bastare": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-bastare.wav"
    },
    "bello": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-bello.wav"
    },
    "bene": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-bene.wav"
    },
    "bere": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-bere.wav"
    },
    "bisogno": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Crunchy Cloaky Crackdown",
     "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-bisogno.wav"
    },
    "bocca": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-bocca.wav"
    },
    "bravo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-bravo.wav"
    },
    "brutto": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-brutto.wav"
    },
+   "buongiorno": {
+    "license": "CC BY 3.0 us",
+    "origin": "commons",
+    "speaker": "Marta Carbone, Association Shtooka",
+    "title": "It-buongiorno.ogg"
+   },
    "buono": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-buono.wav"
    },
    "cambiare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-cambiare.wav"
    },
    "camera": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-camera.wav"
    },
    "campo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-campo.wav"
    },
    "cane": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-cane.wav"
    },
    "capire": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-capire.wav"
    },
    "capitano": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-capitano.wav"
    },
    "capo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-capo.wav"
    },
+   "carino": {
+    "license": "CC BY 3.0 us",
+    "origin": "commons",
+    "speaker": "Marta Carbone, Association Shtooka",
+    "title": "It-carino.ogg"
+   },
    "caro": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-caro.wav"
    },
    "casa": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Ciampix",
     "title": "LL-Q652 (ita)-Ciampix-casa.wav"
    },
+   "caso": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Accurimbono",
+    "title": "It-caso.ogg"
+   },
    "causa": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Crunchy Cloaky Crackdown",
     "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-causa.wav"
    },
    "cavolo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-cavolo.wav"
    },
    "ce": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-ce.wav"
    },
    "cena": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-cena.wav"
    },
    "centro": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-centro.wav"
    },
    "cercare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-cercare.wav"
    },
    "certo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-certo.wav"
    },
    "cervello": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-cervello.wav"
    },
    "che": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-che.wav"
    },
    "chi": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-chi.wav"
    },
    "chiamare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-chiamare.wav"
    },
    "chiaro": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-chiaro.wav"
    },
    "chiave": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-chiave.wav"
    },
    "chiedere": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-chiedere.wav"
    },
    "chiudere": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-chiudere.wav"
    },
    "chiunque": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-chiunque.wav"
    },
    "ci": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-ci.wav"
    },
    "ciao": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-ciao.wav"
    },
    "cibo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-cibo.wav"
    },
    "cielo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-cielo.wav"
    },
    "cinque": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-cinque.wav"
    },
    "cioè": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-cioè.wav"
    },
    "circa": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-circa.wav"
    },
    "città": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-città.wav"
    },
    "col": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-col.wav"
    },
    "colpa": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Crunchy Cloaky Crackdown",
     "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-colpa.wav"
    },
    "colpo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-colpo.wav"
    },
    "come": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-come.wav"
    },
    "compagnia": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "DivoLetto",
     "title": "LL-Q652 (ita)-DivoLetto-compagnia.wav"
    },
    "completamente": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-completamente.wav"
    },
    "comunque": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-comunque.wav"
    },
    "con": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-con.wav"
    },
    "conoscere": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-conoscere.wav"
    },
    "consiglio": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-consiglio.wav"
    },
    "continuare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-continuare.wav"
    },
    "conto": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "DivoLetto",
     "title": "LL-Q652 (ita)-DivoLetto-conto.wav"
    },
    "contro": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Crunchy Cloaky Crackdown",
     "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-contro.wav"
    },
    "controllare": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "DivoLetto",
     "title": "LL-Q652 (ita)-DivoLetto-controllare.wav"
    },
    "coraggio": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-coraggio.wav"
    },
    "corpo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-corpo.wav"
    },
    "cosa": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-cosa.wav"
    },
    "così": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-così.wav"
    },
    "credere": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-credere.wav"
    },
    "cuore": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-cuore.wav"
    },
    "cura": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "DivoLetto",
     "title": "LL-Q652 (ita)-DivoLetto-cura.wav"
    },
    "da": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Crunchy Cloaky Crackdown",
     "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-da.wav"
    },
    "dai": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-dai.wav"
    },
    "dare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-dare.wav"
    },
    "davanti": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-davanti.wav"
    },
    "davvero": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-davvero.wav"
    },
    "decidere": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-decidere.wav"
    },
    "dei": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "DivoLetto",
     "title": "LL-Q652 (ita)-DivoLetto-dei.wav"
    },
    "della": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-della.wav"
    },
    "dello": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-dello.wav"
    },
    "dentro": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-dentro.wav"
    },
    "di": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-di.wav"
    },
    "diavolo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-diavolo.wav"
    },
    "dieci": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-dieci.wav"
    },
    "dietro": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-dietro.wav"
    },
    "difficile": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-difficile.wav"
    },
    "dimenticare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-dimenticare.wav"
    },
    "dio": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-dio.wav"
    },
    "dire": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-dire.wav"
    },
    "diventare": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "DivoLetto",
     "title": "LL-Q652 (ita)-DivoLetto-diventare.wav"
    },
    "diverso": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Crunchy Cloaky Crackdown",
     "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-diverso.wav"
    },
    "divertente": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-divertente.wav"
    },
    "dolce": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-dolce.wav"
    },
    "dolore": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-dolore.wav"
    },
    "domanda": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-domanda.wav"
    },
    "domani": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-domani.wav"
    },
    "donna": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-donna.wav"
    },
    "dopo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-dopo.wav"
    },
    "dormire": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-dormire.wav"
    },
    "dottore": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-dottore.wav"
    },
    "dove": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-dove.wav"
    },
    "dovere": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-dovere.wav"
    },
    "due": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-due.wav"
    },
    "durante": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-durante.wav"
    },
    "e": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-e.wav"
    },
    "ecco": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-ecco.wav"
    },
    "ehi": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-ehi.wav"
    },
    "entrambi": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-entrambi.wav"
    },
    "entrare": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Ciampix",
     "title": "LL-Q652 (ita)-Ciampix-entrare.wav"
    },
    "errore": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-errore.wav"
    },
    "esattamente": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-esattamente.wav"
    },
    "esatto": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-esatto.wav"
    },
    "essere": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-essere.wav"
    },
    "fa": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "DivoLetto",
     "title": "LL-Q652 (ita)-DivoLetto-fa.wav"
    },
    "facile": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-facile.wav"
    },
    "fame": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-fame.wav"
    },
    "famiglia": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-famiglia.wav"
    },
    "fare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-fare.wav"
    },
+   "fatto": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Accurimbono",
+    "title": "It-fatto.ogg"
+   },
+   "felice": {
+    "license": "CC BY 3.0 us",
+    "origin": "commons",
+    "speaker": "Marta Carbone, Association Shtooka",
+    "title": "It-felice.ogg"
+   },
    "fermare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-fermare.wav"
    },
    "festa": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-festa.wav"
    },
    "figlia": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-figlia.wav"
    },
    "figlio": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-figlio.wav"
    },
    "film": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Crunchy Cloaky Crackdown",
     "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-film.wav"
    },
    "finalmente": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-finalmente.wav"
    },
    "finché": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-finché.wav"
    },
    "finire": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-finire.wav"
    },
    "forse": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-forse.wav"
    },
+   "forte": {
+    "license": "CC BY 3.0 us",
+    "origin": "commons",
+    "speaker": "Marta Carbone, Association Shtooka",
+    "title": "It-forte.ogg"
+   },
    "fortuna": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Crunchy Cloaky Crackdown",
     "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-fortuna.wav"
    },
    "forza": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-forza.wav"
    },
    "foto": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-foto.wav"
    },
    "fra": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Crunchy Cloaky Crackdown",
     "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-fra.wav"
    },
    "fratello": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-fratello.wav"
    },
    "fretta": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Crunchy Cloaky Crackdown",
     "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-fretta.wav"
    },
    "funzionare": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "DivoLetto",
     "title": "LL-Q652 (ita)-DivoLetto-funzionare.wav"
    },
    "fuoco": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-fuoco.wav"
    },
    "fuori": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "Jennum",
     "title": "LL-Q652 (ita)-Jennum-fuori.wav"
    },
    "futuro": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Crunchy Cloaky Crackdown",
     "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-futuro.wav"
    },
    "generale": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-generale.wav"
    },
    "genere": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-genere.wav"
    },
    "genitore": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-genitore.wav"
    },
    "gentile": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-gentile.wav"
    },
    "giocare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-giocare.wav"
    },
    "giornata": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-giornata.wav"
    },
    "giorno": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-giorno.wav"
    },
    "giovane": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-giovane.wav"
    },
    "giro": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "DivoLetto",
     "title": "LL-Q652 (ita)-DivoLetto-giro.wav"
    },
    "giusto": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-giusto.wav"
    },
    "già": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-già.wav"
    },
    "giù": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-giù.wav"
    },
    "gli": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Crunchy Cloaky Crackdown",
     "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-gli.wav"
    },
    "glielo": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-glielo.wav"
    },
    "grado": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "DiplomaticBadger",
     "title": "LL-Q652 (ita)-DiplomaticBadger-grado.wav"
    },
    "grande": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-grande.wav"
    },
    "grazie": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-grazie.wav"
    },
    "grosso": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Crunchy Cloaky Crackdown",
     "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-grosso.wav"
    },
    "gruppo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-gruppo.wav"
    },
    "guaio": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-guaio.wav"
    },
    "guardare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-guardare.wav"
    },
    "guerra": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-guerra.wav"
    },
    "idea": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-idea.wav"
    },
    "idiota": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "DivoLetto",
     "title": "LL-Q652 (ita)-DivoLetto-idiota.wav"
    },
    "ieri": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-ieri.wav"
    },
    "il": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-il.wav"
    },
    "immaginare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-immaginare.wav"
    },
    "importante": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-importante.wav"
    },
    "impossibile": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "DivoLetto",
     "title": "LL-Q652 (ita)-DivoLetto-impossibile.wav"
    },
    "in": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-in.wav"
    },
    "incidente": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-incidente.wav"
    },
    "incredibile": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-incredibile.wav"
    },
    "informazione": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Crunchy Cloaky Crackdown",
     "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-informazione.wav"
    },
    "iniziare": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-iniziare.wav"
    },
    "insieme": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-insieme.wav"
    },
    "insomma": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-insomma.wav"
    },
    "intenzione": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-intenzione.wav"
    },
    "interessante": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-interessante.wav"
    },
    "invece": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-invece.wav"
    },
    "io": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-io.wav"
    },
    "la": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-la.wav"
    },
    "lasciare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-lasciare.wav"
    },
    "lavorare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-lavorare.wav"
    },
    "lavoro": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-lavoro.wav"
    },
    "le": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-le.wav"
    },
    "leggere": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-leggere.wav"
    },
    "lei": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-lei.wav"
    },
    "letto": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-letto.wav"
    },
    "li": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "DivoLetto",
     "title": "LL-Q652 (ita)-DivoLetto-li.wav"
    },
    "liberare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-liberare.wav"
    },
    "libro": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-libro.wav"
    },
    "lo": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-lo.wav"
    },
    "lontano": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-lontano.wav"
    },
    "loro": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-loro.wav"
    },
    "luce": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-luce.wav"
    },
    "lui": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-lui.wav"
    },
    "lungo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-lungo.wav"
    },
+   "là": {
+    "license": "CC BY 3.0 us",
+    "origin": "commons",
+    "speaker": "Marta Carbone, Association Shtooka",
+    "title": "It-là.ogg"
+   },
    "lì": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-lì.wav"
    },
    "ma": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-ma.wav"
    },
    "macchina": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-macchina.wav"
    },
    "madre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-madre.wav"
    },
    "magari": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-magari.wav"
    },
    "mai": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-mai.wav"
    },
    "male": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Crunchy Cloaky Crackdown",
     "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-male.wav"
    },
    "mamma": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-mamma.wav"
    },
    "mangiare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-mangiare.wav"
    },
    "mano": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-mano.wav"
    },
    "marito": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-marito.wav"
    },
    "matrimonio": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-matrimonio.wav"
    },
    "mattina": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-mattina.wav"
    },
    "me": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-me.wav"
    },
    "medico": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-medico.wav"
    },
    "meno": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-meno.wav"
    },
    "mente": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-mente.wav"
    },
    "mentre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-mentre.wav"
    },
    "mese": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-mese.wav"
    },
    "messaggio": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-messaggio.wav"
    },
    "mettere": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-mettere.wav"
    },
    "mezzo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-mezzo.wav"
    },
    "mi": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-mi.wav"
    },
    "migliore": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-migliore.wav"
    },
    "milione": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-milione.wav"
    },
    "mille": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-mille.wav"
    },
    "minuto": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-minuto.wav"
    },
    "mio": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-mio.wav"
    },
+   "modo": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Accurimbono",
+    "title": "It-modo.ogg"
+   },
    "moglie": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-moglie.wav"
    },
+   "molto": {
+    "license": "CC BY 3.0 us",
+    "origin": "commons",
+    "speaker": "Marta Carbone, Association Shtooka",
+    "title": "It-molto.ogg"
+   },
+   "momento": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Accurimbono",
+    "title": "It-momento.ogg"
+   },
    "mondo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-mondo.wav"
    },
    "morire": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-morire.wav"
    },
    "morto": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-morto.wav"
    },
    "motivo": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "DivoLetto",
     "title": "LL-Q652 (ita)-DivoLetto-motivo.wav"
    },
    "musica": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-musica.wav"
    },
    "nave": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-nave.wav"
    },
    "ne": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Crunchy Cloaky Crackdown",
     "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-ne.wav"
    },
    "neanche": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-neanche.wav"
    },
    "nel": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-nel.wav"
    },
    "nella": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-nella.wav"
    },
    "nelle": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-nelle.wav"
    },
    "nemmeno": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-nemmeno.wav"
    },
    "nessuno": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-nessuno.wav"
    },
    "niente": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-niente.wav"
    },
    "no": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-no.wav"
    },
    "noi": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-noi.wav"
    },
    "nome": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-nome.wav"
    },
    "non": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-non.wav"
    },
    "nonna": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-nonna.wav"
    },
    "normale": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-normale.wav"
    },
    "nostro": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-nostro.wav"
    },
    "notizia": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-notizia.wav"
    },
    "notte": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-notte.wav"
    },
    "numero": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-numero.wav"
    },
    "nuovo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-nuovo.wav"
    },
    "o": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-o.wav"
    },
    "occhio": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-occhio.wav"
    },
    "oddio": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-oddio.wav"
    },
    "odio": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-odio.wav"
    },
    "oggi": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-oggi.wav"
    },
    "ogni": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-ogni.wav"
    },
    "okay": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "DanielParoliere",
     "title": "LL-Q652 (ita)-DanielParoliere-okay.wav"
    },
    "onore": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-onore.wav"
    },
    "oppure": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-oppure.wav"
    },
    "ora": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-ora.wav"
    },
    "ordine": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-ordine.wav"
    },
    "ormai": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-ormai.wav"
    },
    "ospedale": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-ospedale.wav"
    },
    "ottimo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-ottimo.wav"
    },
    "pace": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-pace.wav"
    },
    "padre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-padre.wav"
    },
    "paese": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-paese.wav"
    },
    "pagare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-pagare.wav"
    },
    "paio": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-paio.wav"
    },
+   "papa": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "GerardM",
+    "title": "It-papa.ogg"
+   },
+   "papà": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Borgoboca",
+    "title": "It-papà.ogg"
+   },
    "parere": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Crunchy Cloaky Crackdown",
     "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-parere.wav"
    },
    "parlare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-parlare.wav"
    },
    "parola": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-parola.wav"
    },
+   "parte": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Accurimbono",
+    "title": "It-parte.ogg"
+   },
    "passare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-passare.wav"
    },
    "paura": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-paura.wav"
    },
    "pazzo": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "DiplomaticBadger",
     "title": "LL-Q652 (ita)-DiplomaticBadger-pazzo.wav"
    },
    "pensare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-pensare.wav"
    },
    "per": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-per.wav"
    },
    "perché": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-perché.wav"
    },
    "perdere": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-perdere.wav"
    },
    "perfetto": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-perfetto.wav"
    },
    "permettere": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Crunchy Cloaky Crackdown",
     "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-permettere.wav"
    },
    "pero": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-pero.wav"
    },
    "persona": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-persona.wav"
    },
    "però": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-però.wav"
    },
    "pezzo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-pezzo.wav"
    },
    "piacere": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-piacere.wav"
    },
    "piano": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-piano.wav"
    },
    "piccolo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-piccolo.wav"
    },
    "piede": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Ciampix",
     "title": "LL-Q652 (ita)-Ciampix-piede.wav"
    },
    "pieno": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-pieno.wav"
    },
    "pistola": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "DivoLetto",
     "title": "LL-Q652 (ita)-DivoLetto-pistola.wav"
    },
    "piuttosto": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-piuttosto.wav"
    },
    "più": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-più.wav"
    },
+   "poco": {
+    "license": "CC BY 3.0 us",
+    "origin": "commons",
+    "speaker": "Marta Carbone, Association Shtooka",
+    "title": "It-poco.ogg"
+   },
    "poi": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-poi.wav"
    },
    "polizia": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-polizia.wav"
    },
+   "portare": {
+    "license": "CC BY 3.0 us",
+    "origin": "commons",
+    "speaker": "Marta Carbone, Association Shtooka",
+    "title": "It-portare.ogg"
+   },
    "posizione": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-posizione.wav"
    },
    "possibile": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "DivoLetto",
     "title": "LL-Q652 (ita)-DivoLetto-possibile.wav"
    },
    "posto": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "Jennum",
     "title": "LL-Q652 (ita)-Jennum-posto.wav"
    },
    "potere": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-potere.wav"
    },
    "pregare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-pregare.wav"
    },
    "prendere": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-prendere.wav"
    },
    "presidente": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-presidente.wav"
    },
    "preso": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-preso.wav"
    },
    "presto": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-presto.wav"
    },
    "prigione": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-prigione.wav"
    },
    "prima": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Crunchy Cloaky Crackdown",
     "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-prima.wav"
    },
    "primo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-primo.wav"
    },
    "probabilmente": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-probabilmente.wav"
    },
    "problema": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-problema.wav"
    },
    "programma": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-programma.wav"
    },
    "pronto": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-pronto.wav"
    },
    "proprio": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-proprio.wav"
    },
    "prossimo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-prossimo.wav"
    },
    "prova": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-prova.wav"
    },
    "provare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-provare.wav"
    },
+   "punto": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Accurimbono",
+    "title": "It-punto.ogg"
+   },
    "pure": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-pure.wav"
    },
    "puttana": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "DivoLetto",
     "title": "LL-Q652 (ita)-DivoLetto-puttana.wav"
    },
+   "qua": {
+    "license": "CC BY 3.0 us",
+    "origin": "commons",
+    "speaker": "Marta Carbone, Association Shtooka",
+    "title": "It-qua.ogg"
+   },
    "qualche": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-qualche.wav"
    },
    "qualcosa": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-qualcosa.wav"
    },
    "qualcuno": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-qualcuno.wav"
    },
    "quale": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-quale.wav"
    },
    "qualsiasi": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-qualsiasi.wav"
    },
    "quando": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-quando.wav"
    },
    "quanto": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-quanto.wav"
    },
    "quasi": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-quasi.wav"
    },
    "quattro": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-quattro.wav"
    },
    "quello": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-quello.wav"
    },
    "questi": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-questi.wav"
    },
    "questo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-questo.wav"
    },
    "qui": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-qui.wav"
    },
    "quindi": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-quindi.wav"
    },
    "ragazza": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-ragazza.wav"
    },
    "ragazzo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-ragazzo.wav"
    },
+   "ragione": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Accurimbono",
+    "title": "It-ragione.ogg"
+   },
    "re": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-re.wav"
    },
    "realtà": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-realtà.wav"
    },
    "restare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-restare.wav"
    },
    "revisione": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-revisione.wav"
    },
    "ricevere": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-ricevere.wav"
    },
    "ricordare": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Ciampix",
     "title": "LL-Q652 (ita)-Ciampix-ricordare.wav"
    },
    "ricordo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-ricordo.wav"
    },
    "rimanere": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-rimanere.wav"
    },
    "rispetto": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "DiplomaticBadger",
     "title": "LL-Q652 (ita)-DiplomaticBadger-rispetto.wav"
    },
    "risposta": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-risposta.wav"
    },
    "riuscire": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-riuscire.wav"
    },
    "sacco": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Crunchy Cloaky Crackdown",
     "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-sacco.wav"
    },
    "salvo": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-Salvo.wav"
    },
    "sangue": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-sangue.wav"
    },
    "sapere": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-sapere.wav"
    },
    "scelto": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-scelto.wav"
    },
    "scoprire": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-scoprire.wav"
    },
    "scrivere": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-scrivere.wav"
    },
    "scuola": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-scuola.wav"
    },
    "scusa": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-scusa.wav"
    },
    "scusi": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-scusi.wav"
    },
    "se": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-se.wav"
    },
    "secondo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-secondo.wav"
    },
    "segreto": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-segreto.wav"
    },
    "sei": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-sei.wav"
    },
    "sembrare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-sembrare.wav"
    },
    "semplice": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-semplice.wav"
    },
    "semplicemente": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-semplicemente.wav"
    },
    "sempre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-sempre.wav"
    },
+   "senso": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Accurimbono",
+    "title": "It-senso.ogg"
+   },
    "sentire": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-sentire.wav"
    },
    "senza": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-senza.wav"
    },
    "sera": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-sera.wav"
    },
    "serio": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-serio.wav"
    },
    "servire": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "DivoLetto",
     "title": "LL-Q652 (ita)-DivoLetto-servire.wav"
    },
    "servizio": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "DivoLetto",
     "title": "LL-Q652 (ita)-DivoLetto-servizio.wav"
    },
    "sesso": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-sesso.wav"
    },
    "settimana": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-settimana.wav"
    },
    "si": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-si.wav"
    },
    "sia": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "DivoLetto",
     "title": "LL-Q652 (ita)-DivoLetto-sia.wav"
    },
    "sicurezza": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-sicurezza.wav"
    },
    "sicuro": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-sicuro.wav"
    },
    "signora": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-signora.wav"
    },
    "signore": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-signore.wav"
    },
    "signorina": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-signorina.wav"
    },
    "situazione": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-situazione.wav"
    },
    "sogno": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-sogno.wav"
    },
    "soldi": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-soldi.wav"
    },
    "solo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-solo.wav"
    },
    "sopra": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Crunchy Cloaky Crackdown",
     "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-sopra.wav"
    },
    "sorella": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-sorella.wav"
    },
    "sorpresa": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-sorpresa.wav"
    },
    "sotto": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-sotto.wav"
    },
    "sparare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-sparare.wav"
    },
    "speciale": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-speciale.wav"
    },
    "specie": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-specie.wav"
    },
    "sperare": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Crunchy Cloaky Crackdown",
     "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-sperare.wav"
    },
    "spesso": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-spesso.wav"
    },
    "squadra": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-squadra.wav"
    },
    "stanza": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Crunchy Cloaky Crackdown",
     "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-stanza.wav"
    },
+   "stare": {
+    "license": "CC BY 3.0 us",
+    "origin": "commons",
+    "speaker": "Marta Carbone, Association Shtooka",
+    "title": "It-stare.ogg"
+   },
    "stasera": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-stasera.wav"
    },
    "stato": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-stato.wav"
    },
    "stesso": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-stesso.wav"
    },
    "storia": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-storia.wav"
    },
    "strada": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-strada.wav"
    },
    "strano": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-strano.wav"
    },
    "studiare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-studiare.wav"
    },
    "stupido": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "Jennum",
     "title": "LL-Q652 (ita)-Jennum-stupido.wav"
    },
    "su": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-su.wav"
    },
    "subito": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-subito.wav"
    },
    "succedere": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-succedere.wav"
    },
+   "successo": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Accurimbono",
+    "title": "It-successo.ogg"
+   },
    "suo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-suo.wav"
    },
    "sì": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-sì.wav"
    },
    "tanto": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-tanto.wav"
    },
    "tardi": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-tardi.wav"
    },
    "te": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-te.wav"
    },
    "telefono": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-telefono.wav"
    },
    "tempo": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-tempo.wav"
    },
    "tenere": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-tenere.wav"
    },
    "terra": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-terra.wav"
    },
    "terribile": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-terribile.wav"
    },
    "tesoro": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-tesoro.wav"
    },
    "testa": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Ciampix",
     "title": "LL-Q652 (ita)-Ciampix-testa.wav"
    },
    "tipo": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-tipo.wav"
    },
    "tornare": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Crunchy Cloaky Crackdown",
     "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-tornare.wav"
    },
    "tra": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-tra.wav"
    },
    "traduzione": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "DiplomaticBadger",
     "title": "LL-Q652 (ita)-DiplomaticBadger-traduzione.wav"
    },
    "trattare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-trattare.wav"
    },
    "tre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-tre.wav"
    },
    "troppo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-troppo.wav"
    },
    "trovare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-trovare.wav"
    },
    "tu": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-tu.wav"
    },
    "tuo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-tuo.wav"
    },
    "tutti": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-tutti.wav"
    },
    "tutto": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Crunchy Cloaky Crackdown",
     "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-tutto.wav"
    },
    "uccidere": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-uccidere.wav"
    },
    "ufficio": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-ufficio.wav"
    },
    "ultimo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-ultimo.wav"
    },
    "un": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-un.wav"
    },
    "unico": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-unico.wav"
    },
    "uno": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-uno.wav"
    },
    "uomo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-uomo.wav"
    },
    "usare": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-usare.wav"
    },
    "uscire": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-uscire.wav"
    },
    "uscita": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-uscita.wav"
    },
    "vecchio": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-vecchio.wav"
    },
    "vedere": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-vedere.wav"
    },
+   "veloce": {
+    "license": "CC BY 3.0 us",
+    "origin": "commons",
+    "speaker": "Marta Carbone, Association Shtooka",
+    "title": "It-veloce.ogg"
+   },
    "venire": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-venire.wav"
    },
    "veramente": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-veramente.wav"
    },
    "verità": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-verità.wav"
    },
    "vero": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-vero.wav"
    },
    "verso": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-verso.wav"
    },
    "vestito": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Crunchy Cloaky Crackdown",
     "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-vestito.wav"
    },
    "vi": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "DiplomaticBadger",
     "title": "LL-Q652 (ita)-DiplomaticBadger-vi.wav"
    },
+   "via": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Accurimbono",
+    "title": "It-via.ogg"
+   },
    "viaggio": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-viaggio.wav"
    },
+   "vicino": {
+    "license": "CC BY 3.0 us",
+    "origin": "commons",
+    "speaker": "Marta Carbone, Association Shtooka",
+    "title": "It-vicino.ogg"
+   },
    "video": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "DanielParoliere",
     "title": "LL-Q652 (ita)-DanielParoliere-video.wav"
    },
    "visto": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "DivoLetto",
     "title": "LL-Q652 (ita)-DivoLetto-visto.wav"
    },
    "vita": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-vita.wav"
    },
    "vittima": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-vittima.wav"
    },
    "vivere": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-vivere.wav"
    },
+   "voce": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Accurimbono",
+    "title": "It-voce.ogg"
+   },
    "voglia": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-voglia.wav"
    },
    "voi": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-voi.wav"
    },
    "volere": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-volere.wav"
    },
    "volta": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-volta.wav"
    },
    "vostro": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-vostro.wav"
    },
    "zio": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LangPao",
     "title": "LL-Q652 (ita)-LangPao-zio.wav"
    },
    "zitto": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "XANA000",
     "title": "LL-Q652 (ita)-XANA000-zitto.wav"
    }

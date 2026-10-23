@@ -12,5 +12,8 @@
   "Tu es sauf.": "Whisper large-v3 heard \"Dieu sauve.\"",
   "Voilà cinq dollars.": "Whisper large-v3 heard \"Pour la 5$.\"",
   "À qui est-ce ?": "Whisper large-v3 heard \"Aquí es.\""
+ },
+ "it": {
+  "Ho quasi fatto.": "Whisper large-v3 heard \"Ho quasi finito.\""
  }
 }

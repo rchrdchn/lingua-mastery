@@ -181,6 +181,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/LL-Q652_%28ita%29-LangPao-appuntamento.wav",
 "src": "/home/box/audio-src/ll/it/6a515cc478cf1680.wav"
 },
+"aria": {
+"title": "It-aria.ogg",
+"speaker": "Accurimbono",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/4/49/It-aria.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/it/b9655319d80d8426.ogg"
+},
 "arma": {
 "title": "LL-Q652 (ita)-LangPao-arma.wav",
 "speaker": "LangPao",
@@ -349,6 +357,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/LL-Q652_%28ita%29-LangPao-brutto.wav",
 "src": "/home/box/audio-src/ll/it/6b88774f7637834e.wav"
 },
+"buongiorno": {
+"title": "It-buongiorno.ogg",
+"speaker": "Marta Carbone, Association Shtooka",
+"license": "CC BY 3.0 us",
+"url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/It-buongiorno.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/it/be61b36b1bf9b503.ogg"
+},
 "buono": {
 "title": "LL-Q652 (ita)-LangPao-buono.wav",
 "speaker": "LangPao",
@@ -405,6 +421,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/LL-Q652_%28ita%29-LangPao-capo.wav",
 "src": "/home/box/audio-src/ll/it/a9c632bdad9747c1.wav"
 },
+"carino": {
+"title": "It-carino.ogg",
+"speaker": "Marta Carbone, Association Shtooka",
+"license": "CC BY 3.0 us",
+"url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/It-carino.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/it/591730e5fab15531.ogg"
+},
 "caro": {
 "title": "LL-Q652 (ita)-LangPao-caro.wav",
 "speaker": "LangPao",
@@ -418,6 +442,14 @@
 "license": "CC0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/LL-Q652_%28ita%29-Ciampix-casa.wav",
 "src": "/home/box/audio-src/ll/it/534bf77c25144aa3.wav"
+},
+"caso": {
+"title": "It-caso.ogg",
+"speaker": "Accurimbono",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/9/97/It-caso.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/it/00429dcb198cb128.ogg"
 },
 "causa": {
 "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-causa.wav",
@@ -1063,6 +1095,22 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/LL-Q652_%28ita%29-LangPao-fare.wav",
 "src": "/home/box/audio-src/ll/it/1bd6c0bb753ee5a9.wav"
 },
+"fatto": {
+"title": "It-fatto.ogg",
+"speaker": "Accurimbono",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/It-fatto.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/it/ca82f12df561f6ae.ogg"
+},
+"felice": {
+"title": "It-felice.ogg",
+"speaker": "Marta Carbone, Association Shtooka",
+"license": "CC BY 3.0 us",
+"url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/It-felice.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/it/8a247732b6bea037.ogg"
+},
 "fermare": {
 "title": "LL-Q652 (ita)-LangPao-fermare.wav",
 "speaker": "LangPao",
@@ -1125,6 +1173,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/LL-Q652_%28ita%29-LangPao-forse.wav",
 "src": "/home/box/audio-src/ll/it/bc91ea7ff78e307f.wav"
+},
+"forte": {
+"title": "It-forte.ogg",
+"speaker": "Marta Carbone, Association Shtooka",
+"license": "CC BY 3.0 us",
+"url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/It-forte.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/it/e8182c43eef5c752.ogg"
 },
 "fortuna": {
 "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-fortuna.wav",
@@ -1595,6 +1651,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/LL-Q652_%28ita%29-LangPao-lungo.wav",
 "src": "/home/box/audio-src/ll/it/3bf656063156ed6f.wav"
 },
+"là": {
+"title": "It-là.ogg",
+"speaker": "Marta Carbone, Association Shtooka",
+"license": "CC BY 3.0 us",
+"url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/It-l%C3%A0.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/it/d0af72d6658d6d64.ogg"
+},
 "lì": {
 "title": "LL-Q652 (ita)-LangPao-lì.wav",
 "speaker": "LangPao",
@@ -1791,12 +1855,36 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/LL-Q652_%28ita%29-LangPao-mio.wav",
 "src": "/home/box/audio-src/ll/it/b9b101b501883c56.wav"
 },
+"modo": {
+"title": "It-modo.ogg",
+"speaker": "Accurimbono",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/It-modo.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/it/3e07e2d94702bcef.ogg"
+},
 "moglie": {
 "title": "LL-Q652 (ita)-LangPao-moglie.wav",
 "speaker": "LangPao",
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/LL-Q652_%28ita%29-LangPao-moglie.wav",
 "src": "/home/box/audio-src/ll/it/ee24db45abdbafd5.wav"
+},
+"molto": {
+"title": "It-molto.ogg",
+"speaker": "Marta Carbone, Association Shtooka",
+"license": "CC BY 3.0 us",
+"url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/It-molto.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/it/90fae29cc4e3e84f.ogg"
+},
+"momento": {
+"title": "It-momento.ogg",
+"speaker": "Accurimbono",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/It-momento.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/it/60e61ccd8257f7bf.ogg"
 },
 "mondo": {
 "title": "LL-Q652 (ita)-LangPao-mondo.wav",
@@ -2106,6 +2194,22 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/LL-Q652_%28ita%29-LangPao-paio.wav",
 "src": "/home/box/audio-src/ll/it/ceef202a32ebeb84.wav"
 },
+"papa": {
+"title": "It-papa.ogg",
+"speaker": "GerardM",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/It-papa.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/it/ea70f18329c78de5.ogg"
+},
+"papà": {
+"title": "It-papà.ogg",
+"speaker": "Borgoboca",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/4/49/It-pap%C3%A0.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/it/4bb973740bba48ff.ogg"
+},
 "parere": {
 "title": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-parere.wav",
 "speaker": "Crunchy Cloaky Crackdown",
@@ -2126,6 +2230,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/LL-Q652_%28ita%29-LangPao-parola.wav",
 "src": "/home/box/audio-src/ll/it/0f96773d54b9254d.wav"
+},
+"parte": {
+"title": "It-parte.ogg",
+"speaker": "Accurimbono",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/It-parte.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/it/405f512ef261255b.ogg"
 },
 "passare": {
 "title": "LL-Q652 (ita)-LangPao-passare.wav",
@@ -2274,6 +2386,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/LL-Q652_%28ita%29-LangPao-pi%C3%B9.wav",
 "src": "/home/box/audio-src/ll/it/ecd1282b83397685.wav"
 },
+"poco": {
+"title": "It-poco.ogg",
+"speaker": "Marta Carbone, Association Shtooka",
+"license": "CC BY 3.0 us",
+"url": "https://upload.wikimedia.org/wikipedia/commons/d/df/It-poco.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/it/1a1bd187f5ee6d4b.ogg"
+},
 "poi": {
 "title": "LL-Q652 (ita)-LangPao-poi.wav",
 "speaker": "LangPao",
@@ -2287,6 +2407,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/LL-Q652_%28ita%29-LangPao-polizia.wav",
 "src": "/home/box/audio-src/ll/it/a9f0ffa5a1c2100e.wav"
+},
+"portare": {
+"title": "It-portare.ogg",
+"speaker": "Marta Carbone, Association Shtooka",
+"license": "CC BY 3.0 us",
+"url": "https://upload.wikimedia.org/wikipedia/commons/3/38/It-portare.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/it/a3ac0543c729d011.ogg"
 },
 "posizione": {
 "title": "LL-Q652 (ita)-LangPao-posizione.wav",
@@ -2428,6 +2556,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/LL-Q652_%28ita%29-LangPao-provare.wav",
 "src": "/home/box/audio-src/ll/it/64f7a1d908bae372.wav"
 },
+"punto": {
+"title": "It-punto.ogg",
+"speaker": "Accurimbono",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/4/46/It-punto.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/it/589236848e9ef131.ogg"
+},
 "pure": {
 "title": "LL-Q652 (ita)-XANA000-pure.wav",
 "speaker": "XANA000",
@@ -2441,6 +2577,14 @@
 "license": "CC BY 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LL-Q652_%28ita%29-DivoLetto-puttana.wav",
 "src": "/home/box/audio-src/ll/it/403b640fb01a083e.wav"
+},
+"qua": {
+"title": "It-qua.ogg",
+"speaker": "Marta Carbone, Association Shtooka",
+"license": "CC BY 3.0 us",
+"url": "https://upload.wikimedia.org/wikipedia/commons/2/29/It-qua.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/it/162c8cc105cf653e.ogg"
 },
 "qualche": {
 "title": "LL-Q652 (ita)-LangPao-qualche.wav",
@@ -2553,6 +2697,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/LL-Q652_%28ita%29-LangPao-ragazzo.wav",
 "src": "/home/box/audio-src/ll/it/771821a2bbdf102b.wav"
+},
+"ragione": {
+"title": "It-ragione.ogg",
+"speaker": "Accurimbono",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/4/48/It-ragione.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/it/ab8066207c457dab.ogg"
 },
 "re": {
 "title": "LL-Q652 (ita)-LangPao-re.wav",
@@ -2756,6 +2908,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/LL-Q652_%28ita%29-LangPao-sempre.wav",
 "src": "/home/box/audio-src/ll/it/29dd47f6fa538010.wav"
+},
+"senso": {
+"title": "It-senso.ogg",
+"speaker": "Accurimbono",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/It-senso.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/it/d7b666afa130efea.ogg"
 },
 "sentire": {
 "title": "LL-Q652 (ita)-LangPao-sentire.wav",
@@ -2967,6 +3127,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/LL-Q652_%28ita%29-Crunchy_Cloaky_Crackdown-stanza.wav",
 "src": "/home/box/audio-src/ll/it/ba36975eda5f8c43.wav"
 },
+"stare": {
+"title": "It-stare.ogg",
+"speaker": "Marta Carbone, Association Shtooka",
+"license": "CC BY 3.0 us",
+"url": "https://upload.wikimedia.org/wikipedia/commons/9/99/It-stare.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/it/55451ba879707768.ogg"
+},
 "stasera": {
 "title": "LL-Q652 (ita)-LangPao-stasera.wav",
 "speaker": "LangPao",
@@ -3043,6 +3211,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/LL-Q652_%28ita%29-LangPao-succedere.wav",
 "src": "/home/box/audio-src/ll/it/a78f76f218ab8c1c.wav"
+},
+"successo": {
+"title": "It-successo.ogg",
+"speaker": "Accurimbono",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/8/86/It-successo.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/it/faa4266dc1ab1840.ogg"
 },
 "suo": {
 "title": "LL-Q652 (ita)-LangPao-suo.wav",
@@ -3296,6 +3472,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/LL-Q652_%28ita%29-LangPao-vedere.wav",
 "src": "/home/box/audio-src/ll/it/df268bc0d39992fe.wav"
 },
+"veloce": {
+"title": "It-veloce.ogg",
+"speaker": "Marta Carbone, Association Shtooka",
+"license": "CC BY 3.0 us",
+"url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/It-veloce.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/it/de21350125124c81.ogg"
+},
 "venire": {
 "title": "LL-Q652 (ita)-LangPao-venire.wav",
 "speaker": "LangPao",
@@ -3345,12 +3529,28 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/LL-Q652_%28ita%29-DiplomaticBadger-vi.wav",
 "src": "/home/box/audio-src/ll/it/6acb156862f5f01e.wav"
 },
+"via": {
+"title": "It-via.ogg",
+"speaker": "Accurimbono",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/7/74/It-via.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/it/62ef76e1639af395.ogg"
+},
 "viaggio": {
 "title": "LL-Q652 (ita)-LangPao-viaggio.wav",
 "speaker": "LangPao",
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/LL-Q652_%28ita%29-LangPao-viaggio.wav",
 "src": "/home/box/audio-src/ll/it/5cccd14651a72810.wav"
+},
+"vicino": {
+"title": "It-vicino.ogg",
+"speaker": "Marta Carbone, Association Shtooka",
+"license": "CC BY 3.0 us",
+"url": "https://upload.wikimedia.org/wikipedia/commons/6/66/It-vicino.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/it/94919059aa12646b.ogg"
 },
 "video": {
 "title": "LL-Q652 (ita)-DanielParoliere-video.wav",
@@ -3386,6 +3586,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/LL-Q652_%28ita%29-LangPao-vivere.wav",
 "src": "/home/box/audio-src/ll/it/e3ca7fb6b3262e96.wav"
+},
+"voce": {
+"title": "It-voce.ogg",
+"speaker": "Accurimbono",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/6/68/It-voce.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/it/c432ff2068c302fe.ogg"
 },
 "voglia": {
 "title": "LL-Q652 (ita)-LangPao-voglia.wav",

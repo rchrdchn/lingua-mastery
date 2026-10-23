@@ -1808,6 +1808,317 @@
      "sub": ""
     }
    ]
+  },
+  {
+   "id": "it",
+   "name": "Italian",
+   "lang": "it-IT",
+   "metric": "wer",
+   "intro": "8 course words and 14 course sentences from each source. A second set of 16 words and 30 sentences (8 with a Tatoeba recording) was scored for every voice. 517 of 600 course words have a native recording; 74 course sentences have an openly licensed Tatoeba recording (all by NM1); 1 was dropped after a Whisper check and 42 for clipping, so 32 are used. Piper it_IT paola was not tested: it was fine-tuned from the English lessac voice, whose base data is not openly licensed.",
+   "scoreNote": "Whisper large-v3 (float32, CPU) transcribes each clip. Words heard right: exact match after lowercasing, removing punctuation and spelling out digits. Sentence WER/CER: word and character error rate, lower is better.",
+   "candidates": [
+    {
+     "id": "native",
+     "label": "Native recording (Lingua Libre / Commons words, Tatoeba sentences)",
+     "license": "CC BY-SA / CC BY / CC0",
+     "note": "second set: 16/16 words, sentence WER 4.3%. Words mostly by LangPao and XANA000 on Lingua Libre plus Shtooka-project and other Commons uploads; Tatoeba sentences by NM1 (CC BY 4.0).",
+     "wordAcc": 1.0,
+     "nWords": 7,
+     "wer": null,
+     "cer": null,
+     "have": [
+      "w01",
+      "w02",
+      "w03",
+      "w04",
+      "w05",
+      "w06",
+      "w07"
+     ]
+    },
+    {
+     "id": "piper-it_IT-serena-high",
+     "label": "Piper it_IT serena high (chosen)",
+     "license": "Piper tool GPL-3.0, CC BY 4.0 dataset",
+     "note": "second set: 16/16 words, sentence WER 3.1%. Most words heard right over both sets (22 of 24) and lowest sentence WER on both (1.5% / 3.1%). Trained from scratch on a CC BY 4.0 synthetic dataset (Qwen3-TTS, Apache-2.0, reading Tatoeba-derived sentences), so no lessac/ryan base.",
+     "wordAcc": 0.75,
+     "nWords": 8,
+     "wer": 0.015151515151515152,
+     "cer": 0.003134796238244514,
+     "have": [
+      "w00",
+      "w01",
+      "w02",
+      "w03",
+      "w04",
+      "w05",
+      "w06",
+      "w07",
+      "s00",
+      "s01",
+      "s02",
+      "s03",
+      "s04",
+      "s05",
+      "s06",
+      "s07",
+      "s08",
+      "s09",
+      "s10",
+      "s11",
+      "s12",
+      "s13"
+     ]
+    },
+    {
+     "id": "piper-it_IT-serena-medium",
+     "label": "Piper it_IT serena medium",
+     "license": "Piper tool GPL-3.0, CC BY 4.0 dataset",
+     "note": "second set: 16/16 words, sentence WER 4.2%. Same data as serena high at a smaller size; slightly worse sentences.",
+     "wordAcc": 0.75,
+     "nWords": 8,
+     "wer": 0.015151515151515152,
+     "cer": 0.003134796238244514,
+     "have": [
+      "w00",
+      "w01",
+      "w02",
+      "w03",
+      "w04",
+      "w05",
+      "w06",
+      "w07",
+      "s00",
+      "s01",
+      "s02",
+      "s03",
+      "s04",
+      "s05",
+      "s06",
+      "s07",
+      "s08",
+      "s09",
+      "s10",
+      "s11",
+      "s12",
+      "s13"
+     ]
+    },
+    {
+     "id": "kokoro-if_sara",
+     "label": "Kokoro-82M v1.0, if_sara",
+     "license": "Apache-2.0",
+     "note": "second set: 15/16 words, sentence WER 6.2%; 20 of 24 words over both sets.",
+     "wordAcc": 0.625,
+     "nWords": 8,
+     "wer": 0.015151515151515152,
+     "cer": 0.003134796238244514,
+     "have": [
+      "w00",
+      "w01",
+      "w02",
+      "w03",
+      "w04",
+      "w05",
+      "w06",
+      "w07",
+      "s00",
+      "s01",
+      "s02",
+      "s03",
+      "s04",
+      "s05",
+      "s06",
+      "s07",
+      "s08",
+      "s09",
+      "s10",
+      "s11",
+      "s12",
+      "s13"
+     ]
+    },
+    {
+     "id": "kokoro-im_nicola",
+     "label": "Kokoro-82M v1.0, im_nicola",
+     "license": "Apache-2.0",
+     "note": "second set: 14/16 words, sentence WER 4.2%; 18 of 24 words over both sets.",
+     "wordAcc": 0.5,
+     "nWords": 8,
+     "wer": 0.015151515151515152,
+     "cer": 0.003134796238244514,
+     "have": [
+      "w00",
+      "w01",
+      "w02",
+      "w03",
+      "w04",
+      "w05",
+      "w06",
+      "w07",
+      "s00",
+      "s01",
+      "s02",
+      "s03",
+      "s04",
+      "s05",
+      "s06",
+      "s07",
+      "s08",
+      "s09",
+      "s10",
+      "s11",
+      "s12",
+      "s13"
+     ]
+    },
+    {
+     "id": "piper-it_IT-riccardo-x_low",
+     "label": "Piper it_IT riccardo x_low",
+     "license": "Piper tool GPL-3.0, M-AILABS dataset",
+     "note": "second set: 13/16 words, sentence WER 7.3%. Trained from scratch, but 16 kHz x_low quality; first set sentence WER 9.1%.",
+     "wordAcc": 0.625,
+     "nWords": 8,
+     "wer": 0.09090909090909091,
+     "cer": 0.0219435736677116,
+     "have": [
+      "w00",
+      "w01",
+      "w02",
+      "w03",
+      "w04",
+      "w05",
+      "w06",
+      "w07",
+      "s00",
+      "s01",
+      "s02",
+      "s03",
+      "s04",
+      "s05",
+      "s06",
+      "s07",
+      "s08",
+      "s09",
+      "s10",
+      "s11",
+      "s12",
+      "s13"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "w00",
+     "text": "negli",
+     "sub": "word"
+    },
+    {
+     "id": "w01",
+     "text": "portare",
+     "sub": "word"
+    },
+    {
+     "id": "w02",
+     "text": "uscita",
+     "sub": "word"
+    },
+    {
+     "id": "w03",
+     "text": "stasera",
+     "sub": "word"
+    },
+    {
+     "id": "w04",
+     "text": "mondo",
+     "sub": "word"
+    },
+    {
+     "id": "w05",
+     "text": "mezzo",
+     "sub": "word"
+    },
+    {
+     "id": "w06",
+     "text": "nuovo",
+     "sub": "word"
+    },
+    {
+     "id": "w07",
+     "text": "uscire",
+     "sub": "word"
+    },
+    {
+     "id": "s00",
+     "text": "Posso farti una foto?",
+     "sub": ""
+    },
+    {
+     "id": "s01",
+     "text": "Era tre mesi fa.",
+     "sub": ""
+    },
+    {
+     "id": "s02",
+     "text": "Ecco il mio cuore.",
+     "sub": ""
+    },
+    {
+     "id": "s03",
+     "text": "È colpevole di omicidio.",
+     "sub": ""
+    },
+    {
+     "id": "s04",
+     "text": "Non sei come me.",
+     "sub": ""
+    },
+    {
+     "id": "s05",
+     "text": "Non ha il senso del giusto e dello sbagliato.",
+     "sub": ""
+    },
+    {
+     "id": "s06",
+     "text": "Questo è per tutti.",
+     "sub": ""
+    },
+    {
+     "id": "s07",
+     "text": "Quando se ne va?",
+     "sub": ""
+    },
+    {
+     "id": "s08",
+     "text": "Voi cosa avete detto ai ragazzi?",
+     "sub": ""
+    },
+    {
+     "id": "s09",
+     "text": "Era solo un incontro.",
+     "sub": ""
+    },
+    {
+     "id": "s10",
+     "text": "Ci sono delle persone nella casa.",
+     "sub": ""
+    },
+    {
+     "id": "s11",
+     "text": "Nessuno parla durante la cena.",
+     "sub": ""
+    },
+    {
+     "id": "s12",
+     "text": "In realtà è vero.",
+     "sub": ""
+    },
+    {
+     "id": "s13",
+     "text": "Cose del genere capitano.",
+     "sub": ""
+    }
+   ]
   }
  ]
 }
