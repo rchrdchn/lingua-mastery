@@ -13,12 +13,44 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/LL-Q188_%28deu%29-Punsisil-Abend.wav",
 "src": "/home/box/audio-src/ll/de/6859279228723edc.wav"
 },
+"Ahnung": {
+"title": "De-Ahnung.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/De-Ahnung.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/075174395b79c1f0.ogg"
+},
+"Alter": {
+"title": "De-Alter.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/De-Alter.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/add47fb825b4ea7b.ogg"
+},
+"Andere": {
+"title": "De-Andere.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/De-Andere.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/a6618f3e1e46284d.ogg"
+},
 "Angst": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Angst.wav",
 "speaker": "Sebastian Wallroth",
 "license": "CC0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/LL-Q188_%28deu%29-Sebastian_Wallroth-Angst.wav",
 "src": "/home/box/audio-src/ll/de/6bef36a2155b7f48.wav"
+},
+"Antwort": {
+"title": "De-Antwort.ogg",
+"speaker": "Kampy",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/9/97/De-Antwort.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/12b27a58922726bb.ogg"
 },
 "Arbeit": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Arbeit.wav",
@@ -49,11 +81,12 @@
 "src": "/home/box/audio-src/ll/de/e6f050821ab43acc.wav"
 },
 "Auto": {
-"title": "LL-Q188 (deu)-Poslovitch-Auto.wav",
-"speaker": "Poslovitch",
-"license": "CC0",
-"url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/LL-Q188_%28deu%29-Poslovitch-Auto.wav",
-"src": "/home/box/audio-src/ll/de/a70fe418a3baa9c8.wav"
+"title": "De-Auto.ogg",
+"speaker": "Kampy",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/2/26/De-Auto.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/f4c5d7dec1ca8453.ogg"
 },
 "Baby": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Baby.wav",
@@ -76,6 +109,22 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/LL-Q188_%28deu%29-Sebastian_Wallroth-Blut.wav",
 "src": "/home/box/audio-src/ll/de/d536b094e0cfaad5.wav"
 },
+"Boden": {
+"title": "De-Boden.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/7/73/De-Boden.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/0e2bbfb06e90e66f.ogg"
+},
+"Boss": {
+"title": "De-Boss.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/6/66/De-Boss.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/4c1a29116a850c6e.ogg"
+},
 "Bruder": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Bruder.wav",
 "speaker": "Sebastian Wallroth",
@@ -97,12 +146,44 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/LL-Q188_%28deu%29-Sebastian_Wallroth-B%C3%BCro.wav",
 "src": "/home/box/audio-src/ll/de/69c5ff3f100f139b.wav"
 },
+"Chance": {
+"title": "De-Chance.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/De-Chance.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/0941bccd062b4d60.ogg"
+},
 "Ding": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Ding.wav",
 "speaker": "Sebastian Wallroth",
 "license": "CC0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/LL-Q188_%28deu%29-Sebastian_Wallroth-Ding.wav",
 "src": "/home/box/audio-src/ll/de/8bd8f3fd84ac19fe.wav"
+},
+"Doktor": {
+"title": "De-Doktor.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/1/17/De-Doktor.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/92063dd7c4f5238a.ogg"
+},
+"Dollar": {
+"title": "De-Dollar.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/4/46/De-Dollar.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/5a804ef9ef48c835.ogg"
+},
+"Eltern": {
+"title": "De-Eltern.ogg",
+"speaker": "Kampy",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/3/35/De-Eltern.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/0049c2d54058e7c1.ogg"
 },
 "Ende": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Ende.wav",
@@ -111,6 +192,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/LL-Q188_%28deu%29-Sebastian_Wallroth-Ende.wav",
 "src": "/home/box/audio-src/ll/de/16abdcd7699a34e7.wav"
 },
+"Entschuldigung": {
+"title": "De-Entschuldigung.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/5/51/De-Entschuldigung.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/ddfc42b752a22a66.ogg"
+},
 "Erde": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Erde.wav",
 "speaker": "Sebastian Wallroth",
@@ -118,12 +207,28 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/LL-Q188_%28deu%29-Sebastian_Wallroth-Erde.wav",
 "src": "/home/box/audio-src/ll/de/af773e3ba69fb7a9.wav"
 },
+"Erster": {
+"title": "De-Erster.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/De-Erster.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/76ae6da5a90dbb96.ogg"
+},
 "Fall": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Fall.wav",
 "speaker": "Sebastian Wallroth",
 "license": "CC0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/LL-Q188_%28deu%29-Sebastian_Wallroth-Fall.wav",
 "src": "/home/box/audio-src/ll/de/121e2f5663a06f1d.wav"
+},
+"Familie": {
+"title": "De-Familie.ogg",
+"speaker": "T.Voekler",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/De-Familie.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/4076aee0df58c80a.ogg"
 },
 "Fehler": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Fehler.wav",
@@ -140,11 +245,20 @@
 "src": "/home/box/audio-src/ll/de/a61cba8abf488073.wav"
 },
 "Film": {
-"title": "LL-Q188 (deu)-Mighty Wire-Kung-Fu-Film.wav",
-"speaker": "Mighty Wire-Kung-Fu",
-"license": "CC0",
-"url": "https://upload.wikimedia.org/wikipedia/commons/0/00/LL-Q188_%28deu%29-Mighty_Wire-Kung-Fu-Film.wav",
-"src": "/home/box/audio-src/ll/de/90a2f695bd8a1721.wav"
+"title": "De-Film.ogg",
+"speaker": "Kampy",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/De-Film.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/d1d9cc1d6e279d1f.ogg"
+},
+"Folge": {
+"title": "De-Folge.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/De-Folge.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/2e7591aaae5c49e2.ogg"
 },
 "Frage": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Frage.wav",
@@ -160,6 +274,30 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/LL-Q188_%28deu%29-Sebastian_Wallroth-Frau.wav",
 "src": "/home/box/audio-src/ll/de/3a7a29d12a320c62.wav"
 },
+"Freund": {
+"title": "De-Freund.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/De-Freund.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/0f190f0f9044a108.ogg"
+},
+"Gefängnis": {
+"title": "De-Gefängnis.ogg",
+"speaker": "Kampy",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/De-Gef%C3%A4ngnis.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/0137f42b23a1a574.ogg"
+},
+"Gefühl": {
+"title": "De-Gefühl.ogg",
+"speaker": "Kampy",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/De-Gef%C3%BChl.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/df4e48a433e72a1d.ogg"
+},
 "Geld": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Geld.wav",
 "speaker": "Sebastian Wallroth",
@@ -167,12 +305,44 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/LL-Q188_%28deu%29-Sebastian_Wallroth-Geld.wav",
 "src": "/home/box/audio-src/ll/de/432b552a4722b149.wav"
 },
+"General": {
+"title": "De-General.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/De-General.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/93f0c68707c8b8ec.ogg"
+},
 "Geschichte": {
 "title": "LL-Q188 (deu)-Ziko-Geschichte.wav",
 "speaker": "Ziko",
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/LL-Q188_%28deu%29-Ziko-Geschichte.wav",
 "src": "/home/box/audio-src/ll/de/ffa71dd7c1d0e4b0.wav"
+},
+"Geschäft": {
+"title": "De-Geschäft.ogg",
+"speaker": "Kampy",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/3/35/De-Gesch%C3%A4ft.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/843675d3d1f14c36.ogg"
+},
+"Gesicht": {
+"title": "De-Gesicht.ogg",
+"speaker": "Kampy",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/4/43/De-Gesicht.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/6d201ecb8a0437aa.ogg"
+},
+"Glaube": {
+"title": "De-Glaube.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/De-Glaube.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/094ebe15e55d1f1c.ogg"
 },
 "Glück": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Glück.wav",
@@ -258,12 +428,28 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/LL-Q188_%28deu%29-Sebastian_Wallroth-Hund.wav",
 "src": "/home/box/audio-src/ll/de/10547b687ff9afc0.wav"
 },
+"Hölle": {
+"title": "De-Hölle.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/De-H%C3%B6lle.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/f17f8d9a121c3db7.ogg"
+},
 "Idee": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Idee.wav",
 "speaker": "Sebastian Wallroth",
 "license": "CC0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/LL-Q188_%28deu%29-Sebastian_Wallroth-Idee.wav",
 "src": "/home/box/audio-src/ll/de/e3e136594918ee59.wav"
+},
+"Ihrer": {
+"title": "De-Ihrer.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/5/54/De-Ihrer.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/c6dd6ed8765ef9cd.ogg"
 },
 "Jahr": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Jahr.wav",
@@ -273,11 +459,44 @@
 "src": "/home/box/audio-src/ll/de/c3bee28bf4c397f1.wav"
 },
 "Job": {
-"title": "LL-Q188 (deu)-Frank C. Müller-1-Euro-Job.wav",
-"speaker": "Frank C. Müller-1-Euro",
+"title": "De-Job.ogg",
+"speaker": "Dinock90",
 "license": "CC BY-SA 4.0",
-"url": "https://upload.wikimedia.org/wikipedia/commons/4/44/LL-Q188_%28deu%29-Frank_C._M%C3%BCller-1-Euro-Job.wav",
-"src": "/home/box/audio-src/ll/de/b78b0676582c803e.wav"
+"url": "https://upload.wikimedia.org/wikipedia/commons/8/83/De-Job.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/103cb11a101554a1.ogg"
+},
+"Junge": {
+"title": "De-Junge.ogg",
+"speaker": "joni",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/De-Junge.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/f6069de639ed5253.ogg"
+},
+"Kaffee": {
+"title": "De-Kaffee.ogg",
+"speaker": "Kampy",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/5/52/De-Kaffee.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/f65d8678e24c51e0.ogg"
+},
+"Kampf": {
+"title": "De-Kampf.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/2/24/De-Kampf.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/36dc7b92b6f4cc3b.ogg"
+},
+"Kerl": {
+"title": "De-Kerl.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/8/85/De-Kerl.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/f99ee076f6c88bda.ogg"
 },
 "Kind": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Kind.wav",
@@ -285,6 +504,14 @@
 "license": "CC0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/LL-Q188_%28deu%29-Sebastian_Wallroth-Kind.wav",
 "src": "/home/box/audio-src/ll/de/609c17ea04fc6528.wav"
+},
+"Kleiner": {
+"title": "De-Kleiner.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/1/18/De-Kleiner.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/72e8cef93b2892e4.ogg"
 },
 "Kopf": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Kopf.wav",
@@ -307,19 +534,53 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/LL-Q188_%28deu%29-Sebastian_Wallroth-Krieg.wav",
 "src": "/home/box/audio-src/ll/de/3688b4eca1ab6175.wav"
 },
+"Kumpel": {
+"title": "De-Kumpel.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/De-Kumpel.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/86ec3334e3410809.ogg"
+},
+"König": {
+"title": "De-König.ogg",
+"speaker": "Pill",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/De-K%C3%B6nig.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/039e8c133506f740.ogg"
+},
+"Körper": {
+"title": "De-Körper.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/De-K%C3%B6rper.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/bd7f85ba41212006.ogg"
+},
 "Land": {
-"title": "LL-Q188 (deu)-Sebastian Wallroth-Amt Seelow-Land.wav",
-"speaker": "Sebastian Wallroth-Amt Seelow",
-"license": "CC0",
-"url": "https://upload.wikimedia.org/wikipedia/commons/1/12/LL-Q188_%28deu%29-Sebastian_Wallroth-Amt_Seelow-Land.wav",
-"src": "/home/box/audio-src/ll/de/0f2367322ba14b26.wav"
+"title": "De-Land.ogg",
+"speaker": "Pill",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/De-Land.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/accab2a46b1e65b5.ogg"
 },
 "Laut": {
-"title": "LL-Q188 (deu)-Frank C. Müller-Ach-Laut.wav",
-"speaker": "Frank C. Müller-Ach",
+"title": "De-Laut.ogg",
+"speaker": "Jeuwre",
 "license": "CC BY-SA 4.0",
-"url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/LL-Q188_%28deu%29-Frank_C._M%C3%BCller-Ach-Laut.wav",
-"src": "/home/box/audio-src/ll/de/cf6cc993facba9d4.wav"
+"url": "https://upload.wikimedia.org/wikipedia/commons/d/da/De-Laut.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/bb443a30b7b392a7.ogg"
+},
+"Letzter": {
+"title": "De-Letzter.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/1/12/De-Letzter.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/90f4369bb6eae28a.ogg"
 },
 "Leute": {
 "title": "LL-Q188 (deu)-MirkoRP-Leute.wav",
@@ -349,12 +610,28 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/LL-Q188_%28deu%29-Natschoba-Liebling.wav",
 "src": "/home/box/audio-src/ll/de/91def484a0aed586.wav"
 },
+"Liege": {
+"title": "De-Liege.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/7/76/De-Liege.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/1b992715a4ddb6ee.ogg"
+},
 "Luft": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Luft.wav",
 "speaker": "Sebastian Wallroth",
 "license": "CC0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/LL-Q188_%28deu%29-Sebastian_Wallroth-Luft.wav",
 "src": "/home/box/audio-src/ll/de/d235aaf43a9abd14.wav"
+},
+"Mama": {
+"title": "De-Mama.ogg",
+"speaker": "Bleibein",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/a/af/De-Mama.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/a74c7b899075bd2a.ogg"
 },
 "Mann": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Mann.wav",
@@ -363,12 +640,36 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/LL-Q188_%28deu%29-Sebastian_Wallroth-Mann.wav",
 "src": "/home/box/audio-src/ll/de/91a2633ac21e49c6.wav"
 },
+"Meinung": {
+"title": "De-Meinung.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/0/01/De-Meinung.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/ca2a9033b2dab0ad.ogg"
+},
+"Menge": {
+"title": "De-Menge.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/De-Menge.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/e0c620ff67eaed92.ogg"
+},
 "Mensch": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Mensch.wav",
 "speaker": "Sebastian Wallroth",
 "license": "CC0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/LL-Q188_%28deu%29-Sebastian_Wallroth-Mensch.wav",
 "src": "/home/box/audio-src/ll/de/cd41233591764f92.wav"
+},
+"Million": {
+"title": "De-Million.ogg",
+"speaker": "StMH",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/De-Million.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/81e93e5ca4df7eb9.ogg"
 },
 "Minute": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Minute.wav",
@@ -377,12 +678,52 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/LL-Q188_%28deu%29-Sebastian_Wallroth-Minute.wav",
 "src": "/home/box/audio-src/ll/de/60301dcb0460be22.wav"
 },
+"Miss": {
+"title": "De-Miss.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/De-Miss.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/0a6221a4364d920c.ogg"
+},
+"Mist": {
+"title": "De-Mist.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/De-Mist.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/fe05c19c6fb3b376.ogg"
+},
+"Moment": {
+"title": "De-Moment.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/8/81/De-Moment.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/88c5401f47aa8666.ogg"
+},
 "Monat": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Monat.wav",
 "speaker": "Sebastian Wallroth",
 "license": "CC0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/LL-Q188_%28deu%29-Sebastian_Wallroth-Monat.wav",
 "src": "/home/box/audio-src/ll/de/bf3d19e1fcdff8c3.wav"
+},
+"Mord": {
+"title": "De-Mord.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/6/66/De-Mord.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/3d2daa5224f0ba25.ogg"
+},
+"Morgen": {
+"title": "De-Morgen.ogg",
+"speaker": "MiER",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/De-Morgen.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/328c368327d3a9cf.ogg"
 },
 "Mund": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Mund.wav",
@@ -412,6 +753,22 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/LL-Q188_%28deu%29-Sebastian_Wallroth-M%C3%A4dchen.wav",
 "src": "/home/box/audio-src/ll/de/8c83a21e3e3f9bee.wav"
 },
+"Mörder": {
+"title": "De-Mörder.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/De-M%C3%B6rder.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/0b866e078edf17f0.ogg"
+},
+"Nachricht": {
+"title": "De-Nachricht.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/2/21/De-Nachricht.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/92949cef4f6f400b.ogg"
+},
 "Nacht": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Nacht.wav",
 "speaker": "Sebastian Wallroth",
@@ -426,12 +783,52 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/LL-Q188_%28deu%29-Sebastian_Wallroth-Name.wav",
 "src": "/home/box/audio-src/ll/de/e461e60fd0b0f17c.wav"
 },
+"Neues": {
+"title": "De-Neues.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/De-Neues.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/5a73b5c5aa2a3819.ogg"
+},
+"Nummer": {
+"title": "De-Nummer.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/0/07/De-Nummer.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/ba5fa7ff0e815259.ogg"
+},
+"Nähe": {
+"title": "De-Nähe.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/4/49/De-N%C3%A4he.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/b104e13e7b89a5b8.ogg"
+},
 "Onkel": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Onkel.wav",
 "speaker": "Sebastian Wallroth",
 "license": "CC0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/LL-Q188_%28deu%29-Sebastian_Wallroth-Onkel.wav",
 "src": "/home/box/audio-src/ll/de/c221012cad12a3c4.wav"
+},
+"Opfer": {
+"title": "De-Opfer.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/d/da/De-Opfer.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/792c139f5128e603.ogg"
+},
+"Ordnung": {
+"title": "De-Ordnung.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/1/13/De-Ordnung.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/b4292e99c5794f07.ogg"
 },
 "Ort": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Ort.wav",
@@ -448,18 +845,28 @@
 "src": "/home/box/audio-src/ll/de/0052bb887f9914fa.wav"
 },
 "Party": {
-"title": "LL-Q188 (deu)-Frank C. Müller-After-Hour-Party.wav",
-"speaker": "Frank C. Müller-After-Hour",
+"title": "De-Party.ogg",
+"speaker": "Jeuwre",
 "license": "CC BY-SA 4.0",
-"url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/LL-Q188_%28deu%29-Frank_C._M%C3%BCller-After-Hour-Party.wav",
-"src": "/home/box/audio-src/ll/de/77668888104b23ee.wav"
+"url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/De-Party.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/03f596b64f8456cb.ogg"
+},
+"Person": {
+"title": "De-Person.ogg",
+"speaker": "joni",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/De-Person.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/8a6c04cb92907dd5.ogg"
 },
 "Platz": {
-"title": "LL-Q188 (deu)-Sebastian Wallroth-Kurt-Schumacher-Platz.wav",
-"speaker": "Sebastian Wallroth-Kurt-Schumacher",
-"license": "CC0",
-"url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/LL-Q188_%28deu%29-Sebastian_Wallroth-Kurt-Schumacher-Platz.wav",
-"src": "/home/box/audio-src/ll/de/55485583ba69d57d.wav"
+"title": "De-Platz.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/De-Platz.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/d7f96f27dc10f233.ogg"
 },
 "Polizei": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Polizei.wav",
@@ -475,6 +882,22 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/LL-Q188_%28deu%29-Sebastian_Wallroth-Problem.wav",
 "src": "/home/box/audio-src/ll/de/070519b8bcd80079.wav"
 },
+"Rest": {
+"title": "De-Rest.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/De-Rest.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/3e63f56b5be854b8.ogg"
+},
+"Ruf": {
+"title": "De-Ruf.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/De-Ruf.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/dd068399662c5cc0.ogg"
+},
 "Ruhe": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Ruhe.wav",
 "speaker": "Sebastian Wallroth",
@@ -489,6 +912,30 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/LL-Q188_%28deu%29-Sebastian_Wallroth-Sache.wav",
 "src": "/home/box/audio-src/ll/de/3c9eb3279b05473c.wav"
 },
+"Schaff": {
+"title": "De-Schaff.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/De-Schaff.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/a1a9304e14809755.ogg"
+},
+"Schatz": {
+"title": "De-Schatz.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/De-Schatz.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/4b0a792d7434c589.ogg"
+},
+"Schau": {
+"title": "De-Schau.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/0/05/De-Schau.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/cd30ea7cd8dc4e47.ogg"
+},
 "Schiff": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Schiff.wav",
 "speaker": "Sebastian Wallroth",
@@ -496,12 +943,28 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/LL-Q188_%28deu%29-Sebastian_Wallroth-Schiff.wav",
 "src": "/home/box/audio-src/ll/de/aa6b0db61736d298.wav"
 },
+"Schluss": {
+"title": "De-Schluss.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/6/69/De-Schluss.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/f32bd9f45b9bef66.ogg"
+},
 "Schlüssel": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Schlüssel.wav",
 "speaker": "Sebastian Wallroth",
 "license": "CC0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/LL-Q188_%28deu%29-Sebastian_Wallroth-Schl%C3%BCssel.wav",
 "src": "/home/box/audio-src/ll/de/58e97507fcd330de.wav"
+},
+"Schuld": {
+"title": "De-Schuld.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/6/65/De-Schuld.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/d2db57f5f2bb47ac.ogg"
 },
 "Schule": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Schule.wav",
@@ -517,6 +980,38 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/LL-Q188_%28deu%29-Sebastian_Wallroth-Schwester.wav",
 "src": "/home/box/audio-src/ll/de/d5f48d3186944b90.wav"
 },
+"Seite": {
+"title": "De-Seite.ogg",
+"speaker": "Dinock90",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/0/06/De-Seite.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/5df764dfb5f73f66.ogg"
+},
+"Sex": {
+"title": "De-Sex.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/9/98/De-Sex.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/c3cb8bb248f6c33b.ogg"
+},
+"Sicherheit": {
+"title": "De-Sicherheit.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/1/19/De-Sicherheit.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/1dc5a1adb0988945.ogg"
+},
+"Sinn": {
+"title": "De-Sinn.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/1/17/De-Sinn.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/a63dd930bcb22bc3.ogg"
+},
 "Sitz": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Sitz.wav",
 "speaker": "Sebastian Wallroth",
@@ -524,12 +1019,28 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/LL-Q188_%28deu%29-Sebastian_Wallroth-Sitz.wav",
 "src": "/home/box/audio-src/ll/de/c5d45e859dfb1b10.wav"
 },
+"Sohn": {
+"title": "De-Sohn.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/De-Sohn.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/9da3523d008dd2b8.ogg"
+},
 "Sorge": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Sorge.wav",
 "speaker": "Sebastian Wallroth",
 "license": "CC0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/LL-Q188_%28deu%29-Sebastian_Wallroth-Sorge.wav",
 "src": "/home/box/audio-src/ll/de/e1452e33551cc8ca.wav"
+},
+"Spaß": {
+"title": "De-Spaß.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/0/05/De-Spa%C3%9F.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/0a302e545d4a0023.ogg"
 },
 "Stadt": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Stadt.wav",
@@ -553,11 +1064,12 @@
 "src": "/home/box/audio-src/ll/de/b79bde0007a3ecfa.wav"
 },
 "Stück": {
-"title": "LL-Q188 (deu)-Frank C. Müller-1-Euro-Stück.wav",
-"speaker": "Frank C. Müller-1-Euro",
+"title": "De-Stück.ogg",
+"speaker": "Jeuwre",
 "license": "CC BY-SA 4.0",
-"url": "https://upload.wikimedia.org/wikipedia/commons/4/45/LL-Q188_%28deu%29-Frank_C._M%C3%BCller-1-Euro-St%C3%BCck.wav",
-"src": "/home/box/audio-src/ll/de/4daacc429d018610.wav"
+"url": "https://upload.wikimedia.org/wikipedia/commons/0/01/De-St%C3%BCck.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/d71e005ec15a4462.ogg"
 },
 "Tag": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Tag.wav",
@@ -565,6 +1077,22 @@
 "license": "CC0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/LL-Q188_%28deu%29-Sebastian_Wallroth-Tag.wav",
 "src": "/home/box/audio-src/ll/de/20b834b753f748fd.wav"
+},
+"Team": {
+"title": "De-Team.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/De-Team.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/bc4a6604019ddcb2.ogg"
+},
+"Telefon": {
+"title": "De-Telefon.ogg",
+"speaker": "Kampy",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/De-Telefon.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/566cd8fe9af75b61.ogg"
 },
 "Teufel": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Teufel.wav",
@@ -580,12 +1108,36 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/LL-Q188_%28deu%29-Sebastian_Wallroth-Tisch.wav",
 "src": "/home/box/audio-src/ll/de/3a02574e609f48c0.wav"
 },
+"Tochter": {
+"title": "De-Tochter.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/De-Tochter.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/17152d35c419692c.ogg"
+},
 "Tod": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Tod.wav",
 "speaker": "Sebastian Wallroth",
 "license": "CC0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/LL-Q188_%28deu%29-Sebastian_Wallroth-Tod.wav",
 "src": "/home/box/audio-src/ll/de/eb52ad4d513ffdb7.wav"
+},
+"Typ": {
+"title": "De-Typ.ogg",
+"speaker": "Bleibein",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/1/13/De-Typ.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/9a9869412a67c1e2.ogg"
+},
+"Tür": {
+"title": "De-Tür.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/2/24/De-T%C3%BCr.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/63c01508809d51b9.ogg"
 },
 "Uhr": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Uhr.wav",
@@ -601,6 +1153,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/LL-Q188_%28deu%29-Sebastian_Wallroth-Vater.wav",
 "src": "/home/box/audio-src/ll/de/f9b4635c63da8130.wav"
 },
+"Verzeihung": {
+"title": "De-Verzeihung.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/1/12/De-Verzeihung.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/13c88ee09f97ff86.ogg"
+},
 "Waffe": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Waffe.wav",
 "speaker": "Sebastian Wallroth",
@@ -609,11 +1169,12 @@
 "src": "/home/box/audio-src/ll/de/0c8e0bab4e5c0b92.wav"
 },
 "Wagen": {
-"title": "LL-Q188 (deu)-Mighty Wire-FBI-Wagen.wav",
-"speaker": "Mighty Wire-FBI",
-"license": "CC0",
-"url": "https://upload.wikimedia.org/wikipedia/commons/9/94/LL-Q188_%28deu%29-Mighty_Wire-FBI-Wagen.wav",
-"src": "/home/box/audio-src/ll/de/4ebbea072269caae.wav"
+"title": "De-Wagen.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/9/93/De-Wagen.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/33dec52ff134dd74.ogg"
 },
 "Wahl": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Wahl.wav",
@@ -621,6 +1182,22 @@
 "license": "CC0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/LL-Q188_%28deu%29-Sebastian_Wallroth-Wahl.wav",
 "src": "/home/box/audio-src/ll/de/9c08d33770c37bea.wav"
+},
+"Wahrheit": {
+"title": "De-Wahrheit.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/De-Wahrheit.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/51fd6b7272792b5f.ogg"
+},
+"Warte": {
+"title": "De-Warte.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/d/df/De-Warte.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/b2b41921af8e92c6.ogg"
 },
 "Wasser": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Wasser.wav",
@@ -636,6 +1213,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/LL-Q188_%28deu%29-Sebastian_Wallroth-Welt.wav",
 "src": "/home/box/audio-src/ll/de/eb932fe438f6fda4.wav"
 },
+"Wiedersehen": {
+"title": "De-Wiedersehen.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 2.5",
+"url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/De-Wiedersehen.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/187eeb4eefe13562.ogg"
+},
 "Woche": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Woche.wav",
 "speaker": "Sebastian Wallroth",
@@ -644,11 +1229,20 @@
 "src": "/home/box/audio-src/ll/de/c76ece32c5ed24a9.wav"
 },
 "Wohnung": {
-"title": "LL-Q188 (deu)-Frank C. Müller-1-Raum-Wohnung.wav",
-"speaker": "Frank C. Müller-1-Raum",
-"license": "CC BY-SA 4.0",
-"url": "https://upload.wikimedia.org/wikipedia/commons/7/78/LL-Q188_%28deu%29-Frank_C._M%C3%BCller-1-Raum-Wohnung.wav",
-"src": "/home/box/audio-src/ll/de/209ad23bf8ce6cf6.wav"
+"title": "De-Wohnung.ogg",
+"speaker": "Kampy",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/d/de/De-Wohnung.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/ea6ef5cc39d475c6.ogg"
+},
+"Wort": {
+"title": "De-Wort.ogg",
+"speaker": "Tosca",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/De-Wort.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/6891c3ea664729db.ogg"
 },
 "Zeit": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Zeit.wav",
@@ -663,6 +1257,14 @@
 "license": "CC0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/LL-Q188_%28deu%29-Sebastian_Wallroth-Zeug.wav",
 "src": "/home/box/audio-src/ll/de/6827cc2ef8fa3ea1.wav"
+},
+"Zimmer": {
+"title": "De-Zimmer.oga",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/2/23/De-Zimmer.oga",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/a878e3612f8b26cf.oga"
 },
 "Zukunft": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-Zukunft.wav",
@@ -686,11 +1288,12 @@
 "src": "/home/box/audio-src/ll/de/b6e5f879e202cf24.wav"
 },
 "ach": {
-"title": "LL-Q188 (deu)-Frank C. Müller--ach.wav",
-"speaker": "Frank C. Müller-",
+"title": "De-ach.ogg",
+"speaker": "Jeuwre",
 "license": "CC BY-SA 4.0",
-"url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/LL-Q188_%28deu%29-Frank_C._M%C3%BCller--ach.wav",
-"src": "/home/box/audio-src/ll/de/4c8af6075bd3ee09.wav"
+"url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/De-ach.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/431d54cc4560ab53.ogg"
 },
 "acht": {
 "title": "LL-Q188 (deu)-Natschoba-acht.wav",
@@ -698,6 +1301,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/LL-Q188_%28deu%29-Natschoba-acht.wav",
 "src": "/home/box/audio-src/ll/de/dde8c55d0d1da9dd.wav"
+},
+"all": {
+"title": "De-all.ogg",
+"speaker": "Dinock90",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/De-all.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/49b6d38cd1ab8d48.ogg"
 },
 "alle": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-alle.wav",
@@ -712,6 +1323,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/LL-Q188_%28deu%29-Natschoba-allein.wav",
 "src": "/home/box/audio-src/ll/de/bdbd1f38ded739e9.wav"
+},
+"allem": {
+"title": "De-allem.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/De-allem.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/28a7e6475341fbe4.ogg"
 },
 "alles": {
 "title": "LL-Q188 (deu)-Lucas Werkmeister-alles.wav",
@@ -762,6 +1381,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/LL-Q188_%28deu%29-Natschoba-anderer.wav",
 "src": "/home/box/audio-src/ll/de/e6cc5c98c3568fc7.wav"
 },
+"anders": {
+"title": "De-anders.ogg",
+"speaker": "Dinock90",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/7/72/De-anders.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/a723c5b2b1f52d82.ogg"
+},
 "anfangen": {
 "title": "LL-Q188 (deu)-Natschoba-anfangen.wav",
 "speaker": "Natschoba",
@@ -797,6 +1424,22 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/LL-Q188_%28deu%29-Lucas_Werkmeister-auf.wav",
 "src": "/home/box/audio-src/ll/de/232a17ab0f3abcad.wav"
 },
+"aufhören": {
+"title": "De-aufhören.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/5/52/De-aufh%C3%B6ren.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/36b23bc4f6bceeeb.ogg"
+},
+"aufs": {
+"title": "De-aufs.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/De-aufs.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/a5b48089d4742513.ogg"
+},
 "aus": {
 "title": "LL-Q188 (deu)-Natschoba-aus.wav",
 "speaker": "Natschoba",
@@ -817,6 +1460,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/LL-Q188_%28deu%29-Natschoba-au%C3%9Ferdem.wav",
 "src": "/home/box/audio-src/ll/de/c7aace790e2b3daf.wav"
+},
+"bald": {
+"title": "De-bald.ogg",
+"speaker": "Dinock90",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/De-bald.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/f9df884708d630b6.ogg"
 },
 "bedeuten": {
 "title": "LL-Q188 (deu)-Natschoba-bedeuten.wav",
@@ -846,12 +1497,36 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/LL-Q188_%28deu%29-Natschoba-beide.wav",
 "src": "/home/box/audio-src/ll/de/ba4619381411fcd2.wav"
 },
+"beim": {
+"title": "De-beim.ogg",
+"speaker": "Anhezu",
+"license": "CC BY 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/De-beim.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/38b772658cba659a.ogg"
+},
 "bekommen": {
 "title": "LL-Q188 (deu)-Natschoba-bekommen.wav",
 "speaker": "Natschoba",
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/LL-Q188_%28deu%29-Natschoba-bekommen.wav",
 "src": "/home/box/audio-src/ll/de/e95d73f3eb43f879.wav"
+},
+"bereit": {
+"title": "De-bereit.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/9/90/De-bereit.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/a867a7596bfb01c0.ogg"
+},
+"bereits": {
+"title": "De-bereits.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/De-bereits.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/516d7114f063ccdb.ogg"
 },
 "besonders": {
 "title": "LL-Q188 (deu)-Natschoba-besonders.wav",
@@ -860,12 +1535,36 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/LL-Q188_%28deu%29-Natschoba-besonders.wav",
 "src": "/home/box/audio-src/ll/de/49f27f5fd343d7a3.wav"
 },
+"bestimmt": {
+"title": "De-bestimmt.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/4/42/De-bestimmt.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/81363206ffedf56a.ogg"
+},
 "bevor": {
 "title": "LL-Q188 (deu)-Natschoba-bevor.wav",
 "speaker": "Natschoba",
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/LL-Q188_%28deu%29-Natschoba-bevor.wav",
 "src": "/home/box/audio-src/ll/de/307ef15d1e16d47b.wav"
+},
+"bis": {
+"title": "De-bis.ogg",
+"speaker": "Kampy",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/De-bis.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/113f7913cae3eb9e.ogg"
+},
+"bisschen": {
+"title": "De-bisschen.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/De-bisschen.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/f9f63e88587bccfd.ogg"
 },
 "bitte": {
 "title": "LL-Q188 (deu)-Natschoba-bitte.wav",
@@ -888,6 +1587,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/LL-Q188_%28deu%29-Natschoba-bleiben.wav",
 "src": "/home/box/audio-src/ll/de/be3062c1f53faa10.wav"
 },
+"bloß": {
+"title": "De-bloß.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/De-blo%C3%9F.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/a0f20d32f552955f.ogg"
+},
 "brauchen": {
 "title": "LL-Q188 (deu)-Natschoba-brauchen.wav",
 "speaker": "Natschoba",
@@ -909,12 +1616,36 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/LL-Q188_%28deu%29-Natschoba-b%C3%B6se.wav",
 "src": "/home/box/audio-src/ll/de/569aaf29d595f8c2.wav"
 },
+"cool": {
+"title": "De-cool.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/De-cool.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/95565fc3e87a54ee.ogg"
+},
 "da": {
 "title": "LL-Q188 (deu)-Natschoba-da.wav",
 "speaker": "Natschoba",
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/LL-Q188_%28deu%29-Natschoba-da.wav",
 "src": "/home/box/audio-src/ll/de/5821a2f5b038c237.wav"
+},
+"dabei": {
+"title": "De-dabei.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/8/81/De-dabei.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/df60e665b6c5bce1.ogg"
+},
+"dafür": {
+"title": "De-dafür.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/4/48/De-daf%C3%BCr.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/8995b06178c69f3f.ogg"
 },
 "damals": {
 "title": "LL-Q188 (deu)-Natschoba-damals.wav",
@@ -937,12 +1668,68 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/LL-Q188_%28deu%29-Natschoba-danach.wav",
 "src": "/home/box/audio-src/ll/de/8222784e90dde8d3.wav"
 },
+"dank": {
+"title": "De-dank.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/De-dank.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/8d1258039381486e.ogg"
+},
+"danke": {
+"title": "De-danke.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/De-danke.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/60560b5a350536ae.ogg"
+},
 "dann": {
 "title": "LL-Q188 (deu)-Natschoba-dann.wav",
 "speaker": "Natschoba",
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/LL-Q188_%28deu%29-Natschoba-dann.wav",
 "src": "/home/box/audio-src/ll/de/83a60df7816ef2fe.wav"
+},
+"daran": {
+"title": "De-daran.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/De-daran.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/c1e3c0a01eb70001.ogg"
+},
+"darauf": {
+"title": "De-darauf.ogg",
+"speaker": "Dinock90",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/De-darauf.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/06e1841e0108c6f0.ogg"
+},
+"darum": {
+"title": "De-darum.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/De-darum.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/1b0bfebf1ace4889.ogg"
+},
+"darüber": {
+"title": "De-darüber.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/De-dar%C3%BCber.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/9c502cc0d09d81bc.ogg"
+},
+"das": {
+"title": "De-das.ogg",
+"speaker": "Joni",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/De-das.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/ee45801c340ead62.ogg"
 },
 "dass": {
 "title": "LL-Q188 (deu)-Natschoba-dass.wav",
@@ -951,12 +1738,52 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/LL-Q188_%28deu%29-Natschoba-dass.wav",
 "src": "/home/box/audio-src/ll/de/fa144df6453731dd.wav"
 },
+"davon": {
+"title": "De-davon.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/1/17/De-davon.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/99b42f6a5437b4e6.ogg"
+},
+"dazu": {
+"title": "De-dazu.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/De-dazu.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/0b5c29d997a2a695.ogg"
+},
 "dein": {
 "title": "LL-Q188 (deu)-Natschoba-dein.wav",
 "speaker": "Natschoba",
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/LL-Q188_%28deu%29-Natschoba-dein.wav",
 "src": "/home/box/audio-src/ll/de/4e04b81c29440af9.wav"
+},
+"deiner": {
+"title": "De-deiner.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/De-deiner.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/4f9d2d4208dbff30.ogg"
+},
+"den": {
+"title": "De-den.ogg",
+"speaker": "joni",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/5/52/De-den.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/958734945aa3c38c.ogg"
+},
+"denen": {
+"title": "De-denen.ogg",
+"speaker": "Dinock90",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/2/24/De-denen.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/b702d8d670778b66.ogg"
 },
 "denken": {
 "title": "LL-Q188 (deu)-Natschoba-denken.wav",
@@ -986,6 +1813,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/LL-Q188_%28deu%29-Natschoba-deshalb.wav",
 "src": "/home/box/audio-src/ll/de/51f36c9b0cb0b70c.wav"
 },
+"deswegen": {
+"title": "De-deswegen.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/9/92/De-deswegen.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/03cff461b586c616.ogg"
+},
 "dieser": {
 "title": "LL-Q188 (deu)-Natschoba-dieser.wav",
 "speaker": "Natschoba",
@@ -1014,6 +1849,22 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/LL-Q188_%28deu%29-Natschoba-dort.wav",
 "src": "/home/box/audio-src/ll/de/1be2bf6570fa3050.wav"
 },
+"dran": {
+"title": "De-dran.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/De-dran.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/4f758a599dde4573.ogg"
+},
+"drauf": {
+"title": "De-drauf.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/De-drauf.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/8975efdae76a95f9.ogg"
+},
 "draußen": {
 "title": "LL-Q188 (deu)-Natschoba-draußen.wav",
 "speaker": "Natschoba",
@@ -1027,6 +1878,22 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/LL-Q188_%28deu%29-Natschoba-drei.wav",
 "src": "/home/box/audio-src/ll/de/b59dc87f448a9414.wav"
+},
+"drin": {
+"title": "De-drin.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/1/13/De-drin.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/72885193e9b15ebd.ogg"
+},
+"drüben": {
+"title": "De-drüben.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/5/51/De-dr%C3%BCben.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/d7695324f8cdb489.ogg"
 },
 "du": {
 "title": "LL-Q188 (deu)-Natschoba-du.wav",
@@ -1077,6 +1944,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/LL-Q188_%28deu%29-Natschoba-eher.wav",
 "src": "/home/box/audio-src/ll/de/8130815ae49bc813.wav"
 },
+"ehrlich": {
+"title": "De-ehrlich.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/De-ehrlich.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/0c517b4bab502e45.ogg"
+},
 "eigentlich": {
 "title": "LL-Q188 (deu)-Natschoba-eigentlich.wav",
 "speaker": "Natschoba",
@@ -1091,12 +1966,28 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/LL-Q188_%28deu%29-Lucas_Werkmeister-ein.wav",
 "src": "/home/box/audio-src/ll/de/0a89dffb3858790d.wav"
 },
+"einer": {
+"title": "De-einer.ogg",
+"speaker": "joni",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/De-einer.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/810d48ab6731a02f.ogg"
+},
 "einfach": {
 "title": "LL-Q188 (deu)-Natschoba-einfach.wav",
 "speaker": "Natschoba",
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/LL-Q188_%28deu%29-Natschoba-einfach.wav",
 "src": "/home/box/audio-src/ll/de/21a9d022174d9c2f.wav"
+},
+"einigen": {
+"title": "De-einigen.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/De-einigen.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/b32ac0dad7373e3a.ogg"
 },
 "einmal": {
 "title": "LL-Q188 (deu)-Natschoba-einmal.wav",
@@ -1146,6 +2037,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/LL-Q188_%28deu%29-Natschoba-erfahren.wav",
 "src": "/home/box/audio-src/ll/de/cecb6e7c53a5bd08.wav"
+},
+"erinnern": {
+"title": "De-erinnern.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/De-erinnern.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/fb7ff630564664c4.ogg"
 },
 "erklären": {
 "title": "LL-Q188 (deu)-Natschoba-erklären.wav",
@@ -1266,6 +2165,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/LL-Q188_%28deu%29-Natschoba-fertig.wav",
 "src": "/home/box/audio-src/ll/de/d441ffc52c18a6e4.wav"
 },
+"fest": {
+"title": "De-fest.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/De-fest.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/d92dfcb96c7f179f.ogg"
+},
 "finden": {
 "title": "LL-Q188 (deu)-Natschoba-finden.wav",
 "speaker": "Natschoba",
@@ -1279,6 +2186,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/LL-Q188_%28deu%29-Natschoba-fliegen.wav",
 "src": "/home/box/audio-src/ll/de/65685d839283b13f.wav"
+},
+"fragen": {
+"title": "De-fragen.ogg",
+"speaker": "Tosca",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/De-fragen.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/264796dae5b0b73e.ogg"
 },
 "frei": {
 "title": "LL-Q188 (deu)-Natschoba-frei.wav",
@@ -1371,12 +2286,36 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/LL-Q188_%28deu%29-Natschoba-gef%C3%A4hrlich.wav",
 "src": "/home/box/audio-src/ll/de/1ad8e8ee999b376d.wav"
 },
+"gegen": {
+"title": "De-gegen.ogg",
+"speaker": "Kampy",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/De-gegen.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/b5c05cde5bc2aab6.ogg"
+},
 "gehen": {
 "title": "LL-Q188 (deu)-Natschoba-gehen.wav",
 "speaker": "Natschoba",
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/LL-Q188_%28deu%29-Natschoba-gehen.wav",
 "src": "/home/box/audio-src/ll/de/b0376ab1adba8924.wav"
+},
+"genau": {
+"title": "De-genau.ogg",
+"speaker": "Tosca",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/De-genau.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/1d966e1f39144d76.ogg"
+},
+"genauso": {
+"title": "De-genauso.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/6/61/De-genauso.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/016cd8db639101ad.ogg"
 },
 "genug": {
 "title": "LL-Q188 (deu)-Natschoba-genug.wav",
@@ -1398,6 +2337,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/LL-Q188_%28deu%29-Natschoba-gern.wav",
 "src": "/home/box/audio-src/ll/de/5373bc75d60c918e.wav"
+},
+"gerne": {
+"title": "De-gerne.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/De-gerne.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/902dedc3a85f08f9.ogg"
 },
 "geschehen": {
 "title": "LL-Q188 (deu)-Natschoba-geschehen.wav",
@@ -1441,6 +2388,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/LL-Q188_%28deu%29-Natschoba-gro%C3%9F.wav",
 "src": "/home/box/audio-src/ll/de/8e1dd94ab83f6996.wav"
 },
+"großartig": {
+"title": "De-großartig.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/De-gro%C3%9Fartig.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/a2e61626a46ccf76.ogg"
+},
 "gut": {
 "title": "LL-Q188 (deu)-Natschoba-gut.wav",
 "speaker": "Natschoba",
@@ -1462,6 +2417,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/LL-Q188_%28deu%29-Natschoba-hallo.wav",
 "src": "/home/box/audio-src/ll/de/68a414c42f0e1ea5.wav"
 },
+"halt": {
+"title": "De-halt.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/2/29/De-halt.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/c0c8a83878113a5e.ogg"
+},
 "halten": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-halten.wav",
 "speaker": "Sebastian Wallroth",
@@ -1482,6 +2445,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/LL-Q188_%28deu%29-Natschoba-hassen.wav",
 "src": "/home/box/audio-src/ll/de/843e11c6376a5acb.wav"
+},
+"he": {
+"title": "De-he.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/De-he.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/472efcf735c52914.ogg"
 },
 "heiraten": {
 "title": "LL-Q188 (deu)-Natschoba-heiraten.wav",
@@ -1511,12 +2482,44 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/LL-Q188_%28deu%29-Natschoba-helfen.wav",
 "src": "/home/box/audio-src/ll/de/fef220c8e3d04516.wav"
 },
+"her": {
+"title": "De-her.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/5/55/De-her.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/f1ffe6774cdf3124.ogg"
+},
+"heraus": {
+"title": "De-heraus.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/De-heraus.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/6c55210bdc8a97e8.ogg"
+},
+"herzen": {
+"title": "De-herzen.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/De-herzen.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/93a89e65f0aeedc7.ogg"
+},
 "heute": {
 "title": "LL-Q188 (deu)-Natschoba-heute.wav",
 "speaker": "Natschoba",
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/LL-Q188_%28deu%29-Natschoba-heute.wav",
 "src": "/home/box/audio-src/ll/de/f1a0b0129cce84e8.wav"
+},
+"hi": {
+"title": "De-hi.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/1/16/De-hi.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/c642edc73498e6f7.ogg"
 },
 "hier": {
 "title": "LL-Q188 (deu)-Natschoba-hier.wav",
@@ -1531,6 +2534,22 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/LL-Q188_%28deu%29-Natschoba-hierher.wav",
 "src": "/home/box/audio-src/ll/de/1a8be90ab5919921.wav"
+},
+"hin": {
+"title": "De-hin.ogg",
+"speaker": "Anhezu",
+"license": "CC BY 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/0/02/De-hin.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/d2d934bec248cd8b.ogg"
+},
+"hinten": {
+"title": "De-hinten.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/De-hinten.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/ab2ef0559bfff56c.ogg"
 },
 "hinter": {
 "title": "LL-Q188 (deu)-Natschoba-hinter.wav",
@@ -1588,6 +2607,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/LL-Q188_%28deu%29-Natschoba-ihr.wav",
 "src": "/home/box/audio-src/ll/de/113c54bbad2de81c.wav"
 },
+"im": {
+"title": "De-im.ogg",
+"speaker": "joni",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/7/71/De-im.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/8a0ca8012812db75.ogg"
+},
 "immer": {
 "title": "LL-Q188 (deu)-Natschoba-immer.wav",
 "speaker": "Natschoba",
@@ -1601,6 +2628,30 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/LL-Q188_%28deu%29-Natschoba-in.wav",
 "src": "/home/box/audio-src/ll/de/d58c42c26d670dae.wav"
+},
+"ins": {
+"title": "De-ins.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/De-ins.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/6179dfc52d5c76d3.ogg"
+},
+"interessieren": {
+"title": "De-interessieren.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/9/94/De-interessieren.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/f04245c020f5c630.ogg"
+},
+"irgendwie": {
+"title": "De-irgendwie.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/De-irgendwie.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/2b3832b8d3fb6b41.ogg"
 },
 "irgendwo": {
 "title": "LL-Q188 (deu)-Natschoba-irgendwo.wav",
@@ -1617,11 +2668,12 @@
 "src": "/home/box/audio-src/ll/de/3d576bda49d57112.wav"
 },
 "je": {
-"title": "LL-Q188 (deu)-Poslovitch-je.wav",
-"speaker": "Poslovitch",
-"license": "CC0",
-"url": "https://upload.wikimedia.org/wikipedia/commons/5/52/LL-Q188_%28deu%29-Poslovitch-je.wav",
-"src": "/home/box/audio-src/ll/de/d43a938b79b19258.wav"
+"title": "De-je.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/1/13/De-je.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/378b1bc1241a2619.ogg"
 },
 "jeder": {
 "title": "LL-Q188 (deu)-Natschoba-jeder.wav",
@@ -1629,6 +2681,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/LL-Q188_%28deu%29-Natschoba-jeder.wav",
 "src": "/home/box/audio-src/ll/de/fdaa6fdbf45970a6.wav"
+},
+"jemals": {
+"title": "De-jemals.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/8/86/De-jemals.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/9b82419ec2e5cd01.ogg"
 },
 "jemand": {
 "title": "LL-Q188 (deu)-Natschoba-jemand.wav",
@@ -1658,6 +2718,22 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/LL-Q188_%28deu%29-Natschoba-kaum.wav",
 "src": "/home/box/audio-src/ll/de/d3565d18769f7c1d.wav"
 },
+"kein": {
+"title": "De-kein.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/6/67/De-kein.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/526c27520cfed261.ogg"
+},
+"keiner": {
+"title": "De-keiner.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/De-keiner.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/19da335b5234ec22.ogg"
+},
 "kennen": {
 "title": "LL-Q188 (deu)-Natschoba-kennen.wav",
 "speaker": "Natschoba",
@@ -1671,6 +2747,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/LL-Q188_%28deu%29-Natschoba-klar.wav",
 "src": "/home/box/audio-src/ll/de/e074603891652628.wav"
+},
+"klasse": {
+"title": "De-klasse.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/De-klasse.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/89c461f373667a99.ogg"
 },
 "klein": {
 "title": "LL-Q188 (deu)-Natschoba-klein.wav",
@@ -1721,12 +2805,28 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/LL-Q188_%28deu%29-Natschoba-k%C3%B6nnen.wav",
 "src": "/home/box/audio-src/ll/de/c336443968babf62.wav"
 },
+"kümmern": {
+"title": "De-kümmern.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/0/08/De-k%C3%BCmmern.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/4053dc8458ab786f.ogg"
+},
 "lachen": {
 "title": "LL-Q188 (deu)-Natschoba-lachen.wav",
 "speaker": "Natschoba",
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/LL-Q188_%28deu%29-Natschoba-lachen.wav",
 "src": "/home/box/audio-src/ll/de/b7688b786d8d13c4.wav"
+},
+"laden": {
+"title": "De-laden.ogg",
+"speaker": "Jakob.scholbach",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/De-laden.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/535748eac690fbb2.ogg"
 },
 "lang": {
 "title": "LL-Q188 (deu)-Natschoba-lang.wav",
@@ -1776,6 +2876,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/LL-Q188_%28deu%29-Natschoba-leicht.wav",
 "src": "/home/box/audio-src/ll/de/82b4722fbcd7448a.wav"
+},
+"leid": {
+"title": "De-leid.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/De-leid.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/520ccb1170412e53.ogg"
 },
 "leider": {
 "title": "LL-Q188 (deu)-Natschoba-leider.wav",
@@ -1834,11 +2942,12 @@
 "src": "/home/box/audio-src/ll/de/9c57dcd49f476a2d.wav"
 },
 "ma": {
-"title": "LL-Q188 (deu)-Frank C. Müller--ma.wav",
-"speaker": "Frank C. Müller-",
+"title": "De-Ma.ogg",
+"speaker": "Jeuwre",
 "license": "CC BY-SA 4.0",
-"url": "https://upload.wikimedia.org/wikipedia/commons/2/27/LL-Q188_%28deu%29-Frank_C._M%C3%BCller--ma.wav",
-"src": "/home/box/audio-src/ll/de/f8f416390cece870.wav"
+"url": "https://upload.wikimedia.org/wikipedia/commons/7/76/De-Ma.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/9b46389e1a91c614.ogg"
 },
 "machen": {
 "title": "LL-Q188 (deu)-Natschoba-machen.wav",
@@ -1952,6 +3061,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/LL-Q188_%28deu%29-Natschoba-nat%C3%BCrlich.wav",
 "src": "/home/box/audio-src/ll/de/92c561689d03ab4f.wav"
 },
+"ne": {
+"title": "De-ne.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/0/06/De-ne.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/1650ed3f864c7324.ogg"
+},
 "nehmen": {
 "title": "LL-Q188 (deu)-Natschoba-nehmen.wav",
 "speaker": "Natschoba",
@@ -2008,6 +3125,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/LL-Q188_%28deu%29-Natschoba-nie.wav",
 "src": "/home/box/audio-src/ll/de/1bd456606a6a7d14.wav"
 },
+"niemals": {
+"title": "De-niemals.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/De-niemals.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/b0ebcf25a9f8ddd5.ogg"
+},
 "niemand": {
 "title": "LL-Q188 (deu)-Natschoba-niemand.wav",
 "speaker": "Natschoba",
@@ -2021,6 +3146,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/LL-Q188_%28deu%29-Natschoba-noch.wav",
 "src": "/home/box/audio-src/ll/de/1721ab9f6d8d50a9.wav"
+},
+"nochmal": {
+"title": "De-nochmal.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/8/80/De-nochmal.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/b74c97c8307d21a4.ogg"
 },
 "nun": {
 "title": "LL-Q188 (deu)-Natschoba-nun.wav",
@@ -2042,6 +3175,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/LL-Q188_%28deu%29-Natschoba-n%C3%B6tig.wav",
 "src": "/home/box/audio-src/ll/de/d0e71e7b844ae48f.wav"
+},
+"o": {
+"title": "De-O.ogg",
+"speaker": "T.Voekler",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/De-O.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/7346efe2c022aa0b.ogg"
 },
 "ob": {
 "title": "LL-Q188 (deu)-Natschoba-ob.wav",
@@ -2085,6 +3226,22 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/LL-Q188_%28deu%29-Trypeds-okay.wav",
 "src": "/home/box/audio-src/ll/de/2fe43b0a1f623850.wav"
 },
+"paar": {
+"title": "De-paar.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/0/06/De-paar.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/7d543ad4c49df007.ogg"
+},
+"passen": {
+"title": "De-passen.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/1/19/De-passen.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/f30ca8692cdcd1ec.ogg"
+},
 "passieren": {
 "title": "LL-Q188 (deu)-Natschoba-passieren.wav",
 "speaker": "Natschoba",
@@ -2099,12 +3256,60 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/LL-Q188_%28deu%29-Natschoba-perfekt.wav",
 "src": "/home/box/audio-src/ll/de/9a7cef336c1a867e.wav"
 },
+"plan": {
+"title": "De-plan.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/1/10/De-plan.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/2545bf961d4f667f.ogg"
+},
 "plötzlich": {
 "title": "LL-Q188 (deu)-Natschoba-plötzlich.wav",
 "speaker": "Natschoba",
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/LL-Q188_%28deu%29-Natschoba-pl%C3%B6tzlich.wav",
 "src": "/home/box/audio-src/ll/de/000b4cdf6fd92dbd.wav"
+},
+"raus": {
+"title": "De-raus.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/De-raus.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/a194fb216534281b.ogg"
+},
+"recht": {
+"title": "De-recht.ogg",
+"speaker": "Dinock90",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/De-recht.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/da92bd9799002b76.ogg"
+},
+"reden": {
+"title": "De-reden.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/De-reden.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/8745357aaa2b2f79.ogg"
+},
+"reichen": {
+"title": "De-reichen.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/3/33/De-reichen.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/67046b38bdb22bf7.ogg"
+},
+"rein": {
+"title": "De-rein.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/De-rein.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/8bd57a9f406215ff.ogg"
 },
 "retten": {
 "title": "LL-Q188 (deu)-Natschoba-retten.wav",
@@ -2120,12 +3325,28 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/LL-Q188_%28deu%29-Natschoba-richtig.wav",
 "src": "/home/box/audio-src/ll/de/3a7955910e829d9a.wav"
 },
+"rufen": {
+"title": "De-rufen.ogg",
+"speaker": "Kampy",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/2/29/De-rufen.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/f60fbfeb44facfc2.ogg"
+},
 "ruhig": {
 "title": "LL-Q188 (deu)-Natschoba-ruhig.wav",
 "speaker": "Natschoba",
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/1/14/LL-Q188_%28deu%29-Natschoba-ruhig.wav",
 "src": "/home/box/audio-src/ll/de/b9389949ad92a879.wav"
+},
+"runter": {
+"title": "De-runter.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/De-runter.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/fe63ced1d9b43c41.ogg"
 },
 "sagen": {
 "title": "LL-Q188 (deu)-Natschoba-sagen.wav",
@@ -2154,6 +3375,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/LL-Q188_%28deu%29-Natschoba-scheinen.wav",
 "src": "/home/box/audio-src/ll/de/83ecf3dd515cce8c.wav"
+},
+"schick": {
+"title": "De-schick.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/De-schick.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/08e296761ae40382.ogg"
 },
 "schlafen": {
 "title": "LL-Q188 (deu)-Natschoba-schlafen.wav",
@@ -2239,6 +3468,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/LL-Q188_%28deu%29-Natschoba-sein.wav",
 "src": "/home/box/audio-src/ll/de/3b3d681239e1f6b0.wav"
 },
+"seiner": {
+"title": "De-seiner.ogg",
+"speaker": "joni",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/8/85/De-seiner.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/47550398f0aee95e.ogg"
+},
 "seit": {
 "title": "LL-Q188 (deu)-Natschoba-seit.wav",
 "speaker": "Natschoba",
@@ -2252,6 +3489,22 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/LL-Q188_%28deu%29-Natschoba-selbst.wav",
 "src": "/home/box/audio-src/ll/de/3e3d23019ec47c58.wav"
+},
+"setzen": {
+"title": "De-setzen.ogg",
+"speaker": "Tosca",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/6/60/De-setzen.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/cdf38a02bf79a67b.ogg"
+},
+"sich": {
+"title": "De-sich.ogg",
+"speaker": "joni",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/De-sich.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/b60c3b66d4b0e4ff.ogg"
 },
 "sicher": {
 "title": "LL-Q188 (deu)-Natschoba-sicher.wav",
@@ -2295,6 +3548,22 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/LL-Q188_%28deu%29-Natschoba-sogar.wav",
 "src": "/home/box/audio-src/ll/de/eaa6fba3c8e27e4b.wav"
 },
+"solange": {
+"title": "De-solange.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/9/91/De-solange.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/cd6b22709af8d00a.ogg"
+},
+"solch": {
+"title": "De-solch.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/De-solch.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/8cba127e55a80229.ogg"
+},
 "sollen": {
 "title": "LL-Q188 (deu)-Natschoba-sollen.wav",
 "speaker": "Natschoba",
@@ -2316,6 +3585,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/LL-Q188_%28deu%29-Natschoba-sonst.wav",
 "src": "/home/box/audio-src/ll/de/53bd4a80a46346ba.wav"
 },
+"sorgen": {
+"title": "De-sorgen.ogg",
+"speaker": "Jakob.scholbach",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/De-sorgen.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/3decb962300677dd.ogg"
+},
 "spielen": {
 "title": "LL-Q188 (deu)-Natschoba-spielen.wav",
 "speaker": "Natschoba",
@@ -2336,6 +3613,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/LL-Q188_%28deu%29-Natschoba-sp%C3%A4t.wav",
 "src": "/home/box/audio-src/ll/de/396f84aa208e84c3.wav"
+},
+"später": {
+"title": "De-später.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/De-sp%C3%A4ter.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/1453af103a2d9eeb.ogg"
 },
 "stark": {
 "title": "LL-Q188 (deu)-Natschoba-stark.wav",
@@ -2379,12 +3664,36 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/LL-Q188_%28deu%29-Natschoba-stimmen.wav",
 "src": "/home/box/audio-src/ll/de/ce78cf837bb73a3b.wav"
 },
+"stolz": {
+"title": "De-stolz.ogg",
+"speaker": "Kampy",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/4/40/De-stolz.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/b383beedfcad3c32.ogg"
+},
+"stunden": {
+"title": "De-stunden.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/De-stunden.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/03cadc42fb5d44e1.ogg"
+},
 "suchen": {
 "title": "LL-Q188 (deu)-Natschoba-suchen.wav",
 "speaker": "Natschoba",
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/LL-Q188_%28deu%29-Natschoba-suchen.wav",
 "src": "/home/box/audio-src/ll/de/b0a17d39c24cb44d.wav"
+},
+"super": {
+"title": "De-Super.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/3/31/De-Super.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/707062e9efd61672.ogg"
 },
 "tatsächlich": {
 "title": "LL-Q188 (deu)-Natschoba-tatsächlich.wav",
@@ -2456,6 +3765,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/LL-Q188_%28deu%29-Natschoba-trotzdem.wav",
 "src": "/home/box/audio-src/ll/de/dc4132afa29dba6f.wav"
 },
+"tun": {
+"title": "De-tun.ogg",
+"speaker": "Kampy",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/6/60/De-tun.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/49e8c3c39ce3f150.ogg"
+},
 "töten": {
 "title": "LL-Q188 (deu)-Sebastian Wallroth-töten.wav",
 "speaker": "Sebastian Wallroth",
@@ -2469,6 +3786,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/LL-Q188_%28deu%29-Natschoba-um.wav",
 "src": "/home/box/audio-src/ll/de/73b6e1b854f2aacb.wav"
+},
+"umbringen": {
+"title": "De-umbringen.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/De-umbringen.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/f74583b7fa2b699b.ogg"
 },
 "und": {
 "title": "LL-Q188 (deu)-Natschoba-und.wav",
@@ -2504,6 +3829,22 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/LL-Q188_%28deu%29-Natschoba-unten.wav",
 "src": "/home/box/audio-src/ll/de/1d3c408a27f4af8b.wav"
+},
+"unter": {
+"title": "De-unter.ogg",
+"speaker": "Kampy",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/De-unter.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/8e04ab66ac90f1df.ogg"
+},
+"verdammt": {
+"title": "De-verdammt.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/De-verdammt.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/abf932f5c4e80330.ogg"
 },
 "verdienen": {
 "title": "LL-Q188 (deu)-Natschoba-verdienen.wav",
@@ -2582,6 +3923,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/LL-Q188_%28deu%29-Natschoba-versuchen.wav",
 "src": "/home/box/audio-src/ll/de/38167018c5cef7b0.wav"
 },
+"vertrauen": {
+"title": "De-vertrauen.ogg",
+"speaker": "Kampy",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/De-vertrauen.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/d184c987c2c07219.ogg"
+},
 "viel": {
 "title": "LL-Q188 (deu)-Natschoba-viel.wav",
 "speaker": "Natschoba",
@@ -2631,6 +3980,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/LL-Q188_%28deu%29-Natschoba-vor.wav",
 "src": "/home/box/audio-src/ll/de/7d2be12dd0297ce8.wav"
 },
+"vorbei": {
+"title": "De-vorbei.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/De-vorbei.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/d3d407f2a858ad55.ogg"
+},
 "vorher": {
 "title": "LL-Q188 (deu)-Natschoba-vorher.wav",
 "speaker": "Natschoba",
@@ -2651,6 +4008,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/LL-Q188_%28deu%29-Natschoba-vorstellen.wav",
 "src": "/home/box/audio-src/ll/de/04099b1788129d38.wav"
+},
+"völlig": {
+"title": "De-völlig.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/4/45/De-v%C3%B6llig.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/efb22c6a565153a3.ogg"
 },
 "wahr": {
 "title": "LL-Q188 (deu)-Natschoba-wahr.wav",
@@ -2708,6 +4073,14 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LL-Q188_%28deu%29-Sebastian_Wallroth-wegen.wav",
 "src": "/home/box/audio-src/ll/de/88ae1883cc9cb313.wav"
 },
+"weh": {
+"title": "De-weh.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/4/47/De-weh.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/c2b5067363453931.ogg"
+},
 "weil": {
 "title": "LL-Q188 (deu)-Natschoba-weil.wav",
 "speaker": "Natschoba",
@@ -2728,6 +4101,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/LL-Q188_%28deu%29-Natschoba-weiter.wav",
 "src": "/home/box/audio-src/ll/de/8704052ffa5321a1.wav"
+},
+"welche": {
+"title": "De-welche.ogg",
+"speaker": "Dinock90",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/De-welche.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/622b4212f4b49b9f.ogg"
 },
 "wenig": {
 "title": "LL-Q188 (deu)-Natschoba-wenig.wav",
@@ -2770,6 +4151,14 @@
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/LL-Q188_%28deu%29-Natschoba-werden.wav",
 "src": "/home/box/audio-src/ll/de/4f978ece04f37081.wav"
+},
+"wert": {
+"title": "De-wert.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/De-wert.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/3f8cf97458985b5d.ogg"
 },
 "wichtig": {
 "title": "LL-Q188 (deu)-Natschoba-wichtig.wav",
@@ -2848,12 +4237,28 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/LL-Q188_%28deu%29-Natschoba-wohin.wav",
 "src": "/home/box/audio-src/ll/de/d5e8525ddb43d506.wav"
 },
+"wohl": {
+"title": "De-wohl.ogg",
+"speaker": "Dinock90",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/9/96/De-wohl.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/eb3044e4895f4b8e.ogg"
+},
 "wollen": {
 "title": "LL-Q188 (deu)-Natschoba-wollen.wav",
 "speaker": "Natschoba",
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/LL-Q188_%28deu%29-Natschoba-wollen.wav",
 "src": "/home/box/audio-src/ll/de/ca89765a2697233f.wav"
+},
+"wovon": {
+"title": "De-wovon.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/De-wovon.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/056cff679c8b145c.ogg"
 },
 "während": {
 "title": "LL-Q188 (deu)-Natschoba-während.wav",
@@ -2904,12 +4309,44 @@
 "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/LL-Q188_%28deu%29-Natschoba-zuerst.wav",
 "src": "/home/box/audio-src/ll/de/145d921998a51e85.wav"
 },
+"zum": {
+"title": "De-zum.ogg",
+"speaker": "T.Voekler",
+"license": "CC BY-SA 3.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/De-zum.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/147a8f51b881ed2a.ogg"
+},
+"zur": {
+"title": "De-zur.ogg",
+"speaker": "Dinock90",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/0/05/De-zur.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/32f89c923f2f9472.ogg"
+},
+"zurück": {
+"title": "De-Zurück.ogg",
+"speaker": "Jeuwre",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/d/da/De-Zur%C3%BCck.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/f0da5b17b5ed6a25.ogg"
+},
 "zusammen": {
 "title": "LL-Q188 (deu)-Natschoba-zusammen.wav",
 "speaker": "Natschoba",
 "license": "CC BY-SA 4.0",
 "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/LL-Q188_%28deu%29-Natschoba-zusammen.wav",
 "src": "/home/box/audio-src/ll/de/362655a686554c09.wav"
+},
+"zwar": {
+"title": "De-zwar.ogg",
+"speaker": "Dinock90",
+"license": "CC BY-SA 4.0",
+"url": "https://upload.wikimedia.org/wikipedia/commons/6/65/De-zwar.ogg",
+"origin": "commons",
+"src": "/home/box/audio-src/commons/de/3d37818409806f61.ogg"
 },
 "zwei": {
 "title": "LL-Q188 (deu)-Natschoba-zwei.wav",

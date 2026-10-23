@@ -57,7 +57,7 @@ for pk in sys.argv[1:]:
             if not ok_lic(lic): print('skip license', t, lic, file=sys.stderr); continue
             rank = [x[0] for x in PATTERNS[pk]].index(next(x[0] for x in PATTERNS[pk] if 'File:' + x[0].format(w=w, W=w[:1].upper() + w[1:]) == t))
             if w in found and found[w][0] <= rank: continue
-            spk = artist(md); spk = ii.get('user', spk) if spk == 'unknown' else spk
+            spk = re.sub(r'^User:', '', artist(md)); spk = ii.get('user', spk) if spk.lower() in ('unknown', 'myself', 'own work', 'self') or 'machine-readable' in spk else spk
             found[w] = (rank, {'title': p['title'][5:], 'speaker': spk + (f' ({acc})' if acc else ''), 'license': lic, 'url': ii['url'].split('?')[0], 'origin': 'commons'})
         time.sleep(0.4)
     os.makedirs(f'{SRC}/commons/{pk}', exist_ok=True); n = 0

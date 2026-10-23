@@ -20,6 +20,8 @@ ALLOW = {
     'fr': {'LoquaxFR', 'Sartus85', 'Poslovitch', 'WikiLucas00', '0x010C', 'VictorDtmtc', 'Lyokoï', 'Shareculture', 'Mecanautes'},
     'pt': {'Juliano P. Junho (Jjunho)', 'Sillim', 'JnpoJuwan', 'Juwan (JnpoJuwan)', 'Juwan', 'MedK1', 'Ed Guimaraes'},
 }
+# Speakers left out per pack (non-native: Poslovitch is a France French speaker).
+DENY = {'de': {'Poslovitch'}}
 
 def api(params):
     q = 'https://commons.wikimedia.org/w/api.php?' + urllib.parse.urlencode({**params, 'format': 'json', 'maxlag': '5'})
@@ -45,12 +47,18 @@ for pk in sys.argv[1:]:
     for w in words: lower[w.lower()].add(w)
     pre = re.compile(r'^File:LL-Q\d+ \(' + iso + r'\)-(.+)\.wav$')
     cands = collections.defaultdict(list); spk_count = collections.Counter()
-    for line in open(f'/home/box/ll/titles-{iso}.txt', encoding='utf-8'):
-        title = line.rstrip('\n'); m = pre.match(title)
-        if not m: continue
-        rest = m.group(1)
-        for i in [i for i, ch in enumerate(rest) if ch == '-']:
+    # Titles are "<speaker>-<word>", and both may contain '-'. The speaker is the prefix shared by the most
+    # titles (longest such prefix on a tie), so "Frank C. Müller-1-Euro-Job" is the compound 1-Euro-Job, not "Job".
+    rows = [(t, m.group(1)) for t, m in ((l.rstrip('\n'), pre.match(l.rstrip('\n'))) for l in open(f'/home/box/ll/titles-{iso}.txt', encoding='utf-8')) if m]
+    pc = collections.Counter(r[:i] for _, r in rows for i, ch in enumerate(r) if ch == '-')
+    for title, rest in rows:
+        ps = [i for i, ch in enumerate(rest) if ch == '-']
+        if not ps: continue
+        mx = max(pc[rest[:i]] for i in ps)
+        if mx == 1 and len(ps) > 1: continue  # one-off speaker with a hyphenated word: split is ambiguous
+        for i in [[i for i in ps if pc[rest[:i]] == mx][-1]]:
             spk, w = rest[:i], rest[i + 1:]
+            if spk in DENY.get(pk, ()): continue
             hit = [w] if w in words else ([x for x in lower.get(w.lower(), ()) ] if pk != 'de' else [])
             if ALLOW.get(pk) and spk not in ALLOW[pk]: continue
             for x in hit: cands[x].append((title, spk)); spk_count[spk] += 1
