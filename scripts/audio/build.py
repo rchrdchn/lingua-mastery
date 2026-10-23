@@ -194,10 +194,12 @@ def main():
             path = 'src' + b['file']; open(path, 'wb').write(data); total += len(data); nfiles += 1
         # credits: who recorded what (for CREDITS.md, the credits page and word pages)
         spk = collections.defaultdict(lambda: {'n': 0, 'licenses': set()})
-        for w, r in used_ll.items(): spk[r['speaker']]['n'] += 1; spk[r['speaker']]['licenses'].add(r['license'])
+        for w, r in used_ll.items():
+            if r.get('origin') == 'tatoeba': continue  # sentence recordings are credited under 'sentences'
+            spk[r['speaker']]['n'] += 1; spk[r['speaker']]['licenses'].add(r['license'])
         credits[pk] = {
             'tts': {'engine': engine(pk), 'voice': VOICE[pk][1], 'model': VOICE[pk][0], 'license': VOICE[pk][2], 'clips': src_count['tts']},
-            'll': {'clips': src_count['ll'], 'speakers': {k: {'n': v['n'], 'licenses': sorted(v['licenses'])} for k, v in sorted(spk.items(), key=lambda kv: -kv[1]['n'])}},
+            'll': {'clips': sum(1 for r in used_ll.values() if r.get('origin') != 'tatoeba'), 'speakers': {k: {'n': v['n'], 'licenses': sorted(v['licenses'])} for k, v in sorted(spk.items(), key=lambda kv: -kv[1]['n'])}},
             'words': {w: {'speaker': r['speaker'], 'license': r['license'], 'title': r['title'], 'origin': r.get('origin', 'll')} for w, r in sorted(used_ll.items()) if r.get('origin') != 'tatoeba'},
             'sentences': {'clips': sum(1 for r in used_ll.values() if r.get('origin') == 'tatoeba'), 'speakers': dict(collections.Counter(f"{r['speaker']}|{r['license']}|{r.get('attribution', '')}" for r in used_ll.values() if r.get('origin') == 'tatoeba'))},
             'files': nfiles, 'bytes': total, 'clips': len(by_text), 'failed': src_count['fail'], 'll_rejected': dict(rejects),

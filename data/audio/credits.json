@@ -2255,37 +2255,13 @@
   "failed": 0,
   "files": 809,
   "ll": {
-   "clips": 820,
+   "clips": 800,
    "speakers": {
-    "Auride": {
-     "licenses": [
-      "CC BY-SA 4.0"
-     ],
-     "n": 1
-    },
-    "Them": {
-     "licenses": [
-      "CC BY 4.0"
-     ],
-     "n": 8
-    },
     "Wodencafe": {
      "licenses": [
       "CC0"
      ],
      "n": 800
-    },
-    "amychang": {
-     "licenses": [
-      "CC BY 4.0"
-     ],
-     "n": 1
-    },
-    "rul": {
-     "licenses": [
-      "CC BY 4.0"
-     ],
-     "n": 10
     }
    }
   },
@@ -18592,7 +18568,7 @@
   "failed": 0,
   "files": 607,
   "ll": {
-   "clips": 685,
+   "clips": 600,
    "speakers": {
     "0x010C": {
      "licenses": [
@@ -18654,12 +18630,6 @@
       "CC BY-SA 4.0"
      ],
      "n": 2
-    },
-    "vlecomte": {
-     "licenses": [
-      "CC BY-SA 4.0"
-     ],
-     "n": 85
     }
    }
   },
