@@ -6,10 +6,16 @@
   kind: 'WebPage',
   eleventyComputed: {
     faqs: () => [
-      { q: 'What is mastery-based learning?', a: 'You only move on once you have shown you know something: a run of correct answers at a steady speed. New lessons unlock when the lessons they build on are mastered, and spaced review brings each word back before you forget it.' },
-      { q: 'Do I need an account?', a: 'No. Progress is saved in your browser. You can export it to a file and import it on another device.' },
-      { q: 'Which languages can I learn?', a: 'Mandarin Chinese (HSK 1 and 2), Spanish (2,000 words, A1 to B1), English for speakers of Spanish, Portuguese and Chinese, and starter courses in French, Italian, Portuguese and German.' },
-      { q: 'Is it free?', a: 'Yes. Lessons, word pages and practice are free. The content comes from openly licensed sources and lessons written for this site.' },
+      { q: 'What is mastery-based learning?', a: 'You move on only after you prove you know something: a run of quick, correct answers. Lessons unlock when the ones they build on are mastered, and spaced review brings each word back right before you would forget it.' },
+      { q: 'Which languages can I learn?', a: 'Mandarin Chinese (HSK 1 and 2), Spanish (2,000 words, A1 to B1), French, Italian, Portuguese and German (600 words each), and English for speakers of Spanish, Portuguese and Chinese.' },
+      { q: 'Is it free?', a: 'Yes, all of it: lessons, word pages, audio and practice. Lingua Magna is open source and built from openly licensed data.' },
+      { q: 'Do I need an account?', a: 'No. Just start. Your progress saves automatically in your browser.' },
+      { q: 'How is my progress saved?', a: 'On your device, in your browser storage. Nothing is sent to a server. To switch devices, use Export progress in the practice settings and import the file on the other device.' },
+      { q: 'Does it work on my phone?', a: 'Yes. It is built for phones first and runs in any modern browser, including Safari on iPhone. Add it to your home screen for an app-like feel. Lessons need an internet connection to load.' },
+      { q: 'How is the audio made?', a: 'Native speakers first: real recordings from open projects like Lingua Libre, Wikimedia Commons and Tatoeba, wherever the license allows. The rest uses the clearest open-source voice for each language, chosen by testing every candidate with speech recognition.' },
+      { q: 'Can I learn English from Spanish, Portuguese or Chinese?', a: 'Yes. Pick the language you speak when you start, and translations, grammar notes and the app itself switch to it.' },
+      { q: 'I found a wrong word or translation. How do I report it?', a: 'Open a quick Data fix report on GitHub with the word and what it should say. Fixes ship to everyone on the next update.', link: { repo: '/issues/new/choose', text: 'Report a problem' } },
+      { q: 'Can I contribute?', a: 'Yes. Code is MIT and content is CC BY-SA 4.0. Fix a meaning, write a grammar lesson or add a whole new language.', link: { repo: '/blob/main/CONTRIBUTING.md', text: 'How to contribute' } },
     ],
     ldItems: data => data.lm.packs.map(p => ({ name: `Learn ${p.adj}`, url: p.hubUrl })),
   }

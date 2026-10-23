@@ -16,6 +16,4 @@ Clearing your browser data deletes your progress. Use **Export progress** in the
 
 The site may use privacy-friendly, cookie-free Cloudflare Web Analytics to count page views. It does not use advertising cookies.
 
-Listening drills use your browser's built-in speech voices. Depending on your browser and operating system, text to be spoken may be processed by that voice provider.
-
-The newsletter form is a placeholder and does not collect anything yet.
+Audio plays from recordings served by this site. If a clip is missing, your browser's built-in speech voice is used instead, and depending on your browser and operating system the text may be processed by that voice provider.

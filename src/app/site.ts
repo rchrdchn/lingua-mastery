@@ -89,3 +89,20 @@ if ('IntersectionObserver' in window) {
   const scan = () => document.querySelectorAll('[data-a]').forEach(b => { if (!seen.has((b as HTMLElement).dataset.a!)) io.observe(b); });
   scan(); new MutationObserver(scan).observe(document.getElementById('demo') ?? document.body, { childList: true, subtree: true });
 } else document.querySelectorAll('[data-a]').forEach(warm);
+
+// ---- FAQ accordion: native <details>, with a smooth height animation (skipped for reduced motion) ----
+if (!RM) document.querySelectorAll<HTMLDetailsElement>('details.qa').forEach(d => {
+  const sum = d.querySelector('summary'), ans = d.querySelector<HTMLElement>('.ans');
+  if (!sum || !ans || !ans.animate) return;
+  let anim: Animation | null = null, closing = false;
+  sum.addEventListener('click', e => {
+    e.preventDefault();
+    anim?.cancel();
+    const opening = !d.open || closing;
+    closing = !opening;
+    if (opening) d.open = true;
+    const h = ans.scrollHeight;
+    anim = ans.animate(opening ? [{ height: '0px', opacity: 0 }, { height: `${h}px`, opacity: 1 }] : [{ height: `${h}px`, opacity: 1 }, { height: '0px', opacity: 0 }], { duration: opening ? 280 : 200, easing: 'cubic-bezier(.2,.8,.3,1)' });
+    anim.onfinish = () => { anim = null; if (!opening) { d.open = false; closing = false; } };
+  });
+});
