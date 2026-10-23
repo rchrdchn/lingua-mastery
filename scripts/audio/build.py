@@ -17,7 +17,7 @@ VOICE = {
     'en': ('kokoro-v1.0-af_heart', 'af_heart (Kokoro-82M v1.0)', 'Apache-2.0', 'Kokoro'),
     'fr': ('fr_FR-siwis-medium', 'SIWIS (fr_FR, medium)', 'CC BY 4.0 dataset'),
     'it': ('it_IT-serena-high', 'serena (it_IT, high)', 'CC BY 4.0 dataset'),
-    'pt': ('pt_BR-faber-medium', 'faber (pt_BR, medium)', 'CC0 dataset'),
+    'pt': ('kokoro-v1.0-pf_dora', 'pf_dora (Kokoro-82M v1.0)', 'Apache-2.0', 'Kokoro'),
     'de': ('de_DE-thorsten-high', 'Thorsten (de_DE, high)', 'CC0 dataset'),
 }
 SR = 22050

@@ -24197,22 +24197,2054 @@
   }
  },
  "pt": {
-  "bytes": 10402693,
+  "bytes": 12786747,
   "clips": 2507,
   "failed": 0,
   "files": 607,
   "ll": {
+   "clips": 332,
+   "speakers": {
+    "Aliphee (Brazil)": {
+     "licenses": [
+      "CC BY-SA 4.0"
+     ],
+     "n": 5
+    },
+    "Juliano P. Junho (Jjunho)": {
+     "licenses": [
+      "CC BY-SA 4.0"
+     ],
+     "n": 316
+    },
+    "Lukenji (Brazil)": {
+     "licenses": [
+      "CC0"
+     ],
+     "n": 1
+    },
+    "MedK1": {
+     "licenses": [
+      "CC0"
+     ],
+     "n": 8
+    },
+    "Nonviktis (Brazil)": {
+     "licenses": [
+      "CC BY-SA 4.0"
+     ],
+     "n": 2
+    }
+   }
+  },
+  "ll_rejected": {
+   "clipped": 2,
+   "noisy": 1
+  },
+  "sentences": {
    "clips": 0,
    "speakers": {}
   },
-  "ll_rejected": {},
   "tts": {
-   "clips": 2507,
-   "license": "CC0 dataset",
-   "model": "pt_BR-faber-medium",
-   "voice": "faber (pt_BR, medium)"
+   "clips": 2175,
+   "engine": "Kokoro",
+   "license": "Apache-2.0",
+   "model": "kokoro-v1.0-pf_dora",
+   "voice": "pf_dora (Kokoro-82M v1.0)"
   },
-  "words": {}
+  "words": {
+   "a": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-a.wav"
+   },
+   "acabar": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "MedK1",
+    "title": "LL-Q5146 (por)-MedK1-acabar.wav"
+   },
+   "acha": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-acha.wav"
+   },
+   "acontecer": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-acontecer.wav"
+   },
+   "acordo": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-acordo.wav"
+   },
+   "adeus": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-adeus.wav"
+   },
+   "agente": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-agente.wav"
+   },
+   "agora": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-agora.wav"
+   },
+   "ainda": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-ainda.wav"
+   },
+   "ajudar": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-ajudar.wav"
+   },
+   "algo": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-algo.wav"
+   },
+   "algum": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-algum.wav"
+   },
+   "alguém": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-alguém.wav"
+   },
+   "ali": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-ali.wav"
+   },
+   "amanhã": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-amanhã.wav"
+   },
+   "amigo": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-amigo.wav"
+   },
+   "amor": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-amor.wav"
+   },
+   "andar": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-andar.wav"
+   },
+   "ano": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-ano.wav"
+   },
+   "antes": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-antes.wav"
+   },
+   "ao": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-ao.wav"
+   },
+   "aos": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-aos.wav"
+   },
+   "apenas": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-apenas.wav"
+   },
+   "aquele": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-aquele.wav"
+   },
+   "aqui": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-aqui.wav"
+   },
+   "ar": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Nonviktis (Brazil)",
+    "title": "Pt-br-ar.ogg"
+   },
+   "arma": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-arma.wav"
+   },
+   "as": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-as.wav"
+   },
+   "assim": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-assim.wav"
+   },
+   "atrás": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-atrás.wav"
+   },
+   "até": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-até.wav"
+   },
+   "aí": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-aí.wav"
+   },
+   "bastante": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-bastante.wav"
+   },
+   "bem": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-bem.wav"
+   },
+   "bom": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-bom.wav"
+   },
+   "buscar": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-buscar.wav"
+   },
+   "cabeça": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-cabeça.wav"
+   },
+   "cada": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-cada.wav"
+   },
+   "café": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Aliphee (Brazil)",
+    "title": "Pt-br-café.ogg"
+   },
+   "calma": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-calma.wav"
+   },
+   "caminho": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-caminho.wav"
+   },
+   "capitão": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-capitão.wav"
+   },
+   "carro": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-carro.wav"
+   },
+   "casa": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-casa.wav"
+   },
+   "caso": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-caso.wav"
+   },
+   "causa": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-causa.wav"
+   },
+   "certeza": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-certeza.wav"
+   },
+   "certo": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-certo.wav"
+   },
+   "chefe": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-chefe.wav"
+   },
+   "chegar": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-chegar.wav"
+   },
+   "cidade": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-cidade.wav"
+   },
+   "cima": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-cima.wav"
+   },
+   "cinco": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-cinco.wav"
+   },
+   "claro": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-claro.wav"
+   },
+   "coisa": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-coisa.wav"
+   },
+   "com": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-com.wav"
+   },
+   "comer": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-comer.wav"
+   },
+   "começar": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-começar.wav"
+   },
+   "comigo": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-comigo.wav"
+   },
+   "como": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-como.wav"
+   },
+   "conseguir": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-conseguir.wav"
+   },
+   "consigo": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-consigo.wav"
+   },
+   "contar": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-contar.wav"
+   },
+   "contigo": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-contigo.wav"
+   },
+   "contra": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-contra.wav"
+   },
+   "coração": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-coração.wav"
+   },
+   "corpo": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-corpo.wav"
+   },
+   "cá": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-cá.wav"
+   },
+   "cão": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Aliphee (Brazil)",
+    "title": "Pt-br-cão.ogg"
+   },
+   "da": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-da.wav"
+   },
+   "daqui": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-daqui.wav"
+   },
+   "dar": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-dar.wav"
+   },
+   "das": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-das.wav"
+   },
+   "de": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-de.wav"
+   },
+   "deixar": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-deixar.wav"
+   },
+   "dela": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-dela.wav"
+   },
+   "dele": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-dele.wav"
+   },
+   "deles": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-deles.wav"
+   },
+   "dentro": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-dentro.wav"
+   },
+   "depois": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-depois.wav"
+   },
+   "desculpa": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-desculpa.wav"
+   },
+   "desde": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-desde.wav"
+   },
+   "desta": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-desta.wav"
+   },
+   "deste": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-deste.wav"
+   },
+   "deu": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-deu.wav"
+   },
+   "deus": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-deus.wav"
+   },
+   "dia": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-dia.wav"
+   },
+   "difícil": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-difícil.wav"
+   },
+   "dinheiro": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-dinheiro.wav"
+   },
+   "disso": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-disso.wav"
+   },
+   "disto": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-disto.wav"
+   },
+   "dizer": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-dizer.wav"
+   },
+   "do": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-do.wav"
+   },
+   "dois": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-dois.wav"
+   },
+   "dormir": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-dormir.wav"
+   },
+   "dos": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-dos.wav"
+   },
+   "durante": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-durante.wav"
+   },
+   "dólar": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "MedK1",
+    "title": "LL-Q5146 (por)-MedK1-dólar.wav"
+   },
+   "e": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-e.wav"
+   },
+   "ei": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-ei.wav"
+   },
+   "ela": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-ela.wav"
+   },
+   "elas": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-elas.wav"
+   },
+   "ele": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-ele.wav"
+   },
+   "eles": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-eles.wav"
+   },
+   "em": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-em.wav"
+   },
+   "embora": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-embora.wav"
+   },
+   "encontrar": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-encontrar.wav"
+   },
+   "enquanto": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-enquanto.wav"
+   },
+   "entrar": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-entrar.wav"
+   },
+   "entre": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-entre.wav"
+   },
+   "então": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-então.wav"
+   },
+   "escola": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-escola.wav"
+   },
+   "espera": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-espera.wav"
+   },
+   "esperar": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-esperar.wav"
+   },
+   "essa": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-essa.wav"
+   },
+   "esse": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-esse.wav"
+   },
+   "estar": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-estar.wav"
+   },
+   "este": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-este.wav"
+   },
+   "eu": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-eu.wav"
+   },
+   "existir": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "MedK1",
+    "title": "LL-Q5146 (por)-MedK1-existir.wav"
+   },
+   "falar": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-falar.wav"
+   },
+   "família": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-família.wav"
+   },
+   "favor": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-favor.wav"
+   },
+   "fazer": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-fazer.wav"
+   },
+   "feito": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-feito.wav"
+   },
+   "feliz": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-feliz.wav"
+   },
+   "festa": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-festa.wav"
+   },
+   "ficar": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-ficar.wav"
+   },
+   "filha": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-filha.wav"
+   },
+   "filho": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-filho.wav"
+   },
+   "fim": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-fim.wav"
+   },
+   "fogo": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Aliphee (Brazil)",
+    "title": "Pt-br-fogo.ogg"
+   },
+   "fora": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-fora.wav"
+   },
+   "forma": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-forma.wav"
+   },
+   "frente": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-frente.wav"
+   },
+   "fácil": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-fácil.wav"
+   },
+   "gente": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-gente.wav"
+   },
+   "gosto": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-gosto.wav"
+   },
+   "grande": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-grande.wav"
+   },
+   "guerra": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-guerra.wav"
+   },
+   "história": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-história.wav"
+   },
+   "hoje": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-hoje.wav"
+   },
+   "homem": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-homem.wav"
+   },
+   "hora": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-hora.wav"
+   },
+   "ideia": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-ideia.wav"
+   },
+   "idiota": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-idiota.wav"
+   },
+   "importante": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-importante.wav"
+   },
+   "importar": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "MedK1",
+    "title": "LL-Q5146 (por)-MedK1-importar.wav"
+   },
+   "ir": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-ir.wav"
+   },
+   "irmão": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-irmão.wav"
+   },
+   "isso": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-isso.wav"
+   },
+   "isto": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-isto.wav"
+   },
+   "já": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-já.wav"
+   },
+   "lado": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-lado.wav"
+   },
+   "levar": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-levar.wav"
+   },
+   "lhe": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-lhe.wav"
+   },
+   "lhes": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-lhes.wav"
+   },
+   "livro": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Aliphee (Brazil)",
+    "title": "Pt-br-livro.ogg"
+   },
+   "logo": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-logo.wav"
+   },
+   "lugar": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-lugar.wav"
+   },
+   "luz": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Nonviktis (Brazil)",
+    "title": "Pt-br-luz.ogg"
+   },
+   "lá": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-lá.wav"
+   },
+   "maior": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-maior.wav"
+   },
+   "mais": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-mais.wav"
+   },
+   "mal": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-mal.wav"
+   },
+   "maneira": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-maneira.wav"
+   },
+   "manhã": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-manhã.wav"
+   },
+   "marido": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-marido.wav"
+   },
+   "mas": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-mas.wav"
+   },
+   "matar": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-matar.wav"
+   },
+   "mau": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-mau.wav"
+   },
+   "me": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-me.wav"
+   },
+   "medo": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-medo.wav"
+   },
+   "meio": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-meio.wav"
+   },
+   "melhorar": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "MedK1",
+    "title": "LL-Q5146 (por)-MedK1-melhorar.wav"
+   },
+   "menos": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-menos.wav"
+   },
+   "mesmo": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-mesmo.wav"
+   },
+   "meu": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-meu.wav"
+   },
+   "mim": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-mim.wav"
+   },
+   "momento": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-momento.wav"
+   },
+   "morrer": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-morrer.wav"
+   },
+   "morte": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-morte.wav"
+   },
+   "morto": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-morto.wav"
+   },
+   "muito": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-muito.wav"
+   },
+   "mulher": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-mulher.wav"
+   },
+   "mundo": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-mundo.wav"
+   },
+   "mãe": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-mãe.wav"
+   },
+   "mão": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-mão.wav"
+   },
+   "na": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-na.wav"
+   },
+   "nada": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-nada.wav"
+   },
+   "nas": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-nas.wav"
+   },
+   "nem": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-nem.wav"
+   },
+   "nenhum": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-nenhum.wav"
+   },
+   "neste": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-neste.wav"
+   },
+   "ninguém": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-ninguém.wav"
+   },
+   "nisso": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-nisso.wav"
+   },
+   "no": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-no.wav"
+   },
+   "noite": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-noite.wav"
+   },
+   "nome": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-nome.wav"
+   },
+   "nos": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-nos.wav"
+   },
+   "nosso": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-nosso.wav"
+   },
+   "novo": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-novo.wav"
+   },
+   "num": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-num.wav"
+   },
+   "numa": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-numa.wav"
+   },
+   "nunca": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-nunca.wav"
+   },
+   "não": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-não.wav"
+   },
+   "nós": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-nós.wav"
+   },
+   "número": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-número.wav"
+   },
+   "o": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-o.wav"
+   },
+   "obrigado": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-obrigado.wav"
+   },
+   "olá": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-olá.wav"
+   },
+   "onde": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-onde.wav"
+   },
+   "ontem": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-ontem.wav"
+   },
+   "os": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-os.wav"
+   },
+   "ou": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-ou.wav"
+   },
+   "outro": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-outro.wav"
+   },
+   "ouvir": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-ouvir.wav"
+   },
+   "pai": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-pai.wav"
+   },
+   "para": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-para.wav"
+   },
+   "parabéns": {
+    "license": "CC0",
+    "origin": "commons",
+    "speaker": "Lukenji (Brazil)",
+    "title": "Pt-br-parabéns.ogg"
+   },
+   "parar": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-parar.wav"
+   },
+   "parte": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-parte.wav"
+   },
+   "passar": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-passar.wav"
+   },
+   "pedir": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-pedir.wav"
+   },
+   "pela": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-pela.wav"
+   },
+   "pelo": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-pelo.wav"
+   },
+   "pena": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-pena.wav"
+   },
+   "pensar": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-pensar.wav"
+   },
+   "perder": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-perder.wav"
+   },
+   "perto": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-perto.wav"
+   },
+   "pessoa": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-pessoa.wav"
+   },
+   "pessoal": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-pessoal.wav"
+   },
+   "poder": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-poder.wav"
+   },
+   "pois": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-pois.wav"
+   },
+   "polícia": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-polícia.wav"
+   },
+   "por": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-por.wav"
+   },
+   "porque": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-porque.wav"
+   },
+   "porquê": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-porquê.wav"
+   },
+   "porta": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-porta.wav"
+   },
+   "pouco": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-pouco.wav"
+   },
+   "pra": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-pra.wav"
+   },
+   "preciso": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-preciso.wav"
+   },
+   "presente": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Aliphee (Brazil)",
+    "title": "Pt-br-presente.ogg"
+   },
+   "presidente": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-presidente.wav"
+   },
+   "primeiro": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-primeiro.wav"
+   },
+   "problema": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-problema.wav"
+   },
+   "pronto": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-pronto.wav"
+   },
+   "puto": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "MedK1",
+    "title": "LL-Q5146 (por)-MedK1-puto.wav"
+   },
+   "pára": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-pára.wav"
+   },
+   "pé": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "MedK1",
+    "title": "LL-Q5146 (por)-MedK1-pé.wav"
+   },
+   "qual": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-qual.wav"
+   },
+   "qualquer": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-qualquer.wav"
+   },
+   "quando": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-quando.wav"
+   },
+   "quanto": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-quanto.wav"
+   },
+   "quarto": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-quarto.wav"
+   },
+   "quase": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-quase.wav"
+   },
+   "quatro": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-quatro.wav"
+   },
+   "que": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-que.wav"
+   },
+   "quem": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-quem.wav"
+   },
+   "quer": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-quer.wav"
+   },
+   "querido": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-querido.wav"
+   },
+   "quê": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-quê.wav"
+   },
+   "rapaz": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-rapaz.wav"
+   },
+   "razão": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-razão.wav"
+   },
+   "realmente": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-realmente.wav"
+   },
+   "rápido": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-rápido.wav"
+   },
+   "saber": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-saber.wav"
+   },
+   "sair": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-sair.wav"
+   },
+   "sangue": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-sangue.wav"
+   },
+   "se": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-se.wav"
+   },
+   "segundo": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-segundo.wav"
+   },
+   "segurança": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-segurança.wav"
+   },
+   "seguro": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-seguro.wav"
+   },
+   "sem": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-sem.wav"
+   },
+   "semana": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-semana.wav"
+   },
+   "sempre": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-sempre.wav"
+   },
+   "senhor": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-senhor.wav"
+   },
+   "sentir": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-sentir.wav"
+   },
+   "ser": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-ser.wav"
+   },
+   "seu": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-seu.wav"
+   },
+   "si": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-si.wav"
+   },
+   "significar": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "MedK1",
+    "title": "LL-Q5146 (por)-MedK1-significar.wav"
+   },
+   "sim": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-sim.wav"
+   },
+   "sobre": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-sobre.wav"
+   },
+   "sorte": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-sorte.wav"
+   },
+   "suficiente": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-suficiente.wav"
+   },
+   "sério": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-sério.wav"
+   },
+   "só": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-só.wav"
+   },
+   "tal": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-tal.wav"
+   },
+   "talvez": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-talvez.wav"
+   },
+   "também": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-também.wav"
+   },
+   "tanto": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-tanto.wav"
+   },
+   "tarde": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-tarde.wav"
+   },
+   "te": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-te.wav"
+   },
+   "tempo": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-tempo.wav"
+   },
+   "tentar": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-tentar.wav"
+   },
+   "ter": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-ter.wav"
+   },
+   "terra": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-terra.wav"
+   },
+   "teu": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-teu.wav"
+   },
+   "tipo": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-tipo.wav"
+   },
+   "tirar": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-tirar.wav"
+   },
+   "toda": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-toda.wav"
+   },
+   "todo": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-todo.wav"
+   },
+   "todos": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-todos.wav"
+   },
+   "tomar": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-tomar.wav"
+   },
+   "trabalhar": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-trabalhar.wav"
+   },
+   "três": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-três.wav"
+   },
+   "tu": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-tu.wav"
+   },
+   "tudo": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-tudo.wav"
+   },
+   "tão": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-tão.wav"
+   },
+   "um": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-um.wav"
+   },
+   "uns": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-uns.wav"
+   },
+   "usar": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-usar.wav"
+   },
+   "vale": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-vale.wav"
+   },
+   "velho": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-velho.wav"
+   },
+   "ver": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-ver.wav"
+   },
+   "verdade": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-verdade.wav"
+   },
+   "vez": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-vez.wav"
+   },
+   "vezes": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-vezes.wav"
+   },
+   "vida": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-vida.wav"
+   },
+   "vir": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-vir.wav"
+   },
+   "visto": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-visto.wav"
+   },
+   "viver": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-viver.wav"
+   },
+   "você": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-você.wav"
+   },
+   "vocês": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-vocês.wav"
+   },
+   "voltar": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-voltar.wav"
+   },
+   "vos": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-vos.wav"
+   },
+   "à": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-à.wav"
+   },
+   "às": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-às.wav"
+   },
+   "água": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-água.wav"
+   },
+   "é": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-é.wav"
+   },
+   "óptimo": {
+    "license": "CC BY-SA 4.0",
+    "origin": "ll",
+    "speaker": "Juliano P. Junho (Jjunho)",
+    "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-óptimo.wav"
+   }
+  }
  },
  "zh": {
   "bytes": 32168751,
