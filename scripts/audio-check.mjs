@@ -47,6 +47,9 @@ async function run(name, browserType, launchOpts, ctxOpts) {
   await pg.goto(`${BASE}/italian/words/casa/`); await pg.waitForTimeout(800);
   await tap('button.say.big', 'it word page, word');
   await tap('.exlist button.say', 'it word page, sentence');
+  await pg.goto(`${BASE}/german/words/haus/`); await pg.waitForTimeout(800);
+  await tap('button.say.big', 'de word page, word');
+  await tap('.exlist button.say', 'de word page, sentence');
   await pg.goto(`${BASE}/`); await pg.waitForTimeout(800);
   await tap('#demo .dcard button.say', 'home demo, question word');
   await tap('#cards button.say', 'home example card');

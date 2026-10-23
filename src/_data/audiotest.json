@@ -2119,6 +2119,388 @@
      "sub": ""
     }
    ]
+  },
+  {
+   "id": "de",
+   "name": "German",
+   "lang": "de-DE",
+   "metric": "wer",
+   "intro": "8 course words and 14 course sentences from each source. A second set of 16 words and 30 sentences (8 with a Tatoeba recording) was scored for every voice except the Chatterbox reference-voice retest. All 600 course words have a native recording; 106 course sentences have an openly licensed Tatoeba recording (by Yeti and MisterTrouser, CC BY 4.0); 2 were dropped after a Whisper check, so 104 are used. Not tested: every Piper de_DE Thorsten voice, karlsson and kerstin (fine-tuned from the English lessac or ryan voices, whose base data is not openly licensed), pavoque (non-commercial data), Orpheus German (Llama 3.2 licence, 3B parameters, far too slow on CPU) and Zonos (training data undisclosed).",
+   "scoreNote": "Whisper large-v3 (float32, CPU) transcribes each clip. Words heard right: exact match after lowercasing, removing punctuation and spelling out digits. Sentence WER/CER: word and character error rate, lower is better. Speed is CPU seconds per clip on the build machine.",
+   "candidates": [
+    {
+     "id": "native",
+     "label": "Native recording (Lingua Libre / Commons words, Tatoeba sentences)",
+     "license": "CC BY-SA / CC BY / CC0",
+     "note": "second set: 16/16 words, sentence WER 0%. Words mostly by Natschoba, Jeuwre and Sebastian Wallroth on Lingua Libre plus other Commons uploads; Tatoeba sentences by Yeti and MisterTrouser (CC BY 4.0).",
+     "wordAcc": 0.875,
+     "nWords": 8,
+     "wer": 0.0,
+     "cer": 0.0,
+     "have": [
+      "w00",
+      "w01",
+      "w02",
+      "w03",
+      "w04",
+      "w05",
+      "w06",
+      "w07",
+      "s01",
+      "s08",
+      "s10",
+      "s11"
+     ]
+    },
+    {
+     "id": "coqui-thorsten-vits",
+     "label": "Coqui TTS Thorsten VITS (chosen)",
+     "license": "Apache-2.0 model, CC0 dataset",
+     "note": "second set: 5/16 words, sentence WER 2.1%. Lowest sentence error over both sets combined (9.3% / 2.1%) and fastest (0.4 s per clip). Trained from scratch (no base checkpoint) on the CC0 Thorsten-Voice Dec2021 neutral dataset. Isolated words are weaker, but every course word has a native recording.",
+     "wordAcc": 0.5,
+     "nWords": 8,
+     "wer": 0.09302325581395349,
+     "cer": 0.0330188679245283,
+     "have": [
+      "w00",
+      "w01",
+      "w02",
+      "w03",
+      "w04",
+      "w05",
+      "w06",
+      "w07",
+      "s00",
+      "s01",
+      "s02",
+      "s03",
+      "s04",
+      "s05",
+      "s06",
+      "s07",
+      "s08",
+      "s09",
+      "s10",
+      "s11",
+      "s12",
+      "s13"
+     ]
+    },
+    {
+     "id": "parler-mini-ml",
+     "label": "Parler-TTS Mini Multilingual v1.1",
+     "license": "Apache-2.0, CC BY 4.0 data (MLS, CML-TTS, LibriTTS-R)",
+     "note": "second set: 12/16 words, sentence WER 10.3%. Best first-set sentences (4.7%) but five times the second-set error, and 5 to 11 s per clip.",
+     "wordAcc": 0.5,
+     "nWords": 8,
+     "wer": 0.046511627906976744,
+     "cer": 0.02358490566037736,
+     "have": [
+      "w00",
+      "w01",
+      "w02",
+      "w03",
+      "w04",
+      "w05",
+      "w06",
+      "w07",
+      "s00",
+      "s01",
+      "s02",
+      "s03",
+      "s04",
+      "s05",
+      "s06",
+      "s07",
+      "s08",
+      "s09",
+      "s10",
+      "s11",
+      "s12",
+      "s13"
+     ]
+    },
+    {
+     "id": "piper-de_DE-eva_k-x_low",
+     "label": "Piper de_DE eva_k x_low",
+     "license": "Piper tool GPL-3.0, M-AILABS dataset",
+     "note": "second set: 2/16 words, sentence WER 6.2%. Trained from scratch; 16 kHz x_low quality.",
+     "wordAcc": 0.25,
+     "nWords": 8,
+     "wer": 0.09302325581395349,
+     "cer": 0.02830188679245283,
+     "have": [
+      "w00",
+      "w01",
+      "w02",
+      "w03",
+      "w04",
+      "w05",
+      "w06",
+      "w07",
+      "s00",
+      "s01",
+      "s02",
+      "s03",
+      "s04",
+      "s05",
+      "s06",
+      "s07",
+      "s08",
+      "s09",
+      "s10",
+      "s11",
+      "s12",
+      "s13"
+     ]
+    },
+    {
+     "id": "piper-de_DE-ramona-low",
+     "label": "Piper de_DE ramona low",
+     "license": "Piper tool GPL-3.0, M-AILABS dataset",
+     "note": "second set: 3/16 words, sentence WER 14.4%. Trained from scratch; 16 kHz low quality.",
+     "wordAcc": 0.25,
+     "nWords": 8,
+     "wer": 0.06976744186046512,
+     "cer": 0.04716981132075472,
+     "have": [
+      "w00",
+      "w01",
+      "w02",
+      "w03",
+      "w04",
+      "w05",
+      "w06",
+      "w07",
+      "s00",
+      "s01",
+      "s02",
+      "s03",
+      "s04",
+      "s05",
+      "s06",
+      "s07",
+      "s08",
+      "s09",
+      "s10",
+      "s11",
+      "s12",
+      "s13"
+     ]
+    },
+    {
+     "id": "chatterbox-mtl-ref",
+     "label": "Chatterbox Multilingual, German reference voice",
+     "license": "MIT (training data undocumented)",
+     "note": "first set only: 4/8 words, sentence WER 30.2%. Prompted with a CC0 Thorsten-Voice clip; still adds and repeats words. About 8 s per clip; output carries a Perth watermark.",
+     "wordAcc": 0.5,
+     "nWords": 8,
+     "wer": 0.3023255813953488,
+     "cer": 0.24528301886792453,
+     "have": [
+      "w01",
+      "w02",
+      "w03",
+      "w04",
+      "w05",
+      "w06",
+      "w07",
+      "s00",
+      "s01",
+      "s02",
+      "s03",
+      "s04",
+      "s05",
+      "s06",
+      "s07",
+      "s08",
+      "s09",
+      "s10",
+      "s11",
+      "s12",
+      "s13"
+     ]
+    },
+    {
+     "id": "chatterbox-mtl",
+     "label": "Chatterbox Multilingual, default voice",
+     "license": "MIT (training data undocumented)",
+     "note": "second set: 4/16 words, sentence WER 49.5%. Babbles and repeats after short prompts; 6 to 8 s per clip.",
+     "wordAcc": 0.125,
+     "nWords": 8,
+     "wer": 0.46511627906976744,
+     "cer": 0.4481132075471698,
+     "have": [
+      "w01",
+      "w02",
+      "w03",
+      "w04",
+      "w05",
+      "w06",
+      "w07",
+      "s00",
+      "s01",
+      "s02",
+      "s03",
+      "s04",
+      "s05",
+      "s06",
+      "s07",
+      "s08",
+      "s09",
+      "s10",
+      "s11",
+      "s12",
+      "s13"
+     ]
+    },
+    {
+     "id": "piper-de_DE-mls-medium",
+     "label": "Piper de_DE mls medium",
+     "license": "Piper tool GPL-3.0, CC BY 4.0 dataset (MLS)",
+     "note": "second set: 0/16 words, sentence WER 100%. Mostly unintelligible to Whisper.",
+     "wordAcc": 0.0,
+     "nWords": 8,
+     "wer": 0.9767441860465116,
+     "cer": 0.9481132075471698,
+     "have": [
+      "w00",
+      "w01",
+      "w02",
+      "w03",
+      "w04",
+      "w05",
+      "w06",
+      "w07",
+      "s00",
+      "s01",
+      "s02",
+      "s03",
+      "s04",
+      "s05",
+      "s06",
+      "s07",
+      "s08",
+      "s09",
+      "s10",
+      "s11",
+      "s12",
+      "s13"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "w00",
+     "text": "he",
+     "sub": "word"
+    },
+    {
+     "id": "w01",
+     "text": "Verzeihung",
+     "sub": "word"
+    },
+    {
+     "id": "w02",
+     "text": "mehr",
+     "sub": "word"
+    },
+    {
+     "id": "w03",
+     "text": "Hallo",
+     "sub": "word"
+    },
+    {
+     "id": "w04",
+     "text": "Körper",
+     "sub": "word"
+    },
+    {
+     "id": "w05",
+     "text": "wahr",
+     "sub": "word"
+    },
+    {
+     "id": "w06",
+     "text": "Morgen",
+     "sub": "word"
+    },
+    {
+     "id": "w07",
+     "text": "klingen",
+     "sub": "word"
+    },
+    {
+     "id": "s00",
+     "text": "Bist du dabei?",
+     "sub": ""
+    },
+    {
+     "id": "s01",
+     "text": "Sie essen.",
+     "sub": ""
+    },
+    {
+     "id": "s02",
+     "text": "Das ist für sie.",
+     "sub": ""
+    },
+    {
+     "id": "s03",
+     "text": "Das ist einfach.",
+     "sub": ""
+    },
+    {
+     "id": "s04",
+     "text": "Ich konnte nicht heraus.",
+     "sub": ""
+    },
+    {
+     "id": "s05",
+     "text": "Mach schnell!",
+     "sub": ""
+    },
+    {
+     "id": "s06",
+     "text": "Das dachte ich mir.",
+     "sub": ""
+    },
+    {
+     "id": "s07",
+     "text": "Ich suche einen Laden.",
+     "sub": ""
+    },
+    {
+     "id": "s08",
+     "text": "Sie verlassen uns.",
+     "sub": ""
+    },
+    {
+     "id": "s09",
+     "text": "Ich muss aufhören.",
+     "sub": ""
+    },
+    {
+     "id": "s10",
+     "text": "Geh zur Seite!",
+     "sub": ""
+    },
+    {
+     "id": "s11",
+     "text": "Das gehört ihm.",
+     "sub": ""
+    },
+    {
+     "id": "s12",
+     "text": "Es ist möglich.",
+     "sub": ""
+    },
+    {
+     "id": "s13",
+     "text": "Danke, Leute!",
+     "sub": ""
+    }
+   ]
   }
  ]
 }

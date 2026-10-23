@@ -1,45 +1,34 @@
 {
  "de": {
-  "bytes": 10476113,
+  "bytes": 11909692,
   "clips": 2493,
   "failed": 0,
   "files": 607,
   "ll": {
-   "clips": 422,
+   "clips": 583,
    "speakers": {
+    "Anhezu": {
+     "licenses": [
+      "CC BY 3.0"
+     ],
+     "n": 1
+    },
+    "Bleibein": {
+     "licenses": [
+      "CC BY-SA 3.0",
+      "CC BY-SA 4.0"
+     ],
+     "n": 2
+    },
+    "Dinock90": {
+     "licenses": [
+      "CC BY-SA 4.0"
+     ],
+     "n": 12
+    },
     "ENERGY ENCHANTED": {
      "licenses": [
       "CC0"
-     ],
-     "n": 1
-    },
-    "Frank C. Müller-": {
-     "licenses": [
-      "CC BY-SA 4.0"
-     ],
-     "n": 2
-    },
-    "Frank C. Müller-1-Euro": {
-     "licenses": [
-      "CC BY-SA 4.0"
-     ],
-     "n": 2
-    },
-    "Frank C. Müller-1-Raum": {
-     "licenses": [
-      "CC BY-SA 4.0"
-     ],
-     "n": 1
-    },
-    "Frank C. Müller-Ach": {
-     "licenses": [
-      "CC BY-SA 4.0"
-     ],
-     "n": 1
-    },
-    "Frank C. Müller-After-Hour": {
-     "licenses": [
-      "CC BY-SA 4.0"
      ],
      "n": 1
     },
@@ -49,21 +38,41 @@
      ],
      "n": 2
     },
+    "Jakob.scholbach": {
+     "licenses": [
+      "CC BY-SA 3.0"
+     ],
+     "n": 2
+    },
+    "Jeuwre": {
+     "licenses": [
+      "CC BY-SA 2.5",
+      "CC BY-SA 3.0",
+      "CC BY-SA 4.0"
+     ],
+     "n": 134
+    },
+    "Joni": {
+     "licenses": [
+      "CC BY-SA 3.0"
+     ],
+     "n": 1
+    },
+    "Kampy": {
+     "licenses": [
+      "CC BY-SA 3.0"
+     ],
+     "n": 12
+    },
     "Lucas Werkmeister": {
      "licenses": [
       "CC0"
      ],
      "n": 8
     },
-    "Mighty Wire-FBI": {
+    "MiER": {
      "licenses": [
-      "CC0"
-     ],
-     "n": 1
-    },
-    "Mighty Wire-Kung-Fu": {
-     "licenses": [
-      "CC0"
+      "CC BY-SA 3.0"
      ],
      "n": 1
     },
@@ -85,9 +94,9 @@
      ],
      "n": 306
     },
-    "Poslovitch": {
+    "Pill": {
      "licenses": [
-      "CC0"
+      "CC BY-SA 3.0"
      ],
      "n": 2
     },
@@ -103,17 +112,17 @@
      ],
      "n": 85
     },
-    "Sebastian Wallroth-Amt Seelow": {
+    "T.Voekler": {
      "licenses": [
-      "CC0"
+      "CC BY-SA 3.0"
      ],
      "n": 1
     },
-    "Sebastian Wallroth-Kurt-Schumacher": {
+    "Tosca": {
      "licenses": [
-      "CC0"
+      "CC BY-SA 3.0"
      ],
-     "n": 1
+     "n": 4
     },
     "Trypeds": {
      "licenses": [
@@ -126,2124 +135,3529 @@
       "CC BY-SA 4.0"
      ],
      "n": 2
+    },
+    "joni": {
+     "licenses": [
+      "CC BY-SA 3.0"
+     ],
+     "n": 2
     }
    }
   },
-  "ll_rejected": {},
+  "ll_rejected": {
+   "clipped": 6,
+   "noisy": 11
+  },
+  "sentences": {
+   "clips": 104,
+   "speakers": {
+    "MisterTrouser|CC BY 4.0|https://tatoeba.org/eng/user/profile/MisterTrouser": 28,
+    "Yeti|CC BY 4.0|": 76
+   }
+  },
   "tts": {
-   "clips": 2071,
-   "license": "CC0 dataset",
-   "model": "de_DE-thorsten-high",
-   "voice": "Thorsten (de_DE, high)"
+   "clips": 1806,
+   "engine": "Coqui TTS",
+   "license": "Apache-2.0 model trained from scratch on the CC0 Thorsten-Voice dataset",
+   "model": "coqui-de-thorsten-vits",
+   "voice": "Thorsten (VITS)"
   },
   "words": {
    "A": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Mukeber",
     "title": "LL-Q188 (deu)-Mukeber-A.wav"
    },
    "Abend": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Punsisil",
     "title": "LL-Q188 (deu)-Punsisil-Abend.wav"
    },
+   "Ahnung": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Ahnung.ogg"
+   },
+   "Alter": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Alter.ogg"
+   },
+   "Andere": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Andere.ogg"
+   },
    "Angst": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Angst.wav"
    },
+   "Antwort": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Kampy",
+    "title": "De-Antwort.ogg"
+   },
    "Arbeit": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Arbeit.wav"
    },
    "Art": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Art.wav"
    },
    "Arzt": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Arzt.wav"
    },
    "Auge": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Auge.wav"
    },
-   "Auto": {
-    "license": "CC0",
-    "speaker": "Poslovitch",
-    "title": "LL-Q188 (deu)-Poslovitch-Auto.wav"
-   },
    "Baby": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Baby.wav"
    },
    "Bett": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Bett.wav"
    },
    "Blut": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Blut.wav"
    },
+   "Boden": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Boden.ogg"
+   },
+   "Boss": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Boss.ogg"
+   },
    "Bruder": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Bruder.wav"
    },
    "Buch": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Buch.wav"
    },
    "Büro": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Büro.wav"
    },
+   "Chance": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Chance.ogg"
+   },
    "Ding": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Ding.wav"
    },
+   "Doktor": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Doktor.ogg"
+   },
+   "Dollar": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Dollar.ogg"
+   },
+   "Eltern": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Kampy",
+    "title": "De-Eltern.ogg"
+   },
    "Ende": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Ende.wav"
    },
+   "Entschuldigung": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Entschuldigung.ogg"
+   },
    "Erde": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Erde.wav"
    },
+   "Erster": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Erster.ogg"
+   },
    "Fall": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Fall.wav"
    },
+   "Familie": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "T.Voekler",
+    "title": "De-Familie.ogg"
+   },
    "Fehler": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Fehler.wav"
    },
    "Feuer": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Feuer.wav"
    },
-   "Film": {
-    "license": "CC0",
-    "speaker": "Mighty Wire-Kung-Fu",
-    "title": "LL-Q188 (deu)-Mighty Wire-Kung-Fu-Film.wav"
+   "Folge": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Folge.ogg"
    },
    "Frage": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Frage.wav"
    },
    "Frau": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Frau.wav"
    },
+   "Freund": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Freund.ogg"
+   },
+   "Gefängnis": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Kampy",
+    "title": "De-Gefängnis.ogg"
+   },
+   "Gefühl": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Kampy",
+    "title": "De-Gefühl.ogg"
+   },
    "Geld": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Geld.wav"
    },
+   "General": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-General.ogg"
+   },
    "Geschichte": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Ziko",
     "title": "LL-Q188 (deu)-Ziko-Geschichte.wav"
    },
+   "Geschäft": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Kampy",
+    "title": "De-Geschäft.ogg"
+   },
+   "Gesicht": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Kampy",
+    "title": "De-Gesicht.ogg"
+   },
+   "Glaube": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Glaube.ogg"
+   },
    "Glück": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Glück.wav"
    },
    "Gott": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Gott.wav"
    },
    "Grund": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Grund.wav"
    },
    "Hallo": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Trypeds",
     "title": "LL-Q188 (deu)-Trypeds-Hallo.wav"
    },
    "Hand": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Hand.wav"
    },
    "Handy": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Ziko",
     "title": "LL-Q188 (deu)-Ziko-Handy.wav"
    },
    "Haus": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "I10-10I",
     "title": "LL-Q188 (deu)-I10-10I-Haus.wav"
    },
    "Herr": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "ENERGY ENCHANTED",
     "title": "LL-Q188 (deu)-ENERGY ENCHANTED-Herr.wav"
    },
    "Hilfe": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "I10-10I",
     "title": "LL-Q188 (deu)-I10-10I-Hilfe.wav"
    },
    "Himmel": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Himmel.wav"
    },
    "Hotel": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Hotel.wav"
    },
    "Hund": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Hund.wav"
    },
+   "Hölle": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Hölle.ogg"
+   },
    "Idee": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Idee.wav"
    },
+   "Ihrer": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Ihrer.ogg"
+   },
    "Jahr": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Jahr.wav"
    },
    "Job": {
     "license": "CC BY-SA 4.0",
-    "speaker": "Frank C. Müller-1-Euro",
-    "title": "LL-Q188 (deu)-Frank C. Müller-1-Euro-Job.wav"
+    "origin": "commons",
+    "speaker": "Dinock90",
+    "title": "De-Job.ogg"
+   },
+   "Kaffee": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Kampy",
+    "title": "De-Kaffee.ogg"
+   },
+   "Kampf": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Kampf.ogg"
+   },
+   "Kerl": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Kerl.ogg"
    },
    "Kind": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Kind.wav"
    },
+   "Kleiner": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Kleiner.ogg"
+   },
    "Kopf": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Kopf.wav"
    },
    "Krankenhaus": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Krankenhaus.wav"
    },
    "Krieg": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Krieg.wav"
    },
+   "Kumpel": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Kumpel.ogg"
+   },
+   "König": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Pill",
+    "title": "De-König.ogg"
+   },
+   "Körper": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Körper.ogg"
+   },
    "Land": {
-    "license": "CC0",
-    "speaker": "Sebastian Wallroth-Amt Seelow",
-    "title": "LL-Q188 (deu)-Sebastian Wallroth-Amt Seelow-Land.wav"
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Pill",
+    "title": "De-Land.ogg"
    },
    "Laut": {
     "license": "CC BY-SA 4.0",
-    "speaker": "Frank C. Müller-Ach",
-    "title": "LL-Q188 (deu)-Frank C. Müller-Ach-Laut.wav"
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Laut.ogg"
+   },
+   "Letzter": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Letzter.ogg"
    },
    "Leute": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "MirkoRP",
     "title": "LL-Q188 (deu)-MirkoRP-Leute.wav"
    },
    "Licht": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Licht.wav"
    },
    "Liebe": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Liebe.wav"
    },
    "Liebling": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-Liebling.wav"
    },
+   "Liege": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Liege.ogg"
+   },
    "Luft": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Luft.wav"
    },
+   "Mama": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Bleibein",
+    "title": "De-Mama.ogg"
+   },
    "Mann": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Mann.wav"
    },
+   "Meinung": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Meinung.ogg"
+   },
+   "Menge": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Menge.ogg"
+   },
    "Mensch": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Mensch.wav"
    },
    "Minute": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Minute.wav"
    },
+   "Miss": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Miss.ogg"
+   },
+   "Mist": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Mist.ogg"
+   },
+   "Moment": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Moment.ogg"
+   },
    "Monat": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Monat.wav"
    },
+   "Mord": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Mord.ogg"
+   },
+   "Morgen": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "MiER",
+    "title": "De-Morgen.ogg"
+   },
    "Mund": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Mund.wav"
    },
    "Musik": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Musik.wav"
    },
    "Mutter": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Mutter.wav"
    },
    "Mädchen": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Mädchen.wav"
    },
+   "Mörder": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Mörder.ogg"
+   },
+   "Nachricht": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Nachricht.ogg"
+   },
    "Nacht": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Nacht.wav"
    },
    "Name": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Name.wav"
    },
+   "Neues": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Neues.ogg"
+   },
+   "Nummer": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Nummer.ogg"
+   },
+   "Nähe": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Nähe.ogg"
+   },
    "Onkel": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Onkel.wav"
    },
+   "Opfer": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Opfer.ogg"
+   },
+   "Ordnung": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Ordnung.ogg"
+   },
    "Ort": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Ort.wav"
    },
    "Papa": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-Papa.wav"
    },
    "Party": {
     "license": "CC BY-SA 4.0",
-    "speaker": "Frank C. Müller-After-Hour",
-    "title": "LL-Q188 (deu)-Frank C. Müller-After-Hour-Party.wav"
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Party.ogg"
    },
    "Platz": {
-    "license": "CC0",
-    "speaker": "Sebastian Wallroth-Kurt-Schumacher",
-    "title": "LL-Q188 (deu)-Sebastian Wallroth-Kurt-Schumacher-Platz.wav"
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Platz.ogg"
    },
    "Polizei": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Polizei.wav"
    },
    "Problem": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Problem.wav"
    },
+   "Rest": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Rest.ogg"
+   },
+   "Ruf": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Ruf.ogg"
+   },
    "Ruhe": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Ruhe.wav"
    },
    "Sache": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Sache.wav"
    },
+   "Schaff": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Schaff.ogg"
+   },
+   "Schatz": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Schatz.ogg"
+   },
+   "Schau": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Schau.ogg"
+   },
    "Schiff": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Schiff.wav"
    },
+   "Schluss": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Schluss.ogg"
+   },
    "Schlüssel": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Schlüssel.wav"
    },
+   "Schuld": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Schuld.ogg"
+   },
    "Schule": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Schule.wav"
    },
    "Schwester": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Schwester.wav"
    },
+   "Seite": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Dinock90",
+    "title": "De-Seite.ogg"
+   },
+   "Sex": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Sex.ogg"
+   },
+   "Sicherheit": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Sicherheit.ogg"
+   },
+   "Sinn": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Sinn.ogg"
+   },
    "Sitz": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Sitz.wav"
    },
+   "Sohn": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Sohn.ogg"
+   },
    "Sorge": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Sorge.wav"
    },
+   "Spaß": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Spaß.ogg"
+   },
    "Stadt": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Stadt.wav"
    },
    "Straße": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Straße.wav"
    },
    "Stunde": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Stunde.wav"
    },
    "Stück": {
     "license": "CC BY-SA 4.0",
-    "speaker": "Frank C. Müller-1-Euro",
-    "title": "LL-Q188 (deu)-Frank C. Müller-1-Euro-Stück.wav"
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Stück.ogg"
    },
    "Tag": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Tag.wav"
    },
+   "Team": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Team.ogg"
+   },
    "Teufel": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Teufel.wav"
    },
    "Tisch": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Tisch.wav"
    },
+   "Tochter": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Tochter.ogg"
+   },
    "Tod": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Tod.wav"
    },
+   "Typ": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Bleibein",
+    "title": "De-Typ.ogg"
+   },
    "Uhr": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Uhr.wav"
    },
    "Vater": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Vater.wav"
    },
+   "Verzeihung": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Verzeihung.ogg"
+   },
    "Waffe": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Waffe.wav"
    },
    "Wagen": {
-    "license": "CC0",
-    "speaker": "Mighty Wire-FBI",
-    "title": "LL-Q188 (deu)-Mighty Wire-FBI-Wagen.wav"
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Wagen.ogg"
    },
    "Wahl": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Wahl.wav"
    },
+   "Wahrheit": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Wahrheit.ogg"
+   },
+   "Warte": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Warte.ogg"
+   },
    "Wasser": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Wasser.wav"
    },
    "Welt": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Welt.wav"
    },
+   "Wiedersehen": {
+    "license": "CC BY-SA 2.5",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Wiedersehen.ogg"
+   },
    "Woche": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Woche.wav"
    },
-   "Wohnung": {
-    "license": "CC BY-SA 4.0",
-    "speaker": "Frank C. Müller-1-Raum",
-    "title": "LL-Q188 (deu)-Frank C. Müller-1-Raum-Wohnung.wav"
+   "Wort": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Tosca",
+    "title": "De-Wort.ogg"
    },
    "Zeit": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Zeit.wav"
    },
    "Zeug": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Zeug.wav"
    },
+   "Zimmer": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Zimmer.oga"
+   },
    "Zukunft": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-Zukunft.wav"
    },
    "ab": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-ab.wav"
    },
    "aber": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-aber.wav"
    },
    "ach": {
     "license": "CC BY-SA 4.0",
-    "speaker": "Frank C. Müller-",
-    "title": "LL-Q188 (deu)-Frank C. Müller--ach.wav"
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-ach.ogg"
    },
    "acht": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-acht.wav"
    },
+   "all": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Dinock90",
+    "title": "De-all.ogg"
+   },
    "alle": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-alle.wav"
    },
    "allein": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-allein.wav"
    },
+   "allem": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-allem.ogg"
+   },
    "alles": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Lucas Werkmeister",
     "title": "LL-Q188 (deu)-Lucas Werkmeister-alles.wav"
    },
    "als": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-als.wav"
    },
    "also": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-also.wav"
    },
    "alt": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-alt.wav"
    },
    "am": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Lucas Werkmeister",
     "title": "LL-Q188 (deu)-Lucas Werkmeister-am.wav"
    },
    "an": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-an.wav"
    },
    "anderer": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-anderer.wav"
    },
+   "anders": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Dinock90",
+    "title": "De-anders.ogg"
+   },
    "anfangen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-anfangen.wav"
    },
    "anrufen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-anrufen.wav"
    },
    "arbeiten": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-arbeiten.wav"
    },
    "auch": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-auch.wav"
    },
    "auf": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Lucas Werkmeister",
     "title": "LL-Q188 (deu)-Lucas Werkmeister-auf.wav"
    },
+   "aufhören": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-aufhören.ogg"
+   },
+   "aufs": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-aufs.ogg"
+   },
    "aus": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-aus.wav"
    },
    "außer": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-außer.wav"
    },
    "außerdem": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-außerdem.wav"
    },
+   "bald": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Dinock90",
+    "title": "De-bald.ogg"
+   },
    "bedeuten": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-bedeuten.wav"
    },
    "behalten": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-behalten.wav"
    },
    "bei": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-bei.wav"
    },
    "beide": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-beide.wav"
    },
    "bekommen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-bekommen.wav"
    },
+   "bereit": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-bereit.ogg"
+   },
+   "bereits": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-bereits.ogg"
+   },
    "besonders": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-besonders.wav"
    },
+   "bestimmt": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-bestimmt.ogg"
+   },
    "bevor": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-bevor.wav"
    },
+   "bis": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Kampy",
+    "title": "De-bis.ogg"
+   },
+   "bisschen": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-bisschen.ogg"
+   },
    "bitte": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-bitte.wav"
    },
    "bitten": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-bitten.wav"
    },
    "bleiben": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-bleiben.wav"
    },
+   "bloß": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-bloß.ogg"
+   },
    "brauchen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-brauchen.wav"
    },
    "bringen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-bringen.wav"
    },
    "böse": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-böse.wav"
    },
    "da": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-da.wav"
    },
+   "dabei": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-dabei.ogg"
+   },
+   "dafür": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-dafür.ogg"
+   },
    "damals": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-damals.wav"
    },
    "damit": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-damit.wav"
    },
    "danach": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-danach.wav"
    },
+   "dank": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-dank.ogg"
+   },
+   "danke": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-danke.ogg"
+   },
    "dann": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-dann.wav"
    },
+   "daran": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-daran.ogg"
+   },
+   "darauf": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Dinock90",
+    "title": "De-darauf.ogg"
+   },
+   "darum": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-darum.ogg"
+   },
+   "darüber": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-darüber.ogg"
+   },
+   "das": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Joni",
+    "title": "De-das.ogg"
+   },
    "dass": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-dass.wav"
    },
+   "davon": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-davon.ogg"
+   },
+   "dazu": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-dazu.ogg"
+   },
    "dein": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-dein.wav"
    },
+   "deiner": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-deiner.ogg"
+   },
+   "den": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "joni",
+    "title": "De-den.ogg"
+   },
+   "denen": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Dinock90",
+    "title": "De-denen.ogg"
+   },
    "denken": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-denken.wav"
    },
    "denn": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-denn.wav"
    },
    "der": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Lucas Werkmeister",
     "title": "LL-Q188 (deu)-Lucas Werkmeister-der.wav"
    },
    "deshalb": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-deshalb.wav"
    },
+   "deswegen": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-deswegen.ogg"
+   },
    "dieser": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-dieser.wav"
    },
    "direkt": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-direkt.wav"
    },
    "doch": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-doch.wav"
    },
    "dort": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-dort.wav"
    },
+   "dran": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-dran.ogg"
+   },
+   "drauf": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-drauf.ogg"
+   },
    "draußen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-draußen.wav"
    },
    "drei": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-drei.wav"
    },
+   "drin": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-drin.ogg"
+   },
+   "drüben": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-drüben.ogg"
+   },
    "du": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-du.wav"
    },
    "durch": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Lucas Werkmeister",
     "title": "LL-Q188 (deu)-Lucas Werkmeister-durch.wav"
    },
    "dürfen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-dürfen.wav"
    },
    "eben": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-eben.wav"
    },
    "echt": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-echt.wav"
    },
    "egal": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-egal.wav"
    },
    "eher": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-eher.wav"
    },
+   "ehrlich": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-ehrlich.ogg"
+   },
    "eigentlich": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-eigentlich.wav"
    },
    "ein": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Lucas Werkmeister",
     "title": "LL-Q188 (deu)-Lucas Werkmeister-ein.wav"
    },
+   "einer": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "joni",
+    "title": "De-einer.ogg"
+   },
    "einfach": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-einfach.wav"
    },
+   "einigen": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-einigen.ogg"
+   },
    "einmal": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-einmal.wav"
    },
    "eins": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-eins.wav"
    },
    "einzig": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-einzig.wav"
    },
    "endlich": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-endlich.wav"
    },
    "entschuldigen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-entschuldigen.wav"
    },
    "er": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-er.wav"
    },
    "erfahren": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-erfahren.wav"
    },
+   "erinnern": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-erinnern.ogg"
+   },
    "erklären": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-erklären.wav"
    },
    "ernst": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-ernst.wav"
    },
    "erst": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-erst.wav"
    },
    "erste": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-erste.wav"
    },
    "erwarten": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-erwarten.wav"
    },
    "erzählen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-erzählen.wav"
    },
    "es": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-es.wav"
    },
    "essen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-essen.wav"
    },
    "etwa": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-etwa.wav"
    },
    "etwas": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-etwas.wav"
    },
    "euer": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-euer.wav"
    },
    "fahren": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-fahren.wav"
    },
    "fallen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-fallen.wav"
    },
    "falls": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-falls.wav"
    },
    "falsch": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-falsch.wav"
    },
    "fast": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-fast.wav"
    },
    "fertig": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-fertig.wav"
    },
+   "fest": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-fest.ogg"
+   },
    "finden": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-finden.wav"
    },
    "fliegen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-fliegen.wav"
    },
+   "fragen": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Tosca",
+    "title": "De-fragen.ogg"
+   },
    "frei": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-frei.wav"
    },
    "froh": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-froh.wav"
    },
    "früh": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-früh.wav"
    },
    "früher": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-früher.wav"
    },
    "funktionieren": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-funktionieren.wav"
    },
    "fühlen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-fühlen.wav"
    },
    "fünf": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-fünf.wav"
    },
    "für": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-für.wav"
    },
    "ganz": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-ganz.wav"
    },
    "gar": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-gar.wav"
    },
    "geben": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-geben.wav"
    },
    "gefallen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-gefallen.wav"
    },
    "gefährlich": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-gefährlich.wav"
    },
+   "gegen": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Kampy",
+    "title": "De-gegen.ogg"
+   },
    "gehen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-gehen.wav"
    },
+   "genau": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Tosca",
+    "title": "De-genau.ogg"
+   },
+   "genauso": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-genauso.ogg"
+   },
    "genug": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-genug.wav"
    },
    "gerade": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-gerade.wav"
    },
    "gern": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-gern.wav"
    },
+   "gerne": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-gerne.ogg"
+   },
    "geschehen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-geschehen.wav"
    },
    "gestern": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-gestern.wav"
    },
    "glauben": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-glauben.wav"
    },
    "gleich": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-gleich.wav"
    },
    "glücklich": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-glücklich.wav"
    },
    "groß": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-groß.wav"
    },
+   "großartig": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-großartig.ogg"
+   },
    "gut": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-gut.wav"
    },
    "haben": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-haben.wav"
    },
    "hallo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-hallo.wav"
    },
+   "halt": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-halt.ogg"
+   },
    "halten": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-halten.wav"
    },
    "hart": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-hart.wav"
    },
    "hassen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-hassen.wav"
    },
+   "he": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-he.ogg"
+   },
    "heiraten": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-heiraten.wav"
    },
    "heiß": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-heiß.wav"
    },
    "heißen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-heißen.wav"
    },
    "helfen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-helfen.wav"
    },
+   "her": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-her.ogg"
+   },
+   "heraus": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-heraus.ogg"
+   },
+   "herzen": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-herzen.ogg"
+   },
    "heute": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-heute.wav"
    },
+   "hi": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-hi.ogg"
+   },
    "hier": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-hier.wav"
    },
    "hierher": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-hierher.wav"
    },
+   "hin": {
+    "license": "CC BY 3.0",
+    "origin": "commons",
+    "speaker": "Anhezu",
+    "title": "De-hin.ogg"
+   },
+   "hinten": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-hinten.ogg"
+   },
    "hinter": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-hinter.wav"
    },
    "hoch": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-hoch.wav"
    },
    "hoffen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-hoffen.wav"
    },
    "holen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-holen.wav"
    },
    "hören": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-hören.wav"
    },
    "ich": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-ich.wav"
    },
    "ihn": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-ihn.wav"
    },
    "ihr": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-ihr.wav"
    },
    "immer": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-immer.wav"
    },
    "in": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-in.wav"
    },
+   "ins": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-ins.ogg"
+   },
+   "interessieren": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-interessieren.ogg"
+   },
+   "irgendwie": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-irgendwie.ogg"
+   },
    "irgendwo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-irgendwo.wav"
    },
    "ja": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-ja.wav"
    },
    "je": {
-    "license": "CC0",
-    "speaker": "Poslovitch",
-    "title": "LL-Q188 (deu)-Poslovitch-je.wav"
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-je.ogg"
    },
    "jeder": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-jeder.wav"
    },
+   "jemals": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-jemals.ogg"
+   },
    "jemand": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-jemand.wav"
    },
    "jetzt": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-jetzt.wav"
    },
    "kaufen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-kaufen.wav"
    },
    "kaum": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-kaum.wav"
    },
+   "kein": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-kein.ogg"
+   },
+   "keiner": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-keiner.ogg"
+   },
    "kennen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-kennen.wav"
    },
    "klar": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-klar.wav"
    },
+   "klasse": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-klasse.ogg"
+   },
    "klein": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-klein.wav"
    },
    "klingen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-klingen.wav"
    },
    "kommen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-kommen.wav"
    },
    "krank": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-krank.wav"
    },
    "kriegen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-kriegen.wav"
    },
    "kurz": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-kurz.wav"
    },
    "können": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-können.wav"
    },
+   "kümmern": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-kümmern.ogg"
+   },
    "lachen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-lachen.wav"
    },
+   "laden": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Jakob.scholbach",
+    "title": "De-laden.ogg"
+   },
    "lang": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-lang.wav"
    },
    "lange": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-lange.wav"
    },
    "langsam": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-langsam.wav"
    },
    "lassen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-lassen.wav"
    },
    "laufen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-laufen.wav"
    },
    "leben": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-leben.wav"
    },
    "leicht": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-leicht.wav"
    },
+   "leid": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-leid.ogg"
+   },
    "leider": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-leider.wav"
    },
    "lernen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-lernen.wav"
    },
    "lesen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-lesen.wav"
    },
    "letzte": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-letzte.wav"
    },
    "lieben": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-lieben.wav"
    },
    "liegen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-liegen.wav"
    },
    "los": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-los.wav"
    },
    "lustig": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-lustig.wav"
    },
    "ma": {
     "license": "CC BY-SA 4.0",
-    "speaker": "Frank C. Müller-",
-    "title": "LL-Q188 (deu)-Frank C. Müller--ma.wav"
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Ma.ogg"
    },
    "machen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-machen.wav"
    },
    "mal": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-mal.wav"
    },
    "man": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-man.wav"
    },
    "manchmal": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-manchmal.wav"
    },
    "mehr": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-mehr.wav"
    },
    "mein": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-mein.wav"
    },
    "meinen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-meinen.wav"
    },
    "meiner": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-meiner.wav"
    },
    "mit": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-mit.wav"
    },
    "mögen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-mögen.wav"
    },
    "möglich": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-möglich.wav"
    },
    "müssen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-müssen.wav"
    },
    "nach": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-nach.wav"
    },
    "nachdem": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-nachdem.wav"
    },
    "nah": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-nah.wav"
    },
    "natürlich": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-natürlich.wav"
    },
+   "ne": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-ne.ogg"
+   },
    "nehmen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-nehmen.wav"
    },
    "nein": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-nein.wav"
    },
    "nennen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-nennen.wav"
    },
    "nett": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-nett.wav"
    },
    "neu": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-neu.wav"
    },
    "nicht": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-nicht.wav"
    },
    "nichts": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-nichts.wav"
    },
    "nie": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-nie.wav"
    },
+   "niemals": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-niemals.ogg"
+   },
    "niemand": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-niemand.wav"
    },
    "noch": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-noch.wav"
    },
+   "nochmal": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-nochmal.ogg"
+   },
    "nun": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-nun.wav"
    },
    "nur": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-nur.wav"
    },
    "nötig": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-nötig.wav"
    },
    "ob": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-ob.wav"
    },
    "oben": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-oben.wav"
    },
    "oder": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-oder.wav"
    },
    "oft": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-oft.wav"
    },
    "ohne": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-ohne.wav"
    },
    "okay": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Trypeds",
     "title": "LL-Q188 (deu)-Trypeds-okay.wav"
    },
+   "paar": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-paar.ogg"
+   },
+   "passen": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-passen.ogg"
+   },
    "passieren": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-passieren.wav"
    },
    "perfekt": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-perfekt.wav"
    },
+   "plan": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-plan.ogg"
+   },
    "plötzlich": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-plötzlich.wav"
    },
+   "raus": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-raus.ogg"
+   },
+   "recht": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Dinock90",
+    "title": "De-recht.ogg"
+   },
+   "reden": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-reden.ogg"
+   },
+   "reichen": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-reichen.ogg"
+   },
+   "rein": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-rein.ogg"
+   },
    "retten": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-retten.wav"
    },
    "richtig": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-richtig.wav"
    },
+   "rufen": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Kampy",
+    "title": "De-rufen.ogg"
+   },
    "ruhig": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-ruhig.wav"
    },
+   "runter": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-runter.ogg"
+   },
    "sagen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-sagen.wav"
    },
    "schaffen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-schaffen.wav"
    },
    "schauen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-schauen.wav"
    },
    "scheinen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-scheinen.wav"
    },
+   "schick": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-schick.ogg"
+   },
    "schlafen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-schlafen.wav"
    },
    "schlecht": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-schlecht.wav"
    },
    "schlimm": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-schlimm.wav"
    },
    "schnell": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-schnell.wav"
    },
    "schon": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-schon.wav"
    },
    "schreiben": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-schreiben.wav"
    },
    "schwer": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-schwer.wav"
    },
    "schön": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-schön.wav"
    },
    "sechs": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-sechs.wav"
    },
    "sehen": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-sehen.wav"
    },
    "sehr": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-sehr.wav"
    },
    "sein": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-sein.wav"
    },
    "seit": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-seit.wav"
    },
    "selbst": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-selbst.wav"
    },
+   "setzen": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Tosca",
+    "title": "De-setzen.ogg"
+   },
    "sicher": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-sicher.wav"
    },
    "sie": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-sie.wav"
    },
    "so": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-so.wav"
    },
    "sobald": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-sobald.wav"
    },
    "sofort": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-sofort.wav"
    },
    "sogar": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-sogar.wav"
    },
+   "solange": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-solange.ogg"
+   },
+   "solch": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-solch.ogg"
+   },
    "sollen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-sollen.wav"
    },
    "sondern": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-sondern.wav"
    },
    "sonst": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-sonst.wav"
    },
+   "sorgen": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Jakob.scholbach",
+    "title": "De-sorgen.ogg"
+   },
    "spielen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-spielen.wav"
    },
    "sprechen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-sprechen.wav"
    },
    "spät": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-spät.wav"
    },
+   "später": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-später.ogg"
+   },
    "stark": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-stark.wav"
    },
    "stehen": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-stehen.wav"
    },
    "stellen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-stellen.wav"
    },
    "sterben": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-sterben.wav"
    },
    "still": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-still.wav"
    },
    "stimmen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-stimmen.wav"
    },
+   "stunden": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-stunden.ogg"
+   },
    "suchen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-suchen.wav"
    },
+   "super": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Super.ogg"
+   },
    "tatsächlich": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-tatsächlich.wav"
    },
    "teilen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-teilen.wav"
    },
    "tja": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-tja.wav"
    },
    "toll": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-toll.wav"
    },
    "tot": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-tot.wav"
    },
    "total": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-total.wav"
    },
    "tragen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-tragen.wav"
    },
    "treffen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-treffen.wav"
    },
    "trinken": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-trinken.wav"
    },
    "trotzdem": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-trotzdem.wav"
    },
    "töten": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-töten.wav"
    },
    "um": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-um.wav"
    },
+   "umbringen": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-umbringen.ogg"
+   },
    "und": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-und.wav"
    },
    "unglaublich": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-unglaublich.wav"
    },
    "unmöglich": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-unmöglich.wav"
    },
    "unser": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-unser.wav"
    },
    "unten": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-unten.wav"
    },
+   "unter": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Kampy",
+    "title": "De-unter.ogg"
+   },
+   "verdammt": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-verdammt.ogg"
+   },
    "verdienen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-verdienen.wav"
    },
    "vergessen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-vergessen.wav"
    },
    "verkaufen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-verkaufen.wav"
    },
    "verlassen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-verlassen.wav"
    },
    "verletzen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-verletzen.wav"
    },
    "verlieren": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-verlieren.wav"
    },
    "verrückt": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-verrückt.wav"
    },
    "verschwinden": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-verschwinden.wav"
    },
    "versprechen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-versprechen.wav"
    },
    "verstehen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-verstehen.wav"
    },
    "versuchen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-versuchen.wav"
    },
+   "vertrauen": {
+    "license": "CC BY-SA 3.0",
+    "origin": "commons",
+    "speaker": "Kampy",
+    "title": "De-vertrauen.ogg"
+   },
    "viel": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-viel.wav"
    },
    "vielleicht": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-vielleicht.wav"
    },
    "vier": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-vier.wav"
    },
    "voll": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-voll.wav"
    },
    "vom": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Lucas Werkmeister",
     "title": "LL-Q188 (deu)-Lucas Werkmeister-vom.wav"
    },
    "von": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-von.wav"
    },
    "vor": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-vor.wav"
    },
+   "vorbei": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-vorbei.ogg"
+   },
    "vorher": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-vorher.wav"
    },
    "vorsichtig": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-vorsichtig.wav"
    },
    "vorstellen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-vorstellen.wav"
    },
+   "völlig": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-völlig.ogg"
+   },
    "wahr": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-wahr.wav"
    },
    "wahrscheinlich": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-wahrscheinlich.wav"
    },
    "wann": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-wann.wav"
    },
    "warten": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-warten.wav"
    },
    "warum": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-warum.wav"
    },
    "was": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-was.wav"
    },
    "weg": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-weg.wav"
    },
    "wegen": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-wegen.wav"
    },
+   "weh": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-weh.ogg"
+   },
    "weil": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-weil.wav"
    },
    "weit": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-weit.wav"
    },
    "weiter": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-weiter.wav"
    },
+   "welche": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Dinock90",
+    "title": "De-welche.ogg"
+   },
    "wenig": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-wenig.wav"
    },
    "weniger": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-weniger.wav"
    },
    "wenigstens": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-wenigstens.wav"
    },
    "wenn": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-wenn.wav"
    },
    "wer": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-wer.wav"
    },
    "werden": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-werden.wav"
    },
+   "wert": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-wert.ogg"
+   },
    "wichtig": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-wichtig.wav"
    },
    "wie": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-wie.wav"
    },
    "wieder": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-wieder.wav"
    },
    "wieso": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-wieso.wav"
    },
    "willkommen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-willkommen.wav"
    },
    "wir": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-wir.wav"
    },
    "wirklich": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-wirklich.wav"
    },
    "wissen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-wissen.wav"
    },
    "wo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-wo.wav"
    },
    "woher": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-woher.wav"
    },
    "wohin": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-wohin.wav"
    },
+   "wohl": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Dinock90",
+    "title": "De-wohl.ogg"
+   },
    "wollen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-wollen.wav"
    },
+   "wovon": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-wovon.ogg"
+   },
    "während": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-während.wav"
    },
    "zehn": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-zehn.wav"
    },
    "zeigen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-zeigen.wav"
    },
    "ziehen": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Sebastian Wallroth",
     "title": "LL-Q188 (deu)-Sebastian Wallroth-ziehen.wav"
    },
    "ziemlich": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-ziemlich.wav"
    },
    "zu": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-zu.wav"
    },
    "zuerst": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-zuerst.wav"
    },
+   "zur": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Dinock90",
+    "title": "De-zur.ogg"
+   },
+   "zurück": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Jeuwre",
+    "title": "De-Zurück.ogg"
+   },
    "zusammen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-zusammen.wav"
    },
+   "zwar": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Dinock90",
+    "title": "De-zwar.ogg"
+   },
    "zwei": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-zwei.wav"
    },
    "zwischen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-zwischen.wav"
    },
    "ändern": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-ändern.wav"
    },
    "über": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Lucas Werkmeister",
     "title": "LL-Q188 (deu)-Lucas Werkmeister-über.wav"
    },
    "überall": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-überall.wav"
    },
    "überhaupt": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Natschoba",
     "title": "LL-Q188 (deu)-Natschoba-überhaupt.wav"
    }

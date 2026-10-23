@@ -1,12 +1,13 @@
 """Pre-synthesize a pack's clips with a non-Piper engine; build.py then reads the WAVs.
 Kokoro (run with /home/box/tts2/kokoro-venv/bin/python):  ext_tts.py <pack> kokoro <lang_code> <voice>
 MeloTTS (run with /home/box/tts2/melo-venv/bin/python):  ext_tts.py <pack> melo <LANG> <speaker>
+Coqui TTS (run with /home/box/tts2/coqui-venv/bin/python):  ext_tts.py <pack> coqui tts_models/de/thorsten/vits -
 Piper voices whose sample rate differs from build.py's (run with /home/box/piper-venv/bin/python):  ext_tts.py <pack> piper <voice> -
 Words that already have a native recording are skipped unless ALL=1. Env SHARD=i/n, THREADS.
 Output: $AUDIO_SRC/tts/<model>/<sha1(model|kind|text)>.wav where <model> is build.py's VOICE[pack][0]."""
 import json, os, sys, re, hashlib
 pk, eng, a1, a2 = sys.argv[1:5]
-MODEL = os.environ.get('MODEL') or {'kokoro': f'kokoro-v1.0-{a2}', 'piper': f'piper-{a1}'}.get(eng, f'melo-{a1}-{a2}')
+MODEL = os.environ.get('MODEL') or {'kokoro': f'kokoro-v1.0-{a2}', 'piper': f'piper-{a1}', 'coqui': 'coqui-' + a1.replace('tts_models/', '').replace('/', '-')}.get(eng, f'melo-{a1}-{a2}')
 OUT = f"{os.environ.get('AUDIO_SRC', '/home/box/audio-src')}/tts/{MODEL}"
 def path(kind, text): return f"{OUT}/{hashlib.sha1('|'.join([MODEL, kind, text]).encode()).hexdigest()}.wav"
 plan = json.load(open('data/audio/plan.json')); P = plan['packs'][pk]
@@ -45,6 +46,13 @@ if eng == 'kokoro':
     def synth(text, word=False):
         parts = [r.audio.numpy() for r in pipe(text, voice=a2, speed=float(os.environ.get('SPEED', '1.0'))) if r.audio is not None]
         return (np.concatenate(parts) if parts else np.zeros(100, np.float32)), 24000
+elif eng == 'coqui':
+    os.environ.setdefault('COQUI_TOS_AGREED', '1')
+    from TTS.api import TTS
+    cq = TTS(a1, progress_bar=False)
+    def synth(text, word=False):  # same input as the /audio-test/ comparison (words end with '.')
+        t = text if not word or text[-1:] in '.!?' else text + '.'
+        return np.array(cq.tts(t), np.float32), cq.synthesizer.output_sample_rate
 elif eng == 'melo':
     from melo.api import TTS
     m = TTS(language=a1, device='cpu'); sid = m.hps.data.spk2id[a2]

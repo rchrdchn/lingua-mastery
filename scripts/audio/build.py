@@ -18,7 +18,7 @@ VOICE = {
     'fr': ('kokoro-v1.0-ff_siwis', 'ff_siwis (Kokoro-82M v1.0)', 'Apache-2.0', 'Kokoro'),  # tom dropped: fine-tune base undocumented
     'it': ('it_IT-serena-high', 'serena (it_IT, high)', 'CC BY 4.0 dataset'),
     'pt': ('kokoro-v1.0-pf_dora', 'pf_dora (Kokoro-82M v1.0)', 'Apache-2.0', 'Kokoro'),
-    'de': ('de_DE-thorsten-high', 'Thorsten (de_DE, high)', 'CC0 dataset'),
+    'de': ('coqui-de-thorsten-vits', 'Thorsten (VITS)', 'Apache-2.0 model trained from scratch on the CC0 Thorsten-Voice dataset', 'Coqui TTS'),  # Piper Thorsten voices are lessac/ryan fine-tunes
 }
 SR = 22050
 SRC = os.environ.get('AUDIO_SRC', '/home/box/audio-src')
