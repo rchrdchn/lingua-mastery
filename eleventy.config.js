@@ -13,7 +13,7 @@ module.exports = function (c) {
   const have = {};
   const files = pack => (have[pack] ||= new Set(fsA.existsSync(`src/a/${pack}`) ? fsA.readdirSync(`src/a/${pack}`) : []));
   c.addFilter('apath', (pack, owner) => { const p = bundlePath(pack, owner); return files(pack).has(p.split('/').pop()) ? bundleUrl(pack, owner) : ''; });
-  ['favicon.svg', 'favicon-32.png', 'apple-touch-icon.png', 'icon-192.png', 'icon-512.png', 'og.png', 'site.webmanifest', '_headers', 'robots.txt'].forEach(f => c.addPassthroughCopy('src/' + f));
+  ['favicon.svg', 'favicon-32.png', 'apple-touch-icon.png', 'icon-192.png', 'icon-512.png', 'og.png', 'site.webmanifest', '_headers', '_redirects', 'robots.txt'].forEach(f => c.addPassthroughCopy('src/' + f));
   c.addWatchTarget('src/assets/');
 
   c.addFilter('json', v => JSON.stringify(v).replace(/</g, '\\u003c'));

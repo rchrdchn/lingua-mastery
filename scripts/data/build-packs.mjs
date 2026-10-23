@@ -242,14 +242,16 @@ function lemmaList(l, max) {
   const goodSense = s => !s.form_of.length && !s.tags.includes('form-of') && !LETTER.test(s.g) && !ALT.test(s.g) && !s.tags.some(t => BAD_TAGS.test(t));
   const isLemmaEntry = e => e.senses.some(goodSense);
   const FUNC = /^(conj|adv|prep|pron|det|article|particle|intj|num|contraction|postp)$/;
-  for (const [w, rank] of R) {
+  const SW = sentenceOverrides(l).swap;
+  for (let [w, rank] of R) {
     if (order.length >= max * 1.6) break;
+    if (Object.hasOwn(SW, w)) { w = SW[w]; if (!w || seen.has(w.toLowerCase())) continue; }
     if (!/^[\p{L}]+$/u.test(w) || (w.length < 2 && !['a', 'o', 'y', 'e', 'é', 'à', 'è', 'ò'].includes(w))) continue;
     const cap = w[0].toUpperCase() + w.slice(1);
-    const es = (K.get(w) || []).filter(e => e.word === w || (l === 'de' && e.word === cap)); if (!es.length) continue;
+    const es = (K.get(w) || []).filter(e => e.word === w || (l === 'de' && e.word === cap)); if (!es.length && !Object.hasOwn(OV._lemma, w)) continue;
     let lemma = null, entries = es.filter(isLemmaEntry);
     // Curated lemma (content/gloss-overrides/<lang>.json "_lemma"): "casa" is casa, not a form of casar.
-    if (OV._lemma[w]) {
+    if (Object.hasOwn(OV._lemma, w)) {
       const t = OV._lemma[w]; const lk0 = t.toLowerCase();
       if (seen.has(lk0)) { seen.get(lk0).forms.add(w); continue; }
       const le0 = (K.get(lk0) || []).filter(e => e.word === t).map(e => ({ ...e, senses: e.senses.filter(goodSense) })).filter(e => e.senses.length);
@@ -314,13 +316,31 @@ function glossOf(entries) {
   return g;
 }
 function genderOf(e) { if (e.pos !== 'noun') return undefined; const h = (e.head || '').replace(e.word, ''); const m = h.match(/^\s*(m|f|n)\b/) || h.match(/\b(m|f|n)\b(?!\.)/); return m ? m[1] : undefined; }
+// Variety consistency, kept as data (CC BY-SA 4.0): content/sentence-overrides/<lang>.json
+//   adapt: { tatoebaId: "rewritten text" }  sentence rewritten for the course's variety (credited as adapted)
+//   avoid: { words: [...], patterns: [regex] }  other sentences with these markers stay out of the pool
+//   swap:  { surface: "replacement" | "" }  frequency-list word replaced (or dropped) at the same rank
+const P_VARIETY = { pt: 'pt-BR' };
+function sentenceOverrides(l) {
+  const f = path.join(ROOT, `content/sentence-overrides/${l}.json`);
+  const o = fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : {};
+  const words = new Set((o.avoid?.words || []).map(w => w.toLowerCase())); const pats = (o.avoid?.patterns || []).map(p => new RegExp(p, 'iu'));
+  const avoid = t => (t.match(/[\p{L}-]+/gu) || []).some(w => { w = w.toLowerCase(); return words.has(w) || w.split('-').some(x => words.has(x)); }) || pats.some(p => p.test(t));
+  return { adapt: o.adapt || {}, swap: o.swap || {}, avoid };
+}
 function sentencePool(l, R) {
-  const links = allLinks[l];
+  const links = allLinks[l]; const SO = sentenceOverrides(l);
   const S = loadSentences(l, (id, t) => links.has(id));
+  for (const [id, s] of S) {
+    if (Object.hasOwn(SO.adapt, id)) { s.t = SO.adapt[id]; s.a = `${s.a} (adapted to ${P_VARIETY[l] || l})`; }
+    else if (SO.avoid(s.t)) S.delete(id);
+  }
+  // A swapped-in word (telemóvel -> celular) takes the frequency rank of the word it replaces.
+  const SR = new Map(Object.entries(SO.swap).filter(([a, b]) => b && R.get(a)).map(([a, b]) => [b, R.get(a)]));
   const pool = [];
   for (const [id, s] of S) {
     const tk = toks(s.t); if (tk.length < 2 || tk.length > 10) continue;
-    let mx = 0; let ok = true; for (const t of tk) { const r = R.get(t); if (!r || r > 8000) { ok = false; break; } if (r > mx) mx = r; } if (!ok) continue;
+    let mx = 0; let ok = true; for (const t of tk) { const r = Math.min(R.get(t) ?? Infinity, SR.get(t) ?? Infinity); if (!r || r > 8000) { ok = false; break; } if (r > mx) mx = r; } if (!ok) continue;
     const x = (links.get(id) || []).map(x => EN.get(x)).find(Boolean); if (!x) continue;
     pool.push({ id, t: s.t, a: s.a, tr: x.t, ta: x.a, tk, mx });
   }

@@ -6,7 +6,8 @@
   "lamento": "lamentar",
   "quarto": "quarto",
   "plano": "plano",
-  "embora": "embora"
+  "embora": "embora",
+  "celular": "celular"
  },
  "_drop": [
   "uh",
@@ -44,7 +45,7 @@
   "eu": "I",
   "me": "me, to me; myself",
   "te": "you, to you; yourself",
-  "tu": "you",
+  "tu": "you (informal; most of Brazil says você)",
   "você": "you",
   "mim": "me (after prepositions: para mim)",
   "comigo": "with me",
@@ -126,6 +127,15 @@
   "quarto": "room, bedroom; fourth",
   "plano": "plan; flat",
   "segunda": "Monday (segunda-feira); second",
-  "lindo": "beautiful, lovely; gorgeous"
+  "lindo": "beautiful, lovely; gorgeous",
+  "equipe": "team",
+  "celular": "cell phone",
+  "bebê": "baby",
+  "fato": "fact",
+  "garoto": "boy, kid",
+  "legal": "cool, nice; legal"
+ },
+ "pos": {
+  "celular": "noun"
  }
 }

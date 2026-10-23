@@ -24197,12 +24197,12 @@
   }
  },
  "pt": {
-  "bytes": 12786747,
-  "clips": 2507,
+  "bytes": 12665960,
+  "clips": 2487,
   "failed": 0,
   "files": 607,
   "ll": {
-   "clips": 332,
+   "clips": 333,
    "speakers": {
     "Aliphee (Brazil)": {
      "licenses": [
@@ -24232,7 +24232,7 @@
      "licenses": [
       "CC BY-SA 4.0"
      ],
-     "n": 2
+     "n": 3
     }
    }
   },
@@ -24245,7 +24245,7 @@
    "speakers": {}
   },
   "tts": {
-   "clips": 2175,
+   "clips": 2154,
    "engine": "Kokoro",
    "license": "Apache-2.0",
    "model": "kokoro-v1.0-pf_dora",
@@ -24527,6 +24527,12 @@
     "origin": "ll",
     "speaker": "Juliano P. Junho (Jjunho)",
     "title": "LL-Q5146 (por)-Juliano P. Junho (Jjunho)-causa.wav"
+   },
+   "celular": {
+    "license": "CC BY-SA 4.0",
+    "origin": "commons",
+    "speaker": "Nonviktis (Brazil)",
+    "title": "Pt-br-celular.ogg"
    },
    "certeza": {
     "license": "CC BY-SA 4.0",
