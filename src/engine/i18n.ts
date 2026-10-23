@@ -2,6 +2,7 @@
 import type { Base } from './types';
 
 const en = {
+  tutorTitle: 'Practice with a real tutor', tutorText: 'Ready to say it out loud? Book a one-on-one lesson with a native-speaking tutor on italki.', tutorBtn: 'Find a tutor', tutorNew: 'opens italki in a new tab', tutorDisc: 'We may earn a commission if you book a lesson through this link, at no extra cost to you.',
   continue: 'Continue', start: 'Start practice', placement: 'Take the placement quiz', placementIntro: 'Skip what you know. 5 quick questions per step.', findLevel: 'Find your level', more: 'Explain more', tapFlip: 'Tap a card to flip it', unlocked: 'Unlocked',
   beginner: 'I am a beginner', next: 'Next', check: 'Check', correct: 'Correct', wrong: 'Not quite', almost: 'Almost: watch the accents',
   answerWas: 'Answer', xp: 'XP', mastered: 'Mastered', learning: 'Learning', practicing: 'Practicing', decaying: 'Needs review', unseen: 'Not started', locked: 'Locked',
@@ -16,6 +17,7 @@ const en = {
 type Dict = typeof en;
 
 const es: Partial<Dict> = {
+  tutorTitle: 'Practica con un profesor de verdad', tutorText: '¿Listo para decirlo en voz alta? Reserva una clase individual con un profesor nativo en italki.', tutorBtn: 'Buscar profesor', tutorNew: 'abre italki en una pestaña nueva', tutorDisc: 'Podemos recibir una comisión si reservas una clase con este enlace, sin costo extra para ti.',
   continue: 'Continuar', start: 'Empezar a practicar', placement: 'Hacer la prueba de nivel', placementIntro: 'Salta lo que ya sabes. 5 preguntas rápidas por paso.', findLevel: 'Encuentra tu nivel', more: 'Explicar más', tapFlip: 'Toca una tarjeta para girarla', unlocked: 'Desbloqueado',
   beginner: 'Soy principiante', next: 'Siguiente', check: 'Comprobar', correct: 'Correcto', wrong: 'No exactamente', almost: 'Casi: cuidado con los acentos',
   answerWas: 'Respuesta', mastered: 'Dominado', learning: 'Aprendiendo', practicing: 'Practicando', decaying: 'Repasar', unseen: 'Sin empezar', locked: 'Bloqueado',
@@ -28,6 +30,7 @@ const es: Partial<Dict> = {
   hint: 'Pista', practiceThis: 'Practicar esto', unlocks: 'Se desbloquea tras', level: 'Nivel',
 };
 const pt: Partial<Dict> = {
+  tutorTitle: 'Pratique com um professor de verdade', tutorText: 'Pronto para falar em voz alta? Agende uma aula individual com um professor nativo no italki.', tutorBtn: 'Encontrar professor', tutorNew: 'abre o italki em uma nova aba', tutorDisc: 'Podemos receber uma comissão se você agendar uma aula por este link, sem custo extra para você.',
   continue: 'Continuar', start: 'Começar a praticar', placement: 'Fazer o teste de nível', placementIntro: 'Pule o que você já sabe. 5 perguntas rápidas por etapa.', findLevel: 'Encontre seu nível', more: 'Explicar mais', tapFlip: 'Toque num cartão para virar', unlocked: 'Desbloqueado',
   beginner: 'Sou iniciante', next: 'Próximo', check: 'Verificar', correct: 'Correto', wrong: 'Não exatamente', almost: 'Quase: atenção aos acentos',
   answerWas: 'Resposta', mastered: 'Dominado', learning: 'Aprendendo', practicing: 'Praticando', decaying: 'Revisar', unseen: 'Não iniciado', locked: 'Bloqueado',
@@ -40,6 +43,7 @@ const pt: Partial<Dict> = {
   hint: 'Dica', practiceThis: 'Praticar isto', unlocks: 'Desbloqueia depois de', level: 'Nível',
 };
 const zh: Partial<Dict> = {
+  tutorTitle: '和真人老师练习', tutorText: '准备好开口说了吗？在 italki 上预约母语老师的一对一课程。', tutorBtn: '找老师', tutorNew: '在新标签页打开 italki', tutorDisc: '如果你通过此链接预约课程，我们可能会获得佣金，你无需额外付费。',
   continue: '继续', start: '开始练习', placement: '做分级测试', placementIntro: '会的直接跳过。每步 5 道快题。', findLevel: '找到你的水平', more: '更多解释', tapFlip: '点卡片翻面', unlocked: '已解锁', beginner: '我是初学者', next: '下一题', check: '检查',
   correct: '正确', wrong: '不对', almost: '差一点：注意重音符号', answerWas: '答案', mastered: '已掌握', learning: '学习中', practicing: '练习中', decaying: '需要复习', unseen: '未开始', locked: '未解锁',
   due: '待复习', streak: '连续天数', checkIn: '掌握测试还差', concepts: '知识点', map: '学习地图', sessionDone: '本轮完成', earned: '获得', newlyMastered: '新掌握',

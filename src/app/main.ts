@@ -288,6 +288,19 @@ function runExercises(list: Planned[], heading: string, done: (r: RunResult) => 
   step();
 }
 
+// italki tutor card (affiliate). learn.njk only sets data-tutor when affiliates.json has italkiUrl
+// (or a TUTOR_PREVIEW build), so nothing renders without a tracked link. Shown after a session, below the actions.
+function tutorCard(): HTMLElement | null {
+  let cfg: { urls: Record<string, string>; home: string };
+  try { cfg = JSON.parse(root.dataset.tutor || ''); } catch { return null; }
+  const href = cfg.urls?.[pack.id] || cfg.home; if (!href) return null;
+  return h('aside', { class: 'tutor', 'aria-labelledby': 'tutor-h' },
+    h('span', { class: 'tutor-ic', 'aria-hidden': 'true', html: '<svg viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3h7A2.5 2.5 0 0 1 16 5.5v4a2.5 2.5 0 0 1-2.5 2.5H9l-3.2 2.6c-.4.3-.8 0-.8-.4V12a2.5 2.5 0 0 1-1-2z" fill="currentColor"/><path d="M18 8h.5A2.5 2.5 0 0 1 21 10.5v4a2.5 2.5 0 0 1-1 2v2.1c0 .4-.4.7-.8.4L16 16.5h-3.5a2.5 2.5 0 0 1-2.4-1.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>' }),
+    h('div', { class: 'tutor-b' }, h('h2', { id: 'tutor-h' }, T('tutorTitle')), h('p', {}, T('tutorText')),
+      h('a', { class: 'btn small', href, rel: 'sponsored noopener', target: '_blank' }, T('tutorBtn'), ' ', h('span', { 'aria-hidden': 'true' }, '↗'), h('span', { class: 'sr' }, ` (${T('tutorNew')})`)),
+      h('p', { class: 'tutor-disc' }, T('tutorDisc'))));
+}
+
 function results(r: RunResult, unlocked: Concept[] = []) {
   document.onkeydown = null;
   const pct = r.total ? Math.round((r.correct / r.total) * 100) : 0;
@@ -298,7 +311,7 @@ function results(r: RunResult, unlocked: Concept[] = []) {
     h('p', { class: 'lead' }, `${T('earned')} ${r.xp} XP · ${r.correct}/${r.total}`),
     mastered.length ? h('div', {}, h('p', { class: 'eyebrow' }, T('newlyMastered')), h('ul', { class: 'mast' }, ...mastered.map(c => h('li', {}, `🏆 ${title(c)}`)))) : null,
     unlocked.length ? h('div', {}, h('p', { class: 'eyebrow' }, T('unlocked')), h('ul', { class: 'unl', style: 'list-style:none;padding:0' }, ...unlocked.slice(0, 4).map((c, i) => h('li', { style: `--i:${i}`, html: I.lock.replace('class="lock"', `class="lock open" style="animation-delay:${0.9 + i * 0.15}s"`) }, title(c))))) : null,
-    h('div', { class: 'actions' }, h('button', { class: 'btn primary big wide', id: 'continue', onclick: () => runPlan(plan(ix, p, opts())) }, T('continue')), backLink('btn wide'))));
+    h('div', { class: 'actions' }, h('button', { class: 'btn primary big wide', id: 'continue', onclick: () => runPlan(plan(ix, p, opts())) }, T('continue')), backLink('btn wide')), tutorCard()));
   tick(pctN, 0, pct, 900); setTimeout(() => { pctN.textContent = `${pct}%`; }, RM ? 0 : 950);
   if (mastered.length || pct === 100) setTimeout(() => burst(rw, 48), RM ? 0 : 500);
 }
