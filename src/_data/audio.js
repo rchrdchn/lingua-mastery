@@ -7,6 +7,8 @@ module.exports = function () {
   return ['zh', 'es', 'en', 'fr', 'it', 'pt', 'de'].filter(id => c[id]).map(id => ({
     id, name: NAMES[id], tts: c[id].tts, llClips: c[id].ll.clips,
     speakers: Object.entries(c[id].ll.speakers).map(([name, v]) => ({ name, n: v.n, licenses: v.licenses.join(', ') })),
+    sentClips: c[id].sentences?.clips || 0,
+    sentSpeakers: Object.entries(c[id].sentences?.speakers || {}).map(([k, n]) => { const [name, license, url] = k.split('|'); return { name, license, url: url || `https://tatoeba.org/user/profile/${encodeURIComponent(name)}`, n }; }),
     clips: c[id].clips, files: c[id].files,
   }));
 };

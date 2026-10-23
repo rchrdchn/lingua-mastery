@@ -14,7 +14,7 @@ PROC_V = 'p3'  # bump to re-encode everything
 VOICE = {
     'zh': ('kokoro-v1.1-zh-zf_002', 'zf_002 (Kokoro-82M v1.1-zh)', 'Apache-2.0', 'Kokoro'),  # pre-synthesized by kokoro_zh.py
     'es': ('kokoro-v1.0-em_alex', 'em_alex (Kokoro-82M v1.0)', 'Apache-2.0', 'Kokoro'),
-    'en': ('en_US-ljspeech-high', 'LJSpeech (en_US, high)', 'public domain dataset'),
+    'en': ('kokoro-v1.0-af_heart', 'af_heart (Kokoro-82M v1.0)', 'Apache-2.0', 'Kokoro'),
     'fr': ('fr_FR-siwis-medium', 'SIWIS (fr_FR, medium)', 'CC BY 4.0 dataset'),
     'it': ('it_IT-serena-high', 'serena (it_IT, high)', 'CC BY 4.0 dataset'),
     'pt': ('pt_BR-faber-medium', 'faber (pt_BR, medium)', 'CC0 dataset'),

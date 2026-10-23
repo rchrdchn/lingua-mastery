@@ -2250,22 +2250,4867 @@
   }
  },
  "en": {
-  "bytes": 15185025,
+  "bytes": 15159104,
   "clips": 3349,
   "failed": 0,
   "files": 809,
   "ll": {
-   "clips": 0,
-   "speakers": {}
+   "clips": 820,
+   "speakers": {
+    "Auride": {
+     "licenses": [
+      "CC BY-SA 4.0"
+     ],
+     "n": 1
+    },
+    "Them": {
+     "licenses": [
+      "CC BY 4.0"
+     ],
+     "n": 8
+    },
+    "Wodencafe": {
+     "licenses": [
+      "CC0"
+     ],
+     "n": 800
+    },
+    "amychang": {
+     "licenses": [
+      "CC BY 4.0"
+     ],
+     "n": 1
+    },
+    "rul": {
+     "licenses": [
+      "CC BY 4.0"
+     ],
+     "n": 10
+    }
+   }
   },
-  "ll_rejected": {},
+  "ll_rejected": {
+   "clipped": 7,
+   "noisy": 1
+  },
+  "sentences": {
+   "clips": 20,
+   "speakers": {
+    "Auride|CC BY-SA 4.0|": 1,
+    "Them|CC BY 4.0|": 8,
+    "amychang|CC BY 4.0|": 1,
+    "rul|CC BY 4.0|": 10
+   }
+  },
   "tts": {
-   "clips": 3349,
-   "license": "public domain dataset",
-   "model": "en_US-ljspeech-high",
-   "voice": "LJSpeech (en_US, high)"
+   "clips": 2529,
+   "engine": "Kokoro",
+   "license": "Apache-2.0",
+   "model": "kokoro-v1.0-af_heart",
+   "voice": "af_heart (Kokoro-82M v1.0)"
   },
-  "words": {}
+  "words": {
+   "able": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-able.wav"
+   },
+   "about": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-about.wav"
+   },
+   "accept": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-accept.wav"
+   },
+   "accident": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-accident.wav"
+   },
+   "across": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-across.wav"
+   },
+   "act": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-act.wav"
+   },
+   "actually": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-actually.wav"
+   },
+   "afraid": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-afraid.wav"
+   },
+   "after": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-after.wav"
+   },
+   "afternoon": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-afternoon.wav"
+   },
+   "again": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-again.wav"
+   },
+   "against": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-against.wav"
+   },
+   "age": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-age.wav"
+   },
+   "agent": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-agent.wav"
+   },
+   "ago": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-ago.wav"
+   },
+   "agree": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-agree.wav"
+   },
+   "air": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-air.wav"
+   },
+   "alive": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-alive.wav"
+   },
+   "all": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-all.wav"
+   },
+   "almost": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-almost.wav"
+   },
+   "alone": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-alone.wav"
+   },
+   "along": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-along.wav"
+   },
+   "already": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-already.wav"
+   },
+   "also": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-also.wav"
+   },
+   "always": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-always.wav"
+   },
+   "am": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-am.wav"
+   },
+   "amazing": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-amazing.wav"
+   },
+   "and": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-and.wav"
+   },
+   "another": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-another.wav"
+   },
+   "answer": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-answer.wav"
+   },
+   "any": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-any.wav"
+   },
+   "anyone": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-anyone.wav"
+   },
+   "anything": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-anything.wav"
+   },
+   "anyway": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-anyway.wav"
+   },
+   "apartment": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-apartment.wav"
+   },
+   "appreciate": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-appreciate.wav"
+   },
+   "are": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-are.wav"
+   },
+   "area": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-area.wav"
+   },
+   "army": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-army.wav"
+   },
+   "around": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-around.wav"
+   },
+   "art": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-art.wav"
+   },
+   "as": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-as.wav"
+   },
+   "ask": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-ask.wav"
+   },
+   "ass": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-ass.wav"
+   },
+   "at": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-at.wav"
+   },
+   "attack": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-attack.wav"
+   },
+   "attention": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-attention.wav"
+   },
+   "baby": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-baby.wav"
+   },
+   "back": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-back.wav"
+   },
+   "bad": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-bad.wav"
+   },
+   "bag": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-bag.wav"
+   },
+   "ball": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-ball.wav"
+   },
+   "bank": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-bank.wav"
+   },
+   "bar": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-bar.wav"
+   },
+   "bastard": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-bastard.wav"
+   },
+   "be": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-be.wav"
+   },
+   "beat": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-beat.wav"
+   },
+   "beautiful": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-beautiful.wav"
+   },
+   "because": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-because.wav"
+   },
+   "become": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-become.wav"
+   },
+   "bed": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-bed.wav"
+   },
+   "before": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-before.wav"
+   },
+   "beginning": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-beginning.wav"
+   },
+   "behind": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-behind.wav"
+   },
+   "being": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-being.wav"
+   },
+   "believe": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-believe.wav"
+   },
+   "besides": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-besides.wav"
+   },
+   "bet": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-bet.wav"
+   },
+   "between": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-between.wav"
+   },
+   "big": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-big.wav"
+   },
+   "bill": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-bill.wav"
+   },
+   "birthday": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-birthday.wav"
+   },
+   "bit": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-bit.wav"
+   },
+   "bitch": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-bitch.wav"
+   },
+   "black": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-black.wav"
+   },
+   "blood": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-blood.wav"
+   },
+   "blow": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-blow.wav"
+   },
+   "blue": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-blue.wav"
+   },
+   "boat": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-boat.wav"
+   },
+   "body": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-body.wav"
+   },
+   "book": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-book.wav"
+   },
+   "born": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-born.wav"
+   },
+   "boss": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-boss.wav"
+   },
+   "both": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-both.wav"
+   },
+   "box": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-box.wav"
+   },
+   "boy": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-boy.wav"
+   },
+   "boyfriend": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-boyfriend.wav"
+   },
+   "brain": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-brain.wav"
+   },
+   "break": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-break.wav"
+   },
+   "bring": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-bring.wav"
+   },
+   "broke": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-broke.wav"
+   },
+   "broken": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-broken.wav"
+   },
+   "brother": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-brother.wav"
+   },
+   "buddy": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-buddy.wav"
+   },
+   "building": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-building.wav"
+   },
+   "business": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-business.wav"
+   },
+   "busy": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-busy.wav"
+   },
+   "but": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-but.wav"
+   },
+   "buy": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-buy.wav"
+   },
+   "by": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-by.wav"
+   },
+   "bye": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-bye.wav"
+   },
+   "call": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-call.wav"
+   },
+   "calm": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-calm.wav"
+   },
+   "camera": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-camera.wav"
+   },
+   "can": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-can.wav"
+   },
+   "cannot": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-cannot.wav"
+   },
+   "captain": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-captain.wav"
+   },
+   "car": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-car.wav"
+   },
+   "card": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-card.wav"
+   },
+   "care": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-care.wav"
+   },
+   "careful": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-careful.wav"
+   },
+   "carry": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-carry.wav"
+   },
+   "case": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-case.wav"
+   },
+   "cash": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-cash.wav"
+   },
+   "cat": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-cat.wav"
+   },
+   "catch": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-catch.wav"
+   },
+   "cause": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-cause.wav"
+   },
+   "cell": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-cell.wav"
+   },
+   "certain": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-certain.wav"
+   },
+   "certainly": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-certainly.wav"
+   },
+   "chance": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-chance.wav"
+   },
+   "change": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-change.wav"
+   },
+   "charge": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-charge.wav"
+   },
+   "check": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-check.wav"
+   },
+   "chief": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-chief.wav"
+   },
+   "child": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-child.wav"
+   },
+   "choice": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-choice.wav"
+   },
+   "church": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-church.wav"
+   },
+   "city": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-city.wav"
+   },
+   "class": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-class.wav"
+   },
+   "clean": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-clean.wav"
+   },
+   "clear": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-clear.wav"
+   },
+   "close": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-close.wav"
+   },
+   "clothes": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-clothes.wav"
+   },
+   "club": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-club.wav"
+   },
+   "coffee": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-coffee.wav"
+   },
+   "cold": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-cold.wav"
+   },
+   "college": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-college.wav"
+   },
+   "come": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-come.wav"
+   },
+   "coming": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-coming.wav"
+   },
+   "company": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-company.wav"
+   },
+   "completely": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-completely.wav"
+   },
+   "congratulations": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-congratulations.wav"
+   },
+   "contact": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-contact.wav"
+   },
+   "continue": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-continue.wav"
+   },
+   "control": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-control.wav"
+   },
+   "cool": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-cool.wav"
+   },
+   "count": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-count.wav"
+   },
+   "country": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-country.wav"
+   },
+   "couple": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-couple.wav"
+   },
+   "course": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-course.wav"
+   },
+   "court": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-court.wav"
+   },
+   "cover": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-cover.wav"
+   },
+   "crazy": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-crazy.wav"
+   },
+   "crime": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-crime.wav"
+   },
+   "cry": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-cry.wav"
+   },
+   "cut": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-cut.wav"
+   },
+   "cute": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-cute.wav"
+   },
+   "dad": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-dad.wav"
+   },
+   "damn": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-damn.wav"
+   },
+   "dance": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-dance.wav"
+   },
+   "dangerous": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-dangerous.wav"
+   },
+   "dare": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-dare.wav"
+   },
+   "dark": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-dark.wav"
+   },
+   "darling": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-darling.wav"
+   },
+   "date": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-date.wav"
+   },
+   "daughter": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-daughter.wav"
+   },
+   "day": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-day.wav"
+   },
+   "deal": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-deal.wav"
+   },
+   "dear": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-dear.wav"
+   },
+   "death": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-death.wav"
+   },
+   "decision": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-decision.wav"
+   },
+   "deep": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-deep.wav"
+   },
+   "definitely": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-definitely.wav"
+   },
+   "detective": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-detective.wav"
+   },
+   "die": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-die.wav"
+   },
+   "difference": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-difference.wav"
+   },
+   "different": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-different.wav"
+   },
+   "difficult": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-difficult.wav"
+   },
+   "dinner": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-dinner.wav"
+   },
+   "do": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-do.wav"
+   },
+   "doctor": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-doctor.wav"
+   },
+   "dog": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-dog.wav"
+   },
+   "done": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-done.wav"
+   },
+   "door": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-door.wav"
+   },
+   "doubt": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-doubt.wav"
+   },
+   "down": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-down.wav"
+   },
+   "dream": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-dream.wav"
+   },
+   "dress": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-dress.wav"
+   },
+   "drink": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-drink.wav"
+   },
+   "drive": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-drive.wav"
+   },
+   "drop": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-drop.wav"
+   },
+   "drunk": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-drunk.wav"
+   },
+   "during": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-during.wav"
+   },
+   "dying": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-dying.wav"
+   },
+   "each": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-each.wav"
+   },
+   "early": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-early.wav"
+   },
+   "earth": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-earth.wav"
+   },
+   "easy": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-easy.wav"
+   },
+   "eat": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-eat.wav"
+   },
+   "eight": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-eight.wav"
+   },
+   "end": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-end.wav"
+   },
+   "enjoy": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-enjoy.wav"
+   },
+   "enough": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-enough.wav"
+   },
+   "entire": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-entire.wav"
+   },
+   "especially": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-especially.wav"
+   },
+   "even": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-even.wav"
+   },
+   "ever": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-ever.wav"
+   },
+   "every": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-every.wav"
+   },
+   "everybody": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-everybody.wav"
+   },
+   "everyone": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-everyone.wav"
+   },
+   "everything": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-everything.wav"
+   },
+   "evidence": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-evidence.wav"
+   },
+   "evil": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-evil.wav"
+   },
+   "exactly": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-exactly.wav"
+   },
+   "except": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-except.wav"
+   },
+   "excuse": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-excuse.wav"
+   },
+   "expect": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-expect.wav"
+   },
+   "explain": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-explain.wav"
+   },
+   "eye": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-eye.wav"
+   },
+   "face": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-face.wav"
+   },
+   "fact": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-fact.wav"
+   },
+   "fair": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-fair.wav"
+   },
+   "fall": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-fall.wav"
+   },
+   "family": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-family.wav"
+   },
+   "far": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-far.wav"
+   },
+   "fast": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-fast.wav"
+   },
+   "father": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-father.wav"
+   },
+   "fault": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-fault.wav"
+   },
+   "fear": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-fear.wav"
+   },
+   "feel": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-feel.wav"
+   },
+   "feeling": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-feeling.wav"
+   },
+   "felt": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-felt.wav"
+   },
+   "few": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-few.wav"
+   },
+   "field": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-field.wav"
+   },
+   "fight": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-fight.wav"
+   },
+   "figure": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-figure.wav"
+   },
+   "film": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-film.wav"
+   },
+   "finally": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-finally.wav"
+   },
+   "find": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-find.wav"
+   },
+   "fine": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-fine.wav"
+   },
+   "finish": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-finish.wav"
+   },
+   "fire": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-fire.wav"
+   },
+   "first": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-first.wav"
+   },
+   "fish": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-fish.wav"
+   },
+   "five": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-five.wav"
+   },
+   "fix": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-fix.wav"
+   },
+   "floor": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-floor.wav"
+   },
+   "fly": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-fly.wav"
+   },
+   "follow": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-follow.wav"
+   },
+   "food": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-food.wav"
+   },
+   "fool": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-fool.wav"
+   },
+   "for": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-for.wav"
+   },
+   "force": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-force.wav"
+   },
+   "forever": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-forever.wav"
+   },
+   "forget": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-forget.wav"
+   },
+   "forgive": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-forgive.wav"
+   },
+   "forward": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-forward.wav"
+   },
+   "found": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-found.wav"
+   },
+   "four": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-four.wav"
+   },
+   "free": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-free.wav"
+   },
+   "friend": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-friend.wav"
+   },
+   "from": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-from.wav"
+   },
+   "front": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-front.wav"
+   },
+   "fuck": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-fuck.wav"
+   },
+   "fucking": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-fucking.wav"
+   },
+   "full": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-full.wav"
+   },
+   "fun": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-fun.wav"
+   },
+   "funny": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-funny.wav"
+   },
+   "future": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-future.wav"
+   },
+   "game": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-game.wav"
+   },
+   "general": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-general.wav"
+   },
+   "get": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-get.wav"
+   },
+   "girl": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-girl.wav"
+   },
+   "girlfriend": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-girlfriend.wav"
+   },
+   "give": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-give.wav"
+   },
+   "glad": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-glad.wav"
+   },
+   "glass": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-glass.wav"
+   },
+   "go": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-go.wav"
+   },
+   "god": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-god.wav"
+   },
+   "gold": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-gold.wav"
+   },
+   "good": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-good.wav"
+   },
+   "goodbye": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-goodbye.wav"
+   },
+   "government": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-government.wav"
+   },
+   "great": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-great.wav"
+   },
+   "green": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-green.wav"
+   },
+   "ground": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-ground.wav"
+   },
+   "group": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-group.wav"
+   },
+   "guess": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-guess.wav"
+   },
+   "gun": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-gun.wav"
+   },
+   "guy": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-guy.wav"
+   },
+   "ha": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-ha.wav"
+   },
+   "hair": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-hair.wav"
+   },
+   "half": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-half.wav"
+   },
+   "hand": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-hand.wav"
+   },
+   "handle": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-handle.wav"
+   },
+   "hang": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-hang.wav"
+   },
+   "happen": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-happen.wav"
+   },
+   "happy": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-happy.wav"
+   },
+   "hard": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-hard.wav"
+   },
+   "hate": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-hate.wav"
+   },
+   "have": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-have.wav"
+   },
+   "he": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-he.wav"
+   },
+   "head": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-head.wav"
+   },
+   "hear": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-hear.wav"
+   },
+   "heart": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-heart.wav"
+   },
+   "hell": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-hell.wav"
+   },
+   "hello": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-hello.wav"
+   },
+   "help": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-help.wav"
+   },
+   "her": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-her.wav"
+   },
+   "here": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-here.wav"
+   },
+   "hey": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-hey.wav"
+   },
+   "hide": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-hide.wav"
+   },
+   "high": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-high.wav"
+   },
+   "him": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-him.wav"
+   },
+   "his": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-his.wav"
+   },
+   "history": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-history.wav"
+   },
+   "hit": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-hit.wav"
+   },
+   "hmm": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-hmm.wav"
+   },
+   "hold": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-hold.wav"
+   },
+   "holy": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-holy.wav"
+   },
+   "home": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-home.wav"
+   },
+   "honest": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-honest.wav"
+   },
+   "honey": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-honey.wav"
+   },
+   "honor": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-honor.wav"
+   },
+   "hope": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-hope.wav"
+   },
+   "horse": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-horse.wav"
+   },
+   "hospital": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-hospital.wav"
+   },
+   "hot": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-hot.wav"
+   },
+   "hotel": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-hotel.wav"
+   },
+   "hour": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-hour.wav"
+   },
+   "house": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-house.wav"
+   },
+   "how": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-how.wav"
+   },
+   "huge": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-huge.wav"
+   },
+   "huh": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-huh.wav"
+   },
+   "human": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-human.wav"
+   },
+   "hundred": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-hundred.wav"
+   },
+   "hungry": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-hungry.wav"
+   },
+   "hurry": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-hurry.wav"
+   },
+   "hurt": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-hurt.wav"
+   },
+   "husband": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-husband.wav"
+   },
+   "i": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-i.wav"
+   },
+   "ice": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-ice.wav"
+   },
+   "idea": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-idea.wav"
+   },
+   "idiot": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-idiot.wav"
+   },
+   "if": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-if.wav"
+   },
+   "imagine": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-imagine.wav"
+   },
+   "important": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-important.wav"
+   },
+   "in": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-in.wav"
+   },
+   "information": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-information.wav"
+   },
+   "inside": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-inside.wav"
+   },
+   "instead": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-instead.wav"
+   },
+   "interesting": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-interesting.wav"
+   },
+   "is": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-is.wav"
+   },
+   "island": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-island.wav"
+   },
+   "it": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-it.wav"
+   },
+   "jail": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-jail.wav"
+   },
+   "job": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-job.wav"
+   },
+   "join": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-join.wav"
+   },
+   "joke": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-joke.wav"
+   },
+   "judge": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-judge.wav"
+   },
+   "just": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-just.wav"
+   },
+   "keep": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-keep.wav"
+   },
+   "key": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-key.wav"
+   },
+   "kid": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-kid.wav"
+   },
+   "kill": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-kill.wav"
+   },
+   "killer": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-killer.wav"
+   },
+   "kind": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-kind.wav"
+   },
+   "king": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-king.wav"
+   },
+   "kiss": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-kiss.wav"
+   },
+   "know": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-know.wav"
+   },
+   "lady": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-lady.wav"
+   },
+   "land": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-land.wav"
+   },
+   "last": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-last.wav"
+   },
+   "late": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-late.wav"
+   },
+   "later": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-later.wav"
+   },
+   "laugh": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-laugh.wav"
+   },
+   "laughter": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-laughter.wav"
+   },
+   "law": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-law.wav"
+   },
+   "lawyer": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-lawyer.wav"
+   },
+   "lead": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-lead.wav"
+   },
+   "learn": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-learn.wav"
+   },
+   "least": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-least.wav"
+   },
+   "leave": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-leave.wav"
+   },
+   "left": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-left.wav"
+   },
+   "less": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-less.wav"
+   },
+   "let": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-let.wav"
+   },
+   "letter": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-letter.wav"
+   },
+   "lie": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-lie.wav"
+   },
+   "lieutenant": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-lieutenant.wav"
+   },
+   "life": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-life.wav"
+   },
+   "light": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-light.wav"
+   },
+   "like": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-like.wav"
+   },
+   "line": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-line.wav"
+   },
+   "list": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-list.wav"
+   },
+   "listen": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-listen.wav"
+   },
+   "little": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-little.wav"
+   },
+   "live": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-live.wav"
+   },
+   "long": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-long.wav"
+   },
+   "look": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-look.wav"
+   },
+   "lord": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-lord.wav"
+   },
+   "lose": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-lose.wav"
+   },
+   "lost": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-lost.wav"
+   },
+   "love": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-love.wav"
+   },
+   "lovely": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-lovely.wav"
+   },
+   "luck": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-luck.wav"
+   },
+   "lucky": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-lucky.wav"
+   },
+   "lunch": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-lunch.wav"
+   },
+   "machine": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-machine.wav"
+   },
+   "major": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-major.wav"
+   },
+   "make": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-make.wav"
+   },
+   "man": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-man.wav"
+   },
+   "many": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-many.wav"
+   },
+   "mark": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-mark.wav"
+   },
+   "marriage": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-marriage.wav"
+   },
+   "married": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-married.wav"
+   },
+   "marry": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-marry.wav"
+   },
+   "master": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-master.wav"
+   },
+   "matter": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-matter.wav"
+   },
+   "may": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-may.wav"
+   },
+   "maybe": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-maybe.wav"
+   },
+   "me": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-me.wav"
+   },
+   "mean": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-mean.wav"
+   },
+   "means": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-means.wav"
+   },
+   "meet": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-meet.wav"
+   },
+   "meeting": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-meeting.wav"
+   },
+   "mess": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-mess.wav"
+   },
+   "message": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-message.wav"
+   },
+   "middle": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-middle.wav"
+   },
+   "million": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-million.wav"
+   },
+   "mind": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-mind.wav"
+   },
+   "mine": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-mine.wav"
+   },
+   "minute": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-minute.wav"
+   },
+   "minutes": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-minutes.wav"
+   },
+   "miss": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-miss.wav"
+   },
+   "missing": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-missing.wav"
+   },
+   "mistake": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-mistake.wav"
+   },
+   "moment": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-moment.wav"
+   },
+   "money": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-money.wav"
+   },
+   "month": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-month.wav"
+   },
+   "more": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-more.wav"
+   },
+   "morning": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-morning.wav"
+   },
+   "most": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-most.wav"
+   },
+   "mother": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-mother.wav"
+   },
+   "mouth": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-mouth.wav"
+   },
+   "move": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-move.wav"
+   },
+   "movie": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-movie.wav"
+   },
+   "moving": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-moving.wav"
+   },
+   "much": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-much.wav"
+   },
+   "murder": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-murder.wav"
+   },
+   "music": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-music.wav"
+   },
+   "must": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-must.wav"
+   },
+   "my": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-my.wav"
+   },
+   "myself": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-myself.wav"
+   },
+   "name": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-name.wav"
+   },
+   "near": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-near.wav"
+   },
+   "need": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-need.wav"
+   },
+   "never": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-never.wav"
+   },
+   "new": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-new.wav"
+   },
+   "news": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-news.wav"
+   },
+   "next": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-next.wav"
+   },
+   "night": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-night.wav"
+   },
+   "no": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-no.wav"
+   },
+   "nobody": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-nobody.wav"
+   },
+   "none": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-none.wav"
+   },
+   "normal": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-normal.wav"
+   },
+   "north": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-north.wav"
+   },
+   "not": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-not.wav"
+   },
+   "nothing": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-nothing.wav"
+   },
+   "now": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-now.wav"
+   },
+   "number": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-number.wav"
+   },
+   "obviously": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-obviously.wav"
+   },
+   "of": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-of.wav"
+   },
+   "offer": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-offer.wav"
+   },
+   "office": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-office.wav"
+   },
+   "officer": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-officer.wav"
+   },
+   "often": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-often.wav"
+   },
+   "oh": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-oh.wav"
+   },
+   "old": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-old.wav"
+   },
+   "on": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-on.wav"
+   },
+   "once": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-once.wav"
+   },
+   "one": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-one.wav"
+   },
+   "only": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-only.wav"
+   },
+   "open": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-open.wav"
+   },
+   "or": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-or.wav"
+   },
+   "order": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-order.wav"
+   },
+   "other": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-other.wav"
+   },
+   "others": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-others.wav"
+   },
+   "out": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-out.wav"
+   },
+   "outside": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-outside.wav"
+   },
+   "over": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-over.wav"
+   },
+   "own": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-own.wav"
+   },
+   "pain": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-pain.wav"
+   },
+   "paper": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-paper.wav"
+   },
+   "park": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-park.wav"
+   },
+   "part": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-part.wav"
+   },
+   "party": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-party.wav"
+   },
+   "pass": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-pass.wav"
+   },
+   "past": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-past.wav"
+   },
+   "pay": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-pay.wav"
+   },
+   "peace": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-peace.wav"
+   },
+   "people": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-people.wav"
+   },
+   "perfect": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-perfect.wav"
+   },
+   "perhaps": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-perhaps.wav"
+   },
+   "person": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-person.wav"
+   },
+   "personal": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-personal.wav"
+   },
+   "phone": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-phone.wav"
+   },
+   "pick": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-pick.wav"
+   },
+   "picture": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-picture.wav"
+   },
+   "piece": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-piece.wav"
+   },
+   "place": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-place.wav"
+   },
+   "plan": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-plan.wav"
+   },
+   "plane": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-plane.wav"
+   },
+   "play": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-play.wav"
+   },
+   "please": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-please.wav"
+   },
+   "pleasure": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-pleasure.wav"
+   },
+   "point": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-point.wav"
+   },
+   "police": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-police.wav"
+   },
+   "poor": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-poor.wav"
+   },
+   "position": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-position.wav"
+   },
+   "possible": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-possible.wav"
+   },
+   "power": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-power.wav"
+   },
+   "present": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-present.wav"
+   },
+   "president": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-president.wav"
+   },
+   "pretty": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-pretty.wav"
+   },
+   "prison": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-prison.wav"
+   },
+   "private": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-private.wav"
+   },
+   "probably": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-probably.wav"
+   },
+   "problem": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-problem.wav"
+   },
+   "professor": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-professor.wav"
+   },
+   "promise": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-promise.wav"
+   },
+   "protect": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-protect.wav"
+   },
+   "proud": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-proud.wav"
+   },
+   "prove": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-prove.wav"
+   },
+   "public": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-public.wav"
+   },
+   "pull": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-pull.wav"
+   },
+   "push": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-push.wav"
+   },
+   "put": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-put.wav"
+   },
+   "queen": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-queen.wav"
+   },
+   "question": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-question.wav"
+   },
+   "quick": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-quick.wav"
+   },
+   "quickly": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-quickly.wav"
+   },
+   "quiet": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-quiet.wav"
+   },
+   "quit": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-quit.wav"
+   },
+   "quite": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-quite.wav"
+   },
+   "radio": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-radio.wav"
+   },
+   "rather": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-rather.wav"
+   },
+   "read": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-read.wav"
+   },
+   "ready": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-ready.wav"
+   },
+   "real": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-real.wav"
+   },
+   "realize": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-realize.wav"
+   },
+   "really": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-really.wav"
+   },
+   "reason": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-reason.wav"
+   },
+   "record": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-record.wav"
+   },
+   "red": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-red.wav"
+   },
+   "relationship": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-relationship.wav"
+   },
+   "relax": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-relax.wav"
+   },
+   "remember": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-remember.wav"
+   },
+   "report": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-report.wav"
+   },
+   "respect": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-respect.wav"
+   },
+   "rest": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-rest.wav"
+   },
+   "return": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-return.wav"
+   },
+   "rich": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-rich.wav"
+   },
+   "ride": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-ride.wav"
+   },
+   "right": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-right.wav"
+   },
+   "ring": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-ring.wav"
+   },
+   "road": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-road.wav"
+   },
+   "rock": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-rock.wav"
+   },
+   "room": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-room.wav"
+   },
+   "round": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-round.wav"
+   },
+   "run": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-run.wav"
+   },
+   "running": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-running.wav"
+   },
+   "sad": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-sad.wav"
+   },
+   "safe": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-safe.wav"
+   },
+   "same": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-same.wav"
+   },
+   "save": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-save.wav"
+   },
+   "saw": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-saw.wav"
+   },
+   "say": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-say.wav"
+   },
+   "saying": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-saying.wav"
+   },
+   "scared": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-scared.wav"
+   },
+   "scene": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-scene.wav"
+   },
+   "school": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-school.wav"
+   },
+   "sea": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-sea.wav"
+   },
+   "seat": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-seat.wav"
+   },
+   "second": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-second.wav"
+   },
+   "secret": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-secret.wav"
+   },
+   "security": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-security.wav"
+   },
+   "see": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-see.wav"
+   },
+   "seem": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-seem.wav"
+   },
+   "sell": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-sell.wav"
+   },
+   "send": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-send.wav"
+   },
+   "sense": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-sense.wav"
+   },
+   "serious": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-serious.wav"
+   },
+   "seriously": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-seriously.wav"
+   },
+   "service": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-service.wav"
+   },
+   "set": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-set.wav"
+   },
+   "seven": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-seven.wav"
+   },
+   "sex": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-sex.wav"
+   },
+   "share": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-share.wav"
+   },
+   "she": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-she.wav"
+   },
+   "ship": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-ship.wav"
+   },
+   "shit": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-shit.wav"
+   },
+   "shoot": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-shoot.wav"
+   },
+   "shop": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-shop.wav"
+   },
+   "short": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-short.wav"
+   },
+   "shot": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-shot.wav"
+   },
+   "should": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-should.wav"
+   },
+   "show": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-show.wav"
+   },
+   "shut": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-shut.wav"
+   },
+   "side": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-side.wav"
+   },
+   "sign": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-sign.wav"
+   },
+   "simple": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-simple.wav"
+   },
+   "since": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-since.wav"
+   },
+   "sing": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-sing.wav"
+   },
+   "singing": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-singing.wav"
+   },
+   "single": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-single.wav"
+   },
+   "sir": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-sir.wav"
+   },
+   "sister": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-sister.wav"
+   },
+   "sit": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-sit.wav"
+   },
+   "situation": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-situation.wav"
+   },
+   "six": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-six.wav"
+   },
+   "sleep": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-sleep.wav"
+   },
+   "sleeping": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-sleeping.wav"
+   },
+   "slow": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-slow.wav"
+   },
+   "small": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-small.wav"
+   },
+   "smart": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-smart.wav"
+   },
+   "smell": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-smell.wav"
+   },
+   "so": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-so.wav"
+   },
+   "some": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-some.wav"
+   },
+   "somebody": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-somebody.wav"
+   },
+   "someone": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-someone.wav"
+   },
+   "something": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-something.wav"
+   },
+   "sometimes": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-sometimes.wav"
+   },
+   "somewhere": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-somewhere.wav"
+   },
+   "son": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-son.wav"
+   },
+   "song": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-song.wav"
+   },
+   "soon": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-soon.wav"
+   },
+   "sorry": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-sorry.wav"
+   },
+   "sort": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-sort.wav"
+   },
+   "soul": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-soul.wav"
+   },
+   "sound": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-sound.wav"
+   },
+   "south": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-south.wav"
+   },
+   "space": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-space.wav"
+   },
+   "speak": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-speak.wav"
+   },
+   "special": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-special.wav"
+   },
+   "spend": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-spend.wav"
+   },
+   "stand": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-stand.wav"
+   },
+   "star": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-star.wav"
+   },
+   "start": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-start.wav"
+   },
+   "state": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-state.wav"
+   },
+   "station": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-station.wav"
+   },
+   "stay": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-stay.wav"
+   },
+   "step": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-step.wav"
+   },
+   "stick": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-stick.wav"
+   },
+   "still": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-still.wav"
+   },
+   "stop": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-stop.wav"
+   },
+   "store": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-store.wav"
+   },
+   "story": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-story.wav"
+   },
+   "straight": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-straight.wav"
+   },
+   "strange": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-strange.wav"
+   },
+   "street": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-street.wav"
+   },
+   "strong": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-strong.wav"
+   },
+   "stuff": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-stuff.wav"
+   },
+   "stupid": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-stupid.wav"
+   },
+   "such": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-such.wav"
+   },
+   "sun": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-sun.wav"
+   },
+   "suppose": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-suppose.wav"
+   },
+   "sure": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-sure.wav"
+   },
+   "surprise": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-surprise.wav"
+   },
+   "swear": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-swear.wav"
+   },
+   "sweet": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-sweet.wav"
+   },
+   "system": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-system.wav"
+   },
+   "table": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-table.wav"
+   },
+   "take": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-take.wav"
+   },
+   "talk": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-talk.wav"
+   },
+   "tea": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-tea.wav"
+   },
+   "teach": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-teach.wav"
+   },
+   "teacher": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-teacher.wav"
+   },
+   "team": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-team.wav"
+   },
+   "tell": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-tell.wav"
+   },
+   "ten": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-ten.wav"
+   },
+   "terrible": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-terrible.wav"
+   },
+   "test": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-test.wav"
+   },
+   "than": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-than.wav"
+   },
+   "thank": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-thank.wav"
+   },
+   "thanks": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-thanks.wav"
+   },
+   "that": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-that.wav"
+   },
+   "them": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-them.wav"
+   },
+   "then": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-then.wav"
+   },
+   "there": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-there.wav"
+   },
+   "these": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-these.wav"
+   },
+   "they": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-they.wav"
+   },
+   "thing": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-thing.wav"
+   },
+   "think": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-think.wav"
+   },
+   "thinking": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-thinking.wav"
+   },
+   "third": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-third.wav"
+   },
+   "this": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-this.wav"
+   },
+   "those": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-those.wav"
+   },
+   "though": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-though.wav"
+   },
+   "thought": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-thought.wav"
+   },
+   "three": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-three.wav"
+   },
+   "through": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-through.wav"
+   },
+   "throw": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-throw.wav"
+   },
+   "till": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-till.wav"
+   },
+   "time": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-time.wav"
+   },
+   "times": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-times.wav"
+   },
+   "tired": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-tired.wav"
+   },
+   "to": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-to.wav"
+   },
+   "today": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-today.wav"
+   },
+   "together": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-together.wav"
+   },
+   "tom": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-tom.wav"
+   },
+   "tomorrow": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-tomorrow.wav"
+   },
+   "tonight": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-tonight.wav"
+   },
+   "too": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-too.wav"
+   },
+   "top": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-top.wav"
+   },
+   "totally": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-totally.wav"
+   },
+   "touch": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-touch.wav"
+   },
+   "town": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-town.wav"
+   },
+   "train": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-train.wav"
+   },
+   "trip": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-trip.wav"
+   },
+   "trouble": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-trouble.wav"
+   },
+   "true": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-true.wav"
+   },
+   "trust": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-trust.wav"
+   },
+   "truth": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-truth.wav"
+   },
+   "try": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-try.wav"
+   },
+   "turn": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-turn.wav"
+   },
+   "two": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-two.wav"
+   },
+   "uh": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-uh.wav"
+   },
+   "uncle": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-uncle.wav"
+   },
+   "under": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-under.wav"
+   },
+   "understand": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-understand.wav"
+   },
+   "unless": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-unless.wav"
+   },
+   "until": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-until.wav"
+   },
+   "up": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-up.wav"
+   },
+   "upset": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-upset.wav"
+   },
+   "us": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-us.wav"
+   },
+   "use": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-use.wav"
+   },
+   "very": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-very.wav"
+   },
+   "village": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-village.wav"
+   },
+   "visit": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-visit.wav"
+   },
+   "voice": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-voice.wav"
+   },
+   "wait": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-wait.wav"
+   },
+   "wake": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-wake.wav"
+   },
+   "walk": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-walk.wav"
+   },
+   "wall": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-wall.wav"
+   },
+   "want": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-want.wav"
+   },
+   "wanted": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-wanted.wav"
+   },
+   "war": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-war.wav"
+   },
+   "was": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-was.wav"
+   },
+   "watch": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-watch.wav"
+   },
+   "water": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-water.wav"
+   },
+   "way": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-way.wav"
+   },
+   "we": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-we.wav"
+   },
+   "wear": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-wear.wav"
+   },
+   "wedding": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-wedding.wav"
+   },
+   "week": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-week.wav"
+   },
+   "weird": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-weird.wav"
+   },
+   "welcome": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-welcome.wav"
+   },
+   "well": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-well.wav"
+   },
+   "what": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-what.wav"
+   },
+   "whatever": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-whatever.wav"
+   },
+   "when": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-when.wav"
+   },
+   "where": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-where.wav"
+   },
+   "whether": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-whether.wav"
+   },
+   "which": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-which.wav"
+   },
+   "while": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-while.wav"
+   },
+   "white": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-white.wav"
+   },
+   "who": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-who.wav"
+   },
+   "whoa": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-whoa.wav"
+   },
+   "whole": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-whole.wav"
+   },
+   "why": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-why.wav"
+   },
+   "wife": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-wife.wav"
+   },
+   "will": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-will.wav"
+   },
+   "win": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-win.wav"
+   },
+   "window": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-window.wav"
+   },
+   "wine": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-wine.wav"
+   },
+   "wish": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-wish.wav"
+   },
+   "with": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-with.wav"
+   },
+   "without": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-without.wav"
+   },
+   "woman": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-woman.wav"
+   },
+   "wonder": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-wonder.wav"
+   },
+   "wonderful": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-wonderful.wav"
+   },
+   "word": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-word.wav"
+   },
+   "work": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-work.wav"
+   },
+   "world": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-world.wav"
+   },
+   "worried": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-worried.wav"
+   },
+   "worry": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-worry.wav"
+   },
+   "worth": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-worth.wav"
+   },
+   "wow": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-wow.wav"
+   },
+   "write": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-write.wav"
+   },
+   "wrong": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-wrong.wav"
+   },
+   "yeah": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-yeah.wav"
+   },
+   "year": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-year.wav"
+   },
+   "yes": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-yes.wav"
+   },
+   "yesterday": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-yesterday.wav"
+   },
+   "yet": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-yet.wav"
+   },
+   "you": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-you.wav"
+   },
+   "young": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-young.wav"
+   },
+   "your": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-your.wav"
+   },
+   "yourself": {
+    "license": "CC0",
+    "origin": "ll",
+    "speaker": "Wodencafe",
+    "title": "LL-Q1860 (eng)-Wodencafe-yourself.wav"
+   }
+  }
  },
  "es": {
   "bytes": 46142231,
