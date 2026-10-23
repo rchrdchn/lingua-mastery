@@ -104,6 +104,7 @@ mark{background:linear-gradient(transparent 55%,var(--gold2) 55%);color:inherit;
 .dq .r{color:var(--brand);font-weight:700;margin-top:2px;min-height:1.5em}
 .dq .i{font-size:14px;color:var(--muted);font-weight:700;text-transform:uppercase;letter-spacing:.06em}
 .dch{display:grid;gap:8px}
+@media (min-width:768px){.demo{max-width:680px;padding:18px 20px}.dlangs{justify-content:center;margin-bottom:14px}.dcard{min-height:230px}.dq{padding:10px 0 18px}.dq .w{font-size:54px}.dch{grid-template-columns:repeat(3,1fr);gap:10px}.dch .choice{text-align:center;display:flex;align-items:center;justify-content:center;min-height:72px;padding:12px 14px}}
 .dfin{text-align:center;padding:8px 0}.dfin h3{font-size:26px;margin:.2em 0}.dfin p{margin:.3em 0 .8em;color:var(--muted)}
 .dfin .unlock{display:inline-flex;align-items:center;gap:8px;background:var(--brand2);color:var(--brand);font-weight:800;border-radius:999px;padding:6px 14px;margin-bottom:12px}
 
