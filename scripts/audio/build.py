@@ -15,7 +15,7 @@ VOICE = {
     'zh': ('kokoro-v1.1-zh-zf_002', 'zf_002 (Kokoro-82M v1.1-zh)', 'Apache-2.0', 'Kokoro'),  # pre-synthesized by kokoro_zh.py
     'es': ('kokoro-v1.0-em_alex', 'em_alex (Kokoro-82M v1.0)', 'Apache-2.0', 'Kokoro'),
     'en': ('kokoro-v1.0-af_heart', 'af_heart (Kokoro-82M v1.0)', 'Apache-2.0', 'Kokoro'),
-    'fr': ('fr_FR-siwis-medium', 'SIWIS (fr_FR, medium)', 'CC BY 4.0 dataset'),
+    'fr': ('piper-fr_FR-tom-medium', 'tom (fr_FR, medium, 44.1 kHz)', 'ODbL dataset (model AGPL-3.0)', 'Piper', True),  # pre-synthesized by ext_tts.py (piper engine)
     'it': ('it_IT-serena-high', 'serena (it_IT, high)', 'CC BY 4.0 dataset'),
     'pt': ('kokoro-v1.0-pf_dora', 'pf_dora (Kokoro-82M v1.0)', 'Apache-2.0', 'Kokoro'),
     'de': ('de_DE-thorsten-high', 'Thorsten (de_DE, high)', 'CC0 dataset'),
@@ -23,6 +23,7 @@ VOICE = {
 SR = 22050
 SRC = os.environ.get('AUDIO_SRC', '/home/box/audio-src')
 def engine(pk): return VOICE[pk][3] if len(VOICE[pk]) > 3 else 'Piper'
+def ext(pk): return engine(pk) != 'Piper' or (len(VOICE[pk]) > 4 and VOICE[pk][4])  # clips pre-synthesized by ext_tts.py / kokoro_zh.py
 def ext_path(pk, clip):  # clips pre-synthesized by scripts/audio/ext_tts.py (non-Piper engines)
     m = VOICE[pk][0]; return f"{SRC}/tts/{m}/{hashlib.sha1('|'.join([m, clip['k'], clip['t']]).encode()).hexdigest()}.wav"
 LEAD = int(0.12 * SR)   # iOS can clip the first ~100 ms of a clip
@@ -35,7 +36,7 @@ W = {}
 def init(pk, lex):
     from piper import PiperVoice
     W['pk'] = pk; W['lex'] = lex or {}
-    if engine(pk) != 'Piper': return  # pre-synthesized in another venv (kokoro_zh.py / ext_tts.py)
+    if ext(pk): return  # pre-synthesized in another venv (kokoro_zh.py / ext_tts.py)
     W['voice'] = PiperVoice.load(f'{VOICES}/{VOICE[pk][0]}.onnx', download_dir=VOICES)
     assert W['voice'].config.sample_rate == SR, W['voice'].config.sample_rate
 
@@ -82,7 +83,7 @@ def synth(clip):
         f = f"{kz.OUT}/{kz.key(clip['k'], t, clip.get('syl'))}.wav"
         if not os.path.exists(f): raise SystemExit(f'missing Kokoro clip for {t!r}: run kokoro_zh.py first')
         return decode(f)
-    if engine(pk) != 'Piper':
+    if ext(pk):
         f = ext_path(pk, clip)
         if not os.path.exists(f): raise SystemExit(f'missing {engine(pk)} clip for {t!r}: run ext_tts.py first')
         return decode(f)
