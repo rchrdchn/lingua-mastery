@@ -95,6 +95,57 @@ Same setup as the other sites: a Cloudflare Pages project connected to the GitHu
 
 Optional settings in `src/_data/site.json`: `cfAnalyticsToken` (Cloudflare Web Analytics), `newsletterUrl` (the signup block is a placeholder until then), `repoUrl` (the footer's source code link; set to https://github.com/rchrdchn/lingua-mastery).
 
+## Affiliates and disclosure
+
+Lingua Magna is free and has no ads. The one paid link is an optional italki tutor referral (Awin program: publisher 3126478, merchant 89661). italki pays a commission on a new student's first lesson purchase. The learner pays nothing extra.
+
+**Where it shows**
+
+- A "Practice with a real tutor" card at the end of every grammar lesson page, after the prev/next links (`src/_includes/tutor-card.njk`, included from `src/pages/grammar.njk`).
+- The same card, localized to the learner's interface language, on the `/learn/` "Session complete" screen, below Continue and Back to map (`tutorCard()` in `src/app/main.ts`).
+- A small "Find a tutor" link in the footer's Product column (`src/_includes/base.njk`).
+
+Each card links to italki's teacher search for the course being studied:
+
+| Course | italki page |
+| --- | --- |
+| zh | https://www.italki.com/en/teachers/chinese |
+| es | https://www.italki.com/en/teachers/spanish |
+| en | https://www.italki.com/en/teachers/english |
+| fr | https://www.italki.com/en/teachers/french |
+| it | https://www.italki.com/en/teachers/italian |
+| pt | https://www.italki.com/en/teachers/portuguese |
+| de | https://www.italki.com/en/teachers/german |
+
+The footer link goes to https://www.italki.com/.
+
+**Turning it on**
+
+The only file to edit is `src/_data/affiliates.json`. Leave `italkiUrl` empty until Awin approves the program. While it is empty, nothing renders: no card, no footer link, no untracked italki links. Once approved, paste the Awin deeplink:
+
+```
+https://www.awin1.com/cread.php?awinmid=89661&awinaffid=3126478&ued=<url-encoded italki page>
+```
+
+`src/_data/tutor.js` swaps the `ued` value for each course's page, so one deeplink covers every language. To change a destination, edit `italkiPages` in the same file. Before you add one, check it returns 200 with `curl -s -o /dev/null -w '%{http_code}' <url>`. Use `https://www.italki.com/` for any language that has no page.
+
+**Disclosure rules**
+
+- Every card shows the disclosure right under its button: "We may earn a commission if you book a lesson through this link, at no extra cost to you." The footer adds a one-line note whenever the footer link is on.
+- Every affiliate link has `rel="sponsored noopener"` and `target="_blank"`, plus a screen-reader note that it opens italki in a new tab.
+- The card stays at the end of a lesson or session, never above lesson content, and never as a popup.
+- The card sits between `<!--nohash-->` markers, so turning it on does not bump `lastmod` on every lesson page.
+
+**Preview without a tracked link**
+
+```
+TUTOR_PREVIEW=1 npm run build && git checkout lastmod.json
+node scripts/tutor-shots.mjs /workspace/lm-tutor-shots   # WebKit iPhone 15 + Chromium desktop
+npm run build                                            # rebuild without the flag before deploying
+```
+
+`TUTOR_PREVIEW=1` renders the card with plain italki links, so use it only for screenshots and never deploy it. It does nothing once `italkiUrl` is set.
+
 ## Notes and known limits
 
 - The Mandarin lists follow the **HSK 3.0 standard published in 2021** (500 + 772 words) via ivankra/hsk30, not a later exam syllabus.
