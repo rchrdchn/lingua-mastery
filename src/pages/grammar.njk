@@ -21,4 +21,5 @@
 {% for tr in g.translations %}<details class="more" lang="{{ tr.b }}"><summary>{{ tr.title }} ({{ tr.name }})</summary><p>{{ tr.summary }}</p>{% for p in tr.body %}<p>{{ p }}</p>{% endfor %}</details>{% endfor %}
 {% if g.prereqs.length %}<p class="muted small">Unlocks after: {% for p in g.prereqs %}{% if p.url %}<a href="{{ p.url }}">{{ p.t }}</a>{% else %}{{ p.t }}{% endif %}{% if not loop.last %}, {% endif %}{% endfor %}</p>{% endif %}
 <p class="pn">{% if g.prev %}<a rel="prev" href="{{ g.prev.url }}">← {{ g.prev.t }}</a>{% endif %}{% if g.next %}<a rel="next" href="{{ g.next.url }}">{{ g.next.t }} →</a>{% endif %}</p>
+{% set tpk = g.pack %}{% include "tutor-card.njk" %}
 {% updated %}

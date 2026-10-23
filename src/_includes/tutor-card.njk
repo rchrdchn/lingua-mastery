@@ -1,0 +1,8 @@
+{# Wrapped in nohash so turning the card on does not bump lastmod. Set tpk (pack meta) before including. Renders only when tutor.on (italkiUrl set, or TUTOR_PREVIEW=1). #}
+{% if tutor.on and tpk %}<!--nohash--><aside class="tutor" aria-labelledby="tutor-h">
+<span class="tutor-ic" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3h7A2.5 2.5 0 0 1 16 5.5v4a2.5 2.5 0 0 1-2.5 2.5H9l-3.2 2.6c-.4.3-.8 0-.8-.4V12a2.5 2.5 0 0 1-1-2z" fill="currentColor"/><path d="M18 8h.5A2.5 2.5 0 0 1 21 10.5v4a2.5 2.5 0 0 1-1 2v2.1c0 .4-.4.7-.8.4L16 16.5h-3.5a2.5 2.5 0 0 1-2.4-1.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+<div class="tutor-b"><h2 id="tutor-h">Practice with a real tutor</h2>
+<p>Ready to say it out loud? Book a one-on-one {{ tpk.adj }} lesson with a native-speaking tutor on italki.</p>
+<a class="btn small" href="{{ tutor.byPack[tpk.id] or tutor.home }}" rel="sponsored noopener" target="_blank">Find a {{ tpk.adj }} tutor <span aria-hidden="true">↗</span><span class="sr"> (opens italki in a new tab)</span></a>
+<p class="tutor-disc">{{ tutor.disclosure }}</p></div>
+</aside><!--/nohash-->{% endif %}
