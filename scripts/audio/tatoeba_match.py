@@ -15,13 +15,15 @@ tf = tarfile.open(f'{T}/sentences_with_audio.tar.bz2', 'r:bz2')
 for l in tf.extractfile(tf.getmembers()[0]):
     x = l.decode().rstrip('\n').split('\t')
     if len(x) >= 4 and x[3] in OK: aud[x[0]].append({'audio': x[1], 'user': x[2], 'license': x[3], 'attr': x[4] if len(x) > 4 and x[4] != '\\N' else f'https://tatoeba.org/user/profile/{x[2]}'})
+REJ = json.load(open('data/audio/tatoeba-reject.json')) if os.path.exists('data/audio/tatoeba-reject.json') else {}
 for pk in sys.argv[1:]:
+    rej = REJ.get(pk, {})
     sents = {n(c['t']): c['t'] for b in plan['packs'][pk]['bundles'].values() for c in b['clips'] if c['k'] == 's'}
     out = {}; os.makedirs(f'{SRC}/tatoeba/{pk}', exist_ok=True)
     for l in bz2.open(f'{T}/{ISO[pk]}_sentences.tsv.bz2', 'rt'):
         sid, _, txt = l.rstrip('\n').split('\t', 2)
         t = sents.get(n(txt))
-        if not t or t in out or sid not in aud: continue
+        if not t or t in out or t in rej or sid not in aud: continue
         a = aud[sid][0]; path = f"{SRC}/tatoeba/{pk}/{a['audio']}.mp3"
         if not os.path.exists(path):
             for i in range(5):

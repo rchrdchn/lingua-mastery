@@ -18587,22 +18587,16 @@
   }
  },
  "fr": {
-  "bytes": 10711071,
+  "bytes": 11751802,
   "clips": 2497,
   "failed": 0,
   "files": 607,
   "ll": {
-   "clips": 600,
+   "clips": 685,
    "speakers": {
     "0x010C": {
      "licenses": [
       "CC BY-SA 4.0"
-     ],
-     "n": 1
-    },
-    "Ben (Mathsou)": {
-     "licenses": [
-      "CC0"
      ],
      "n": 1
     },
@@ -18623,13 +18617,7 @@
      "licenses": [
       "CC0"
      ],
-     "n": 1
-    },
-    "Mylou (Mathsou)": {
-     "licenses": [
-      "CC0"
-     ],
-     "n": 1
+     "n": 2
     },
     "Poslovitch": {
      "licenses": [
@@ -18655,3019 +18643,3638 @@
      ],
      "n": 1
     },
+    "Vion Nicolas": {
+     "licenses": [
+      "CC BY 2.0 fr"
+     ],
+     "n": 1
+    },
     "WikiLucas00": {
      "licenses": [
       "CC BY-SA 4.0"
      ],
      "n": 2
+    },
+    "vlecomte": {
+     "licenses": [
+      "CC BY-SA 4.0"
+     ],
+     "n": 85
     }
    }
   },
   "ll_rejected": {},
+  "sentences": {
+   "clips": 85,
+   "speakers": {
+    "vlecomte|CC BY-SA 4.0|": 85
+   }
+  },
   "tts": {
-   "clips": 1897,
-   "license": "CC BY 4.0 dataset",
-   "model": "fr_FR-siwis-medium",
-   "voice": "SIWIS (fr_FR, medium)"
+   "clips": 1812,
+   "engine": "Piper",
+   "license": "ODbL dataset (model AGPL-3.0)",
+   "model": "piper-fr_FR-tom-medium",
+   "voice": "tom (fr_FR, medium, 44.1 kHz)"
   },
   "words": {
    "abord": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-abord.wav"
    },
    "absolument": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-absolument.wav"
    },
    "accident": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-accident.wav"
    },
    "accord": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-accord.wav"
    },
    "acheter": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-acheter.wav"
    },
    "adorer": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "WikiLucas00",
     "title": "LL-Q150 (fra)-WikiLucas00-adorer.wav"
    },
    "affaire": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-affaire.wav"
    },
    "agent": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-agent.wav"
    },
    "agir": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-agir.wav"
    },
    "aider": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-aider.wav"
    },
    "ailleurs": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-ailleurs.wav"
    },
    "aimer": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-aimer.wav"
    },
    "ainsi": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-ainsi.wav"
    },
    "air": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-air.wav"
    },
    "aller": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-aller.wav"
    },
    "allô": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-allô.wav"
    },
    "alors": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-alors.wav"
    },
    "ami": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-ami.wav"
    },
    "amie": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "0x010C",
     "title": "LL-Q150 (fra)-0x010C-amie.wav"
    },
    "amour": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-amour.wav"
    },
    "an": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-an.wav"
    },
    "anniversaire": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-anniversaire.wav"
    },
    "année": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-année.wav"
    },
    "appel": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-appel.wav"
    },
    "appeler": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-appeler.wav"
    },
    "apprendre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-apprendre.wav"
    },
    "après": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-après.wav"
    },
    "argent": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-argent.wav"
    },
    "arme": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-arme.wav"
    },
    "armée": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-armée.wav"
    },
    "arriver": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-arriver.wav"
    },
    "arrivée": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-arrivée.wav"
    },
    "arrière": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-arrière.wav"
    },
    "arrêter": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-arrêter.wav"
    },
    "assez": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-assez.wav"
    },
    "attendre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-attendre.wav"
    },
    "attention": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-attention.wav"
    },
    "au": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-au.wav"
    },
    "aucun": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-aucun.wav"
    },
    "aussi": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-aussi.wav"
    },
    "autant": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-autant.wav"
    },
    "autour": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-autour.wav"
    },
    "autre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-autre.wav"
    },
    "aux": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Sartus85",
     "title": "LL-Q150 (fra)-Sartus85-aux.wav"
    },
    "avance": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-avance.wav"
    },
    "avant": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-avant.wav"
    },
    "avec": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-avec.wav"
    },
    "avion": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-avion.wav"
    },
    "avis": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-avis.wav"
    },
    "avocat": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-avocat.wav"
    },
    "avoir": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-avoir.wav"
    },
    "balle": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-balle.wav"
    },
    "bar": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-bar.wav"
    },
    "bas": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-bas.wav"
    },
    "bateau": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-bateau.wav"
    },
    "battre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-battre.wav"
    },
    "beau": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-beau.wav"
    },
    "beaucoup": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-beaucoup.wav"
    },
    "ben": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-ben.wav"
    },
    "besoin": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-besoin.wav"
    },
    "bien": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-bien.wav"
    },
    "bientôt": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-bientôt.wav"
    },
    "bienvenu": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "VictorDtmtc",
     "title": "LL-Q150 (fra)-VictorDtmtc-bienvenu.wav"
    },
    "bizarre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-bizarre.wav"
    },
    "boire": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-boire.wav"
    },
    "bon": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-bon.wav"
    },
    "bonjour": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-bonjour.wav"
    },
    "bonsoir": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-bonsoir.wav"
    },
    "bordel": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-bordel.wav"
    },
    "bouger": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-bouger.wav"
    },
    "boulot": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-boulot.wav"
    },
    "bout": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-bout.wav"
    },
    "bras": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-bras.wav"
    },
    "bureau": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-bureau.wav"
    },
    "bébé": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-bébé.wav"
    },
    "cadeau": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-cadeau.wav"
    },
    "café": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-café.wav"
    },
    "calmer": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-calmer.wav"
    },
    "camp": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-camp.wav"
    },
    "capitaine": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Sartus85",
     "title": "LL-Q150 (fra)-Sartus85-capitaine.wav"
    },
    "car": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-car.wav"
    },
    "carte": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-carte.wav"
    },
    "cas": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-cas.wav"
    },
    "cause": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-cause.wav"
    },
    "ce": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-ce.wav"
    },
    "ceci": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-ceci.wav"
    },
    "cela": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-cela.wav"
    },
    "celui": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-celui.wav"
    },
    "certain": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-certain.wav"
    },
    "cet": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Sartus85",
     "title": "LL-Q150 (fra)-Sartus85-cet.wav"
    },
    "chambre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-chambre.wav"
    },
    "chance": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-chance.wav"
    },
    "changer": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-changer.wav"
    },
    "chaque": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-chaque.wav"
    },
    "chaud": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-chaud.wav"
    },
    "chef": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-chef.wav"
    },
    "chemin": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-chemin.wav"
    },
    "cher": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-cher.wav"
    },
    "chercher": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-chercher.wav"
    },
    "chez": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-chez.wav"
    },
    "chien": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-chien.wav"
    },
    "choix": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-choix.wav"
    },
    "chose": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-chose.wav"
    },
    "chéri": {
-    "license": "CC0",
-    "speaker": "Mylou (Mathsou)",
-    "title": "LL-Q150 (fra)-Mylou (Mathsou)-chéri.wav"
+    "license": "CC BY 2.0 fr",
+    "origin": "commons",
+    "speaker": "Vion Nicolas",
+    "title": "Fr-chéri.ogg"
    },
    "cinq": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-cinq.wav"
    },
    "clair": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-clair.wav"
    },
    "club": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Sartus85",
     "title": "LL-Q150 (fra)-Sartus85-club.wav"
    },
    "coin": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-coin.wav"
    },
    "colère": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-colère.wav"
    },
    "combien": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-combien.wav"
    },
    "comme": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-comme.wav"
    },
    "commencer": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-commencer.wav"
    },
    "comment": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-comment.wav"
    },
    "complètement": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-complètement.wav"
    },
    "comprendre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-comprendre.wav"
    },
    "compte": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-compte.wav"
    },
    "confiance": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-confiance.wav"
    },
    "connaître": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-connaître.wav"
    },
    "conseil": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-conseil.wav"
    },
    "content": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-content.wav"
    },
    "continuer": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-continuer.wav"
    },
    "contre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-contre.wav"
    },
    "contrôler": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-contrôler.wav"
    },
    "cool": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-cool.wav"
    },
    "corps": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-corps.wav"
    },
    "coup": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-coup.wav"
    },
    "cour": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-cour.wav"
    },
    "courir": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-courir.wav"
    },
    "crime": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-crime.wav"
    },
    "croire": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-croire.wav"
    },
    "cul": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-cul.wav"
    },
    "côté": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-côté.wav"
    },
    "cœur": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-cœur.wav"
    },
    "danger": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-danger.wav"
    },
    "dangereux": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-dangereux.wav"
    },
    "dans": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-dans.wav"
    },
    "de": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-de.wav"
    },
    "dedans": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-dedans.wav"
    },
    "dehors": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-dehors.wav"
    },
    "demain": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-demain.wav"
    },
    "demander": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-demander.wav"
    },
    "depuis": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-depuis.wav"
    },
    "dernier": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-dernier.wav"
    },
    "derrière": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-derrière.wav"
    },
    "des": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Sartus85",
     "title": "LL-Q150 (fra)-Sartus85-des.wav"
    },
    "dessus": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-dessus.wav"
    },
    "deux": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-deux.wav"
    },
    "devant": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-devant.wav"
    },
    "devenir": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-devenir.wav"
    },
    "devoir": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-devoir.wav"
    },
    "dieu": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-dieu.wav"
    },
    "difficile": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-difficile.wav"
    },
    "dire": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-dire.wav"
    },
    "disparaître": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-disparaître.wav"
    },
    "dit": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Sartus85",
     "title": "LL-Q150 (fra)-Sartus85-dit.wav"
    },
    "dix": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-dix.wav"
    },
    "docteur": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-docteur.wav"
    },
    "dollar": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-dollar.wav"
    },
    "donc": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-donc.wav"
    },
    "donner": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-donner.wav"
    },
    "dont": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-dont.wav"
    },
    "dormir": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-dormir.wav"
    },
    "dos": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-dos.wav"
    },
    "doucement": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-doucement.wav"
    },
    "doute": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-doute.wav"
    },
    "droit": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-droit.wav"
    },
    "drôle": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-drôle.wav"
    },
    "du": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-du.wav"
    },
    "dur": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-dur.wav"
    },
    "dès": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-dès.wav"
    },
    "début": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-début.wav"
    },
    "décider": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-décider.wav"
    },
    "déjà": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-déjà.wav"
    },
    "désolé": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-désolé.wav"
    },
    "détester": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-détester.wav"
    },
    "dîner": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-dîner.wav"
    },
    "eau": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-eau.wav"
    },
    "effet": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-effet.wav"
    },
    "eh": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-eh.wav"
    },
    "elle": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-elle.wav"
    },
    "elles": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-elles.wav"
    },
    "en": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-en.wav"
    },
    "encore": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-encore.wav"
    },
    "endroit": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-endroit.wav"
    },
    "enfant": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-enfant.wav"
    },
    "enfin": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-enfin.wav"
    },
    "ensemble": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-ensemble.wav"
    },
    "ensuite": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-ensuite.wav"
    },
    "entendre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-entendre.wav"
    },
    "entre": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-entre.wav"
    },
    "entrer": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-entrer.wav"
    },
    "envie": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-envie.wav"
    },
    "envoyer": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-envoyer.wav"
    },
    "erreur": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-erreur.wav"
    },
    "esprit": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-esprit.wav"
    },
    "espèce": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-espèce.wav"
    },
    "espérer": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-espérer.wav"
    },
    "essayer": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-essayer.wav"
    },
    "et": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-et.wav"
    },
    "exact": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Sartus85",
     "title": "LL-Q150 (fra)-Sartus85-exact.wav"
    },
    "exactement": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Sartus85",
     "title": "LL-Q150 (fra)-Sartus85-exactement.wav"
    },
    "expliquer": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-expliquer.wav"
    },
    "face": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-face.wav"
    },
    "facile": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-facile.wav"
    },
    "faim": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-faim.wav"
    },
    "faire": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-faire.wav"
    },
    "fait": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-fait.wav"
    },
    "falloir": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-falloir.wav"
    },
    "famille": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-famille.wav"
    },
    "faute": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-faute.wav"
    },
    "faux": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-faux.wav"
    },
    "façon": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-façon.wav"
    },
    "femme": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-femme.wav"
    },
    "fermer": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-fermer.wav"
    },
    "feu": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-feu.wav"
    },
    "fille": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-fille.wav"
    },
    "film": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-film.wav"
    },
    "fils": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-fils.wav"
    },
    "fin": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-fin.wav"
    },
    "finir": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-finir.wav"
    },
    "fois": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-fois.wav"
    },
    "fond": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-fond.wav"
    },
    "force": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-force.wav"
    },
    "forme": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-forme.wav"
    },
    "fort": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-fort.wav"
    },
    "fou": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-fou.wav"
    },
    "frère": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-frère.wav"
    },
    "fête": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-fête.wav"
    },
    "gagner": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-gagner.wav"
    },
    "garder": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-garder.wav"
    },
    "gars": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-gars.wav"
    },
    "garçon": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-garçon.wav"
    },
    "gauche": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-gauche.wav"
    },
    "genre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-genre.wav"
    },
    "gens": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-gens.wav"
    },
    "gentil": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-gentil.wav"
    },
    "grand": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-grand.wav"
    },
    "grave": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-grave.wav"
    },
    "gros": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-gros.wav"
    },
    "groupe": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-groupe.wav"
    },
    "grâce": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-grâce.wav"
    },
    "guerre": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-guerre.wav"
    },
    "génial": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-génial.wav"
    },
    "général": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-général.wav"
    },
    "habitude": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-habitude.wav"
    },
    "haut": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-haut.wav"
    },
    "heure": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-heure.wav"
    },
    "heureux": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-heureux.wav"
    },
    "hier": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-hier.wav"
    },
    "histoire": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-histoire.wav"
    },
    "homme": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-homme.wav"
    },
    "honneur": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-honneur.wav"
    },
    "hors": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-hors.wav"
    },
    "hôpital": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-hôpital.wav"
    },
    "hôtel": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-hôtel.wav"
    },
    "ici": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-ici.wav"
    },
    "idiot": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-idiot.wav"
    },
    "idée": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-idée.wav"
    },
    "ignorer": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-ignorer.wav"
    },
    "il": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-il.wav"
    },
    "ils": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-ils.wav"
    },
    "imaginer": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-imaginer.wav"
    },
    "important": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-important.wav"
    },
    "impossible": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-impossible.wav"
    },
    "impression": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-impression.wav"
    },
    "incroyable": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Sartus85",
     "title": "LL-Q150 (fra)-Sartus85-incroyable.wav"
    },
    "inquiéter": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-inquiéter.wav"
    },
    "inspecteur": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Poslovitch",
     "title": "LL-Q150 (fra)-Poslovitch-inspecteur.wav"
    },
    "instant": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-instant.wav"
    },
    "intérieur": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-intérieur.wav"
    },
    "jamais": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-jamais.wav"
    },
    "je": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-je.wav"
    },
    "jeu": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-jeu.wav"
    },
    "jeune": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-jeune.wav"
    },
    "joli": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-joli.wav"
    },
    "jouer": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-jouer.wav"
    },
    "jour": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-jour.wav"
    },
    "journée": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-journée.wav"
    },
    "juste": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-juste.wav"
    },
    "la": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-la.wav"
    },
    "laisser": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-laisser.wav"
    },
    "le": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-le.wav"
    },
    "lequel": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-lequel.wav"
    },
    "lettre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-lettre.wav"
    },
    "leur": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-leur.wav"
    },
    "libre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-libre.wav"
    },
    "lieu": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-lieu.wav"
    },
    "ligne": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-ligne.wav"
    },
    "lire": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-lire.wav"
    },
    "liste": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-liste.wav"
    },
    "livre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-livre.wav"
    },
    "loi": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-loi.wav"
    },
    "loin": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-loin.wav"
    },
    "long": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-long.wav"
    },
    "longtemps": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-longtemps.wav"
    },
    "lui": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-lui.wav"
    },
    "lumière": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-lumière.wav"
    },
    "là": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-là.wav"
    },
    "madame": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-madame.wav"
    },
    "magnifique": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-magnifique.wav"
    },
    "main": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-main.wav"
    },
    "maintenant": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-maintenant.wav"
    },
    "mais": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-mais.wav"
    },
    "maison": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-maison.wav"
    },
    "mal": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-mal.wav"
    },
    "malade": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-malade.wav"
    },
    "maman": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-maman.wav"
    },
    "manger": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-manger.wav"
    },
    "manque": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Sartus85",
     "title": "LL-Q150 (fra)-Sartus85-manque.wav"
    },
    "marcher": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-marcher.wav"
    },
    "mari": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-mari.wav"
    },
    "mariage": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-mariage.wav"
    },
    "matin": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-matin.wav"
    },
    "mauvais": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-mauvais.wav"
    },
    "maître": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-maître.wav"
    },
    "me": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-me.wav"
    },
    "mec": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-mec.wav"
    },
    "meilleur": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-meilleur.wav"
    },
    "merci": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-merci.wav"
    },
    "merde": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-merde.wav"
    },
    "mes": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Sartus85",
     "title": "LL-Q150 (fra)-Sartus85-mes.wav"
    },
    "message": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Sartus85",
     "title": "LL-Q150 (fra)-Sartus85-message.wav"
    },
    "mettre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-mettre.wav"
    },
    "meurtre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Sartus85",
     "title": "LL-Q150 (fra)-Sartus85-meurtre.wav"
    },
    "mieux": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-mieux.wav"
    },
    "million": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-million.wav"
    },
    "minute": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-minute.wav"
    },
    "mission": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-mission.wav"
    },
    "moi": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-moi.wav"
    },
    "moins": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-moins.wav"
    },
    "mois": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-mois.wav"
    },
    "moitié": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-moitié.wav"
    },
    "moment": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-moment.wav"
    },
    "mon": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-mon.wav"
    },
    "monde": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-monde.wav"
    },
    "monsieur": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-monsieur.wav"
    },
    "montrer": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-montrer.wav"
    },
    "mort": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-mort.wav"
    },
    "mot": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-mot.wav"
    },
    "mourir": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-mourir.wav"
    },
    "moyen": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-moyen.wav"
    },
    "musique": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-musique.wav"
    },
    "mère": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-mère.wav"
    },
    "médecin": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-médecin.wav"
    },
    "même": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-même.wav"
    },
    "ne": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-ne.wav"
    },
    "neuf": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-neuf.wav"
    },
    "ni": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-ni.wav"
    },
    "noir": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-noir.wav"
    },
    "nom": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-nom.wav"
    },
    "non": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-non.wav"
    },
    "normal": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-normal.wav"
    },
    "notre": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-notre.wav"
    },
    "nous": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-nous.wav"
    },
    "nouveau": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-nouveau.wav"
    },
    "noël": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-noël.wav"
    },
    "nuit": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-nuit.wav"
    },
    "numéro": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-numéro.wav"
    },
    "occuper": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-occuper.wav"
    },
    "on": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-on.wav"
    },
    "oncle": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-oncle.wav"
    },
    "or": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-or.wav"
    },
    "ordre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-ordre.wav"
    },
    "ou": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-ou.wav"
    },
    "ouais": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-ouais.wav"
    },
    "oublier": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-oublier.wav"
    },
    "oui": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-oui.wav"
    },
    "ouvrir": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-ouvrir.wav"
    },
    "où": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-où.wav"
    },
    "paix": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-paix.wav"
    },
    "papa": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-papa.wav"
    },
    "par": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-par.wav"
    },
    "parce": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Sartus85",
     "title": "LL-Q150 (fra)-Sartus85-parce.wav"
    },
    "pardon": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-pardon.wav"
    },
    "pareil": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-pareil.wav"
    },
    "parent": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-parent.wav"
    },
    "parfait": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-parfait.wav"
    },
    "parfois": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-parfois.wav"
    },
    "parler": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-parler.wav"
    },
    "parti": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-parti.wav"
    },
    "partir": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-partir.wav"
    },
    "partout": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-partout.wav"
    },
    "pas": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-pas.wav"
    },
    "passer": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-passer.wav"
    },
    "patron": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-patron.wav"
    },
    "pauvre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-pauvre.wav"
    },
    "payer": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-payer.wav"
    },
    "pays": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-pays.wav"
    },
    "peine": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-peine.wav"
    },
    "pendant": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-pendant.wav"
    },
    "penser": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-penser.wav"
    },
    "perdre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-perdre.wav"
    },
    "personne": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-personne.wav"
    },
    "petit": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-petit.wav"
    },
    "peu": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-peu.wav"
    },
    "peur": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-peur.wav"
    },
    "photo": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-photo.wav"
    },
    "pied": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-pied.wav"
    },
    "pièce": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-pièce.wav"
    },
    "place": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-place.wav"
    },
    "plaire": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-plaire.wav"
    },
    "plaisir": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-plaisir.wav"
    },
    "plait": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Lyokoï",
     "title": "LL-Q150 (fra)-Lyokoï-plait.wav"
    },
    "plan": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-plan.wav"
    },
    "plein": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-plein.wav"
    },
    "plus": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-plus.wav"
    },
    "plusieurs": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-plusieurs.wav"
    },
    "plutôt": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-plutôt.wav"
    },
    "point": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-point.wav"
    },
    "police": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-police.wav"
    },
    "porte": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-porte.wav"
    },
    "porter": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-porter.wav"
    },
    "poser": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-poser.wav"
    },
    "possible": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-possible.wav"
    },
    "pote": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "WikiLucas00",
     "title": "LL-Q150 (fra)-WikiLucas00-pote.wav"
    },
    "pour": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-pour.wav"
    },
    "pourquoi": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-pourquoi.wav"
    },
    "pouvoir": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-pouvoir.wav"
    },
    "premier": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-premier.wav"
    },
    "prendre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-prendre.wav"
    },
    "presque": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-presque.wav"
    },
    "prier": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-prier.wav"
    },
    "prison": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-prison.wav"
    },
    "prix": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-prix.wav"
    },
    "probablement": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Sartus85",
     "title": "LL-Q150 (fra)-Sartus85-probablement.wav"
    },
    "problème": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-problème.wav"
    },
    "prochain": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-prochain.wav"
    },
    "professeur": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-professeur.wav"
    },
    "promettre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-promettre.wav"
    },
    "propos": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-propos.wav"
    },
    "propre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-propre.wav"
    },
    "protéger": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-protéger.wav"
    },
    "près": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-près.wav"
    },
    "présent": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-présent.wav"
    },
    "président": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-président.wav"
    },
    "prêt": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-prêt.wav"
    },
    "puis": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-puis.wav"
    },
    "père": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-père.wav"
    },
    "quand": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-quand.wav"
    },
    "quatre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-quatre.wav"
    },
    "que": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-que.wav"
    },
    "quel": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-quel.wav"
    },
    "quelque": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-quelque.wav"
    },
    "question": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-question.wav"
    },
    "qui": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-qui.wav"
    },
    "quitter": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-quitter.wav"
    },
    "quoi": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-quoi.wav"
    },
    "raison": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-raison.wav"
    },
    "rappeler": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-rappeler.wav"
    },
    "rapport": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-rapport.wav"
    },
    "recevoir": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-recevoir.wav"
    },
    "recherche": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-recherche.wav"
    },
    "regarder": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-regarder.wav"
    },
    "rencontrer": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-rencontrer.wav"
    },
    "rendre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-rendre.wav"
    },
    "rentrer": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-rentrer.wav"
    },
    "ressembler": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-ressembler.wav"
    },
    "rester": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-rester.wav"
    },
    "retard": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-retard.wav"
    },
    "retour": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-retour.wav"
    },
    "retourner": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-retourner.wav"
    },
    "retrouver": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-retrouver.wav"
    },
    "revenir": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-revenir.wav"
    },
    "revoir": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-revoir.wav"
    },
    "rien": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-rien.wav"
    },
    "risque": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Sartus85",
     "title": "LL-Q150 (fra)-Sartus85-risque.wav"
    },
    "roi": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-roi.wav"
    },
    "rouge": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-rouge.wav"
    },
    "route": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-route.wav"
    },
    "rue": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-rue.wav"
    },
    "réponse": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-réponse.wav"
    },
    "réussir": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-réussir.wav"
    },
    "rêve": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-rêve.wav"
    },
    "sa": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Sartus85",
     "title": "LL-Q150 (fra)-Sartus85-sa.wav"
    },
    "sac": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-sac.wav"
    },
    "sale": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-sale.wav"
    },
    "salle": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-salle.wav"
    },
    "salut": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-salut.wav"
    },
    "sang": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-sang.wav"
    },
    "sans": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-sans.wav"
    },
    "sauf": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Sartus85",
     "title": "LL-Q150 (fra)-Sartus85-sauf.wav"
    },
    "sauver": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-sauver.wav"
    },
    "savoir": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-savoir.wav"
    },
    "scène": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-scène.wav"
    },
    "se": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-se.wav"
    },
    "seconde": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-seconde.wav"
    },
    "secret": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-secret.wav"
    },
    "seigneur": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-seigneur.wav"
    },
    "selon": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-selon.wav"
    },
    "semaine": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-semaine.wav"
    },
    "sens": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-sens.wav"
    },
    "service": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-service.wav"
    },
    "ses": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Sartus85",
     "title": "LL-Q150 (fra)-Sartus85-ses.wav"
    },
    "seul": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-seul.wav"
    },
    "seulement": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-seulement.wav"
    },
    "si": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-si.wav"
    },
    "simple": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-simple.wav"
    },
    "simplement": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-simplement.wav"
    },
    "sinon": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Sartus85",
     "title": "LL-Q150 (fra)-Sartus85-sinon.wav"
    },
    "situation": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-situation.wav"
    },
    "six": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-six.wav"
    },
    "soir": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-soir.wav"
    },
    "soirée": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-soirée.wav"
    },
    "soit": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-soit.wav"
    },
    "soleil": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-soleil.wav"
    },
    "son": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-son.wav"
    },
    "sortie": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-sortie.wav"
    },
    "sortir": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-sortir.wav"
    },
    "sous": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-sous.wav"
    },
    "souvenir": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-souvenir.wav"
    },
    "souvent": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-souvent.wav"
    },
    "stupide": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Poslovitch",
     "title": "LL-Q150 (fra)-Poslovitch-stupide.wav"
    },
    "su": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-su.wav"
    },
    "suite": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-suite.wav"
    },
    "suivre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-suivre.wav"
    },
    "sujet": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-sujet.wav"
    },
    "super": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-super.wav"
    },
    "sur": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-sur.wav"
    },
    "surpris": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Sartus85",
     "title": "LL-Q150 (fra)-Sartus85-surpris.wav"
    },
    "surtout": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-surtout.wav"
    },
    "sympa": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Shareculture",
     "title": "LL-Q150 (fra)-Shareculture-Sympa.wav"
    },
    "système": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-système.wav"
    },
    "sécurité": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Sartus85",
     "title": "LL-Q150 (fra)-Sartus85-sécurité.wav"
    },
    "sérieux": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-sérieux.wav"
    },
    "sûr": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-sûr.wav"
    },
    "sûrement": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Poslovitch",
     "title": "LL-Q150 (fra)-Poslovitch-sûrement.wav"
    },
    "sœur": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-sœur.wav"
    },
    "ta": {
     "license": "CC0",
+    "origin": "ll",
     "speaker": "Mecanautes",
     "title": "LL-Q150 (fra)-Mecanautes-ta.wav"
    },
    "table": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-table.wav"
    },
    "tant": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-tant.wav"
    },
    "tard": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-tard.wav"
    },
    "te": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-te.wav"
    },
    "tellement": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-tellement.wav"
    },
    "temps": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-temps.wav"
    },
    "tenir": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-tenir.wav"
    },
    "terminer": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-terminer.wav"
    },
    "terre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-terre.wav"
    },
    "tes": {
     "license": "CC0",
-    "speaker": "Ben (Mathsou)",
-    "title": "LL-Q150 (fra)-Ben (Mathsou)-tes.wav"
+    "origin": "ll",
+    "speaker": "Mecanautes",
+    "title": "LL-Q150 (fra)-Mecanautes-tes.wav"
    },
    "tirer": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-tirer.wav"
    },
    "toi": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-toi.wav"
    },
    "tomber": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-tomber.wav"
    },
    "ton": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-ton.wav"
    },
    "toujours": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-toujours.wav"
    },
    "tour": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-tour.wav"
    },
    "tous": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Sartus85",
     "title": "LL-Q150 (fra)-Sartus85-tous.wav"
    },
    "tout": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-tout.wav"
    },
    "train": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-train.wav"
    },
    "travail": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-travail.wav"
    },
    "travailler": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-travailler.wav"
    },
    "trois": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-trois.wav"
    },
    "trop": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-trop.wav"
    },
    "trouver": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-trouver.wav"
    },
    "truc": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Sartus85",
     "title": "LL-Q150 (fra)-Sartus85-truc.wav"
    },
    "très": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-très.wav"
    },
    "tu": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-tu.wav"
    },
    "tuer": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-tuer.wav"
    },
    "tueur": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-tueur.wav"
    },
    "type": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-type.wav"
    },
    "téléphone": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-téléphone.wav"
    },
    "tête": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-tête.wav"
    },
    "tôt": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-tôt.wav"
    },
    "un": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-un.wav"
    },
    "utiliser": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Sartus85",
     "title": "LL-Q150 (fra)-Sartus85-utiliser.wav"
    },
    "venir": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-venir.wav"
    },
    "venue": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Sartus85",
     "title": "LL-Q150 (fra)-Sartus85-venue.wav"
    },
    "verre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-verre.wav"
    },
    "vers": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-vers.wav"
    },
    "victime": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-victime.wav"
    },
    "vie": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-vie.wav"
    },
    "vieux": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-vieux.wav"
    },
    "ville": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-ville.wav"
    },
    "visage": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-visage.wav"
    },
    "vite": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-vite.wav"
    },
    "vivre": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-vivre.wav"
    },
    "voici": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-voici.wav"
    },
    "voilà": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-voilà.wav"
    },
    "voir": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-voir.wav"
    },
    "voiture": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-voiture.wav"
    },
    "voix": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-voix.wav"
    },
    "voler": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-voler.wav"
    },
    "votre": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-votre.wav"
    },
    "vouloir": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-vouloir.wav"
    },
    "vous": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-vous.wav"
    },
    "voyage": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-voyage.wav"
    },
    "vrai": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-vrai.wav"
    },
    "vraiment": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-vraiment.wav"
    },
    "vu": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-vu.wav"
    },
    "vérité": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-vérité.wav"
    },
    "y": {
     "license": "CC BY 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-y.wav"
    },
    "à": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-à.wav"
    },
    "âge": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-âge.wav"
    },
    "ça": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-ça.wav"
    },
    "école": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-école.wav"
    },
    "écoute": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "Sartus85",
     "title": "LL-Q150 (fra)-Sartus85-écoute.wav"
    },
    "écouter": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-écouter.wav"
    },
    "écrire": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-écrire.wav"
    },
    "équipe": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-équipe.wav"
    },
    "état": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-état.wav"
    },
    "être": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-être.wav"
    },
    "œil": {
     "license": "CC BY-SA 4.0",
+    "origin": "ll",
     "speaker": "LoquaxFR",
     "title": "LL-Q150 (fra)-LoquaxFR-œil.wav"
    }

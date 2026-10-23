@@ -1,0 +1,16 @@
+{
+ "_about": "Tatoeba sentence clips left out after a Whisper large-v3 check (2+ word errors): TTS is used instead.",
+ "fr": {
+  "Garde ça.": "Whisper large-v3 heard \"Merci.\"",
+  "Il est vieux.": "Whisper large-v3 heard \"Il a eu lieu.\"",
+  "Je les veux.": "Whisper large-v3 heard \"Je l'ai vu.\"",
+  "Nous avons promis.": "Whisper large-v3 heard \"Nous avons le premier.\"",
+  "Ouvre-moi !": "Whisper large-v3 heard \"Au revoir.\"",
+  "Quelle journée !": "Whisper large-v3 heard \"Qu'est-ce qu'on est ?\"",
+  "Regarde derrière toi !": "Whisper large-v3 heard \"Regardez à toi.\"",
+  "Suis-je clair ?": "Whisper large-v3 heard \"Suisse claire.\"",
+  "Tu es sauf.": "Whisper large-v3 heard \"Dieu sauve.\"",
+  "Voilà cinq dollars.": "Whisper large-v3 heard \"Pour la 5$.\"",
+  "À qui est-ce ?": "Whisper large-v3 heard \"Aquí es.\""
+ }
+}
