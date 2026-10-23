@@ -15,5 +15,9 @@
  },
  "it": {
   "Ho quasi fatto.": "Whisper large-v3 heard \"Ho quasi finito.\""
+ },
+ "de": {
+  "Alle sagen es.": "Whisper large-v3 heard \"Allesanges\"",
+  "Geh rein!": "Whisper large-v3 heard \"Geh hier rein.\""
  }
 }

@@ -1,13 +1,4 @@
 {
-"Alle sagen es.": {
-"title": "Tatoeba sentence #1315683, audio #69558",
-"speaker": "Yeti",
-"license": "CC BY 4.0",
-"url": "https://tatoeba.org/sentences/show/1315683",
-"attribution": "",
-"src": "/home/box/audio-src/tatoeba/de/69558.mp3",
-"origin": "tatoeba"
-},
 "Alle schlafen.": {
 "title": "Tatoeba sentence #1898672, audio #87206",
 "speaker": "Yeti",
@@ -231,15 +222,6 @@
 "url": "https://tatoeba.org/sentences/show/1084716",
 "attribution": "https://tatoeba.org/eng/user/profile/MisterTrouser",
 "src": "/home/box/audio-src/tatoeba/de/745185.mp3",
-"origin": "tatoeba"
-},
-"Geh rein!": {
-"title": "Tatoeba sentence #2431183, audio #138086",
-"speaker": "Yeti",
-"license": "CC BY 4.0",
-"url": "https://tatoeba.org/sentences/show/2431183",
-"attribution": "",
-"src": "/home/box/audio-src/tatoeba/de/138086.mp3",
 "origin": "tatoeba"
 },
 "Geh zur Seite!": {
