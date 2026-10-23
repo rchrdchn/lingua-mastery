@@ -1116,6 +1116,382 @@
      "sub": ""
     }
    ]
+  },
+  {
+   "id": "pt",
+   "name": "Portuguese",
+   "lang": "pt-BR",
+   "metric": "wer",
+   "intro": "8 course words and 14 course sentences from each source (Brazilian Portuguese). A second set of 16 words and 30 sentences was scored for every voice. Only 4 of the 8 words here have a Brazilian native recording (335 of 600 course words do); Tatoeba has no openly licensed Portuguese sentence audio.",
+   "scoreNote": "Whisper large-v3 (float32, CPU) transcribes each clip. Words heard right: exact match after lowercasing, removing punctuation and spelling out digits; Whisper often mishears isolated short Portuguese words even from native speakers, so word scores are noisy and sentences weigh more. Sentence WER/CER: word and character error rate, lower is better.",
+   "candidates": [
+    {
+     "id": "native",
+     "label": "Native recording (Lingua Libre / Commons, Brazilian speakers)",
+     "license": "CC BY-SA 4.0 / CC0",
+     "note": "4 of 8 words recorded (335 of 600 course words); second set 6/8 recorded words heard right. European Portuguese Lingua Libre speakers (Santamarcanda, Nelson Ricardo 2500, Waldyrious) cover almost every word but are not used, to keep the course pt-BR. Tatoeba has no openly licensed Portuguese sentence audio.",
+     "wordAcc": 1.0,
+     "nWords": 4,
+     "wer": null,
+     "cer": null,
+     "have": [
+      "w02",
+      "w03",
+      "w04",
+      "w07"
+     ]
+    },
+    {
+     "id": "kokoro-pf_dora",
+     "label": "Kokoro-82M v1.0, pf_dora (chosen)",
+     "license": "Apache-2.0",
+     "note": "second set: 12/16 words, sentence WER 3.7%. Most words heard right over both sets (15 of 24; cadu 11, faber 9) and the lowest sentence WER on the first set (1.4%, tied with the other Kokoro voices); Piper cadu is slightly better on second-set sentences",
+     "wordAcc": 0.375,
+     "nWords": 8,
+     "wer": 0.013888888888888888,
+     "cer": 0.006349206349206349,
+     "have": [
+      "w00",
+      "w01",
+      "w02",
+      "w03",
+      "w04",
+      "w05",
+      "w06",
+      "w07",
+      "s00",
+      "s01",
+      "s02",
+      "s03",
+      "s04",
+      "s05",
+      "s06",
+      "s07",
+      "s08",
+      "s09",
+      "s10",
+      "s11",
+      "s12",
+      "s13"
+     ]
+    },
+    {
+     "id": "kokoro-pm_alex",
+     "label": "Kokoro-82M v1.0, pm_alex",
+     "license": "Apache-2.0",
+     "note": "second set: 10/16 words, sentence WER 8.3%",
+     "wordAcc": 0.375,
+     "nWords": 8,
+     "wer": 0.013888888888888888,
+     "cer": 0.006349206349206349,
+     "have": [
+      "w00",
+      "w01",
+      "w02",
+      "w03",
+      "w04",
+      "w05",
+      "w06",
+      "w07",
+      "s00",
+      "s01",
+      "s02",
+      "s03",
+      "s04",
+      "s05",
+      "s06",
+      "s07",
+      "s08",
+      "s09",
+      "s10",
+      "s11",
+      "s12",
+      "s13"
+     ]
+    },
+    {
+     "id": "kokoro-pm_santa",
+     "label": "Kokoro-82M v1.0, pm_santa",
+     "license": "Apache-2.0",
+     "note": "second set: 12/16 words, sentence WER 7.4%",
+     "wordAcc": 0.375,
+     "nWords": 8,
+     "wer": 0.013888888888888888,
+     "cer": 0.006349206349206349,
+     "have": [
+      "w00",
+      "w01",
+      "w02",
+      "w03",
+      "w04",
+      "w05",
+      "w06",
+      "w07",
+      "s00",
+      "s01",
+      "s02",
+      "s03",
+      "s04",
+      "s05",
+      "s06",
+      "s07",
+      "s08",
+      "s09",
+      "s10",
+      "s11",
+      "s12",
+      "s13"
+     ]
+    },
+    {
+     "id": "piper-pt_BR-faber-medium",
+     "label": "Piper pt_BR faber medium (previous)",
+     "license": "Piper tool GPL-3.0, CC0 dataset",
+     "note": "second set: 5/16 words, sentence WER 5.6%",
+     "wordAcc": 0.5,
+     "nWords": 8,
+     "wer": 0.08333333333333333,
+     "cer": 0.044444444444444446,
+     "have": [
+      "w00",
+      "w01",
+      "w02",
+      "w03",
+      "w04",
+      "w05",
+      "w06",
+      "w07",
+      "s00",
+      "s01",
+      "s02",
+      "s03",
+      "s04",
+      "s05",
+      "s06",
+      "s07",
+      "s08",
+      "s09",
+      "s10",
+      "s11",
+      "s12",
+      "s13"
+     ]
+    },
+    {
+     "id": "piper-pt_BR-cadu-medium",
+     "label": "Piper pt_BR cadu medium",
+     "license": "Piper tool GPL-3.0, CC0 dataset",
+     "note": "second set: 6/16 words, sentence WER 2.8%. Best sentences on the second set, but weak on single words",
+     "wordAcc": 0.625,
+     "nWords": 8,
+     "wer": 0.05555555555555555,
+     "cer": 0.025396825396825397,
+     "have": [
+      "w00",
+      "w01",
+      "w02",
+      "w03",
+      "w04",
+      "w05",
+      "w06",
+      "w07",
+      "s00",
+      "s01",
+      "s02",
+      "s03",
+      "s04",
+      "s05",
+      "s06",
+      "s07",
+      "s08",
+      "s09",
+      "s10",
+      "s11",
+      "s12",
+      "s13"
+     ]
+    },
+    {
+     "id": "piper-pt_BR-jeff-medium",
+     "label": "Piper pt_BR jeff medium",
+     "license": "Piper tool GPL-3.0, CC0 dataset",
+     "note": "second set: 4/16 words, sentence WER 12.0%",
+     "wordAcc": 0.25,
+     "nWords": 8,
+     "wer": 0.08333333333333333,
+     "cer": 0.031746031746031744,
+     "have": [
+      "w00",
+      "w01",
+      "w02",
+      "w03",
+      "w04",
+      "w05",
+      "w06",
+      "w07",
+      "s00",
+      "s01",
+      "s02",
+      "s03",
+      "s04",
+      "s05",
+      "s06",
+      "s07",
+      "s08",
+      "s09",
+      "s10",
+      "s11",
+      "s12",
+      "s13"
+     ]
+    },
+    {
+     "id": "piper-pt_BR-edresson-low",
+     "label": "Piper pt_BR edresson low",
+     "license": "Piper tool GPL-3.0, CC BY 4.0 dataset",
+     "note": "second set: 2/16 words, sentence WER 22.2%. Its phoneme set lacks the nasal tilde",
+     "wordAcc": 0.25,
+     "nWords": 8,
+     "wer": 0.05555555555555555,
+     "cer": 0.03492063492063492,
+     "have": [
+      "w00",
+      "w01",
+      "w02",
+      "w03",
+      "w04",
+      "w05",
+      "w06",
+      "w07",
+      "s00",
+      "s01",
+      "s02",
+      "s03",
+      "s04",
+      "s05",
+      "s06",
+      "s07",
+      "s08",
+      "s09",
+      "s10",
+      "s11",
+      "s12",
+      "s13"
+     ]
+    }
+   ],
+   "items": [
+    {
+     "id": "w00",
+     "text": "rei",
+     "sub": "word"
+    },
+    {
+     "id": "w01",
+     "text": "salvar",
+     "sub": "word"
+    },
+    {
+     "id": "w02",
+     "text": "realmente",
+     "sub": "word"
+    },
+    {
+     "id": "w03",
+     "text": "tentar",
+     "sub": "word"
+    },
+    {
+     "id": "w04",
+     "text": "esse",
+     "sub": "word"
+    },
+    {
+     "id": "w05",
+     "text": "espaço",
+     "sub": "word"
+    },
+    {
+     "id": "w06",
+     "text": "tio",
+     "sub": "word"
+    },
+    {
+     "id": "w07",
+     "text": "senhor",
+     "sub": "word"
+    },
+    {
+     "id": "s00",
+     "text": "Vamos dizer as coisas como são.",
+     "sub": ""
+    },
+    {
+     "id": "s01",
+     "text": "Tom tem três milhões de dólares no banco.",
+     "sub": ""
+    },
+    {
+     "id": "s02",
+     "text": "Estou aqui há meses.",
+     "sub": ""
+    },
+    {
+     "id": "s03",
+     "text": "Ela é da onde?",
+     "sub": ""
+    },
+    {
+     "id": "s04",
+     "text": "O que é isso aqui?",
+     "sub": ""
+    },
+    {
+     "id": "s05",
+     "text": "Há muita gente aqui.",
+     "sub": ""
+    },
+    {
+     "id": "s06",
+     "text": "Ele é tudo o que eu tenho.",
+     "sub": ""
+    },
+    {
+     "id": "s07",
+     "text": "Ela tem medo da morte.",
+     "sub": ""
+    },
+    {
+     "id": "s08",
+     "text": "Que tal hoje à noite?",
+     "sub": ""
+    },
+    {
+     "id": "s09",
+     "text": "É por isso que estou aqui.",
+     "sub": ""
+    },
+    {
+     "id": "s10",
+     "text": "Vamos ver um filme.",
+     "sub": ""
+    },
+    {
+     "id": "s11",
+     "text": "Aqui há de tudo!",
+     "sub": ""
+    },
+    {
+     "id": "s12",
+     "text": "Tenho que trabalhar amanhã.",
+     "sub": ""
+    },
+    {
+     "id": "s13",
+     "text": "Não vi ninguém além de você.",
+     "sub": ""
+    }
+   ]
   }
  ]
 }
