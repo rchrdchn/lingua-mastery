@@ -15,3 +15,6 @@
   X-Robots-Tag: noindex
 /a/test/*
   X-Robots-Tag: noindex
+/assets/og-video.mp4
+  Content-Type: video/mp4
+  Cache-Control: public, max-age=86400
