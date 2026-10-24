@@ -63,6 +63,8 @@ main,main.wrap{padding:20px 16px 48px}
 table.words{width:100%;border-collapse:collapse;background:#fff;border-radius:var(--r);overflow:hidden;font-size:16px;box-shadow:var(--sh)}
 table.words th,table.words td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
 table.words th{background:var(--brand2);font-size:14px}
+/* phones: gloss cells wrap instead of widening the page; the English pack's five-column table scrolls inside its box */
+@media (max-width:480px){table.words th,table.words td{padding:8px 7px}table.words td:nth-child(n+3){overflow-wrap:anywhere}table.words:has(th:nth-child(5)){display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}}
 .py{color:var(--brand);font-weight:600;font-size:.55em;letter-spacing:0}
 .tgt{font-size:1.1em}.tgt.big{font-size:40px;letter-spacing:.2em}
 .credit{font-size:11px;color:var(--muted)}
