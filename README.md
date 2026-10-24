@@ -108,6 +108,8 @@ scripts/bundle.mjs            esbuild bundle + copies Hanzi Writer stroke JSON f
 src/_data/lm.js               turns packs + lib/langs.js copy into page data
 src/pages/*.njk               hub, level, word, character and grammar templates (Eleventy pagination)
 lib/seo.js                    shared title/description/breadcrumb helpers (same as the other sites)
+scripts/og.mjs                share cards (1200x630 PNG) into _site/og/; lib/og.js maps a URL to its card
+scripts/og-fonts/             Outfit (OFL) and DejaVu Sans subsets used to draw card text as paths
 scripts/postbuild.mjs         real lastmod from content hashes (lastmod.json), fails on long titles / double escaping
 scripts/check.mjs             internal link check;  scripts/inlinks.mjs: every sitemap URL has 2+ inbound links
 scripts/verify.mjs            Playwright run-through (placement -> lesson -> review), fails on console errors
@@ -122,6 +124,8 @@ src/_data/affiliates.json     italki tutor link settings (the only affiliate con
 Stack: Eleventy 3 (Nunjucks), TypeScript + esbuild, ts-fsrs, Hanzi Writer. No framework, no backend.
 
 SEO: answer-first intros, a visible "Updated" date that matches JSON-LD `dateModified` and sitemap `lastmod`, one JSON-LD graph per page (Organization + WebSite, plus Course on hubs, CollectionPage + ItemList on levels, DefinedTerm on word and character pages, LearningResource on lessons, FAQPage where shown), BreadcrumbList from the visible crumbs, `sitemap.xml`, `llms.txt`, `feed.xml`, and a `robots.txt` that welcomes all crawlers including AI bots. Each course page lists its sources and licenses in the footer.
+
+Share images: every hub, level and grammar lesson gets its own 1200x630 card (language, page title, a short hook and a big hero word), and each language has one card shared by its word pages (Mandarin also has one for character pages). Other pages use `src/og.png`. `scripts/og.mjs` runs after Eleventy, reads the built pages, and draws all text as vector paths (Outfit for Latin text, Hanzi Writer stroke data for Chinese), so builds do not depend on fonts installed on the build machine. About 100 cards, about 2 MB, about 6 seconds; unchanged cards come from `node_modules/.cache/og`. The build fails if a page points to a card that was not made. Tags: absolute `og:image` with width, height and alt, `twitter:card` summary_large_image. On branch previews (`CF_PAGES_BRANCH` other than main) the image URLs point at the branch alias, such as ux.linguamagna.pages.dev, so cards can be tested before merging; canonical URLs stay on production.
 
 ## How content and data update
 

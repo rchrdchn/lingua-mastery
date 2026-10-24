@@ -18,7 +18,7 @@ The pack data is CC BY-SA 4.0 because it is built from CC BY-SA sources (CC-CEDI
 | Tatoeba | Example sentences, translations, authors (all packs) | CC BY 2.0 FR | https://tatoeba.org/ (downloads: https://tatoeba.org/downloads) |
 | Wiktionary via kaikki.org (Wiktextract) | Glosses, part of speech, IPA, inflected forms (es, fr, it, pt, de); English Wiktionary translation tables (Spanish, Portuguese, Mandarin) and reverse glosses for the English pack | CC BY-SA 4.0 (and GFDL) | https://kaikki.org/ |
 | FrequencyWords (Hermit Dave), from OpenSubtitles 2018 | Frequency ranks for es, fr, it, pt, de, en | Lists CC BY-SA 4.0, code MIT | https://github.com/hermitdave/FrequencyWords |
-| Make Me a Hanzi stroke data, via hanzi-writer-data | Stroke order graphics, stroke counts | Arphic Public License (`ARPHICPL.TXT`, copied next to the stroke files at build time) | https://github.com/skishore/makemeahanzi, https://github.com/chanind/hanzi-writer-data |
+| Make Me a Hanzi stroke data, via hanzi-writer-data | Stroke order graphics, stroke counts, Chinese characters drawn on share cards | Arphic Public License (`ARPHICPL.TXT`, copied next to the stroke files at build time) | https://github.com/skishore/makemeahanzi, https://github.com/chanind/hanzi-writer-data |
 | Unihan (Unicode) | Not used in v1. Listed so contributors know it is a vetted option for readings and radicals (Unicode License). | Unicode License v3 | https://www.unicode.org/charts/unihan.html |
 
 ## Audio
@@ -48,6 +48,9 @@ The synthesized clips are released with the content under CC BY-SA 4.0. The sere
 | ts-fsrs | FSRS spaced review scheduling | MIT |
 | Eleventy | Static site build | MIT |
 | esbuild | Bundling the TypeScript app | MIT |
+| sharp, opentype.js | Rendering share cards at build time | Apache-2.0, MIT |
+| Outfit font (subset) | Share card text | SIL OFL 1.1 (`scripts/og-fonts/OFL-Outfit.txt`) |
+| DejaVu Sans Bold (subset) | A few pinyin vowels on share cards | Bitstream Vera / DejaVu license (`scripts/og-fonts/LICENSE-DejaVu.txt`) |
 | TypeScript | Type checking | Apache-2.0 |
 | Playwright | End-to-end check (dev only) | Apache-2.0 |
 

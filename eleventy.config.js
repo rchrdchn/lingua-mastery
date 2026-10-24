@@ -17,6 +17,13 @@ module.exports = function (c) {
   c.addWatchTarget('src/assets/');
 
   c.addFilter('json', v => JSON.stringify(v).replace(/</g, '\\u003c'));
+  const { ogImage, ogAlt } = require('./lib/og.js');
+  // Branch previews point share images at their own alias (ux.linguamagna.pages.dev) so cards can be tested
+  // before they reach production. Canonical URLs always stay on site.url.
+  const br = process.env.CF_PAGES_BRANCH;
+  const imgBase = br && br !== 'main' ? `https://${br.toLowerCase().replace(/[^a-z0-9]+/g, '-')}.linguamagna.pages.dev` : site.url;
+  c.addFilter('ogImage', url => ogImage(url, imgBase));
+  c.addFilter('ogAlt', (url, title) => ogAlt(url, title, site));
   c.addFilter('seoTitle', s => seo.seoTitle(s));
   c.addFilter('seoDesc', s => seo.seoDesc(s));
   c.addFilter('xml', s => seo.plain(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'));
