@@ -24,5 +24,6 @@
 <h2>{% if hub.pack.id == 'zh' %}Grammar and pronunciation{% else %}Grammar{% endif %}</h2>
 <ul class="list">{% for g in hub.grammar %}<li><a href="{{ g.url }}">{{ g.t }}</a> <span class="muted small">{{ g.lvName }}</span></li>{% endfor %}</ul>
 <details class="more"><summary>About this course</summary><p>{{ hub.intro }}</p>{% for m in hub.more %}<p>{{ m }}</p>{% endfor %}</details>
+{% set tpk = hub.pack %}{% include "tutor-card.njk" %}
 {% include "faq.njk" %}
 {% updated %}

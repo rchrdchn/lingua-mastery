@@ -182,6 +182,7 @@ Lingua Magna is free and has no ads. The one paid link is an optional italki tut
 **Where it shows**
 
 - A "Practice with a real tutor" card at the end of every grammar lesson page, after the prev/next links (`src/_includes/tutor-card.njk`, included from `src/pages/grammar.njk`).
+- The same card on each language hub (`/spanish/`, `/chinese/` and so on), after "About this course" and before the FAQ (`src/pages/hub.njk`).
 - The same card, localized to the learner's interface language, on the `/learn/` "Session complete" screen, below Continue and Back to map (`tutorCard()` in `src/app/main.ts`).
 - A small "Find a tutor" link in the footer's Product column (`src/_includes/base.njk`).
 
