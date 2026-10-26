@@ -201,7 +201,7 @@ The footer link goes to https://www.italki.com/.
 
 **Turning it on**
 
-The only file to edit is `src/_data/affiliates.json`. Leave `italkiUrl` empty until Awin approves the program. While it is empty, nothing renders: no card, no footer link, no untracked italki links. Once approved, paste the Awin deeplink:
+The only file to edit is `src/_data/affiliates.json`. **Live since 2026-10-26:** Awin approved the italki program on 2026-10-25 and `italkiUrl` holds the Awin deeplink below (with `ued` set to the italki home page). Clearing `italkiUrl` turns everything off again: no card, no footer link, no untracked italki links. The deeplink format:
 
 ```
 https://www.awin1.com/cread.php?awinmid=89661&awinaffid=3126478&ued=<url-encoded italki page>
