@@ -161,6 +161,16 @@ Each voice was picked by comparing candidates with Whisper large-v3 scoring; the
 
 Each script's first lines document its arguments and environment variables (`PIPER_VOICES`, `AUDIO_CACHE`, `AUDIO_SRC`). The bundles and credits are committed, so a normal build never runs the audio pipeline.
 
+## Outbound link tags
+
+Standing rule (Oct 29, 2026): every link from this site to another site carries `utm_source=linguamagna.pages.dev&utm_medium=referral`, so the sites we send readers to see us in their analytics (and may come back to advertise). Links to our other sites get it too.
+
+- **How:** The last build step, `node scripts/tag-outbound.mjs _site linguamagna.pages.dev lingua-mastery.pages.dev` (end of `npm run build`), rewrites the built HTML. It runs after `postbuild.mjs`, so the lastmod content hashes and IndexNow never see the tags. Only static HTML `<a>` and `<area>` links are changed; `<script>`, `<style>` and comments are skipped. The in-browser engine builds no outside links. This is a tag on links we send out, not tracking: nothing about the reader is collected here. When the site moves to its own domain, change the domain in the `build` script too. Nobody tags links by hand; new pages are covered automatically.
+- **Format:** `?utm_source=linguamagna.pages.dev&utm_medium=referral` is added before any `#fragment`, with `&` when the URL already has a `?`. Existing parameters, `rel` (`sponsored`, `nofollow`, `noopener`), `target` and every other attribute stay as they were.
+- **Left alone:** internal links (relative paths and this site's own hosts), `mailto:`, `tel:` and `javascript:` links, links that already have any `utm_` parameter, affiliate and payment links (Amazon and amzn.to, any `tag=` parameter, RunSignup `aflt_token=` links, Awin, Impact, ShareASale, CJ, Rakuten, Skimlinks, `buy.stripe.com`, beehiiv subscribe pages and embeds), and share, compose and add-to-calendar links (X intent, Facebook sharer, WhatsApp, Gmail and Outlook compose, Google Calendar). To exclude one link, add `data-no-utm` to the `<a>`.
+- **Files:** `scripts/outbound-utm.mjs` holds the rules (the same file in every site's repo; change it in all of them together), `scripts/tag-outbound.mjs` walks `_site/` and fails the build if a second pass still finds an untagged link, and `scripts/outbound-utm.test.mjs` is the unit test (`node --test scripts/outbound-utm.test.mjs`).
+- **Check live:** `curl -s https://linguamagna.pages.dev/ | grep -o 'href="https\?://[^"]*utm_source=linguamagna.pages.dev[^"]*"' | head`
+
 ## Deployment
 
 The site is a Cloudflare Pages project connected to the GitHub repo.
