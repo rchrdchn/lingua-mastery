@@ -10,7 +10,7 @@ module.exports = class {
     }
     L.push('', '## Grammar lessons');
     for (const g of lm.grammar) L.push(`- [${g.pack.adj}: ${g.t}](${site.url}${g.url})`);
-    L.push('', '## Site', `- [Practice app](${site.url}/learn/)`, `- [About and method](${site.url}/about/)`, `- [Credits and licenses](${site.url}/credits/)`, `- [Sitemap](${site.url}/sitemap.xml)`, '',
+    L.push('', '## Site', `- [Practice app](${site.url}/learn/)`, `- [About and method](${site.url}/about/)`, `- [Credits and licenses](${site.url}/credits/)`, `- [Privacy](${site.url}/privacy/): no accounts; progress stays in your browser; cookie-free page-view counts only`, `- [RSS feed](${site.url}/feed.xml)`, `- [Sitemap](${site.url}/sitemap.xml)`, `- [Full text of the course hubs, levels and grammar lessons](${site.url}/llms-full.txt)`, '',
       'Word pages follow /<language>/words/<word>/ and Mandarin characters /mandarin/characters/<character>/. Content licenses: Tatoeba CC BY 2.0 FR, CC-CEDICT and Wiktionary-derived data CC BY-SA 4.0, original lessons CC BY-SA 4.0.', '');
     return L.join('\n');
   }

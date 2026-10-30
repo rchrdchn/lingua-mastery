@@ -10,7 +10,7 @@
     "engine": "node scripts/bundle.mjs",
     "typecheck": "tsc --noEmit -p .",
     "test": "node scripts/test.mjs",
-    "build": "npm run typecheck && npm run engine && eleventy --quiet && node scripts/og.mjs && node scripts/postbuild.mjs && node scripts/tag-outbound.mjs _site linguamagna.pages.dev lingua-mastery.pages.dev",
+    "build": "npm run typecheck && npm run engine && eleventy --quiet && node scripts/og.mjs && node scripts/postbuild.mjs && node scripts/llms-full.mjs _site https://linguamagna.pages.dev && node scripts/tag-outbound.mjs _site linguamagna.pages.dev lingua-mastery.pages.dev",
     "dev": "npm run engine && eleventy --serve --quiet",
     "check": "node scripts/check.mjs && node scripts/inlinks.mjs && node --test scripts/outbound-utm.test.mjs",
     "serve": "node scripts/serve.mjs 8080",

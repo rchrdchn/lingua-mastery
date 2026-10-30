@@ -42,3 +42,6 @@ User-agent: CCBot
 Allow: /
 
 Sitemap: https://linguamagna.pages.dev/sitemap.xml
+
+# LLM-friendly site guide (https://llmstxt.org): https://linguamagna.pages.dev/llms.txt
+# Full text of course hubs, levels and grammar lessons: https://linguamagna.pages.dev/llms-full.txt
