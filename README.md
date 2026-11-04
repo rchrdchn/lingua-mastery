@@ -48,6 +48,7 @@ On top of the app there is a free reference layer built from the same data: a hu
 | **Spaced review** | Every word (and drawn character) has its own FSRS card via `ts-fsrs`. Grade comes from correctness and speed. |
 | **Exercises** | Recognition (word to meaning), recall (meaning to word; typed for Latin-script languages, accent-tolerant), cloze from real Tatoeba sentences, listening with recorded or synthesized audio clips (see [Audio and voices](#audio-and-voices)), Mandarin tone drills (single tones, neutral tone, tone pairs, sandhi), Hanzi Writer stroke quizzes. |
 | **Base language** | The English pack can be taught from Spanish, Portuguese or Chinese. Glosses, sentence translations, grammar explanations and the whole app UI switch with the base. Other packs use English. |
+| **Site search** | Search icon in the header, Cmd/Ctrl+K or `/`. On a course page it searches every word (characters and pinyin, with or without tone marks, for Mandarin), English meanings, grammar lessons and levels of that course; elsewhere it searches courses, levels, grammar and the 150 most common words of each course. Typo-tolerant, no library (`src/assets/search.js`, shared with the other Tiny Labs sites). Indexes are built by `src/search-index.11ty.js` into `/search-index/<course>.json` (10-42 KB gzipped, fetched on first use). `/search/` and `/<course>/search/` are noindex and stay out of the sitemap and llms files. |
 | **Local-first** | `localStorage` keys `lm:v1:<pack>:<base>` and `lm:settings`. Export / import / reset in settings. |
 
 ## Counts

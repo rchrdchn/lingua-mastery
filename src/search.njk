@@ -1,0 +1,15 @@
+---
+layout: base.njk
+permalink: /search/
+noindex: true
+eleventyExcludeFromCollections: true
+title: "Search Lingua Magna"
+description: "Search every course, level, grammar lesson and the most common words on Lingua Magna."
+---
+<div class="ss-wrap"><p class="crumbs"><a href="/">Home</a> / Search</p><h1>Search</h1><p class="lead">Type a language, a common word (agua, 你好, bonjour), an English meaning or a grammar topic. To search every word in one course, open that course first.</p>
+<div class="ss-page" data-ss-page><form action="/search/" method="get" role="search"><input type="search" name="q" aria-label="Search the site" placeholder="Search words, courses or grammar" autocomplete="off" enterkeyhint="search"><button type="submit">Search</button></form>
+<p class="ss-live" data-ss-live aria-live="polite"></p><div class="ss-results" id="ss-page-results" role="listbox" aria-label="Results" data-ss-results></div>
+<div class="ss-static" data-ss-static><h2>Or browse by course</h2>
+<ul>{% for p in lm.packs %}<li><a href="{{ p.hubUrl }}">{{ p.adj }}</a> · <a href="{{ p.hubUrl }}search/">search {{ p.counts.words }} {{ p.adj }} words</a></li>{% endfor %}</ul>
+<h2>Grammar</h2><ul>{% for g in lm.grammar %}<li><a href="{{ g.url }}">{{ g.pack.adj }}: {{ g.t }}</a></li>{% endfor %}</ul>
+</div></div></div>

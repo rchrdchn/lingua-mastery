@@ -6,9 +6,11 @@
 {% if noindex %}<meta name="robots" content="noindex">{% else %}<script type="application/ld+json">{{ { url: page.url, title: title, description: description, kind: kind, items: ldItems, course: ldCourse, term: ldTerm, lesson: ldLesson, faqs: faqs } | pageGraph | safe }}</script>{% endif %}
 <link rel="stylesheet" href="/assets/style.css?v={{ build.v }}">
 </head><body><a class="skip" href="#main">Skip to content</a>
+{% set sx = {"mandarin":"zh","spanish":"es","english":"en","french":"fr","italian":"it","portuguese":"pt","german":"de"}[(page.url or "/").split("/")[1]] %}{% set sp = null %}{% for p in lm.packs %}{% if p.id == sx %}{% set sp = p %}{% endif %}{% endfor %}
 <header class="top"><div class="wrap row"><a class="logo" href="/" aria-label="{{ site.name }} home">{% include "logo.njk" %}</a>
 <nav class="pills" aria-label="Courses">{% for p in lm.packs %}<a href="{{ p.hubUrl }}"{% if page.url.startsWith(p.hubUrl) %} aria-current="page"{% endif %}>{{ p.short }}</a>{% endfor %}</nav>
 <details class="langmenu"><summary>Learn</summary><nav class="menu" aria-label="Courses (menu)">{% for p in lm.packs %}<a href="{{ p.hubUrl }}"{% if page.url.startsWith(p.hubUrl) %} aria-current="page"{% endif %}>{{ p.adj }}{% if p.id == 'en' %}<small>for es, pt, zh speakers</small>{% endif %}</a>{% endfor %}</nav></details>
+<a class="ss-btn hsearch" href="{{ (sp.hubUrl + 'search/') if sp else '/search/' }}" data-ss-open aria-label="Search {{ (sp.adj + ' words, grammar and levels') if sp else 'words, courses and grammar' }}" title="Search (⌘K)"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><span class="hs-l">Search</span><kbd data-ss-kbd aria-hidden="true">⌘K</kbd></a>
 <a class="btn primary small go" href="/learn/">Practice</a></div></header>
 <main id="main" class="wrap">{{ content | safe }}</main>
 <footer class="foot"><div class="wrap">
@@ -25,6 +27,7 @@
 {% if tutor.on %}<p class="fdisc">Find a tutor and the tutor cards link to italki. We may earn a commission if you book a lesson through these links, at no extra cost to you.</p>{% endif %}
 </div></footer>
 {% if site.cfAnalyticsToken %}<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ site.cfAnalyticsToken }}"}'></script>{% endif %}
+<script type="application/json" id="ss-cfg">{"idx":"/search-index/{{ sx or 'all' }}.json?v={{ build.v }}","page":"{{ (sp.hubUrl + 'search/') if sp else '/search/' }}","stop":["the","a","an","of","and","to","in","on","for","with","how","what","is","say","word","meaning","means","mean","translate","translation"],"t":{"btn":"Search","ph":"{{ ('Search ' + sp.adj + ' words, grammar or levels') if sp else 'Search words, courses or grammar' }}","aria":"Search the site","close":"Close","results":"Results","move":"move","open":"open","all":"See all results","none":"No results for “{q}”. Try {{ ('a ' + sp.adj + ' word or its English meaning') if sp else 'a language, a common word or a grammar topic' }}.","closest":"Closest matches","count":"{n} results","loading":"Loading…","error":"Search is unavailable right now.","popular":"Start here","hint":"{{ ('Type a ' + sp.adj + ' word, an English meaning, a grammar topic or a level.') if sp else 'Type a language, a word or a grammar topic. Open a course to search all its words.' }}","groups":{"course":"Courses","lvl":"Levels","word":"Words","char":"Characters","gram":"Grammar","page":"Pages"}}}</script><script defer src="/assets/search.js?v={{ build.v }}"></script>
 <script type="module" src="/assets/site.js?v={{ build.v }}"></script>
 {% if appScript %}<script type="module" src="/assets/{{ appScript }}?v={{ build.v }}"></script>{% endif %}
 </body></html>

@@ -1,0 +1,20 @@
+---js
+{
+  layout: 'base.njk',
+  pagination: { data: 'lm.hubs', size: 1, alias: 'hub' },
+  permalink: data => `${data.hub.url}search/`,
+  noindex: true,
+  eleventyExcludeFromCollections: true,
+  eleventyComputed: {
+    title: d => `Search ${d.hub.pack.adj} words and grammar`,
+    description: d => `Search all ${d.hub.counts.words} ${d.hub.pack.adj} words, the grammar lessons and levels by word or English meaning.`,
+  }
+}
+---
+<div class="ss-wrap"><p class="crumbs"><a href="/">Home</a> / <a href="{{ hub.url }}">{{ hub.pack.adj }}</a> / Search</p><h1>Search {{ hub.pack.adj }}</h1><p class="lead">Type a {{ hub.pack.adj }} word{% if hub.pack.id == 'zh' %} in characters or pinyin (你好, ni hao){% endif %}, an English meaning, a grammar topic or a level. All {{ hub.counts.words }} words{% if hub.counts.chars %} and {{ hub.counts.chars }} characters{% endif %} are included.</p>
+<div class="ss-page" data-ss-page><form action="{{ hub.url }}search/" method="get" role="search"><input type="search" name="q" aria-label="Search {{ hub.pack.adj }}" placeholder="Search {{ hub.pack.adj }} words, grammar or levels" autocomplete="off" enterkeyhint="search"><button type="submit">Search</button></form>
+<p class="ss-live" data-ss-live aria-live="polite"></p><div class="ss-results" id="ss-page-results" role="listbox" aria-label="Results" data-ss-results></div>
+<div class="ss-static" data-ss-static><h2>Levels</h2><ul>{% for l in hub.levels %}<li><a href="{{ l.url }}">{{ l.name }}</a>{% if l.words.length %} · {{ l.words.length }} words{% endif %}</li>{% endfor %}</ul>
+<h2>Grammar</h2><ul>{% for g in hub.grammar %}<li><a href="{{ g.url }}">{{ g.t }}</a></li>{% endfor %}</ul>
+<h2>Most common words</h2><ul>{% for w in hub.topWords %}<li><a href="{{ w.url }}" lang="{{ hub.pack.target }}">{{ w.it.t }}</a> <span class="muted">{{ w.short }}</span></li>{% endfor %}</ul>
+</div></div></div>
