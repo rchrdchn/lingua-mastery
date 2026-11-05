@@ -21,6 +21,32 @@ On top of the app there is a free reference layer built from the same data: a hu
 
 **Open source:** code is MIT ([`LICENSE`](LICENSE)); course content, pack data and generated audio are CC BY-SA 4.0 ([`LICENSE-CONTENT`](LICENSE-CONTENT)). Every third-party dataset, recording and license is in [`NOTICE.md`](NOTICE.md). Want to fix a word or add a language? See [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
+## Quick reference
+
+| | |
+|---|---|
+| Live | https://linguamagna.pages.dev |
+| Repo / branch | `rchrdchn/lingua-mastery`, production branch `main` (working branch `ux` tracks it). Checkout: `/workspace/lingua-mastery` |
+| Stack | Eleventy + TypeScript engine bundle, Pages Functions in `functions/` |
+| Host | Cloudflare Pages project `linguamagna`, Git-connected: every push to `main` deploys |
+| Install / dev / build | `npm ci`, `npm run dev`, `npm run build` (typecheck, engine bundle, Eleventy, OG cards, postbuild) |
+| Checks | `npm run check`, `npm test`, `npm run verify`, `npm run data:lint` |
+| Data | `npm run data` (fetch + build packs) |
+| Ship to production | Commit, push to `main`, check live, `npm run indexnow`. No ship script yet. |
+| Preview | Push a branch: `<branch>.linguamagna.pages.dev` |
+| Secrets (names only) | none in the repo |
+
+**House rules (all Tiny Labs sites)**
+
+- Footer reads `© <year> <Site name>`. "Tiny Labs LLC" appears only on the Terms and Privacy pages.
+- Never mention another Tiny Labs site on this site, and never say "Cloudflare" in visible page text.
+- No GitHub Actions. Builds, checks, data refreshes and IndexNow pings run on the build box.
+- Secrets live in the Cloudflare project settings or in private files on the build box. Docs and chats name them, never print them.
+- Copy style: short paragraphs, no em dashes, no owner name in site copy. City and item lists run A to Z.
+- Design bar: equal card heights, no orphan words, no sideways scroll at 320/375/1280 px.
+- After a production deploy, run `npm run indexnow` if the ship step didn't already do it.
+- The cross-site index of repos, ship commands and URLs is `/home/box/shared/side-hustle/PROJECTS.md` on the build box.
+
 ## Contents
 
 - [What it does](#what-it-does)
